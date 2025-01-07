@@ -115,6 +115,6 @@ is under a Creative Commons Zero license.
 This Code of Conduct also incorporates portions from PyCon's Code of Conduct, which is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
 
 Conference Code of Conduct by
-[2024.djangocon.us/conduct/](https://2024.djangocon.us/conduct/) is licensed under a
+[2025.djangocon.us/conduct/](https://2025.djangocon.us/conduct/) is licensed under a
 [Creative Commons Attribution 3.0 Unported
 License](http://creativecommons.org/licenses/by/3.0/).

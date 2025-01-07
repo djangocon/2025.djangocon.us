@@ -9,9 +9,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'lines': "url('/assets/img/theme/hero-bg.svg')",
-      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },

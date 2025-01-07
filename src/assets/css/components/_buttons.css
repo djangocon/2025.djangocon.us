@@ -19,7 +19,6 @@
   background-position: bottom;
 }
 
-
 .button-group {
   @apply flex flex-wrap gap-4;
 }

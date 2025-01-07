@@ -29,6 +29,8 @@ The conference can be in 3 separate phases, controlled under `site.json`:
 
 This impacts the rendering of the homepage and display of content in various locations.
 
+NOTE: Various pages are still compiled when in `landing` mode, but are not linked to from the homepage.
+
 Reference:
 
 * `src/index.html`
@@ -47,6 +49,8 @@ Dates are formatted with [date-fns](https://date-fns.org/), due to some wonkines
 1. Presenter images are created at `/presenters/{{ slug }}/`
 2. Session images are created at `/{{ talks,tutorials }}/{{ slug }}/social/`
 
+The graphics that are used to build these are stored in `src/assets/img/theme/social-cards`. They are built with `default-social.html`.
+
 ## Considerations when updating content
 
 1. When adding images, if they are below the "fold", consider adding a `loading="lazy"` attribute to the image tag.
@@ -63,3 +67,12 @@ When using code samples, be sure to use `{% capture code %}` to capture sample a
 ```liquid
 {% include "code-snippet.html", code:code, lang:'html' %}
 ```
+
+## Setup a new year
+
+1. Copy `durham.djangocon.us` to a new repo.
+2. Check `src/_data/site.json` for the current year and any starting information and update as necessary.
+3. Update CNAME with the correct domain (usually `YYYY.djangocon.us`).
+4. Update `CODE_OF_CONDUCT.md` with the correct year.
+5. Update content within `src/_includes/home/landing-conf-home.html` to reflect hotel information, year, etc.
+6. Deploy the site to the new domain via GH pages.
