@@ -78,9 +78,6 @@
     {%- endblock -%}
   </main>
 
-  {% if site.phase != "landing" %}
-    <img src="/assets/img/theme/city.svg" alt="The city skyline of Durham" aria-hidden="true" class="mt-16 -mb-[4vw]"/>
-  {% endif %}
   <footer id="SiteFooter" class="py-20 bg-white border-t-4 border-black">
     <div class="container mx-auto ">
       <div class="grid gap-8 px-4 place-items-center">
@@ -95,7 +92,7 @@
         </p>
         <small class="text-sm text-center">
           &copy; {{ site.conf_year }} DjangoCon US
-          · Design by <a href="https://yupgup.com/" class="link" target="_blank">YupGup</a>
+          {%- comment -%}· Design by <a href="https://yupgup.com/" class="link" target="_blank">YupGup</a>{%- endcomment -%}
           · Presented by <a href="https://www.defna.org/" class="link" target="_blank">DEFNA</a>
           · <a href="/styleguide/">Styleguide</a>
           {%- comment -%}· <a href="/colophon/" class="link">Colophon</a>{%- endcomment -%}
