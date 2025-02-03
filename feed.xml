@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://2024.djangocon.us">
+  <title>DjangoCon US 2024</title>
+  <subtitle>Official conference news</subtitle>
+  <link href="https://2024.djangocon.us/feed" rel="self"/>
+  <link href="https://2024.djangocon.us" rel="alternate"/>
+
+  <updated
+    >2025-01-27T22:54:39Z</updated
+  >
+  <id>https://2024.djangocon.us</id>
+  <author>
+    <name>DjangoCon US Team</name>
+    <email>hello@djangocon.us</email>
+  </author>
+    <entry>
+      <title>Hackathon Recap</title>
+      <link href="https://2024.djangocon.us/news/hackathon-recap/" />
+      <updated>2024-12-06T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/hackathon-recap/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;This year at DjangoCon US 2024 we were excited to offer our first-ever Hackathon! Participants could work individually or on a team across the week to build an app using Django to solve a problem of their choice. They then presented their app at the end of the week and answered questions about what they built, challenges they ran into, and how they might expand the project given more time. We had participants who were just starting to work with Django and some who had been doing it for years. It was exciting to see what everyone was able to put together in such a short amount of time, and highlighted that everyone in the Django community has a unique and important perspective to contribute.&lt;/p&gt;
+&lt;p&gt;We caught up with a few of the participants after the conference to ask about their experiences, and we wanted to share them with you.&lt;/p&gt;
+&lt;p&gt;First up we have &lt;strong&gt;Sanyam Khurana&lt;/strong&gt;. (Shout out to Brad Stricherz who worked with him on their project.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project Background:&lt;/strong&gt;  “Our hackathon-winning project combines innovation and functionality to enhance road safety. We developed a mobile app with a Django backend, leveraging &lt;a href=&#34;https://postgis.net/&#34;&gt;PostGIS&lt;/a&gt; to analyze accelerometer readings. The app alerts users when they exceed speed limits in specific areas, promoting safer driving behavior. A standout feature is the dynamic heatmap, inspired by &lt;a href=&#34;https://www.strava.com/&#34;&gt;Strava&lt;/a&gt; maps, which visualizes regions where speeding is prevalent. This tool serves as a warning for both road users and pedestrians, encouraging caution and helping to prevent accidents.”&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experience:&lt;/strong&gt; “Participating in the hackathon was an incredible experience! We discovered new technologies like &lt;a href=&#34;https://django-ninja.dev/&#34;&gt;Django Ninja&lt;/a&gt;, which streamlined our API development process, and learned how to integrate spatial data with PostGIS to create impactful solutions. The collaborative environment and rapid prototyping taught us how powerful teamwork and innovative thinking can be. Winning was the cherry on top of an unforgettable journey!”&lt;/li&gt;
+&lt;li&gt;Find Sanyam here:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CuriousLearner/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://x.com/ErSanyamKhurana&#34;&gt;Twitter/X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mastodon.social/@curiouslearner&#34;&gt;Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bonus:&lt;/strong&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=M7jthulASzo&#34;&gt;Hear Sanyam’s thoughts&lt;/a&gt; on the conference as a whole as part of our &lt;a href=&#34;https://www.youtube.com/playlist?list=PL2NFhrDSOxgVFmeAjIMjIyNesLJbwj_-K&#34;&gt;DjangoCon US 2024 Perspectives series&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Second up we have &lt;strong&gt;Nicholas LaJoie&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Experience:&lt;/strong&gt; “I was excited to hear that DjangoCon was hosting a hackathon this year. This was my first time attending the conference, and it served as a great outlet for me to immediately start applying some of the things I was learning during the talks. I spent a few days hacking together a lightweight IoT platform called &amp;quot;iotato&amp;quot; - the goal was to make a highly permissive (minimal auth/data formatting) API that could accept data from anything that can send a simple HTTP request (such as the Shortcuts app on my iPhone). I plan to keep building upon this project, with the hope of sharing it with the world this winter. A big thanks to all of the organizers and participants for making my first DjangoCon a memorable one - I look forward to the next one!”&lt;/li&gt;
+&lt;li&gt;Find Nicholas here:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lajoie.me/&#34;&gt;Personal Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SpudNiche&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you to Sanyam and Nicholas for sharing their experiences. We look forward to working with the community during next year’s hackathon and hope you will join us!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Code of Conduct Transparency Report for DjangoCon US 2024</title>
+      <link href="https://2024.djangocon.us/news/code-of-conduct-transparency-report/" />
+      <updated>2024-11-23T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/code-of-conduct-transparency-report/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;The organizers of DjangoCon US 2024 are proud to release this year’s Code of Conduct transparency report. In the event that we receive any submissions after this report is published, we will edit this post and include the time when the submission is addressed.&lt;/p&gt;
+&lt;h2 id=&#34;reports&#34; tabindex=&#34;-1&#34;&gt;Reports&lt;/h2&gt;
+&lt;h3 id=&#34;formal-complaints&#34; tabindex=&#34;-1&#34;&gt;Formal Complaints&lt;/h3&gt;
+&lt;p&gt;We addressed two official complaints:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Stereotypic Mention in Presentation&lt;/strong&gt;: While reviewing pre-recorded online talks, it was observed that one of the presentations included a stereotypic mention of a certain group of people. This concern was communicated to the speaker, and the issue was resolved by a re-recording of the presentation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Breach of Privacy&lt;/strong&gt;: We received a complaint regarding a breach of privacy in which one attendee accessed another attendee&#39;s belongings without authorization. Specifically, a participant removed an item from another participant&#39;s personal belongings without proper consent. The owner of the item expressed that this action was unacceptable and unauthorized. Although the item was eventually returned, the incident raised concerns about respecting personal boundaries and property rights within our event community. Both parties were consulted, and the offending attendee issued a sincere apology, which was accepted by the owner of the item. The offending individual has committed to adhering to the Code of Conduct moving forward.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;informal-reports&#34; tabindex=&#34;-1&#34;&gt;Informal Reports&lt;/h3&gt;
+&lt;p&gt;We also had informal reports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Unacceptable Joke at Check-in&lt;/strong&gt;: Our registration volunteers heard an unacceptable joke made while an attendee was checking in. The volunteers immediately reminded the person that &amp;quot;we do not do that here,&amp;quot; and the person apologized.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Unsolicited Direct Messages on Slack&lt;/strong&gt;: A Slack user sent unsolicited direct messages (DMs) to at least two other attendees about job postings. Unsolicited DMs are prohibited in our Code of Conduct, and we removed the person from our Slack instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;takeaways&#34; tabindex=&#34;-1&#34;&gt;Takeaways&lt;/h2&gt;
+&lt;p&gt;The incidents reveal a need for continued efforts to promote a respectful and inclusive environment at the event. This includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reinforcing the Code of Conduct&lt;/strong&gt;: Ensuring that all participants are aware of and adhere to the event&#39;s guidelines on appropriate behavior.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Promoting Cultural Sensitivity&lt;/strong&gt;: Educating participants about the importance of avoiding stereotypes and promoting inclusivity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Protecting Privacy&lt;/strong&gt;: Emphasizing that accessing other participants&#39; belongings without authorization is a breach of their privacy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Encouraging Appropriate Communication&lt;/strong&gt;: Providing clear guidelines for communication, especially in professional contexts like job inquiries.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wrap-up&#34; tabindex=&#34;-1&#34;&gt;Wrap-up&lt;/h2&gt;
+&lt;p&gt;Thank you all for making DjangoCon US 2024 a memorable event! While some of the interactions we have discussed may have been uncomfortable, they serve as an important reminder that we, as a community, are continually growing and learning. By communicating openly, treating each other with respect, and practicing empathy, we can create a space where everyone feels valued and supported. Together, we will continue to build a stronger, more inclusive Django community.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>2024 Conference Wrap Up</title>
+      <link href="https://2024.djangocon.us/news/conference-wrap-up/" />
+      <updated>2024-10-07T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/conference-wrap-up/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;What a fantastic year! DjangoCon US 2024 is officially over, but has left a lasting impression. A heart-felt thank you to each of the 450 folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.&lt;/p&gt;
+&lt;p&gt;DjangoCon US is a volunteer-run conference that succeeds because of the dedicated people who give up their lunches, nights, and weekends to tackle tasks small and large. We are very lucky to have so many organizers that see the value this conference brings to the tech world and are willing to donate their time to bring it to fruition.&lt;/p&gt;
+&lt;p&gt;Thank you to the amazing teams we had running our media this year! The folks from ConFreaks, White Coat Captioning, and American AV were wonderful to work with. They all provided great suggestions on how we could make our video content better.&lt;/p&gt;
+&lt;p&gt;We also want to give a special thanks to the speakers, tutorial presenters and community interview team! We were lucky enough to have talks that made us examine both the human and technology ecosystems, while still helping us learn and making us laugh. Keep an eye on the &lt;a href=&#34;https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw&#34;&gt;DjangoCon US YouTube channel&lt;/a&gt; to catch the ones you missed or to re-watch your favorites from this year. Don&#39;t forget to look through our archive of talks through the years!&lt;/p&gt;
+&lt;p&gt;Lastly, we want to thank our sponsors. Without their contributions, DjangoCon US truly would not be possible. Sponsorship funding is how we are able to bring people to the conference who might not otherwise be able to attend, provide food and fun to our attendees, hire amazing media folks to make sure our attendees and speakers have the best possible experience, and post talks to YouTube so that people in our community who are unable to attend can share in the learning. We were sponsored by so many companies that truly care about the DjangoCon US community this year, and we are touched by their support.&lt;/p&gt;
+&lt;img src=&#34;/assets/img/blog/django_wave24.webp&#34; loading=&#34;lazy&#34; alt=&#34;The DjangoCon US 2024 attendees doing the wave&#34; style=&#34;display:block; float:right;&#34; /&gt;
+&lt;p&gt;We hope that everyone had a wonderful year at DjangoCon US 2024, and we hope to see you all in 2025! Keep an eye on our &lt;a href=&#34;https://fosstodon.org/@djangocon&#34;&gt;Mastodon account&lt;/a&gt; or &lt;a href=&#34;https://x.com/djangocon&#34;&gt;X/Twitter account&lt;/a&gt; for news about where we will be in 2025! If you&#39;re interested in being on the amazing organizing team that puts together DjangoCon US every year, &lt;a href=&#34;/news/call-for-2025-volunteers/&#34;&gt;you can find more information here&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edit: The count of attendees was previously reported as 386. This count counted unique emails which excluded tickets that had not been assigned to people and excluded purchases from Friday through Tuesday.&lt;/em&gt;&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Reflecting on DjangoCon US 2024</title>
+      <link href="https://2024.djangocon.us/news/post-conference-organizer-interviews/" />
+      <updated>2024-10-03T12:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/post-conference-organizer-interviews/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Hello Djangonauts!&lt;/p&gt;
+&lt;p&gt;With DjangoCon US 2024 🐂 behind us, we wanted to do some reflecting. We&#39;ve asked a few of our organizers who attended DjangoCon US about their experience.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/DoreenNangira&#34;&gt;Doreen Nangira Wanyama&lt;/a&gt;: Hackathon lead, Django Girls Organizer, Sprints, Code of Conduct&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://winstel.dev/&#34;&gt;Drew Winstel&lt;/a&gt;: DEFNA Vice President, Program Co-Chair, Opportunity Grants team, Code of Conduct team&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://boakye.pythonanywhere.com/&#34;&gt;Julius Boakye&lt;/a&gt;: Opportunity Grants co-chair&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/lidyaKef&#34;&gt;Lidya K Tilahun&lt;/a&gt;: Program, Communications and Opportunity Grants committee&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.better-simple.com/&#34;&gt;Tim Schilling&lt;/a&gt;: DEFNA Secretary, Communications co-chair, Community team, Code of Conduct team&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So let’s hear what they thought of the conference!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note that the remainder of the post switches to a first-person interview.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Hi folks! Thanks for agreeing to help with this! Let&#39;s start by having you tell us a little about yourself and your role as an organizer for DjangoCon US 2024.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doreen&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My name is Doreen Nangira Wanyama. I am a Python software developer and a data engineer. I come from a country called Kenya. During the DjangoCon US 2024, I worked as a hackathon lead organizer. This was the first DjangoCon US hackathon. I was also the online chat moderator.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Drew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m Drew Winstel. I’ve been the Program Chair since 2021 and I’m also on the DEFNA board, having been Vice President from 2021-23 and currently am a director on the board. My primary responsibility has been leading the team that picks the talks and arranges the schedule for the conference.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Julius&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My name is Julius Boakye, from Ghana and my role for DjangoCon US 2024 was Opportunity Grant Co-chairperson. I worked with my chair, Carol, to coordinate the grants program for DjangoCon US 2024.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lidya&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey, I’m Lidya, I helped organize DjangoCon US 2024 by contributing to the Communications, Program and Grant Teams.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My name is Tim Schilling. I’m a co-chair of the communications team for DjangoCon US 2024 and the DEFNA secretary.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Fantastic, thank you. Alright, first question. If there was a theme for DjangoCon US 2024, what do you think it was?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doreen&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The theme that stood out for me was Django being a community for the community. The talks from various speakers from all over the world revolved around this. The fact that people sacrificed their time and spent sleepless nights to make this a success was just so amazing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Drew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hmm, I’d have to say optimism. There was an air of cautious optimism through the conference that despite the ongoing tech layoffs and existential threats to the creative aspects of our work, we’re in a really good place in our little corner of our web development world.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Julius&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think the theme of DjangoCon US 2024 was &amp;quot;Community, Connection, and Innovation.&amp;quot; It was evident in the way the organizers and attendees came together to share knowledge, experiences, and ideas, and how the conference showcased the latest innovations and advancements in the Django ecosystem.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lidya&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not to sound corny, but I’d say Community. It was my first time, but I felt really welcomed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh, for me, there definitely was. It was all about the Django community. Each of the keynotes touched on an aspect of this, some more directly than others. Then I had several fantastic conversations outside the talks revolving around it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;All of those are lovely answers! Next one. Who at the conference left a lasting impression on you? Please try to limit yourself to one or two people; otherwise, we&#39;re going to list everyone at the conference 😅.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doreen&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This one goes to Peter Grandstaff and Rachell Calhoun. Whenever Peter went on stage, he would just exude a great wealth of wisdom. Rachell’s talk about empowering upcoming tech talents, such as Django Girls initiatives, is something that stood out for me. Her involvement in various volunteer activities showed passion and commitment to the course.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Drew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Our three keynote speakers (Sheena, Mario, and Natalia) were all excellent. The keynotes really helped set the theme for the conference in a great way. I also want to give shouts to Marc Gibbons and Sage Abdullah, whose talks really inspired me.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Julius&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Peter Grandstaff and Benedict kofi Amofah&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lidya&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Keanya Phelps, Jay Miller and Peter Grandstaff (I know you said two, forgive me).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is tough. For me, it’d be a toss-up between Ronard Luna and Monica Oyugi. Ronard is such a pleasant and positive human. Our conversations always leave me smiling and feeling great. With Monica, I met her this year at the &lt;a href=&#34;https://blackpythondevs.com/leadership-summit-2024/&#34;&gt;Black Python Devs Leadership Summit&lt;/a&gt;, where she started asking questions about leading volunteer organizations. We connected on the challenges of balancing community organizing with life.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Aww. I&#39;m delighted those folks are in our community. Moving right along, what about this year&#39;s conference was worth the time, energy and money to attend?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doreen&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This year’s conference was worth everything. I attended online, but got the opportunity to interact with amazing people. I got the opportunity to work with both Salim Nuru and Sarah Sanger in the chat moderation, and I learnt a lot from them. I also learned new skills from the talks that I attended. I now know how to tackle some challenges I was initially facing when making Django applications. Apart from the tech skills, I improved other skills such as time management and collaboration. I had to plan my activities one week ahead of the conference and make sure everything was in order.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Drew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Seeing everyone. It’s amazing to be in the room with so many fun people and catch up on old times like you were never apart, whether it be someone like Lacey Henschel who I’ve known for over two decades (wait, how?) or Carlton Gibson who I’ve only bonded with over the past 5 or so years thanks to multiple years of DjangoCon US attendance or Marc Gibbons, my cycling buddy.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Julius&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Even though I couldn&#39;t attend physically, I think what made DjangoCon US 2024 worth the time, energy, and money was the incredible opportunity to connect with fellow Django enthusiasts and experts from around the world. The virtual format allowed for a global audience to participate, share knowledge, and learn from each other&#39;s experiences. The conference also featured a diverse range of talks, workshops, and panels that showcased the latest developments and best practices in the Django ecosystem.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lidya&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It was. It really was. I had a blast, I learned a lot and met people I otherwise might not have met.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For me, it was getting to see everyone in person and interact with them in a physical space. It’s rejuvenating to be able to say hi to a person face-to-face when you’ve only interacted with them over the internet. Beyond that, the collaboration and ideas of how to solve my own problems, both work and personal, are entirely worth it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yes! Folks, please come attend next year, as you can see, it&#39;s well worth it. Join us! Now, looking forward to DjangoCon US 2025, what are you planning to do differently from this year?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doreen&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;First of all, next year, I am planning to start my visa application process early. I missed in-person attendance because of visa delays. I am also planning to engage more in Django community events and help upcoming developers learn these skills. Having been a Django Girls coach for one year now, I hope to spread my wings and bring more people to the Django community. I also hope to participate more in open-source projects after seeing the amazing Django projects at DjangoCon US 2024.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Drew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m handing off the Program Chair role to Afi Maame Dufie, who will do an excellent job of leading the team. I’ll still help out, but I’m going to be a little less heavily involved. It’s time for someone else to take the reins.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Julius&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am planning to attend the conference as a speaker this time, and I am planning to make sure I make enough networks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lidya&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As an organizer, I have ideas in place for next year, and as an attendee, I will plan my travel a bit more.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I can barely think of what I’m going to do next month, much less next year! I think I might fly in a day earlier or fly out a day later. I don’t handle FOMO well 😅.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I would say I&#39;m going to hold you to that, but a year is a long time from now. I&#39;ll settle for just seeing you all again. As we wrap up this interview and the conference itself, please share any closing thoughts you have about the community, the conference, or yourself. It&#39;s really up to you a — choose-your-own adventure of sorts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Doreen&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My closing remarks will be this: Just show up. Whether it is showing up to a Django conference or a Django Podcast, always do your best to show up. There are lots of amazing opportunities that you will get if you just show up.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Drew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A tip for my fellow organizers: start picking your replacements early. You can’t do the same thing forever and it’s great if you can start bringing people up and handing them leadership roles as gracefully as possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Julius&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Thank you to the Django community for being an amazing group of people. I&#39;m honored to be a part of it and can&#39;t wait to see what the future holds. Until next time, keep coding, connecting, and conquering!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lidya&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This conference was my first experience with the North American Django Community, and I’m glad that it was my first introduction to this community. I had a great time, and I&#39;m excited to see you all next year. Cheers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Thank you to everyone who attended and made this year’s conference what it was. It was an immense joy to interact with you all in such a wonderful space. I hope you all had a great time and encourage others to attend / sponsor next year!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Well said. I appreciate all the time and effort you all put in for this and the community. Well done on a successful DjangoCon US 2024, and here&#39;s to a fantastic 2025!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Call for Volunteers: DjangoCon US 2025</title>
+      <link href="https://2024.djangocon.us/news/call-for-2025-volunteers/" />
+      <updated>2024-09-25T17:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/call-for-2025-volunteers/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;A great way to give back to the Django community is to help organize the next one. Perhaps you want to see something at DjangoCon US 2025. If that&#39;s you, we&#39;d love to support your efforts in making that a reality. Or maybe you&#39;d like to make sure the next people have the same wonderful experience you had this year. Regardless of your reason, we would love to have more volunteers for DjangoCon US 2025.&lt;/p&gt;
+&lt;p&gt;We have some &lt;a href=&#34;https://djangocon.github.io/djangocon-us-docs/&#34;&gt;documentation about the various roles&lt;/a&gt;, but here&#39;s a quick overview of the teams at DjangoCon US.&lt;/p&gt;
+&lt;p&gt;The DEFNA board will not leave you stranded; we have a lot of documentation to help you on your way, including rough checklists of tasks needed for each team.&lt;/p&gt;
+&lt;p&gt;Ideally, all committees will have a chair and co-chair to allow for one or the other to take vacations, handle day job duties, and so forth. This list is by no means comprehensive, but it should hopefully give you an idea of what each committee is responsible for.&lt;/p&gt;
+&lt;h2 id=&#34;conference-leadership&#34; tabindex=&#34;-1&#34;&gt;Conference Leadership&lt;/h2&gt;
+&lt;p&gt;The conference chair and co-chair lead the conference, including coordinating between teams and making executive decisions (including approaching the DEFNA board when applicable). Expect to be in meetings with the venue and online conference provider, weekly organizer check-ins, monthly reports to the DEFNA board, and lots of questions on Slack. You&#39;ll also lead the volunteer kickoff meetings in early 2025 (ideally mid-to-late January) and recruit organizers as you see fit. You&#39;ll need to recommend an online conference provider to the DEFNA board (might be part of a sponsorship deal). This year we used &lt;a href=&#34;https://venueless.org/&#34;&gt;Venueless&lt;/a&gt;, though that&#39;s not a requirement.&lt;/p&gt;
+&lt;p&gt;At the conference, you&#39;ll be making speeches at the start of each day and the end-of-conference wrap-up in addition to coordinating setup, teardown, and everything in between.&lt;/p&gt;
+&lt;p&gt;These two roles have the highest time commitment and the most visibility. If you want to help people get things done and get up on stage, these are the roles for you.&lt;/p&gt;
+&lt;h2 id=&#34;program-committee&#34; tabindex=&#34;-1&#34;&gt;Program Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;p&gt;The program committee is responsible for making sure that the schedule of tutorials and talks is the best it can be. There is both a high degree of influence over the tutorials and talks and a high time commitment when you&#39;re a chair of the program committee.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start the call for proposals process (ideally opening in February 2025)&lt;/li&gt;
+&lt;li&gt;Coordinate with the Opportunity Grants team to schedule the opening and closing of the CFP&lt;/li&gt;
+&lt;li&gt;Publish blog posts announcing the CFP, speaker mentors, and speaker resources&lt;/li&gt;
+&lt;li&gt;Recruit keynote speakers (the DEFNA board will offer suggestions, but if you have a message you&#39;d like the keynotes to send, you have lots of latitude here, but keep in mind conference diversity goals)&lt;/li&gt;
+&lt;li&gt;Recruit speaker mentors (start with the 2022-24 reviewers and bring in more as you like)&lt;/li&gt;
+&lt;li&gt;Review proposals as they come in for anonymization (ideally, recruit one member of the program committee who will not be reviewing talks to do the anonymization before opening talks for review)&lt;/li&gt;
+&lt;li&gt;Recruit talk reviewers (the DEFNA board will send you the 2024 reviewers, but more reviewers are encouraged, especially from diverse backgrounds). There will likely be over 150 submissions, so having more reviewers lessens the load for individual talks&lt;/li&gt;
+&lt;li&gt;Decide on any tweaks to the format (Spanish-language talks? Keep the Deep Dive Day? This is your chance to put your mark on the program)&lt;/li&gt;
+&lt;li&gt;Review talks&lt;/li&gt;
+&lt;li&gt;Once reviews are completed, de-anonymize talks and filter for duplicate speakers, multiple speakers from the same organization, diversity goals, overlapping topics, and more&lt;/li&gt;
+&lt;li&gt;Select the best talks (where &amp;quot;best&amp;quot; is extremely subjective; we have documentation on things we look for in good proposals); you&#39;re not strictly bound to pick the highest scoring talks, so you have some leeway&lt;/li&gt;
+&lt;li&gt;Coordinate with the Opportunity Grants team to send them a list of accepted speakers so they can prioritize them for awards&lt;/li&gt;
+&lt;li&gt;Coordinate with the OG team to notify speakers in waves (ideally completed by July 1)&lt;/li&gt;
+&lt;li&gt;Build a schedule (ideally by July 15)&lt;/li&gt;
+&lt;li&gt;Publish blog posts announcing speakers and keynotes (ideally by August 15)&lt;/li&gt;
+&lt;li&gt;Update schedules based on speakers&#39; needs&lt;/li&gt;
+&lt;li&gt;Coordinate with DEFNA board to approve reimbursement requests&lt;/li&gt;
+&lt;li&gt;Generate cue sheets for session chairs and speaker mentors&lt;/li&gt;
+&lt;li&gt;Review online talks for Code of Conduct compliance&lt;/li&gt;
+&lt;li&gt;Recruit backup speakers in case of speakers having to back out (visa issues, illness, etc.)&lt;/li&gt;
+&lt;li&gt;Work with social events team to arrange speaker appreciation dinner&lt;/li&gt;
+&lt;li&gt;Generate spreadsheets in multiple formats to make other teams&#39; lives easier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with registration desk to make sure that all speakers show up&lt;/li&gt;
+&lt;li&gt;Work with session managers (other organizers) to ensure distribution of cue sheets and speaker gifts&lt;/li&gt;
+&lt;li&gt;Check with tutorial speakers to make sure they have everything they need&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;opportunity-grants-committee&#34; tabindex=&#34;-1&#34;&gt;Opportunity Grants Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2 (plus reviewers)&lt;/p&gt;
+&lt;p&gt;The OG committee is responsible for obtaining grants from the DSF and PSF and awarding grants to people who will best use them, prioritizing speakers, first time attendees, and people from underrepresented and/or historically disadvantaged groups.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-1&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start call for grants process (concurrent with CFP)&lt;/li&gt;
+&lt;li&gt;Publish blog posts announcing grants process&lt;/li&gt;
+&lt;li&gt;Request grants from Django Software Foundation and Python Software Foundation (the DEFNA board will help you fill out the forms)&lt;/li&gt;
+&lt;li&gt;Recruit grant reviewers (other organizers and DEFNA members are happy to help)&lt;/li&gt;
+&lt;li&gt;Review submissions&lt;/li&gt;
+&lt;li&gt;Coordinate with program team about grants to speakers&lt;/li&gt;
+&lt;li&gt;Notify grant recipients in waves (concurrent with program notifications)&lt;/li&gt;
+&lt;li&gt;Communicate with recipients on how to get reimbursed (we&#39;ll have templates)&lt;/li&gt;
+&lt;li&gt;Give DEFNA a lit of recipients and amounts&lt;/li&gt;
+&lt;li&gt;Approve reimbursements as requests come in&lt;/li&gt;
+&lt;li&gt;Coordinate with visa (community) team as needed to approve invitation letter requests&lt;/li&gt;
+&lt;li&gt;Write transparency report giving a high-level overview of how the grants were awarded&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-1&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Answer questions from grant recipients and the DEFNA board&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;community-team&#34; tabindex=&#34;-1&#34;&gt;Community Team&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-2&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule orientation&lt;/li&gt;
+&lt;li&gt;Arrange childcare and lactation room&lt;/li&gt;
+&lt;li&gt;Coordinate visa applications&lt;/li&gt;
+&lt;li&gt;Improve accessibility of the venue and conference as a whole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-2&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Post sign-ups for lactation room and distribute keys as needed&lt;/li&gt;
+&lt;li&gt;Collect receipts for childcare reimbursement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sponsorship-committee&#34; tabindex=&#34;-1&#34;&gt;Sponsorship Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;p&gt;The sponsorship committee recruits sponsors which help offset the cost of running DCUS.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-3&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Create and announce sponsorship prospectus (we have templates, and DEFNA will help with specifics)&lt;/li&gt;
+&lt;li&gt;Recruit sponsors&lt;/li&gt;
+&lt;li&gt;Coordinate contract signing with DEFNA&lt;/li&gt;
+&lt;li&gt;Consider awarding community sponsorships (non-financial) to other non-profit Python conferences and related communities (local Python meetups near the conference will love the exposure)&lt;/li&gt;
+&lt;li&gt;Coordinate shipping of sponsor swag for the swag bag&lt;/li&gt;
+&lt;li&gt;Lay out sponsor tables (on a venue map)&lt;/li&gt;
+&lt;li&gt;Work with sponsor chair/co-chair to handle sponsor shout-outs if needed&lt;/li&gt;
+&lt;li&gt;Order banners to go behind the speakers on stage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-3&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Direct sponsors to their booths/tables and swag&lt;/li&gt;
+&lt;li&gt;Ensure that booths are reserved for sponsors who have reserved a booth, and are not open for others&lt;/li&gt;
+&lt;li&gt;Field complaints/questions from sponsors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-of-conduct-committee&#34; tabindex=&#34;-1&#34;&gt;Code of Conduct Committee&lt;/h2&gt;
+&lt;p&gt;Size: 4-6&lt;/p&gt;
+&lt;p&gt;The CoC committee suggests improvements to the CoC and investigates reports. This is the heart of the conference because without the CoC, we wouldn&#39;t have the welcoming environment that we have at DCUS.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-4&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Suggest modifications/improvements to the CoC&lt;/li&gt;
+&lt;li&gt;Assist program committee with pre-conference review of recorded online talks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-4&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Field reports and investigate them, including recommending actions to the DEFNA board&lt;/li&gt;
+&lt;li&gt;Follow-up on reports, including conversations with both reporters and those who have been reported, and facilitate the appropriate response&lt;/li&gt;
+&lt;li&gt;Write a CoC transparency report to recap reports (heavily anonymized) and actions taken&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;social-events-committee&#34; tabindex=&#34;-1&#34;&gt;Social Events Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-3&lt;/p&gt;
+&lt;p&gt;The social events committee is responsible for scheduling the &amp;quot;after hours&amp;quot; events at DCUS to give people chances to socialize and unwind after a long day of talks.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-5&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Find a venue for the speaker appreciation dinner and coordinate contract signing with DEFNA&lt;/li&gt;
+&lt;li&gt;Plan opening reception (if sponsored, this will become a bigger event compared to previous years)&lt;/li&gt;
+&lt;li&gt;Plan any other fun events like board game night&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conferece-responsibilities&#34; tabindex=&#34;-1&#34;&gt;At-conferece responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with venue on any work needed for social events&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;venue-committee&#34; tabindex=&#34;-1&#34;&gt;Venue Committee&lt;/h2&gt;
+&lt;p&gt;Size: 1-2&lt;/p&gt;
+&lt;p&gt;The venue committee is responsible for coordinating plans between the other organizing teams and the venue(s).&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-6&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with event venue to select and lay out talk, tutorial, and sprint rooms&lt;/li&gt;
+&lt;li&gt;Lay out the extra rooms needed for the conference (lactation room, quiet room, organizers room, speaker green room, lunch/break areas)&lt;/li&gt;
+&lt;li&gt;Work with event venue and DEFNA to select catering menus (and providers if we&#39;re not contractually obligated to use one)&lt;/li&gt;
+&lt;li&gt;Work with hotel to coordinate room blocks&lt;/li&gt;
+&lt;li&gt;Work with venue to plan logistics (sponsor gear shipping, signage, etc.)&lt;/li&gt;
+&lt;li&gt;Allocate rooms for keynotes and AV personnel in coordination with DEFNA board&lt;/li&gt;
+&lt;li&gt;Communicate needs, deadlines and policies to other teams&lt;/li&gt;
+&lt;li&gt;Order supplies for restroom stocking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-5&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Handle closeout of the room block with hotel and DEFNA board&lt;/li&gt;
+&lt;li&gt;Handle any last-minute requests from vendors/sponsors/organizers/etc.&lt;/li&gt;
+&lt;li&gt;Coordinate with venue staff about issues or needs (bathroom cleanliness, meals to accommodate special diets, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;audio%2Fvideo-(a%2Fv)-committee&#34; tabindex=&#34;-1&#34;&gt;Audio/Video (A/V) Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-3&lt;/p&gt;
+&lt;p&gt;The A/V committee is responsible for making everything look good. They handle coordination between the on-site crew, the online streaming platform, and the post-conference processing teams and upload the results to YouTube after the conference.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-7&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Select on-site video production crew&lt;/li&gt;
+&lt;li&gt;Select post-conference processing crew&lt;/li&gt;
+&lt;li&gt;Coordinate both of the above teams with the online platform&lt;/li&gt;
+&lt;li&gt;Work with the venue team to ensure high-speed wired internet access to the on-site video crew&lt;/li&gt;
+&lt;li&gt;Transfer pre-recorded talks to the post-conference processing crew and then the online conference provider&lt;/li&gt;
+&lt;li&gt;Procure a wide variety of dongles for presenters to hook their laptops up to the projectors&lt;/li&gt;
+&lt;li&gt;Procure projectors and screens if the venue doesn&#39;t already have them, including one for the green room so speakers can test their setup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-6&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Help on-site crew set up equipment and ensure streaming works&lt;/li&gt;
+&lt;li&gt;Get dongles to the right rooms as needed&lt;/li&gt;
+&lt;li&gt;Help keynote speakers get presentation mode working if needed&lt;/li&gt;
+&lt;li&gt;Answer lots and lots of questions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;online-team&#34; tabindex=&#34;-1&#34;&gt;Online Team&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-8&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Select an online conference provider (work with the DEFNA board to do this)&lt;/li&gt;
+&lt;li&gt;Determine what activities or new approaches will be taken (maybe a Spanish or French watch-party, writing group, meet-and-greets, etc)&lt;/li&gt;
+&lt;li&gt;Prep the platform with content (schedule, speakers, FAQ, and other pages)&lt;/li&gt;
+&lt;li&gt;Make sure there&#39;s a plan or process (automated or manual) to get day of ticket purchases into the platform&lt;/li&gt;
+&lt;li&gt;Recruit online moderators/volunteers&lt;/li&gt;
+&lt;li&gt;Prepare/update the online volunteer handbook&lt;/li&gt;
+&lt;li&gt;Coordinate with AV chair to test the platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-7&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Coordinate with online moderators&lt;/li&gt;
+&lt;li&gt;Engage with audience as able to&lt;/li&gt;
+&lt;li&gt;Help facilitate any other online activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;swag-committee&#34; tabindex=&#34;-1&#34;&gt;Swag Committee&lt;/h2&gt;
+&lt;p&gt;Size: 1-2&lt;/p&gt;
+&lt;p&gt;The swag committee is responsible for everything speakers and attendees take home from the conference (aside from knowledge!).&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-9&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Design and order attendee t-shirt (with sponsor logos)&lt;/li&gt;
+&lt;li&gt;Design and order swag bags (with sponsor logos)&lt;/li&gt;
+&lt;li&gt;Design and order speaker gifts&lt;/li&gt;
+&lt;li&gt;Design and order DCUS-branded swag (stickers/magnets/etc.)&lt;/li&gt;
+&lt;li&gt;Order masks and COVID tests (if needed)&lt;/li&gt;
+&lt;li&gt;Order lanyards, badges, and badge flags&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-8&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Recruit volunteers to stuff swag bags on Sunday afternoon&lt;/li&gt;
+&lt;li&gt;Get T-shirts and swag bags to registration desk&lt;/li&gt;
+&lt;li&gt;Get speaker gifts to the program team for distribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;volunteer-committee&#34; tabindex=&#34;-1&#34;&gt;Volunteer Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2&lt;/p&gt;
+&lt;p&gt;The volunteer committee is responsible for cultivating new volunteers, which can become organizers in future years.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-10&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Determine what roles need on-site volunteer support (session chairs, session managers, registration desk, etc.)&lt;/li&gt;
+&lt;li&gt;Set up sign-up for on-site volunteers and online volunteers (moderators/cheerleaders)&lt;/li&gt;
+&lt;li&gt;Draft announcements for calls for volunteers&lt;/li&gt;
+&lt;li&gt;Communicate and coordinate with volunteers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-9&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lead volunteer orientation on the first morning of the conference&lt;/li&gt;
+&lt;li&gt;Create and provide volunteer instructions for each applicable area&lt;/li&gt;
+&lt;li&gt;Tell volunteers where to go&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;communications-committee&#34; tabindex=&#34;-1&#34;&gt;Communications Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;p&gt;The communications committee is responsible for getting the word out about DCUS.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-11&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Publish announcements and reminders on social media, the conference blog, and more (Django News, Python Community News, etc.)&lt;/li&gt;
+&lt;li&gt;Send copy to the Django Software Foundation to get major news events on the Django blog&lt;/li&gt;
+&lt;li&gt;Review, edit, and suggest copy for the other teams&#39; announcements&lt;/li&gt;
+&lt;li&gt;Tweet and toot. Lots of tweeting and tooting.&lt;/li&gt;
+&lt;li&gt;Select an &amp;quot;official emoji&amp;quot; for the conference (typically suggested by the design package for the year&#39;s website)&lt;/li&gt;
+&lt;li&gt;Boost and retweet speakers and organizers talking about the conference&lt;/li&gt;
+&lt;li&gt;Schedule tweets and toots announcing talks and events&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-10&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pay attention to the &lt;code&gt;#DjangoCon&lt;/code&gt; and &lt;code&gt;#DjangoConUS&lt;/code&gt; topics on social media and mentions to &lt;code&gt;@djangocon&lt;/code&gt; on Twitter&lt;/li&gt;
+&lt;li&gt;Boost speakers and organizers&lt;/li&gt;
+&lt;li&gt;Answer questions as they come up&lt;/li&gt;
+&lt;li&gt;Run the &lt;code&gt;#help-desk&lt;/code&gt; channel on the conference attendee slack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;website-committee&#34; tabindex=&#34;-1&#34;&gt;Website Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-3&lt;/p&gt;
+&lt;p&gt;The website committee is responsible for updating the website as the conference transitions through phases (CFP coming soon, CFP open, CFP closed, schedule released, hotel block closed, conference over, etc.), reviewing pull requests, and adding content (e.g. new sponsors). This requires the most coding of any team aside from maybe the program team.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-12&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update static pages for CFP status&lt;/li&gt;
+&lt;li&gt;Update static pages for venue information&lt;/li&gt;
+&lt;li&gt;Review pull requests from other teams&lt;/li&gt;
+&lt;li&gt;Add sponsors as directed by sponsorship team&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;automation-team&#34; tabindex=&#34;-1&#34;&gt;Automation Team&lt;/h2&gt;
+&lt;p&gt;This team is more free-flowing and writes scripts to make teams&#39; lives easier. Responsibilities vary based on the year, an if you have ideas for special projects for the future, have at it!&lt;/p&gt;
+&lt;h2 id=&#34;sprints-team&#34; tabindex=&#34;-1&#34;&gt;Sprints Team&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-13&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Write blog posts announcing sprints&lt;/li&gt;
+&lt;li&gt;Invite people to launch special sessions (e.g. Carlton&#39;s &lt;a href=&#34;https://2022.djangocon.us/sprints/getting-started-contributing-to-django/&#34;&gt;&amp;quot;Getting Started Contributing to Django&amp;quot;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ensure we have signage and power equipment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-11&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Coordinate help desk&lt;/li&gt;
+&lt;li&gt;Direct people to lunches and breaks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;health-%26-safety-team&#34; tabindex=&#34;-1&#34;&gt;Health &amp;amp; Safety Team&lt;/h2&gt;
+&lt;p&gt;Size: 1-2&lt;/p&gt;
+&lt;p&gt;The health and safety committee enacts the health and safety policy each year. The policy itself is decided by DEFNA and is not part of this committee&#39;s responsibilities.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-14&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Order COVID tests and masks (if needed per policy)&lt;/li&gt;
+&lt;li&gt;Ensure that the health &amp;amp; safety check-in has volunteers&lt;/li&gt;
+&lt;li&gt;Coordinate the health and safety blog posts with the Comms team&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-12&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spend some volunteer time at the health &amp;amp; safety check-in (if it is part of the policy that year)&lt;/li&gt;
+&lt;li&gt;Answer health &amp;amp; safety questions as needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wrap-up&#34; tabindex=&#34;-1&#34;&gt;Wrap-up&lt;/h2&gt;
+&lt;p&gt;To sign up for any of the teams (or just say &amp;quot;put me to work&amp;quot;), email &lt;a href=&#34;mailto:hello@djangocon.us&#34;&gt;hello@djangocon.us&lt;/a&gt;, and we&#39;ll put you on the list for the 2025 kickoff meeting. We would love to have you! You do not have to have previous organizing experience (although we might prefer it for some leadership roles).&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>It’s my first DjangoCon US. What should I bring?</title>
+      <link href="https://2024.djangocon.us/news/first-time-things-to-bring/" />
+      <updated>2024-09-15T16:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/first-time-things-to-bring/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;It’s your first DjangoCon US (or maybe even your first tech conference). Are you concerned about what you should pack? Well we have some thoughts!&lt;/p&gt;
+&lt;h2 id=&#34;%F0%9F%93%93-notepad-and-%E2%9C%92%EF%B8%8F-pen%2Fpencil%2C-or-a-%F0%9F%92%BB-laptop-and-charger&#34; tabindex=&#34;-1&#34;&gt;📓 Notepad and ✒️ pen/pencil, or a 💻 laptop and charger&lt;/h2&gt;
+&lt;p&gt;Perhaps you like your notes a bit more analog? A notepad is exactly what you need. Many people like to leave their laptops in their rooms entirely during talks and take notes on paper instead. Plus, it’s great for logging contact info of people you meet if you don’t have the time or patience to log their contact info into your phone’s contacts immediately.&lt;/p&gt;
+&lt;p&gt;If you can&#39;t live without your laptop, make sure you bring your charging cable. There’s ample Wi-Fi at the conference provided by the Durham Convention Center, so you’ll have the internet at your disposal. Many attendees will have their laptops open to take notes, follow along with slides, and/or test out the concepts being presented during talks. Plus, it’s much easier to post live updates about talks from your computer than your phone if you’re into that sort of thing.&lt;/p&gt;
+&lt;h2 id=&#34;%F0%9F%92%A7-refillable-water-bottle-and%2For-coffee-cup&#34; tabindex=&#34;-1&#34;&gt;💧 Refillable water bottle and/or coffee cup&lt;/h2&gt;
+&lt;p&gt;It’s pretty annoying getting thirsty in the middle of a conference talk. There will be access to all the water you can drink! Plus, you can be greener by reusing your own vessel instead of single-use disposable cups.&lt;/p&gt;
+&lt;p&gt;There are coffee and tea in the conference center as well, so if you&#39;re a coffee/tea drinker, bring your own tumbler if you want extra for the talks.&lt;/p&gt;
+&lt;h2 id=&#34;%F0%9F%91%95-comfortable-clothes&#34; tabindex=&#34;-1&#34;&gt;👕 Comfortable clothes&lt;/h2&gt;
+&lt;p&gt;Everyone is welcome, and dress casually and comfortably, whether that&#39;s shorts, pants, a dress, or whatever makes you feel good. It’s up to you to decide what you would like to wear. As long as it isn’t a Code of Conduct violation, it’s pretty much up to you.&lt;/p&gt;
+&lt;p&gt;Some of the rooms can get a bit chilly, so you might want to have a jacket or sweater handy, but don&#39;t forget the weather outside!  It can get just a little chilly in the evenings in Durham in September.&lt;/p&gt;
+&lt;h2 id=&#34;%F0%9F%93%B1-cell-phone&#34; tabindex=&#34;-1&#34;&gt;📱 Cell phone&lt;/h2&gt;
+&lt;p&gt;It’s practically essential for survival in America. The mobile coverage is great in the venue area for all three major providers, so about any device will work.&lt;/p&gt;
+&lt;h2 id=&#34;%F0%9F%95%B6%EF%B8%8F-sunglasses%2C-sunscreen%2C-and-maybe-a-raincoat&#34; tabindex=&#34;-1&#34;&gt;🕶️ Sunglasses, sunscreen, and maybe a raincoat&lt;/h2&gt;
+&lt;p&gt;It&#39;s a few week&#39;s earlier than last year&#39;s conference in Durham. As of September 15, the very early forecast for the conference has highs  around 74-78 ° F (23-25 ° C), and lows around 60-63 ° F (about 15-17 ° C) with a little bit of rain here and there. There’s quite a bit of outdoor activities that we have suggested during your time here, so don&#39;t forget that even if it is looking like early autumn outside, the sun can still burn you!&lt;/p&gt;
+&lt;h2 id=&#34;%F0%9F%8D%BF-snacks&#34; tabindex=&#34;-1&#34;&gt;🍿 Snacks&lt;/h2&gt;
+&lt;p&gt;The Convention Center will have full breakfast, lunch, and snacks during the breaks (10:10 AM and 3:00 PM) on all conference days (Monday through Wednesday). If you’re an early riser like me, you might want a snack before breakfast (7:30 AM on Monday, 8:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.&lt;/p&gt;
+&lt;h2 id=&#34;%F0%9F%8E%BD-exercise-clothes&#34; tabindex=&#34;-1&#34;&gt;🎽 Exercise clothes&lt;/h2&gt;
+&lt;p&gt;Before or after a long day of conference talks, I like to at least get a brief workout in. &lt;a href=&#34;/news/get-active-at-djangocon-us/&#34;&gt;Get out and explore the city&lt;/a&gt; or get out to some of the outdoor spots we have suggested in the area! Go for a run, walk, or even a bike ride!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Black Python Devs Leadership Summit</title>
+      <link href="https://2024.djangocon.us/news/black-python-devs/" />
+      <updated>2024-09-13T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/black-python-devs/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Hey Friends! We know you&#39;re looking forward to traveling into Durham next week for DjangoCon US and if you&#39;re arriving on or before the 21st we have something in store for you. Our Friends at &lt;a href=&#34;https://blackpythondevs.com&#34;&gt;Black Python Devs&lt;/a&gt; are happy to invite you to their First Ever LEADERSHIP SUMMIT and After Party presented by &lt;a href=&#34;https://www.caktusgroup.com&#34;&gt;Caktus Consulting Group, LLC&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;d love for you to join us for our afternoon session when our Keynote speaker Wesley Faulkner, Interactive talks from Abigagail Afi Gbadago, Tim Schilling, and Bamhare Kudzayi, and a panel featuring members of the PSF, DSF, BPD and More.&lt;br&gt;
+This event is focused on building leadership in the Python community at local and organizational levels.&lt;/p&gt;
+&lt;p&gt;After it&#39;s all said and done we&#39;ll head to the rooftop to mingle and chat with one another with some light drinks and snacks brought to you by our amazing friends at Caktus.&lt;/p&gt;
+&lt;p&gt;Did we mention that all of this is FREE!?&lt;/p&gt;
+&lt;p&gt;Learn More and Register Today at &lt;a href=&#34;https://blackpythondevs.com/leadership-summit-2024&#34;&gt;Leadership Summit&lt;/a&gt;&lt;br&gt;
+We hope to see you there!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Contribute to Django at the Contribution Sprints!</title>
+      <link href="https://2024.djangocon.us/news/contribution-sprints/" />
+      <updated>2024-09-10T16:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/contribution-sprints/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We&#39;re excited to talk to you about contribution sprints at DjangoCon US! They are being held Thursday, September 26th and Friday, September 27th at the &lt;a href=&#34;https://maps.app.goo.gl/wwwXU12mFpNCph5n6&#34;&gt;Caktus Group offices&lt;/a&gt; and virtually on our conference Slack. They are free to attend and open to everyone.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-contribution-sprint%3F&#34; tabindex=&#34;-1&#34;&gt;What is a contribution sprint?&lt;/h2&gt;
+&lt;p&gt;Contribution Sprints are a superset of Development Sprints. They serve the same purpose while increasing the range of contribution types and opportunities.&lt;/p&gt;
+&lt;p&gt;Let&#39;s start with what some people already know: &lt;a href=&#34;https://2022.djangocon.us/news/dev-sprint-attendees/&#34;&gt;Development Sprints&lt;/a&gt;. Development Sprints are an opportunity for people who maintain open source projects (or want to get involved in doing so) to sit and work together on that goal. They&#39;ve mostly focused on contributing code, tests, and documentation. However, open source projects often need more than those things. This is especially true as the project grows in size and popularity. Development Sprints are one type of Contribution Sprint. &lt;strong&gt;However&lt;/strong&gt;...&lt;/p&gt;
+&lt;p&gt;Many of the new things a project needs as it grows fall under the idea of project governance. Here&#39;s a short list of general governance issues a project may face as it grows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;General project governance (Who leads the project? How? How are decisions made? How are new leaders developed? How are conflicts resolved?)&lt;/li&gt;
+&lt;li&gt;Onboarding new contributors&lt;/li&gt;
+&lt;li&gt;Funding/Finance: does your project want it? Is it needed? Who will manage it? How will they manage it?&lt;/li&gt;
+&lt;li&gt;Project Marketing&lt;/li&gt;
+&lt;li&gt;Graphic/logo design&lt;/li&gt;
+&lt;li&gt;Project legal/licensing issues&lt;/li&gt;
+&lt;li&gt;Explicitly specifying a project&#39;s code, documentation and testing conventions. This is metadata for your Development Sprint. It provides details about how Development Sprint activities should be implemented.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is an excellent video on this topic by &lt;a href=&#34;https://www.youtube.com/watch?v=b2WHTNE4AZk&#34;&gt;Shauna Gordon-McKeon&lt;/a&gt;. The video was part of the PyCon US 2023 &lt;a href=&#34;https://www.youtube.com/@MaintainersSummit&#34;&gt;Maintainers Summit&lt;/a&gt;. If you maintain a project, or are interested in helping maintain one, I recommend checking out some of the other videos from the summit.&lt;/p&gt;
+&lt;h2 id=&#34;how-%26-why-to-lead-a-contribution-sprint&#34; tabindex=&#34;-1&#34;&gt;How &amp;amp; Why To Lead a Contribution Sprint&lt;/h2&gt;
+&lt;p&gt;The &amp;quot;why&amp;quot; is clear: if you&#39;ve started to realize your project needs more help, especially with things beyond code, THIS is an opportunity to look for that extra help.&lt;/p&gt;
+&lt;p&gt;The &amp;quot;how&amp;quot; can be less clear, so here are some specific suggestions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Think about the non-code needs your project has. What areas have you as a maintainer struggled with that go beyond merging PRs, adding test coverage and improving documentation?&lt;/li&gt;
+&lt;li&gt;Ask for help in those areas.&lt;/li&gt;
+&lt;li&gt;Document the need for that help in your project&#39;s &lt;code&gt;Contribution&lt;/code&gt; documentation.&lt;/li&gt;
+&lt;li&gt;Make it clear in all of your project&#39;s communications that you&#39;re looking for this non-code help. Many people still think contributing to an open source project ONLY means code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-%26-why-to-join-a-contribution-sprint&#34; tabindex=&#34;-1&#34;&gt;How &amp;amp; Why to Join a Contribution Sprint&lt;/h2&gt;
+&lt;p&gt;The &amp;quot;why&amp;quot; can be different for everyone. Maybe you don&#39;t feel like you are &amp;quot;a good enough developer&amp;quot; to make a code contribution. That&#39;s almost definitely not true, but it is a feeling many people have. Perhaps you have skills in some of the non-code areas mentioned above and you&#39;d like to contribute using those skills.&lt;/p&gt;
+&lt;p&gt;The &amp;quot;how&amp;quot; requires some introspection, as well as identifying a project you&#39;d like to contribute to. I would refer you to the video by &lt;a href=&#34;https://www.youtube.com/watch?v=b2WHTNE4AZk&#34;&gt;Shauna Gordon-McKeon&lt;/a&gt;, and use that as a starting point for what skills you have that could help a project with it&#39;s governance. Then, contact projects you&#39;re interested in helping, to see if they&#39;ve recognized a need for your type of contribution. It&#39;s quite possible that a project either hasn&#39;t recognized the need, or has recognized it, but didn&#39;t know how to have it met. That&#39;s where YOU can come in.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Board Game Night at DjangoCon US 2024</title>
+      <link href="https://2024.djangocon.us/news/board-game-night/" />
+      <updated>2024-09-06T16:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/board-game-night/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Get together with other Djangonauts for board games and camaraderie! We&#39;ll have some games on hand, but feel free to bring your favorites! Talk to &lt;a href=&#34;https://twitter.com/KenWhitesell&#34;&gt;Ken Whitesell&lt;/a&gt; if you have questions.&lt;/p&gt;
+&lt;p&gt;Would you like to organize some hybrid gaming? Please do! Ken has graciously offered to organize board game night again, and we can&#39;t thank him enough for his continued support of DjangoCon US.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When&lt;/strong&gt;: 7:00-10:00 pm, Monday, September 23&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Where&lt;/strong&gt;: Junior Ballroom&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django</title>
+      <link href="https://2024.djangocon.us/news/introducing-discussion-panel/" />
+      <updated>2024-09-06T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-discussion-panel/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We&#39;re excited to announce our panel discussion for DjangoCon US 2024, &amp;quot;Open, friendly, and welcoming: on the history and future of mentoring in Django&amp;quot;!&lt;/p&gt;
+&lt;p&gt;Lacey Henschel will moderate a panel discussion on the history and future of communities within the Django community.&lt;br&gt;
+We&#39;ll explore how mentoring, community involvement, and support networks are important in keeping Django resilient. By highlighting the work of groups like &lt;a href=&#34;https://djangogirls.org&#34;&gt;Django Girls&lt;/a&gt;, &lt;a href=&#34;https://pyladies.com&#34;&gt;PyLadies&lt;/a&gt;, &lt;a href=&#34;https://djangonaut.space&#34;&gt;Djangonaut Space&lt;/a&gt;, and &lt;a href=&#34;https://blackpythondevs.com/&#34;&gt;Black Python Devs&lt;/a&gt;, we’ll see how these initiatives not only foster personal growth but also play a vital role in keeping the Django community strong and sustainable for the long term.&lt;/p&gt;
+&lt;p&gt;We’ll discuss:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Panelists&#39; unique journeys in the Django community&lt;/li&gt;
+&lt;li&gt;The role of mentorship, sponsorship, and advocacy in these communities and in Django&#39;s future&lt;/li&gt;
+&lt;li&gt;Successes and challenges in building supportive, sustainable communities&lt;/li&gt;
+&lt;li&gt;How the Django community can keep investing in long-term success&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our panelists include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lacey Henschel&lt;/strong&gt;, moderator, former Django Girls contributor and organizer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keanya Phelps&lt;/strong&gt;, Django Girls organizer and participant, mentor in Djangonaut Space&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Afi Maame Dufie&lt;/strong&gt;, involved in Django Girls, PyLadies, and Black Python Devs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sarah Boyce&lt;/strong&gt;, Django Fellow, co-founder and mentor in Djangonaut Space&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Carlton Gibson&lt;/strong&gt;, former Django Fellow, mentor in Djangonaut Space, mentor and coordinator of Django&#39;s efforts in Google Summer of Code, and Django Girls coach and advisory board member.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Velda Kiara&lt;/strong&gt;,  DEFNA director, former &lt;a href=&#34;http://anitab.org/&#34;&gt;AnitaB.org&lt;/a&gt; Kenya Community Lead, former Open Source Community Africa Nairobi organizer and contributor, participant in Djangonaut Space, and current contributor and leader of Black Python Devs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This discussion will explore the significant impact of initiatives such as Django Girls, Djangonaut Space, PyLadies, and Black Python Devs on the Django community as a whole. The panel will delve into how these groups contribute to diversity, inclusivity, and skill development within the Django world, emphasizing the importance of continued support and improvement for these vital communities. Attendees can expect insightful discussions on the unique contributions of each group, their role in fostering new talent, and strategies for enhancing their effectiveness in the Django landscape.&lt;/p&gt;
+&lt;p&gt;You don&#39;t have to be an experienced developer to get something out of this talk; this talk will be helpful to people starting out on their career track so they can know what might lie ahead as well as managers who want to better understand the developer career mindset.&lt;/p&gt;
+&lt;p&gt;Don&#39;t forget to &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;buy your ticket&lt;/a&gt; and &lt;a href=&#34;/venue/&#34;&gt;reserve your hotel room&lt;/a&gt; today!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Level up with tutorials at DjangoCon US 2024!</title>
+      <link href="https://2024.djangocon.us/news/tutorials/" />
+      <updated>2024-08-29T11:56:00Z</updated>
+      <id>https://2024.djangocon.us/news/tutorials/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Are you eager to sharpen your skills, connect with industry leaders, or simply expand your web development horizons? Then the &lt;a href=&#34;/schedule/#Day-1&#34;&gt;DjangoCon US 2024 tutorials&lt;/a&gt; are exactly what you need!&lt;/p&gt;
+&lt;p&gt;Prepare to take your Django skills to the next level with our diverse lineup of in-depth tutorials. Whether you&#39;re a seasoned Django developer or just starting out, DjangoCon US 2024 has something for everyone.&lt;/p&gt;
+&lt;p&gt;This year...&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/getting-documentation-done-now/&#34;&gt;docs&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/&#34;&gt;Celery&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/pytest-or-bust-converting-your-django-tests-to-pytest/&#34;&gt;testing&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/building-your-first-api-with-django-and-django-rest-framework/&#34;&gt;APIs&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/django-devops/&#34;&gt;DevOps&lt;/a&gt;,&lt;br&gt;
+and we&#39;ve got &lt;a href=&#34;/tutorials/how-to-build-more-accessible-websites-with-wagtail/&#34;&gt;Wagtail&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;The biggest challenge is picking which you&#39;re going to attend. Our morning sessions (9:30am to 1:00pm) include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/&#34;&gt;Efficient Django: Mastering Asynchronous Tasks with Celery, RabbitMQ, and Redis&lt;/a&gt; led by Kuldeep Pisda&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/pytest-or-bust-converting-your-django-tests-to-pytest/&#34;&gt;pytest or Bust: Converting Your Django Tests to pytest led&lt;/a&gt; led by Melanie Arbor&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/building-your-first-api-with-django-and-django-rest-framework/&#34;&gt;🌐 Building Your First API with Django and Django Rest Framework&lt;/a&gt; led by Felipe de Morais&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our afternoon sessions (1:30pm to 5:00pm) include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/django-devops/&#34;&gt;Django DevOps&lt;/a&gt; led by Lee Trout&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/getting-documentation-done-now/&#34;&gt;Getting documentation done, now&lt;/a&gt; led by Daniele Procida&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/how-to-build-more-accessible-websites-with-wagtail/&#34;&gt;How To Build More Accessible Websites with Wagtail&lt;/a&gt; led by Meagen Voss and Scott Cranfill&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🚀 This is your chance to enhance your Django expertise, discover the latest best practices, connect with fellow developers, and gain insights from top industry experts.&lt;/p&gt;
+&lt;p&gt;Tutorials are a separate registration and are $199 per session. &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;Buy your ticket&lt;/a&gt; today!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Get Active at DjangoCon US</title>
+      <link href="https://2024.djangocon.us/news/get-active-at-djangocon-us/" />
+      <updated>2024-08-19T16:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/get-active-at-djangocon-us/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;🚴🏻🏃🏾🏊🏽🚶🏼 Looking to get active during DjangoCon US?&lt;/p&gt;
+&lt;p&gt;Having talks means a lot of time spent not moving while watching talks. It&#39;s important to take care of your body as well as your mind, and a good way to do that is to get moving.&lt;/p&gt;
+&lt;p&gt;If you would like a little social motivation (or an excuse to share your accomplishments), we&#39;ve created a &lt;a href=&#34;https://www.strava.com/clubs/1282541&#34;&gt;Strava group&lt;/a&gt; as we had in 2021, 2022 and 2023. It&#39;s a different group from the last few years, so you&#39;ll have to join again even if you joined in previous years.&lt;/p&gt;
+&lt;p&gt;Once we send invitations to attendees to join the conference Slack instance (invitations will be sent out to ticket holders by Sunday, September 22), join the &lt;code&gt;#outings&lt;/code&gt; channel if you&#39;d like to join or plan a group exercise.&lt;/p&gt;
+&lt;h2 id=&#34;at-the-hotel&#34; tabindex=&#34;-1&#34;&gt;At the hotel&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/experiences/&#34;&gt;Durham Marriott City Center&lt;/a&gt; has a fitness center.&lt;/p&gt;
+&lt;p&gt;At the fitness center, you&#39;ll find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cardiovascular Equipment&lt;/li&gt;
+&lt;li&gt;Elliptical Machine(s)&lt;/li&gt;
+&lt;li&gt;Exercise Bike(s)&lt;/li&gt;
+&lt;li&gt;Stair Climber(s)&lt;/li&gt;
+&lt;li&gt;Strength Equipment&lt;/li&gt;
+&lt;li&gt;Treadmill(s)&lt;/li&gt;
+&lt;li&gt;Weight Machines&lt;/li&gt;
+&lt;li&gt;Yoga Mats, Medicine Balls, Weight Bench, Water Station&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of the hotels nearby have a fitness center so make sure you check with your hotel if you&#39;re staying elsewhere.&lt;/p&gt;
+&lt;h2 id=&#34;walking%2Frunning%2Fhiking%2Fbiking&#34; tabindex=&#34;-1&#34;&gt;Walking/running/hiking/biking&lt;/h2&gt;
+&lt;p&gt;City of &lt;a href=&#34;https://www.durhamnc.gov/1031/Durham-Bike-Hike-Map&#34;&gt;Durham Bike &amp;amp; Hike Map&lt;/a&gt; (GIS and PDF forms).&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.dprplaymore.org/265/North-South-Greenway&#34;&gt;North/South Greenway&lt;/a&gt; (7.5 miles of paved trail).&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://triangletrails.org/american-tobacco-trail&#34;&gt;American Tobacco Trail&lt;/a&gt; has 22 miles of rails to trails that starts less than a mile from the hotel and continues south for 14 miles of paved trail and 8 more of gravel after that&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.greenway.org/states/north-carolina&#34;&gt;East Coast Greenway&lt;/a&gt; runs through Durham.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.ncparks.gov/state-parks/falls-lake-state-recreation-area&#34;&gt;Falls Lake State Recreation Area&lt;/a&gt; has 15 miles of mountain biking and 25 miles of hiking.&lt;/p&gt;
+&lt;img src=&#34;/assets/img/blog/philippe-oursel-hEzxeDOMXoo-unsplash-biking.jpg&#34; alt=&#34;Photo of bikers by Phillippe Oursel via Unsplash&#34; title=&#34;Biking&#34; style=&#34;width:30%; display:block; float:right;&#34; /&gt;
+&lt;p&gt;Eno River park is a 20 minute drive from the hotel and has a lot of hiking trails. &lt;a href=&#34;https://www.enoriver.org/explore/eno-river-state-park/&#34;&gt;Eno River Association&lt;/a&gt; has a lot of information about the park and trails.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.rollingviewmarina.com/kayaks-canoes-paddle-boards/&#34;&gt;Rollingview Marina&lt;/a&gt; at Falls Lake has paddle board, kayak, and canoe rentals.&lt;/p&gt;
+&lt;p&gt;The town of Cary has a lot of &lt;a href=&#34;https://www.townofcary.org/recreation-enjoyment/parks-greenways-environment/greenways&#34;&gt;greenways&lt;/a&gt; and parks. They have boat and kayak rentals at &lt;a href=&#34;https://www.townofcary.org/recreation-enjoyment/facilities/bond-park-boathouse&#34;&gt;Bond Park&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.triangleland.org/explore&#34;&gt;Triangle Land Conservancy&lt;/a&gt; has a lot of trails and preserves in the area.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://mountainstoseatrail.org/the-trail/&#34;&gt;Mountains to Sea Trail&lt;/a&gt; runs through Durham if you really want to stretch your legs!&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.hillsboroughnc.gov/community/recreation-facilities/riverwalk/&#34;&gt;Riverwalk&lt;/a&gt; in Hillsborough is a nice walk in the woods.&lt;/p&gt;
+&lt;h2 id=&#34;bicycling&#34; tabindex=&#34;-1&#34;&gt;Bicycling&lt;/h2&gt;
+&lt;p&gt;One rental shop nearby is &lt;a href=&#34;https://durhamcycles.com/rentals/&#34;&gt;Durham Cycles&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some routes from a Durham bike shop which is looking for a new location: &lt;a href=&#34;https://ridewithgps.com/users/526614/routes&#34;&gt;Ride with GPS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://tarwheels.net/wp/&#34;&gt;Carolina Tarwheels&lt;/a&gt;: road riding group with a bunch of routes published from various start points.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.trianglemtb.com/index.php&#34;&gt;Triangle MTB&lt;/a&gt; site is a good (albeit outdated) hub for mountain biking resources in the area.&lt;/p&gt;
+&lt;p&gt;If you&#39;re interested in e-bike rentals, &lt;a href=&#34;https://trianglebikerentals.com/service-areas/durham-nc/&#34;&gt;Triangle Bike Rentals&lt;/a&gt; has them.&lt;/p&gt;
+&lt;h2 id=&#34;swimming&#34; tabindex=&#34;-1&#34;&gt;Swimming&lt;/h2&gt;
+&lt;p&gt;If swimming is your thing, the &lt;a href=&#34;https://www.ymcatriangle.org/locations/downtown-durham-ymca&#34;&gt;Downtown Durham YMCA&lt;/a&gt; has an indoor pool located only one block for the Convention Center.&lt;/p&gt;
+&lt;p&gt;If you prefer something outdoors, the &lt;a href=&#34;https://www.discoverdurham.com/things-to-do/sports-outdoors/water-activities/&#34;&gt;Discover Durham site&lt;/a&gt; has some links to some interesting places to get wet outdoors with varying travel times.&lt;/p&gt;
+&lt;h2 id=&#34;we-hope-you-enjoy-your-time-while-you-are-in-durham-and-get-a-chance-to-get-out-and-enjoy-the-area!&#34; tabindex=&#34;-1&#34;&gt;We hope you enjoy your time while you are in Durham and get a chance to get out and enjoy the area!&lt;/h2&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>A First-Timer's Guide to Navigating America</title>
+      <link href="https://2024.djangocon.us/news/guide-to-america/" />
+      <updated>2024-08-16T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/guide-to-america/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;For many first-time attendees from abroad, DjangoCon US represents the first time for people entering the United States.&lt;/p&gt;
+&lt;p&gt;Before you can get into the USA, though, you may need a visa. Check our &lt;a href=&#34;/visas/&#34;&gt;Visa Support&lt;/a&gt; page for details and organizer Benedict Kofi Amofah&#39;s excellent &lt;a href=&#34;https://iamdreamo.medium.com/a-first-timers-guide-to-attending-tech-conferences-in-the-usa-visa-prep-and-beyond-e2e121db15df&#34;&gt;blog post&lt;/a&gt; on the visa preparation process.&lt;/p&gt;
+&lt;p&gt;Here&#39;s a quick guide to navigating life in the United States as a newcomer:&lt;/p&gt;
+&lt;h2 id=&#34;payments&#34; tabindex=&#34;-1&#34;&gt;Payments&lt;/h2&gt;
+&lt;p&gt;Almost every venue nowadays takes Visa, MasterCard, American Express, and usually Discover. Make sure you notify your bank before you are traveling that you are going to the United States so you don&#39;t set off any fraud alerts. In the US, this requires calling the customer service number printed on the back of the card, but overseas banks may differ.&lt;/p&gt;
+&lt;p&gt;When making payments, some card machines will give you the option to pay in USD or your home country; generally your bank will give you a more favorable exchange rate (even after conversion fees) than the merchant, so you should probably pick USD.&lt;/p&gt;
+&lt;h3 id=&#34;carrying-cash&#34; tabindex=&#34;-1&#34;&gt;Carrying Cash&lt;/h3&gt;
+&lt;p&gt;However, credit card machine failures do happen, so it&#39;s a good idea to carry a small bit of cash just in case. You will typically get better exchange rates at ATMs over airport currency exchange shops.&lt;/p&gt;
+&lt;p&gt;Many taxis will not have working card readers, so having cash for this is a must!&lt;/p&gt;
+&lt;p&gt;Most but not all vending machines will take cards and NFC payments (e.g. Apple Pay and Google Pay), so it&#39;s useful to have a few small bills ($1 is a paper note in the US, unlike most countries) just in case.&lt;/p&gt;
+&lt;h2 id=&#34;mobile-phones&#34; tabindex=&#34;-1&#34;&gt;Mobile Phones&lt;/h2&gt;
+&lt;p&gt;The United States has 3 main wireless telecommunications providers: Verizon, AT&amp;amp;T, and T-Mobile. Now that Verizon has retired its 3G service, you should be able to bring nearly any phone that supports Voice over LTE (all 5G phones automatically do) and have it work in the US via roaming. However, that can be super expensive depending on your plan back home.&lt;/p&gt;
+&lt;p&gt;If you want to get a temporary US plan, you have numerous options. The big three carriers are all post-paid, typically requiring long contract terms which make them unsuitable for a quick visit. However, there are numerous providers called MVNOs (mobile virtual network operators) that offer prepaid service, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Boost Mobile&lt;/li&gt;
+&lt;li&gt;Cricket&lt;/li&gt;
+&lt;li&gt;Visible&lt;/li&gt;
+&lt;li&gt;Google Fi&lt;/li&gt;
+&lt;li&gt;Tracfone&lt;/li&gt;
+&lt;li&gt;Mint Mobile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Many of these are able to offer a &amp;quot;bring your own phone&amp;quot; plan where you would have to get a SIM card, likely having it shipped to your hotel and then doing the swap yourself after you land in the US. You may also be able to find shops in the airport once you arrive in the US while you wait to board your final flight to RDU (Raleigh-Durham Airport) that offer SIM cards. Check the directory of your connecting airport for more information.&lt;/p&gt;
+&lt;p&gt;Alternatively, you can get an eSIM that you activate upon arrival. If your phone supports both an eSIM and a physical SIM, you can keep your normal phone number for receiving calls and use the eSIM for mobile data in the US. A few common providers are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Airalo&lt;/li&gt;
+&lt;li&gt;Holafly&lt;/li&gt;
+&lt;li&gt;Nomad&lt;/li&gt;
+&lt;li&gt;aloSIM&lt;/li&gt;
+&lt;li&gt;Jetpac&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Doing some internet searches (or asking your friends) might yield some handy discount codes, too.&lt;/p&gt;
+&lt;h2 id=&#34;sales-tax&#34; tabindex=&#34;-1&#34;&gt;Sales Tax&lt;/h2&gt;
+&lt;p&gt;Many countries have some form of value added tax or goods and services tax rolled into the retail price that you pay, so a bottle of water that&#39;s listed as costing $2 is exactly what you  pay. In the US, this is very much &lt;em&gt;not&lt;/em&gt; the case. Instead, each state charges its own sales tax, and in many states, counties and municipalities add their own tax on top of that. Some places charge different tax rates for different classes of goods, such as a discount for food.&lt;/p&gt;
+&lt;p&gt;In Durham County, NC, the sales tax is a flat 7.5%. The city of Durham does not add its own sales tax. For example, you will pay $2.15 for the previous hypothetical $2 bottle of water.&lt;/p&gt;
+&lt;h2 id=&#34;tipping&#34; tabindex=&#34;-1&#34;&gt;Tipping&lt;/h2&gt;
+&lt;p&gt;Tipping (gratuities) in the United States is rampant. Here&#39;s a rough idea of how much you&#39;ll be expected to add on top of your bill:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Restaurants: 20% for everything except for the big-name fast food restaurants (e.g. McDonald&#39;s, Wendy&#39;s, Burger King)
+&lt;ul&gt;
+&lt;li&gt;Even some self-serve kiosk ordering places will try to ask for a tip! This money will theoretically go to the staff preparing and/or delivering your food, but it definitely feels odd.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Coffee shops: $1-2 per cup of coffee&lt;/li&gt;
+&lt;li&gt;Bars: $1-2 per beer/glass of wine, $2-4 per cocktail, 20% on bottles of wine&lt;/li&gt;
+&lt;li&gt;Rideshare and taxis: 20%&lt;/li&gt;
+&lt;li&gt;Hotel room cleaning: ~$5/day (leave it on your pillow, weirdly)&lt;/li&gt;
+&lt;li&gt;Hotel valet parking: ~$3 per time they retrieve your car&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;transportation%2C-or-getting-from-the-airport-to-the-hotel&#34; tabindex=&#34;-1&#34;&gt;Transportation, or Getting from the Airport to the Hotel&lt;/h2&gt;
+&lt;p&gt;There are 3 ways to get from the RDU airport to the Marriott:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rideshare apps (Lyft and Uber generally have nationwide coverage; which you use is largely up to you) will generally get you where you need to go. It&#39;s about a $20-25 ride (plus tip) from the hotel to the airport in the absence of surge pricing. You&#39;ll pay using your phone. Use the app to find out where to get picked up. The ride should take about 20-25 minutes once you&#39;re in the car.&lt;/li&gt;
+&lt;li&gt;Traditional taxis may be hailed on the curb outside the airport. Follow signs for Ground Transportation and then try to wave down a cab that&#39;s going by. Fares will typically be a little more expensive ($30-35 perhaps plus tip), but licensing is stricter. Much like an Uber/Lyft, the trip should take about 20-25 minutes.&lt;/li&gt;
+&lt;li&gt;Durham is part of the &lt;a href=&#34;https://gotriangle.org&#34;&gt;GoTriangle&lt;/a&gt; Bus System that covers the Research Triangle. Fares are $2.50 per trip, and the route from the airport to the hotel takes approximately an hour including 10-minute walks on each end of the journey. Use the &lt;a href=&#34;https://gotriangle.org/UMO&#34;&gt;Umo&lt;/a&gt; app to make payments through your phone. &lt;strong&gt;NOTE&lt;/strong&gt;: Once you&#39;re within the city of Durham, bus rides are &lt;a href=&#34;https://godurhamtransit.org/news/godurham-fare-free-through-june-2025&#34;&gt;free until June 2025&lt;/a&gt;, but the airport is in Raleigh, so you&#39;ll still have to pay that $2.50 to get to and from the airport.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;identification%2Fpurchasing-alcohol&#34; tabindex=&#34;-1&#34;&gt;Identification/Purchasing Alcohol&lt;/h2&gt;
+&lt;p&gt;To purchase alcohol or enter places that predominantly serve alcohol, there&#39;s a very good chance you&#39;ll be required to present identification. You &lt;em&gt;may&lt;/em&gt; be able to get away with a national ID card, but your safest option is your passport. It needs to be the original; photocopies are not accepted.&lt;/p&gt;
+&lt;h2 id=&#34;recycling&#34; tabindex=&#34;-1&#34;&gt;Recycling&lt;/h2&gt;
+&lt;p&gt;Recycling is extremely hit or miss in public facilities. Airports typically have some sort of recycling setup, and urban cores typically have recycling for plastic types #1 or #2 and aluminum cans and not much else.&lt;/p&gt;
+&lt;p&gt;All other waste goes into a single trash stream.&lt;/p&gt;
+&lt;h2 id=&#34;public-restrooms&#34; tabindex=&#34;-1&#34;&gt;Public Restrooms&lt;/h2&gt;
+&lt;p&gt;Unlike many European cities, you&#39;re not likely to find public paid toilets. If you find yourself in need of a trip to the restroom while out in public, you have a few options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Public parks typically have restrooms open to the public&lt;/li&gt;
+&lt;li&gt;Visit a retail establishment (grocery store, convenience store, coffee shop, etc.) and buy something&lt;/li&gt;
+&lt;li&gt;Public libraries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;flying-home&#34; tabindex=&#34;-1&#34;&gt;Flying Home&lt;/h2&gt;
+&lt;p&gt;When returning home, you&#39;ll want to plan on arriving at RDU airport two hours before your departure time. Odds are you will clear security with plenty of time to spare, but in the event of another CrowdStrike-class outage, it&#39;s better to have time on your side.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Announcing Our Keynotes: Natalia Bidart</title>
+      <link href="https://2024.djangocon.us/news/introducing-keynote-natalia-bidart/" />
+      <updated>2024-08-15T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-keynote-natalia-bidart/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-third-keynote-speaker-for-djangocon-us-2024-and-django-fellow%3A-natalia-bidart&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our third keynote speaker for DjangoCon US 2024 and Django Fellow: Natalia Bidart&lt;/h3&gt;
+&lt;p&gt;We had the opportunity to sit down with Natalia and ask a few questions about her work, upcoming talk, and what she is looking forward to at DjangoCon US 2024.&lt;/p&gt;
+&lt;h2 id=&#34;can-you-tell-us-how-you-use-django-is-our-go-to-question%2C-but-how-has-your-time-as-a-django-fellow-been-so-far%3F&#34; tabindex=&#34;-1&#34;&gt;Can you tell us how you use Django is our go to question, but how has your time as a Django Fellow been so far?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I joined April last year. So it&#39;s been a year and four months, that I&#39;ve been a fellow, and it has been great, very challenging in that prior to to being a fellow, I wasn&#39;t that involved in contributing to Django, so there was an initial period when everything was new to me, and I mean everything, like how to do things, reading the docs, when it comes to contributing, building PRs, reviewing PRs, triage and tickets and getting used to formats and guidelines for the code, the commit messages, the bulk triage flows in different stages. So, it was definitely a non trivial period and non trivial adaptation to get used to. At times I felt a little bit inadequate for the position, so I tried to shift my focus to getting to know the community and the different ways of doing things. I tried to put my energy to where I thought it could provide the most value, which was around engaging with the community and trying to ease different interactions and attend to those PRs. So, yes it has been a very challenging process, but I have also learned a lot, and I am honored to be a Django fellow.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-give-us-a-teaser-about-what-your-talk-is-about%3F&#34; tabindex=&#34;-1&#34;&gt;Can you give us a teaser about what your talk is about?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;d like to talk about the Django Fellowship program, which I&#39;m a part of. This program is crucial for maintaining Django’s current status as a secure, robust, and progressive framework. One of the key reasons to donate to the Django Software Foundation (DSF) is that a significant portion of donations goes directly to funding this Fellowship.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Fellows play an essential role in managing and unifying the diverse contributions that come from the community. We ensure consistency, maintain high standards, and safeguard the overall quality of Django. You can think of our role as being the housekeepers of Django, putting up guardrails to maintain the framework&#39;s integrity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s important to raise awareness about the Fellowship, not just for fundraising, but also because many people, even those who use Django daily, aren’t fully aware of what the program entails. When I was appointed a Fellow, I found myself explaining what the Django Fellowship is to my peers, some of whom teased, &amp;quot;Is it something like the Fellowship of the Ring?&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2024%3F&#34; tabindex=&#34;-1&#34;&gt;What are you most looking forward to at DjangoCon US 2024?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This will be my third DjangoCon. Last year at DjangoCon US 2023 was my first, and I also attended DjangoCon Europe earlier this year. What&#39;s exciting about this DjangoCon US is that both Sarah Boyce and I, the current Django Fellows, will be there together for the first time. Last year Marius the other Fellow, couldn&#39;t attend, and Sarah couldn&#39;t make it to DjangoCon Europe because she had an important personal event. So, having both of us there is something I&#39;m really looking forward to.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This time around, I feel more prepared and less nervous. Last year, I was anxious and had a lot of questions about how things would work. Now that I have some answers and more experience, I hope to enjoy the conference even more. If I can get my talk ready on time, I think I’ll be able to relax and fully immerse myself in the event. Last year was more intense for me because it was my first DjangoCon as a Fellow, and I wasn&#39;t sure what to expect or what people expected from me.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-your-favorite-topics-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;What are your favorite topics at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I enjoy non-technical topics, and I find that technical topics can be tackled effectively through a computer. Since they are often algorithmic or complex, I can engage with them directly at the keyboard. However, when it comes to topics like inclusion, I believe they are much more nuanced and multifaceted. These discussions benefit greatly from a conference setting where the environment is more fluid, and you can pick up on non-verbal cues like gestures and tones of voice, which are crucial for understanding the full context.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think it&#39;s essential to acknowledge that Django’s progress depends on the strength and diversity of its community. You can&#39;t afford to be selective about who is welcome in the community based on arbitrary criteria. Of course, there are standards of conduct that everyone should adhere to, and that’s necessary for maintaining a healthy and inclusive environment. But beyond that, openness and inclusivity are vital for the community to thrive.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-do-you-like-to-do-outside-of-your-normal-work-day%3F&#34; tabindex=&#34;-1&#34;&gt;What do you like to do outside of your normal work day?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a parent most of my time goes into my child. I really love power tools, whatever it is, to grab a tool and plug it in and do something with that! I really like woodwork, yoga, and doing some gardening.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;are-you-okay-with-people-asking-you-more-later%3F&#34; tabindex=&#34;-1&#34;&gt;Are you okay with people asking you more later?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;m totally fine with questions, yes!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be sure to follow &lt;a href=&#34;https://fosstodon.org/@nessita&#34;&gt;Natalia&lt;/a&gt; on Mastodon!&lt;/p&gt;
+&lt;p&gt;We can&#39;t wait to hear Natalia&#39;s keynote at DjangoCon US 2024! Stay tuned for more keynote announcements and the full schedule. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;. We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Build something cool with Django at DjangoCon US!</title>
+      <link href="https://2024.djangocon.us/news/participate-in-djangocon-us-hackathon/" />
+      <updated>2024-08-13T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/participate-in-djangocon-us-hackathon/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;This year DjangoCon US will feature a hackathon. It&#39;s open to developers of all experience levels. You&#39;re welcome to take part as an individual or within a group. There is limited availability and early registration is requested.&lt;/p&gt;
+&lt;p&gt;If you&#39;re interested in participating, please see the &lt;a href=&#34;/hackathon/&#34;&gt;Hackathon page&lt;/a&gt; for more details.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Volunteer at DjangoCon US: An Opportunity to Give Back and Grow</title>
+      <link href="https://2024.djangocon.us/news/volunteer-opportunities/" />
+      <updated>2024-08-06T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/volunteer-opportunities/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;DjangoCon US is a premier event for the Django community, and it wouldn&#39;t be possible without the invaluable contributions of our volunteers. As a co-chair of the Volunteer program, I can attest to the immense impact that our volunteers have on the success of this conference.&lt;/p&gt;
+&lt;h2 id=&#34;why-should-you-volunteer%3F&#34; tabindex=&#34;-1&#34;&gt;Why Should You Volunteer?&lt;/h2&gt;
+&lt;p&gt;I know you&#39;re already busy, but hear me out – volunteering at DjangoCon US is an opportunity you don&#39;t want to miss. Here&#39;s why:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Contribute:&lt;/strong&gt; When you volunteer, you help the community to grow and give feedback to Django as a product and ecosystem. This is your opportunity to have a real impact and help the tech and the people you love.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Level up:&lt;/strong&gt; Volunteering at a conference like this is a wonderful experience where you can gain a lot of knowledge and new skills. You will acquire a range of new skills: from organizing events, rallying the troops, and problem-solving. Nah, these are the types of skill sets that do you good in real life and even professionally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Get Networking:&lt;/strong&gt; Volunteers will be working alongside Django engineers from around the globe, including some of the most experienced and passionate Django contributors and consultants—such a valuable chance to network, collaborate on projects, and build lasting friendships within the community.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/img/blog/health-and-safety-desk.jpg&#34; alt=&#34;Health and safey desk&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-can-you-expect-as-a-volunteer%3F&#34; tabindex=&#34;-1&#34;&gt;What Can You Expect as a Volunteer?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flexible Schedules:&lt;/strong&gt; We know you&#39;ve got a lot going on, so we&#39;re committed to creating volunteer schedules that accommodate your availability. You can choose to volunteer for a few hours, a day, or the entire conference – whatever works best for you.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Varied Roles:&lt;/strong&gt; We have a wide range of volunteer positions available, from registration desk assistance to session monitoring, and health and safety check-in.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Training and Support:&lt;/strong&gt; Don&#39;t worry, you won&#39;t be thrown in the deep end. As a volunteer, you&#39;ll receive comprehensive training and support to make sure you&#39;re well-equipped to handle your assigned tasks. Our experienced team will guide you every step of the way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/img/blog/volunteers-at-djangocon.jpg&#34; alt=&#34;Volunteers at DjangoCon US&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;online-volunteers&#34; tabindex=&#34;-1&#34;&gt;Online Volunteers&lt;/h2&gt;
+&lt;p&gt;What if you can’t be there in person? Don’t worry, we have volunteer opportunities online as well! We need online moderators to encourage discussion in the public chat and answer questions about the online platform as they come up.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/img/blog/catherine-registration-desk.jpg&#34; alt=&#34;Catherine Holmes at registration desk&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So, what do you say? Ready to join us and be a part of something truly special? Head over to our &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1NXwhDPhl5hCBTXgkMQffSPiLU70wTRGV8Ruu8OoUJkY/edit?gid=2088259231#gid=2088259231&#34;&gt;volunteer signup page&lt;/a&gt; to sign up or learn more. We can&#39;t wait to have you on the team!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Childcare During DjangoCon US</title>
+      <link href="https://2024.djangocon.us/news/childcare-during-djangocon/" />
+      <updated>2024-08-02T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/childcare-during-djangocon/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Childcare at DjangoCon US and tech conferences more generally is an important factor that helps folks attend who otherwise may not be able to. We want to make sure that parents feel welcome bringing their children to DjangoCon US and that the availability of childcare is not a barrier to attending.&lt;/p&gt;
+&lt;p&gt;To assist with that, DjangoCon US will reimburse you for childcare during the conference (up to $150 per day) with a receipt.&lt;/p&gt;
+&lt;p&gt;For nursing parents, we will provide a clean, comfortable, and private lactation space at the conference venue. The room will have a small refrigerator to store pumped milk, labeling supplies, and antibacterial wipes.&lt;/p&gt;
+&lt;p&gt;Please contact us at &lt;a href=&#34;mailto:hello@defna.org&#34;&gt;hello@defna.org&lt;/a&gt; if you are interested in utilizing DjangoCon US’s child care reimbursement or lactation space services.&lt;/p&gt;
+&lt;p&gt;We have also collected information on a few local childcare providers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://kidzkampdropin.com/&#34;&gt;Kidz Kamp Drop-in&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;12 mo - 12 yr&lt;/li&gt;
+&lt;li&gt;$225 for 25 hrs
+&lt;ul&gt;
+&lt;li&gt;See other pricing options &lt;a href=&#34;https://www.kidzkampdropin.com/copy-of-our-prices-1&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kreativekidznc.com/dropin&#34;&gt;Kreative Kidz NC&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;8 hr stay pass $75/child + $50/sibling
+&lt;ul&gt;
+&lt;li&gt;See other pricing options &lt;a href=&#34;https://www.kreativekidznc.com/dropin-pricing&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropinkidscare.org/&#34;&gt;Courtney&#39;s Drop-in Kids Care&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;6 mo - 12 yr&lt;/li&gt;
+&lt;li&gt;$12/hr and other packages available
+&lt;ul&gt;
+&lt;li&gt;See other pricing options &lt;a href=&#34;https://www.dropinkidscare.org/packages-and-pricing&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;This &lt;a href=&#34;https://www.childcareservices.org/families/find-child-care/&#34;&gt;referral organization&lt;/a&gt; may be worth a shot if you want to look into other options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We look forward to seeing you -- and your kids -- soon in Durham!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Announcing Our Keynotes: Mario Munoz</title>
+      <link href="https://2024.djangocon.us/news/introducing-keynote-mario-munoz/" />
+      <updated>2024-08-01T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-keynote-mario-munoz/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-second-keynote-speaker-for-djangocon-us-2024%3A-mario-munoz!&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our second keynote speaker for DjangoCon US 2024: Mario Munoz!&lt;/h3&gt;
+&lt;p&gt;We had the opportunity to sit down with Mario and ask him a few questions about his work, his upcoming talk, and what he&#39;s looking forward to at DjangoCon US 2024.&lt;/p&gt;
+&lt;h2 id=&#34;can-you-tell-us-how-you-use-django%3F&#34; tabindex=&#34;-1&#34;&gt;Can you tell us how you use Django?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When preparing my first talk on &lt;a href=&#34;https://2022.djangocon.us/talks/why-i-didn-t-start-with-django/&#34;&gt;&amp;quot;Why I Didn&#39;t Start With Django&amp;quot;&lt;/a&gt;, I thought I should at least build a Django app before getting into it... As a result, I built an app to hold my presentation slides (also using reveal.js), and ever since, I&#39;ve continued using it for the past two years.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-give-us-a-teaser-about-what-your-talk-is-about%3F&#34; tabindex=&#34;-1&#34;&gt;Can you give us a teaser about what your talk is about?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am very interested in the intersection of people and technology. What role does community have in our technological journey? How do we see ourselves within the context of a &amp;quot;technical&amp;quot; community?  At a recent conference (North Bay Python), &lt;a href=&#34;https://pretalx.northbaypython.org/nbpy-2024/talk/X7ZZPP/&#34;&gt;I spoke about building bridges between communities&lt;/a&gt;. My talk at DjangoCon US will be an extension of this. My current working title is &amp;quot;How to be a developer, and other lies we tell ourselves.&amp;quot; We&#39;ll be going through a journey that brings us in and out of different mindsets as developers, and what role community plays in all of this. As many of my talks, I often have many biographical/personal/meta examples...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2024%3F&#34; tabindex=&#34;-1&#34;&gt;What are you most looking forward to at DjangoCon US 2024?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am most excited about engaging with the community. I am currently involved in the Djangonaut Space program and look forward to seeing fellow Djangonauts there. I&#39;ve also seen that the talks have been posted, and some of them look fantastic. I&#39;m interested in all things hypermedia, so definitely will be catching those HTMX-related talks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-your-favorite-topics-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;What are your favorite topics at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As mentioned, I&#39;m excited about the hypermedia. But I always like hearing about broad topics, such as &lt;a href=&#34;/talks/django-user-model-past-present-and-future/&#34;&gt;the past, present, and future of Django&#39;s User Model talk by Will&lt;/a&gt;, or &lt;a href=&#34;/talks/if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget/&#34;&gt;Jacob&#39;s talk on what the DSF could accomplish with 4x the budget&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;how-do-you-view-the-connections-made-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;How do you view the connections made at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The connections we make are invaluable. As an introvert, like many of us, I seek meaningful and strong connections. The Django community, in particular, has been a welcoming space for these interactions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-tell-us-about-your-career-journey%3F&#34; tabindex=&#34;-1&#34;&gt;Can you tell us about your career journey?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I started my career in payroll and then moved to an HR analyst role, providing IT-related support. It was through networking that I met people who helped me transition into engineering. I met some key contacts at PyCon US.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;how-did-you-approach-your-career-growth%3F&#34; tabindex=&#34;-1&#34;&gt;How did you approach your career growth?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I purposely leaned into areas where I wasn’t as strong, getting out there and trying to speak. It’s a long-term investment, and it takes time to get there. Purposefully plugging into the community and focusing on what you can do with code, whether you&#39;re a newcomer or experienced, is crucial. Learning not to gatekeep is also important.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;when-did-you-start-speaking-at-conferences%2C-and-what-has-your-experience-been-like%3F&#34; tabindex=&#34;-1&#34;&gt;When did you start speaking at conferences, and what has your experience been like?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I started speaking in 2022, giving talks at PyCon US and PyOhio. I&#39;ve done tutorials and talks, and it&#39;s been an incredible experience that has helped me grow both personally and professionally.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-do-you-like-to-do-outside-of-your-normal-work-day%3F&#34; tabindex=&#34;-1&#34;&gt;What do you like to do outside of your normal work day?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Beach days with the family are always fun, or adventuring in a new/unknown hiking area. And, well, I have a blog called &lt;a href=&#34;https://pythonbynight.com/&#34;&gt;Python By Night&lt;/a&gt;, so that kind of speaks for itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;are-you-ok-with-people-asking-you-more-later%3F&#34; tabindex=&#34;-1&#34;&gt;Are you ok with people asking you more later?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yes!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be sure to follow &lt;a href=&#34;https://www.linkedin.com/in/mario-a-munoz/&#34;&gt;Mario&lt;/a&gt; on LinkedIn!&lt;/p&gt;
+&lt;p&gt;We can&#39;t wait to hear Mario&#39;s keynote at DjangoCon US 2024! Stay tuned for more keynote announcements and the full schedule. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;. We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Getting to know folks: A pre-conference interview</title>
+      <link href="https://2024.djangocon.us/news/getting-to-know-folks/" />
+      <updated>2024-07-30T12:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/getting-to-know-folks/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Hello Djangonauts!&lt;/p&gt;
+&lt;p&gt;DjangoCon US 🐂 is coming up, and our excitement is building. There isn&#39;t any news to share today, but we have something just as great!&lt;/p&gt;
+&lt;p&gt;We’re spending a little time getting to know people who will be attending DjangoCon US this September. We asked various people who have different connections and experiences with the Django community.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/amandasavluchinske/&#34;&gt;Amanda Savluchinske&lt;/a&gt; is a first-time speaker and attendee at DjangoCon US&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.programmingmylife.com/&#34;&gt;Andrew Mshar&lt;/a&gt; is a first-time organizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/carolganz/&#34;&gt;Carol Ganz&lt;/a&gt; is a board member of DEFNA and DjangoCon US organizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/chrisachinga&#34;&gt;Chris Achinga&lt;/a&gt; is a first-time attendee&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kojoidrissa.com/&#34;&gt;Kojo Idrissa&lt;/a&gt; is a long-time attendee, speaker and organizer of DjangoCon US&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So let’s get to meeting them!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note, the remainder of the post switches to first person from the perspective of Tim,&lt;/em&gt; &lt;a href=&#34;https://www.defna.org/&#34;&gt;&lt;em&gt;DEFNA&lt;/em&gt;&lt;/a&gt; &lt;em&gt;secretary and DjangoCon US 2024 communications co-chair.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Hi folks, thanks for agreeing to this. Let’s start with having you tell us a little about yourself and your connection to the Django community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m a PM, and I love what I do. I also still enjoy coding. I knew I wanted some kind of hybrid career even before getting into university, when I decided to major in Business Administration. Nowadays, I’m specializing in Software Engineering, mostly to formalize the knowledge I’ve acquired during my years as a software engineer, as well as cover some gaps.&lt;/p&gt;
+&lt;p&gt;I started out my journey in Django in 2017, when I attended a &lt;a href=&#34;https://djangogirls.org&#34;&gt;Django Girls&lt;/a&gt; workshop in my hometown. In 2018, I organized one myself. It was through that first workshop that I got my internship as a software engineer, and I quickly learned to love Python, and especially Django. Throughout this six-seven year span, I also got the opportunity to speak at some Python/Django conferences, starting out at local ones, then regional, national (&lt;a href=&#34;https://pythonbrasil.org.br&#34;&gt;Python Brasil&lt;/a&gt;) and international (&lt;a href=&#34;https://djangocon.eu&#34;&gt;DjangoCon Europe&lt;/a&gt;). Even though speaking is an experience that is always a little scary to me, the community has always been welcoming and warm, and that keeps me going.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;m a software developer who uses Django professionally, both at my day job and for a side project. I blog (not regularly) about technologies that I use, which includes Django. I&#39;ve attended (and very much enjoyed) the last two DjangoCon US events.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am an Account Manager at Six Feet Up, and we use Django for a lot of projects. As an organization, we believe in giving back to the open-source community. So, after meeting DEFNA co-founder Jeff Triplett at our event, the &lt;a href=&#34;https://pythonwebconf.com&#34;&gt;Python Web Conference&lt;/a&gt;, and talking about the best way to contribute to the Django community. Based on his input, I ran for the DEFNA board and was elected. Since then, I have helped organize 4 DjangoCon US conferences.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My first Django event was the &lt;a href=&#34;https://2023.djangocon.africa/&#34;&gt;DjangoCon Africa&lt;/a&gt;, and I was exposed to the global Django community that I didn&#39;t know existed even here in Kenya. Since then, I have been actively participating in activities related to Django and the community, and also applying to speak and attend a few Django/Python conferences.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;ve been a DCUS organizer since 2016, and I&#39;ve spoken a few times (2015, 2017, and a panel one of the San Diego years).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Fantastic! Can you please tell us what you’re looking forward to at DjangoCon US 2024?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s going to be my first in-person international conference. When I &lt;a href=&#34;https://2021.djangocon.eu/cfp/talk/ECY3JD/index.html&#34;&gt;spoke at DjangoCon Europe&lt;/a&gt;, that was online, so I didn’t get to experience a lot of the fun and connection in-person conferences offer. I’m really looking forward to the talks as well, there are incredible topics there from what I’ve seen.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Catching up with other members of the community in person!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Meeting new people and learning about new ways the community is growing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I really learned a lot from last year&#39;s event, although I did not attend. By following live updates on X and also the &lt;a href=&#34;https://www.youtube.com/c/DjangoConUS&#34;&gt;uploaded sessions on YouTube&lt;/a&gt;, my development skills have been better, and I am more open to giving and sharing my ideas in various communities&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Seeing folks I don&#39;t get to see often and being able to engage more with people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;What country are you traveling from?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Portugal, but I’m from Brazil.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;USA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;United States&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kenya (Not attending, but would love to participate online)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;USA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;What made you decide to attend/speak/organize this year?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Through work, I ended up presenting an online talk at Women Who Code NYC. It was a great experience, and the attendees seemed to enjoy and engage with the content. When DjangoCon US announced their CFP, I was like well, I have a talk that could also be interesting to the Django community, so why not? I didn’t have high expectations of it getting approved, so it was a great surprise. I had only submitted to DCUS’ CFP once before, but speaking at the conference has always been an interest of mine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am attending because attending the last two years has been great. I&#39;m organizing because I enjoyed the conference so much that I wanted to help out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I really enjoy working with this team of organizers. Everyone is so helpful, and it makes it so much easier to have an amazing conference when you have so many diverse contributors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To learn more, I also want to start looking for new opportunities in the Django ecosystem&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I enjoy helping welcome people to our community.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Is it possible to resonate with all of those answers? Because I do. Now, here’s my most controversial question. Are you a sticker or pin person?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pins!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Thank you, Amanda, for justifying that question, I knew there were more of us out there!&lt;/p&gt;
+&lt;p&gt;I’m a relatively new conference-goer myself. So one thing I’m curious about are other people’s tips and tricks for attending conferences. But first, does anyone have a tip/trick they’d like to know more about?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’d love a tip on how to get to know people during breaks!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you needed to get support from your organization/company to attend DCUS, did you need to convince them? If so, how&#39;d you do it? What arguments did you lay out? This is in contrast to a situation where you have an Education/Training budget of $X and no one really cares WHAT you use it on, so long as you don&#39;t exceed it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;I can definitely relate to wanting to have an idea of how to meet people at the conference. And getting support from your job to attend a conference can be a real game-changer when the conference isn’t local. If folks have suggestions for either of these, please share them on social media with the #DjangoConUS hashtag or tag us in the message.&lt;/p&gt;
+&lt;p&gt;Does anyone have their own tips or tricks for attending a conference?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Getting the most out of your time at the conference doesn&#39;t mean doing all of the things all of the time. Pace yourself. That might mean a nap, or just some quiet time at some point during the day to keep your energy up. Leave some slack in your schedule so you can be flexible and enjoy your time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Sit with people you do not already know. You can hang out with people you already know any time.&lt;/li&gt;
+&lt;li&gt;Welcome others into your conversations. I tend to be an introvert, so it is nice to be able to just sit and listen to others when you are welcome at the table.&lt;/li&gt;
+&lt;li&gt;Volunteer to work at the welcome desk to get to meet lots of new people. That’s how I met Tim.&lt;/li&gt;
+&lt;li&gt;Talk slowly and clearly. English is not everyone&#39;s first language.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Be a good audience. A lot of time and thought was put into selecting speakers. Speakers have spent valuable time researching on the topics to deliver amazing content, the best reward for the speakers and organizers is to be a great audience.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If there&#39;s a talk on a topic or given by someone where you&#39;d want to ask them a question, Prioritize Attending That Talk. It&#39;s a rare opportunity to ask your direct question. Otherwise, prioritize in-person interaction. Those conversations and meetings are ALSO rare.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Thank you everyone, these insights are incredibly valuable and will help everyone be a part of a fantastic event.&lt;/p&gt;
+&lt;p&gt;My last question is again a two part-er. I’d like to know what one word best describes DjangoCon US. Or if you haven’t attended, what word best describes your emotions leading up to it?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anticipation&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Community.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Friendly&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I haven&#39;t had the chance to attend DjangoCon US, but from the information I see everywhere on the internet:&lt;/p&gt;
+&lt;p&gt;Ajab! (Swahili word for Amazing)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Describe DCUS: Enriching&lt;/p&gt;
+&lt;p&gt;Emotions leading up to DCUS: Conflicted (balancing responsibilities with anticipation)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;I absolutely love these answers. I second each of them, but if someone had put palm-sweat-inducing down, that would be my winner.&lt;/p&gt;
+&lt;p&gt;Thank you all for spending your time and energy on this, the event, your talks and the Django community as a whole. I’m looking forward to seeing you all in September and you Chris, hopefully at a DjangoCon US in the future!&lt;/p&gt;
+&lt;p&gt;For everyone else, if this has excited you about DjangoCon US 🐂, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;buy your ticket today&lt;/a&gt;!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Announcing Our Keynotes: Sheena O'Connell</title>
+      <link href="https://2024.djangocon.us/news/introducing-keynote-sheena-oconnell/" />
+      <updated>2024-07-24T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-keynote-sheena-oconnell/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-first-keynote-speaker-for-djangocon-us-2024%3A-sheena-o&#39;connell!&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our first keynote speaker for DjangoCon US 2024: Sheena O&#39;Connell!&lt;/h3&gt;
+&lt;p&gt;We had the opportunity to sit down with Sheena and ask her a few questions about her work, her upcoming talk, and what she&#39;s looking forward to at DjangoCon US 2024.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-you-use-django%3F&#34; tabindex=&#34;-1&#34;&gt;How Do You Use Django?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Currently, I use it at work. We have a learner management system built in Django. I spoke about it at DjangoCon US 2022. That project is still running, but it&#39;s changed a bit. We have moved away from a React-based frontend to something built with HTMX, and it&#39;s way nicer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-give-us-a-teaser-about-your-upcoming-talk%3F&#34; tabindex=&#34;-1&#34;&gt;Can You Give Us a Teaser About Your Upcoming Talk?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Software developers are often put in positions where they need to teach - this can be a part of their job (eg: onboarding the new human, explaining your stuff to non-technical humans, taking part in mentorship, actually being paid to teach) or through community events and volunteering. These teachers often are not trained in how to teach. And even those that don&#39;t teach others need to teach themselves. This is a learning career.&lt;br&gt;
+My talk is about how to teach foundational code. So it&#39;s also about the science of learning. There are evidence-based methods that work, and common anti-patterns that set people back. Teaching well is an art and a science. My goal here is to set everyone in the audience up to be better teachers, it&#39;s a big goal for a talk, but I&#39;m sure I can light a few fires.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2024%3F&#34; tabindex=&#34;-1&#34;&gt;What Are You Most Looking Forward to at DjangoCon US 2024?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The people! I enjoy the talks, and I&#39;ve benefited a lot from them, but the community is the thing that keeps making me want to come back.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-your-favorite-topics-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;What Are Your Favorite Topics at Conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I like being introduced to things I can use and don&#39;t yet know about. For example, I&#39;ve found previous talks on HTMX and Playwright really useful. I use those tools now. I really like anything that is actionable. And I enjoy good stories and new ways of looking at things. If I can leave curious and inspired, then I&#39;m happy.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;have-you-presented-at-other-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;Have You Presented at Other Conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;ve presented at many places since my first conference, including DjangoCon Africa, DjangoCon Europe, and local conferences like PyCon Namibia and PyCon South Africa. Recently, my work has shifted more towards teaching teachers rather than directly working on hard tech. This involves dealing with stakeholders and non-developers, which requires a lot of learning and adaptation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-passionate-about%3F&#34; tabindex=&#34;-1&#34;&gt;What Are You Passionate About?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;m heavily involved in building communities through new conferences and other initiatives. It&#39;s rewarding to see the impact, especially in smaller communities like PyCon Namibia. These efforts are life-changing for small communities. I have been thinking and planning ways to support tech education. I will be launching this soon, so please keep an eye out for it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-do-you-like-to-do-outside-of-your-normal-workday%3F&#34; tabindex=&#34;-1&#34;&gt;What Do You Like to Do Outside of Your Normal Workday?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Way too many things. I enjoy climbing quite a lot. I also have a &lt;a href=&#34;http://sheenaoc.com/&#34;&gt;blog&lt;/a&gt; where I mostly talk about tech education. I have been teaching myself to play guitar, but it&#39;s not always something I have time for.   I also love hiking, I do one or two multi-day hikes per year, I enjoy getting very far from civilization from time to time. Lastly, I always have some kind of side quest going on.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;are-you-open-to-people-reaching-out-later%3F&#34; tabindex=&#34;-1&#34;&gt;Are You Open to People Reaching Out Later?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yes, definitely!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be sure to follow &lt;a href=&#34;https://www.linkedin.com/in/sheena-o-connell-0bb72527/&#34;&gt;Sheena&lt;/a&gt; on LinkedIn and check out her &lt;a href=&#34;http://sheenaoc.com/&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can&#39;t wait to hear Sheena&#39;s keynote at DjangoCon US 2024! Stay tuned for more keynote announcements and the full schedule. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;. We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>The DjangoCon US 2024 schedule has been released!</title>
+      <link href="https://2024.djangocon.us/news/announcing-schedule-dcus/" />
+      <updated>2024-07-16T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/announcing-schedule-dcus/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We are beyond thrilled to unveil the 2024 DjangoCon US &lt;a href=&#34;/schedule/&#34;&gt;talk and tutorial lineup&lt;/a&gt;. We&#39;ll have six tutorials on Sunday, September 22, three days of talks on September 23-25, and two days of sprints on September 26-27.&lt;/p&gt;
+&lt;p&gt;We will have three keynote speakers which will be announced over the next several weeks. Stay tuned to our &lt;a href=&#34;https://fosstodon.org/@djangocon&#34;&gt;Mastodon&lt;/a&gt; and &lt;a href=&#34;/news/&#34;&gt;news feed&lt;/a&gt; for the announcements.&lt;/p&gt;
+&lt;p&gt;We have lots of great talks lined up, from talks about &lt;a href=&#34;/talks/error-culture/&#34;&gt;Error Culture&lt;/a&gt;, &lt;a href=&#34;/talks/troubleshooting-is-a-lifestyle/&#34;&gt;Troubleshooting&lt;/a&gt;, &lt;a href=&#34;/talks/django-the-web-framework-that-changed-my-life/&#34;&gt;Django: the web frameework that changed my life&lt;/a&gt;, &lt;a href=&#34;/talks/django-alpine-js-htmx-ups-downs/&#34;&gt;Django + Alpine.js + htmx Ups &amp;amp; Downs&lt;/a&gt;, &lt;a href=&#34;/talks/maps-with-django/&#34;&gt;Maps with Django&lt;/a&gt;, &lt;a href=&#34;/talks/how-to-design-and-implement-extensible-software-with-plugins/&#34;&gt;How to design and implement extensible software with plugins&lt;/a&gt; &lt;a href=&#34;/talks/fighting-homelessness-with-django/&#34;&gt;Fighting Homelessness with Django&lt;/a&gt;, and so much more!&lt;/p&gt;
+&lt;p&gt;Don&#39;t forget our awesome deep dive day, where we dig into things like &lt;a href=&#34;/talks/hidden-gems-of-django-5-x/&#34;&gt;Hidden gems of Django 5.x&lt;/a&gt; from new Django Fellow Sarah Boyce, &lt;a href=&#34;/talks/a-brief-history-of-django/&#34;&gt;A Brief History of Django&lt;/a&gt;, and learning more about &lt;a href=&#34;/talks/django-user-model-past-present-and-future/&#34;&gt;Django User Model: Past, Present, and Future&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;ll also have lightning talks on all three days; you will sign up for those in Durham. Details will be announced later.&lt;/p&gt;
+&lt;p&gt;If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;you can get them here!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a reminder, the in person conference runs from September 22-27 at the &lt;a href=&#34;/venue/&#34;&gt;Durham Convention Center&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Announcing our DjangoCon US 2024 Talks!</title>
+      <link href="https://2024.djangocon.us/news/announcing-lineup/" />
+      <updated>2024-07-09T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/announcing-lineup/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We are thrilled to present our tutorial and talk lineup!&lt;/p&gt;
+&lt;p&gt;The final talk and tutorial schedule will be announced soon. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Congratulations to the presenters of the tutorials and talks below!&lt;/p&gt;
+&lt;h2 id=&#34;tutorials-(sunday%2C-september-22)&#34; tabindex=&#34;-1&#34;&gt;Tutorials (Sunday, September 22)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Tutorials will be in person this year.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Daniele Procida (&lt;a href=&#34;https://mastodon.online/@EvilDMP&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://vurt.org&#34;&gt;website&lt;/a&gt;) - Getting documentation done, now&lt;/li&gt;
+&lt;li&gt;Felipe de Morais (&lt;a href=&#34;https://twitter.com/felipedemorais_&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://felipedemorais.com.br/&#34;&gt;website&lt;/a&gt;) - 🌐 Building Your First API with Django and Django Rest Framework&lt;/li&gt;
+&lt;li&gt;Kuldeep Pisda (&lt;a href=&#34;https://twitter.com/kdpisda&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://kdpisda.in/&#34;&gt;website&lt;/a&gt;) - Efficient Django: Mastering Asynchronous Tasks with Celery, RabbitMQ, and Redis&lt;/li&gt;
+&lt;li&gt;Lee Trout (&lt;a href=&#34;https://twitter.com/thecodewritesme&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://hachyderm.io/@leet&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;http://leetrout.com&#34;&gt;website&lt;/a&gt;) - Django DevOps&lt;/li&gt;
+&lt;li&gt;Meagen Voss (&lt;a href=&#34;https://twitter.com/meagenvoss&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@vossisboss&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.meagenvoss.com/&#34;&gt;website&lt;/a&gt;) - How To Build More Accessible Websites with Wagtail&lt;/li&gt;
+&lt;li&gt;Melanie Arbor  - pytest or Bust: Converting Your Django Tests to pytest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talks-(monday%2C-september-23-through-wednesday%2C-september-25)&#34; tabindex=&#34;-1&#34;&gt;Talks (Monday, September 23 through Wednesday, September 25)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;All talks will be available live for those with online-only tickets. They will be posted to YouTube after the conference for free.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adarsh Divakaran (&lt;a href=&#34;https://twitter.com/adarshd905&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://blog.adarshd.dev&#34;&gt;website&lt;/a&gt;) - Pygoat - Learn django security the hard way&lt;/li&gt;
+&lt;li&gt;Amanda Savluchinske (&lt;a href=&#34;https://twitter.com/afsavluchinske&#34;&gt;twitter&lt;/a&gt;) - Product 101 for Techies and Tech Teams&lt;/li&gt;
+&lt;li&gt;Avindra Fernando (&lt;a href=&#34;https://twitter.com/avindrafernando&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://taprobaneconsulting.tech/&#34;&gt;website&lt;/a&gt;) - Lessons from E2E Testing Django Web Applications&lt;/li&gt;
+&lt;li&gt;Benjamin &amp;quot;Zags&amp;quot; Zagorsky (&lt;a href=&#34;https://zagaran.com/&#34;&gt;website&lt;/a&gt;) - Fighting Homelessness with Django&lt;/li&gt;
+&lt;li&gt;Carlton Gibson (&lt;a href=&#34;https://fosstodon.org/@carlton&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://noumenal.es&#34;&gt;website&lt;/a&gt;) - API Maybe: Bootstrapping a Web Application circa 2024&lt;/li&gt;
+&lt;li&gt;Chris May (&lt;a href=&#34;https://twitter.com/_chrismay&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@_chrismay&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://everydaysuperpowers.dev&#34;&gt;website&lt;/a&gt;) - Choosing Wisely: SPA vs. HTMX for Your Next Web Project&lt;/li&gt;
+&lt;li&gt;Christopher Adams (&lt;a href=&#34;https://twitter.com/adamsc64&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;http://christopheradams.info&#34;&gt;website&lt;/a&gt;) - A Related Matter: Optimizing your webapp by using django-debug-toolbar, select_related(), and prefetch_related()&lt;/li&gt;
+&lt;li&gt;Daniel Ramas (&lt;a href=&#34;http://www.github.com/Daniel-Ramas&#34;&gt;website&lt;/a&gt;) - Seamless Transition: How I Converted an Existing MySQL Database to be Fully Managed by Django Migrations Framework&lt;/li&gt;
+&lt;li&gt;Elizabeth Garrett Christensen (&lt;a href=&#34;https://twitter.com/sqlliz&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@sqlliz&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.crunchydata.com/blog/author/elizabeth-christensen&#34;&gt;website&lt;/a&gt;) - A Guided Tour Through Postgres Internals&lt;/li&gt;
+&lt;li&gt;Eva Nanyonga (&lt;a href=&#34;https://twitter.com/evananyonga&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/eva-nanyonga-143b6b33/&#34;&gt;website&lt;/a&gt;) - Only reliable Data: Protecting Database Integrity&lt;/li&gt;
+&lt;li&gt;Frank Wiles (&lt;a href=&#34;https://twitter.com/fwiles&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://frankwiles.social/@frank&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.revsys.com&#34;&gt;website&lt;/a&gt;) - A Brief History of Django&lt;/li&gt;
+&lt;li&gt;Harmony Elendu (&lt;a href=&#34;https://medium.com/harmonyelendu/&#34;&gt;website&lt;/a&gt;) - Project Management in Open Source&lt;/li&gt;
+&lt;li&gt;Hernan Lozano (&lt;a href=&#34;https://fosstodon.org/@hernantz&#34;&gt;mastodon&lt;/a&gt;) - Reusable Django Template Components for Perfectionists with Deadlines&lt;/li&gt;
+&lt;li&gt;Hugo Bessa (&lt;a href=&#34;https://twitter.com/hugoabessa&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://bessa.me&#34;&gt;website&lt;/a&gt;) - Django &amp;amp; Celery: A love story of async proportions&lt;/li&gt;
+&lt;li&gt;Ilerioluwakiiye Abolade - The Magic of Dependencies Installing Themselves&lt;/li&gt;
+&lt;li&gt;Jack Linke (&lt;a href=&#34;https://social.jacklinke.com/@jack&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://jacklinke.com/&#34;&gt;website&lt;/a&gt;) - Troubleshooting is a Lifestyle 🕶️&lt;/li&gt;
+&lt;li&gt;Jacob Kaplan-Moss (&lt;a href=&#34;https://jacobian.org/@jacob&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://jacobian.org/&#34;&gt;website&lt;/a&gt;) - If We Had $1,000,000: What Could The DSF Do With 4x Its Budget?&lt;/li&gt;
+&lt;li&gt;Jessica Garson (&lt;a href=&#34;https://twitter.com/jessicagarson&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://macaw.social/@jessicagarson&#34;&gt;mastodon&lt;/a&gt;) - Introduction to OpenTelemetry with Django&lt;/li&gt;
+&lt;li&gt;Johanan Oppong Amoateng (&lt;a href=&#34;https://twitter.com/johanan2001&#34;&gt;twitter&lt;/a&gt;) - Empowering Tertiary Students: Introducing PyClubs for Enhanced Python Skills and Community Engagement&lt;/li&gt;
+&lt;li&gt;Josh Thomas (&lt;a href=&#34;https://joshthomas.dev/@josh&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://joshthomas.dev&#34;&gt;website&lt;/a&gt;) - An Opinionated Guide to Modern Django Forms&lt;/li&gt;
+&lt;li&gt;Karen Tracey (&lt;a href=&#34;https://twitter.com/km_tracey&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@kmtracey&#34;&gt;mastodon&lt;/a&gt;) - Django + Alpine.js + htmx Ups &amp;amp; Downs&lt;/li&gt;
+&lt;li&gt;Kasey Kelly (&lt;a href=&#34;https://twitter.com/kaseykelly&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://lincolnloop.com/&#34;&gt;website&lt;/a&gt;) - Optimizing remote work: Pull Requests, Stand-ups, and emojis&lt;/li&gt;
+&lt;li&gt;Ken Whitesell (&lt;a href=&#34;https://twitter.com/KenWhitesell&#34;&gt;twitter&lt;/a&gt;) - WebRTC with Django, Channels, HTMX, and coturn&lt;/li&gt;
+&lt;li&gt;Lisa Ciaccio (&lt;a href=&#34;https://twitter.com/LisaChacho&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.lisachacho.com&#34;&gt;website&lt;/a&gt;) - Django from a Rails Perspective&lt;/li&gt;
+&lt;li&gt;Marc Gibbons (&lt;a href=&#34;https://mastodon.social/@marcgibbons&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://marcgibbons.com&#34;&gt;website&lt;/a&gt;) - Finding 2.0&lt;/li&gt;
+&lt;li&gt;Michael Riley (&lt;a href=&#34;https://twitter.com/ErriteRikez&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://michaelriley.dev&#34;&gt;website&lt;/a&gt;) - Upgrading EOL Django: A Journey from V1 to V5&lt;/li&gt;
+&lt;li&gt;Miguel Sanda (&lt;a href=&#34;https://twitter.com/elarroba&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.miguelsanda.com&#34;&gt;website&lt;/a&gt;) - Django Ledger | Uniting Developers and Accountants for Innovation.&lt;/li&gt;
+&lt;li&gt;Mohammad Ahtasham ul Hassan (&lt;a href=&#34;https://twitter.com/Iht_Malik&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://aht007.github.io/personal-portfolio/&#34;&gt;website&lt;/a&gt;) and Shafqat Farhan Ahmed  - Level Up Your Django Performance: Identifying and Taming N+1 Queries&lt;/li&gt;
+&lt;li&gt;Paolo Melchiorre (&lt;a href=&#34;https://twitter.com/pauloxnet&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@paulox&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.paulox.net/&#34;&gt;website&lt;/a&gt;) - Maps with Django&lt;/li&gt;
+&lt;li&gt;Richard Ackon (&lt;a href=&#34;https://twitter.com/esquire_gh&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/richardackon/&#34;&gt;website&lt;/a&gt;) - Understanding Database Connection Management in Django&lt;/li&gt;
+&lt;li&gt;Ron Maravanyika (&lt;a href=&#34;https://twitter.com/ronn_zw&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://ronnzw.github.io/&#34;&gt;website&lt;/a&gt;) - Unlocking Performance: Benchmarking and profiling Django for Maximum Efficiency&lt;/li&gt;
+&lt;li&gt;Ryan Cheley (&lt;a href=&#34;https://mastodon.social/@ryancheley&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.ryancheley.com/&#34;&gt;website&lt;/a&gt;) - Error Culture&lt;/li&gt;
+&lt;li&gt;Ryan Hiebert (&lt;a href=&#34;https://twitter.com/ryanhiebert&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@ryanhiebert&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;http://ryanhiebert.com&#34;&gt;website&lt;/a&gt;) - Passkeys: Your password-free future&lt;/li&gt;
+&lt;li&gt;Sage Abdullah (&lt;a href=&#34;https://twitter.com/laymonage&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@laymonage&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://laymonage.com&#34;&gt;website&lt;/a&gt;) - Django: the web framework that changed my life&lt;/li&gt;
+&lt;li&gt;Samweli Mwakisambwe (&lt;a href=&#34;https://twitter.com/SamweliTwesa&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://samweli.github.io/&#34;&gt;website&lt;/a&gt;) - Open-source Python tools to visualize and analyse geospatial data.&lt;/li&gt;
+&lt;li&gt;Sarah Boyce (&lt;a href=&#34;https://mastodon.social/@sarahboyce&#34;&gt;mastodon&lt;/a&gt;) - Hidden gems of Django 5.x&lt;/li&gt;
+&lt;li&gt;Simon Willison (&lt;a href=&#34;https://twitter.com/simonw&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://simonwillison.net/@simon&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://simonwillison.net/&#34;&gt;website&lt;/a&gt;) - How to design and implement extensible software with plugins&lt;/li&gt;
+&lt;li&gt;Thibaud Colas (&lt;a href=&#34;https://twitter.com/thibaud_colas&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@thibaudcolas&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://thib.me/&#34;&gt;website&lt;/a&gt;) - Faster, leaner, greener: 10x lower website carbon emissions&lt;/li&gt;
+&lt;li&gt;Tim Bell (&lt;a href=&#34;https://twitter.com/timb07&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://chaos.social/@timb07&#34;&gt;mastodon&lt;/a&gt;) - Deploying Django migrations at Kraken scale&lt;/li&gt;
+&lt;li&gt;Tim Schilling (&lt;a href=&#34;https://twitter.com/CodenameTim&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@CodenameTim&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.better-simple.com/&#34;&gt;website&lt;/a&gt;) - You got that nice tech salary, now what?&lt;/li&gt;
+&lt;li&gt;Vaarun Sinha (&lt;a href=&#34;https://www.linkedin.com/in/vaarun-sinha-674114230/&#34;&gt;website&lt;/a&gt;) - Streaming Video in Django | Demystified&lt;/li&gt;
+&lt;li&gt;Vince Salvino (&lt;a href=&#34;https://www.codered.cloud/&#34;&gt;website&lt;/a&gt;) - One Thousand and One Django Sites&lt;/li&gt;
+&lt;li&gt;Will Vincent (&lt;a href=&#34;https://learndjango.com&#34;&gt;website&lt;/a&gt;) - Django User Model: Past, Present, and Future&lt;/li&gt;
+&lt;li&gt;Willem Van Onsem (&lt;a href=&#34;https://www.django-antipatterns.com/&#34;&gt;website&lt;/a&gt;) - path(&#39;/user/&amp;lt;user.username:user&amp;gt;/&#39;, view_profile)&lt;/li&gt;
+&lt;li&gt;Álvaro Justen (&lt;a href=&#34;https://twitter.com/turicas&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://brasil.io/&#34;&gt;website&lt;/a&gt;) - PostgreSQL Beyond Django: Strategies to Get Max Performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Congratulations to all our speakers!&lt;/p&gt;
+&lt;p&gt;If you’d like to check out these talks and more, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;tickets are still on sale&lt;/a&gt;. Tutorials (sold separately from conference registration) are $199 each, and we will have the schedule for those up soon. We hope to see you in Durham!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Our New DjangoCon US 2024 Brand and Website</title>
+      <link href="https://2024.djangocon.us/news/our-new-djangocon-website/" />
+      <updated>2024-05-16T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/our-new-djangocon-website/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Fully re-built from the ground up, we are pleased to announce our brand new website and branding for DjangoCon US 2024. Every year we refresh our banding to align with our host city, but this year we decided to go a step further and re-boot our website, optimizing for contributor experience.&lt;/p&gt;
+&lt;p&gt;Why now? As noted in our &lt;a href=&#34;https://www.defna.org/announcements/2024/01/12/call-for-proposals-for-djangocon-2024-website/&#34;&gt;CFP&lt;/a&gt;, we had been using and re-skinning the same Jekyll build since 2017, and it had become increasingly cumbersome for contributors to make edits and layout changes. We hired &lt;a href=&#34;https://yupgup.com/&#34;&gt;YupGup&lt;/a&gt; to help us select a new framework, rebuild the front-end markup and CSS, and do a branding refresh. We addressed the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Built in 11ty, a feature-rich static site generator&lt;/li&gt;
+&lt;li&gt;TailwindCSS as our baseline for styles&lt;/li&gt;
+&lt;li&gt;Made it easier to work on the website locally – no ruby needed!&lt;/li&gt;
+&lt;li&gt;Improving the schedule with some UX enhancements.&lt;/li&gt;
+&lt;li&gt;Targeting high 90s Lighthouse scores for v1 website performance&lt;/li&gt;
+&lt;li&gt;Introduced better tools for responsive, optimized images&lt;/li&gt;
+&lt;li&gt;Simplified Markdown-based file formats and data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learn-more-about-our-design&#34; tabindex=&#34;-1&#34;&gt;Learn more about our design&lt;/h2&gt;
+&lt;p&gt;Alongside the tech stuff, we worked closely with Joni Trythall of &lt;a href=&#34;https://yupgup.com/&#34;&gt;YupGup&lt;/a&gt; to bring our second Durham edition to life, aptly named &amp;quot;Durham Doodles&amp;quot;. Here are Joni&#39;s thoughts on our process and direction:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Each year we&#39;ve collaborated with the DjangoCon US team, we kick things off with a group conversation followed by some moodboards. These moodboards are great for getting a high-level feel for a direction without investing too much time into drawing out anything overly detailed or specific. I start with some general directions in mind after our call and set out to explore the internet for screenshots to build cohesive pitches. Once a possible direction is selected, a style tile is produced for review with elements that are much more specific to the project. This enables everyone to confidently select a theme to run with.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/img/blog/durham-mood-board.jpg&#34; alt=&#34;Mood Board&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;While the community is consistently friendly, welcoming, unique, and fun, some new adjectives introduced this year were unexpected, gritty, and artsy. The Cartoon Town theme direction perfectly captures and helps define the spirit of this year&#39;s upcoming event, while celebrating the heart of the community itself but also Durham. You’ll find lots of easter eggs from both throughout the design, from a seemingly misplaced crab down to the color names.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/img/blog/durham-style-tile.jpg&#34; alt=&#34;Style Tile&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A significant part of this design is, of course, the doodles and characters—some new and some old favorites with a new look. Having this library of illustrations to pull from has proven to be especially valuable for these projects. The group can access all these characters and individual parts to assemble social graphics as needed and swag design really falls into place nicely—like lemur t-shirts! While a site&#39;s skeleton can be reused each year, updating these illustrations keeps the experience feeling fresh, energized, and always relevant.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/img/blog/durham-color-scheme.jpg&#34; alt=&#34;Color Scheme&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;learn-more-about-the-site&#34; tabindex=&#34;-1&#34;&gt;Learn more about the site&lt;/h2&gt;
+&lt;p&gt;Considering our website serves as a primary touchpoint for attendees, speakers, sponsors, and other individuals who are curious about us, providing essential information, we took that in to consideration when it came time to design our website. Here&#39;s a closer look at the site in case you&#39;re trying to learn about the conference or looking to contribute to the site.&lt;/p&gt;
+&lt;h3 id=&#34;1.-about-section&#34; tabindex=&#34;-1&#34;&gt;1. About section&lt;/h3&gt;
+&lt;p&gt;Our &lt;strong&gt;About&lt;/strong&gt; section is the heart of your conference website, offering visitors a clear understanding of what the event is all about. This page includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/about/&#34;&gt;About DjangoCon US&lt;/a&gt;:A brief description of the conference, its theme, objectives and history&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tickets/&#34;&gt;Tickets&lt;/a&gt;:Information on tickets, pricing as well as our refund policy&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/faq/&#34;&gt;FAQ&lt;/a&gt;:Information about Tickets, our Schedule, Speakers, Accessibility, Opportunity Grants and Sponsors&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/conduct/&#34;&gt;Code of Conduct&lt;/a&gt;:Information on guidelines that are in place to insure a peaceful and and enjoyable experience&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/public-health/&#34;&gt;Public Health Policy&lt;/a&gt;:Information on DjangoCon US 2024&#39;s public health policy&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/opportunity-grants/&#34;&gt;Opportunity Grants&lt;/a&gt;: Information regarding grants: who can get it and what it means&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/visas/&#34;&gt;Visa Support&lt;/a&gt;: Information for international travelers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/organizers/&#34;&gt;Organizers&lt;/a&gt;: Details about the organizing committee / organization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2.-venue-page&#34; tabindex=&#34;-1&#34;&gt;2. Venue page&lt;/h3&gt;
+&lt;p&gt;Our &lt;a href=&#34;/venue/&#34;&gt;Venue page&lt;/a&gt; highlights all the important information of Durham, North Carolina. It includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Location Details: The exact address of the venue, along with a map for easy navigation&lt;/li&gt;
+&lt;li&gt;Accessibility: Information on how to reach the venue by various modes of transport&lt;/li&gt;
+&lt;li&gt;Accommodation Options: Recommendations for nearby hotels and accommodations&lt;/li&gt;
+&lt;li&gt;Restaurants and local attractions are available in the area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3.-speaking-section&#34; tabindex=&#34;-1&#34;&gt;3. Speaking section&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;Speaking&lt;/strong&gt; section features information for both prospective and selected speakers. If your talk is selected, we highly recommend reviewing the &lt;a href=&#34;/speaking/speaker-resources/&#34;&gt;Speaker Resources&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/speaking/&#34;&gt;Speaking at DjangoCon US&lt;/a&gt;: Information regarding speaking benefits, talk formats, CFP, travel assistance and gear reimbursement&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/speaking/speaker-resources/&#34;&gt;Speaker Resources&lt;/a&gt;: Helpful information and guidelines for your talk and slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4.-sponsors-section&#34; tabindex=&#34;-1&#34;&gt;4. Sponsors section&lt;/h3&gt;
+&lt;p&gt;Sponsors play a crucial role in the success of DjangoCon US. The Sponsors section showcases sponsors on our website acknowledging their support of DjangoCon US and the broader Django community.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/sponsors/&#34;&gt;Our Sponsors&lt;/a&gt;: A list of all sponsors, including their logo, a brief description of their business and a link to their website&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/sponsors/information/&#34;&gt;Sponsorship Prospectus&lt;/a&gt;: Want to sponsor DjangoCon US? Fantastic, check this page out for how to do that and learn about the benefits of sponsoring DjangoCon US&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5.-news-page&#34; tabindex=&#34;-1&#34;&gt;5. News page&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;/news/&#34;&gt;News page&lt;/a&gt; keeps people informed with the latest updates and blog posts. Some examples of what you&#39;ll find there are updates on new speakers, important deadlines, and other critical information.&lt;/p&gt;
+&lt;h2 id=&#34;want-to-contribute%3F&#34; tabindex=&#34;-1&#34;&gt;Want to contribute?&lt;/h2&gt;
+&lt;p&gt;Feel free to take a look around, browse our codebase or &lt;a href=&#34;https://github.com/djangocon/2024.djangocon.us/issues&#34;&gt;file an issue&lt;/a&gt; if you find a bug! As always, everything is done in the open on &lt;a href=&#34;https://github.com/djangocon/2024.djangocon.us&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Early-bird tickets now on sale!</title>
+      <link href="https://2024.djangocon.us/news/early-bird-tickets-on-sale/" />
+      <updated>2024-04-24T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/early-bird-tickets-on-sale/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h2 id=&#34;hey-django-fans!-%F0%9F%91%8B&#34; tabindex=&#34;-1&#34;&gt;Hey Django fans! 👋&lt;/h2&gt;
+&lt;p&gt;Tickets for DjangoCon US 2024 in Durham, NC are now on sale.&lt;/p&gt;
+&lt;p&gt;🐂 &lt;strong&gt;&lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;Buy yours today!&lt;/a&gt;&lt;/strong&gt; 🐂&lt;/p&gt;
+&lt;p&gt;This year we have limited early-bird pricing for individual tickets and corporate tickets. We lowered Individual ticket prices to make the conference more accessible and more affordable so that anyone paying to attend DjangoCon US out of their own pocket can more easily do so.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Early-bird individual: $339 (full price: $499)&lt;/li&gt;
+&lt;li&gt;Early-bird corporate: $699 (full price: $799)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The early-bird pricing will only be available through the month of May.&lt;/strong&gt; Starting June 1st, tickets will be available at their full price.&lt;/p&gt;
+&lt;p&gt;Purchasing your tickets early not only saves you money, but it also helps organizers prepare for the conference. Besides the obvious factors of knowing how many meals to order and what size projector screens we&#39;ll need, it offsets the early payments made to vendors and gives us confidence to enhance and expand the conference experience. If you&#39;re able to commit to attending DjangoCon US early, that&#39;s fantastic. If you need more time, don&#39;t worry; that works for us too.&lt;/p&gt;
+&lt;p&gt;And lastly, if you&#39;re ecstatic about the idea of attending DjangoCon US but need financial assistance to do so, our &lt;a href=&#34;/opportunity-grants/&#34;&gt;Opportunity Grant CFP&lt;/a&gt; is open until April 29th.&lt;/p&gt;
+&lt;p&gt;We can’t wait to see you in Durham!&lt;/p&gt;
+&lt;p&gt;🐂 &lt;strong&gt;&lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;Buy your ticket here!&lt;/a&gt;&lt;/strong&gt; 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Heads Up! End of our Opportunity Grants is coming up!</title>
+      <link href="https://2024.djangocon.us/news/opportunity-grant-last-call/" />
+      <updated>2024-04-22T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/opportunity-grant-last-call/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h2 id=&#34;hey-django-lovers%2C&#34; tabindex=&#34;-1&#34;&gt;Hey Django lovers,&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: The application window has been extended to Monday, April 29th at Noon EDT!&lt;/p&gt;
+&lt;p&gt;Here to remind you that the &lt;a href=&#34;https://2024.djangocon.us/opportunity-grants/&#34;&gt;opportunity grants&lt;/a&gt; will be closing on April 29, 2024 at &lt;a href=&#34;https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes&#34;&gt;12 PM EDT&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you haven&#39;t already applied, make sure to fill the &lt;a href=&#34;https://forms.gle/Pi12J6vFQHq2CSAy5&#34;&gt;opportunity grant application form&lt;/a&gt; soon.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What are opportunity grants?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;They are grants to encourage and facilitate the participation of those who otherwise might not be able to attend the conference. They can be used for conference-related expenses like travel, lodging, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Who will be eligible to receive an opportunity grant?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Anyone, anyone who needs financial support attending our conference.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When will I find out whether I’ve received an opportunity grant?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You will be notified by &lt;strong&gt;June 14, 2024&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If you would like more information on opportunity grants, click &lt;a href=&#34;https://2024.djangocon.us/opportunity-grants/&#34;&gt;here&lt;/a&gt; to go to the grants information page.&lt;/p&gt;
+&lt;p&gt;Happy Scrolling!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Don't Miss Out: Last Call for DjangoCon US 2024 Talk Proposals!</title>
+      <link href="https://2024.djangocon.us/news/cfp-last-call/" />
+      <updated>2024-04-18T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/cfp-last-call/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Hey Django enthusiasts!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: The CFP has been extended to Monday, April 29th at Noon EDT!&lt;/p&gt;
+&lt;p&gt;Have you submitted your talk or tutorial for DjangoCon US 2024, in beautiful Durham, North Carolina, USA?&lt;/p&gt;
+&lt;p&gt;Time flies, and we&#39;re fast approaching the deadline (April 29, 2024 at &lt;a href=&#34;https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes&#34;&gt;12 PM EDT&lt;/a&gt;) for DjangoCon US 2024 &lt;a href=&#34;https://pretalx.com/djangocon-us-2024/cfp&#34;&gt;Call for Proposals (CFP)&lt;/a&gt;. If you&#39;ve been pondering sharing your Django journey, showcasing your innovative projects, or imparting your expertise to fellow developers, now is the perfect moment to seize the opportunity!&lt;/p&gt;
+&lt;p&gt;Here&#39;s why you should take action and submit your proposals before the clock runs out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Share Your Knowledge:&lt;/strong&gt; DjangoCon US isn&#39;t just a conference; it&#39;s a platform for sharing insights, discoveries, and lessons learned. Your unique experiences could be just what someone else needs to overcome a hurdle or spark a new idea.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Join the Community:&lt;/strong&gt; DjangoCon US isn&#39;t just about talks; it&#39;s about building connections. By presenting at the conference, you become an integral part of the vibrant Django community, exchanging ideas, and forging new friendships with like-minded developers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Boost Your Profile:&lt;/strong&gt; Whether you&#39;re a seasoned speaker or a first-time presenter, DjangoCon US offers a valuable opportunity to elevate your profile in the tech industry. Showcase your expertise, gain visibility, and enhance your professional credibility among peers and potential employers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contribute to Diversity:&lt;/strong&gt; DjangoCon US values diversity and inclusion. Your perspective matters, and by sharing your voice, you contribute to creating a more inclusive and representative tech community.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Submitting a proposal is easy! Just head over to the DjangoCon US website, fill out the submission form, and share your compelling idea with us. Whether it&#39;s a deep dive into a technical topic, a case study of your latest project, or a discussion on the future of Django, we want to hear from you.&lt;/p&gt;
+&lt;p&gt;Remember, the deadline for CFP submissions is fast approaching, so don&#39;t wait until the last minute. Take this opportunity to inspire, educate, and connect with your fellow Django enthusiasts at DjangoCon US 2024!&lt;/p&gt;
+&lt;p&gt;See you at the conference!&lt;/p&gt;
+&lt;p&gt;If you have questions feel free &lt;a href=&#34;mailto:hello@djangocon.us&#34;&gt;to contact us&lt;/a&gt;.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Announcing Call for Community Reviewers</title>
+      <link href="https://2024.djangocon.us/news/call-for-community-reviewers/" />
+      <updated>2024-04-08T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/call-for-community-reviewers/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;The &lt;a href=&#34;/speaking/&#34;&gt;call for proposals for DjangoCon US 2024&lt;/a&gt;&lt;br&gt;
+is open, and we would love to have you (yes, you!) help us select our talks and tutorials&lt;br&gt;
+this year. We strive to create a schedule that appeals to the wider community, and the best&lt;br&gt;
+way for us to do that is by having members of said community vote for the talks you’d like&lt;br&gt;
+to see. If you are interested in guiding the 2024 program, this is your chance!&lt;/p&gt;
+&lt;p&gt;We welcome reviewers with all levels of experience, including those who are brand&lt;br&gt;
+new to the community. You don’t need to be a Django expert, a previous reviewer,&lt;br&gt;
+or a frequent DjangoCon US attendee. It takes people of all backgrounds to make&lt;br&gt;
+a program that appeals to everyone!&lt;/p&gt;
+&lt;p&gt;If you are interested in volunteering as a community reviewer, please email&lt;br&gt;
+&lt;a href=&#34;mailto:program@djangocon.us&#34;&gt;program@djangocon.us&lt;/a&gt;. Please note, we can&lt;br&gt;
+only grant access to around 30 community reviewers. We will grant access&lt;br&gt;
+on a first-come, first-served basis.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Call for Volunteers: DjangoCon US 2024</title>
+      <link href="https://2024.djangocon.us/news/call-for-2024-volunteers/" />
+      <updated>2024-04-05T19:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/call-for-2024-volunteers/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Organizing DjangoCon US 2024 has begun! We need organizers to help make DjangoCon US 2024 the best it can be.&lt;/p&gt;
+&lt;p&gt;We have some &lt;a href=&#34;https://djangocon.github.io/djangocon-us-docs/&#34;&gt;documentation about the various roles&lt;/a&gt;, but here&#39;s a quick overview of the teams at DjangoCon US.&lt;/p&gt;
+&lt;p&gt;The DEFNA board will not leave you stranded; we have a lot of documentation to help you on your way, including rough checklists of tasks needed for each team.&lt;/p&gt;
+&lt;p&gt;Ideally, all committees will have a chair and co-chair to allow for one or the other to take vacations, handle day job duties, and so forth. This list is by no means comprehensive, but it should hopefully give you an idea of what each committee is responsible for.&lt;/p&gt;
+&lt;h2 id=&#34;conference-leadership&#34; tabindex=&#34;-1&#34;&gt;Conference Leadership&lt;/h2&gt;
+&lt;p&gt;The conference chair and co-chair lead the conference, including coordinating between teams and making executive decisions (including approaching the DEFNA board when applicable). Expect to be in meetings with the venue and online conference provider, weekly organizer check-ins, monthly reports to the DEFNA board, and lots of questions on Slack. You&#39;ll also lead the volunteer kickoff meetings in early 2024 (ideally mid-to-late January) and recruit organizers as you see fit. You&#39;ll need to recommend an online conference provider to the DEFNA board (might be part of a sponsorship deal).&lt;/p&gt;
+&lt;p&gt;At the conference, you&#39;ll be making speeches at the start of each day and the end-of-conference wrap-up in addition to coordinating setup, teardown, and everything in between.&lt;/p&gt;
+&lt;p&gt;These two roles have the highest time commitment and the most visibility. If you want to help people get things done and get up on stage, these are the roles for you.&lt;/p&gt;
+&lt;h2 id=&#34;program-committee&#34; tabindex=&#34;-1&#34;&gt;Program Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;p&gt;The program committee is responsible for making sure that the schedule of tutorials and talks is the best it can be.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start the call for proposals process (opened in March 2024, closes April 29)&lt;/li&gt;
+&lt;li&gt;Coordinate with the Opportunity Grants team to schedule the opening and closing of the CFP&lt;/li&gt;
+&lt;li&gt;Publish blog posts announcing the CFP, speaker mentors, and speaker resources&lt;/li&gt;
+&lt;li&gt;Recruit keynote speakers (the DEFNA board will offer suggestions, but if you have a message you&#39;d like the keynotes to send, you have lots of latitude here, but keep in mind conference diversity goals)&lt;/li&gt;
+&lt;li&gt;Recruit speaker mentors (start with the 2019, 2021, and 2022 reviewers and bring in more as you like)&lt;/li&gt;
+&lt;li&gt;Review proposals as they come in for anonymization (ideally, recruit one member of the program committee who will not be reviewing talks to do the anonymization before opening talks for review)&lt;/li&gt;
+&lt;li&gt;Recruit talk reviewers (the DEFNA board will send you the 2023 reviewers, but more reviewers are encouraged, especially from diverse backgrounds). There will likely be over 100 submissions, so having more reviewers lessens the load for individual talks&lt;/li&gt;
+&lt;li&gt;Decide on any tweaks to the format (Spanish-language talks? Keep the Deep Dive Day? This is your chance to put your mark on the program)&lt;/li&gt;
+&lt;li&gt;Review talks&lt;/li&gt;
+&lt;li&gt;Once reviews are completed, de-anonymize talks and filter for duplicate speakers, multiple speakers from the same organization, diversity goals, overlapping topics, and more&lt;/li&gt;
+&lt;li&gt;Select the best talks (where &amp;quot;best&amp;quot; is extremely subjective; we have documentation on things we look for in good proposals); you&#39;re not strictly bound to pick the highest scoring talks, so you have some leeway&lt;/li&gt;
+&lt;li&gt;Coordinate with the Opportunity Grants team to send them a list of accepted speakers so they can prioritize them for awards&lt;/li&gt;
+&lt;li&gt;Coordinate with the OG team to notify speakers in waves (ideally completed by July 1)&lt;/li&gt;
+&lt;li&gt;Build a schedule (ideally by July 15)&lt;/li&gt;
+&lt;li&gt;Publish blog posts announcing speakers and keynotes (ideally by August 15)&lt;/li&gt;
+&lt;li&gt;Update schedules based on speakers&#39; needs&lt;/li&gt;
+&lt;li&gt;Coordinate with the DEFNA board to approve reimbursement requests&lt;/li&gt;
+&lt;li&gt;Generate cue sheets for session chairs and speaker mentors&lt;/li&gt;
+&lt;li&gt;Review online talks for Code of Conduct compliance&lt;/li&gt;
+&lt;li&gt;Recruit backup speakers in case of speakers having to back out (visa issues, illness, etc.)&lt;/li&gt;
+&lt;li&gt;Work with the social events team to arrange a speaker appreciation dinner&lt;/li&gt;
+&lt;li&gt;Generate spreadsheets in multiple formats to make other teams&#39; lives easier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with registration desk to make sure that all speakers show up&lt;/li&gt;
+&lt;li&gt;Work with session managers (other organizers) to ensure distribution of cue sheets and speaker gifts&lt;/li&gt;
+&lt;li&gt;Check with tutorial speakers to make sure they have everything they need&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;opportunity-grants-committee&#34; tabindex=&#34;-1&#34;&gt;Opportunity Grants Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2 (plus reviewers)&lt;/p&gt;
+&lt;p&gt;The OG committee is responsible for obtaining grants from the DSF and PSF and awarding grants to people who will best use them, prioritizing speakers, first time attendees, and people from underrepresented and/or historically disadvantaged groups.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-1&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start call for grants process (concurrent with CFP)&lt;/li&gt;
+&lt;li&gt;Publish blog posts announcing the grant process&lt;/li&gt;
+&lt;li&gt;Request grants from the Django Software Foundation and Python Software Foundation (the DEFNA board will help you fill out the forms)&lt;/li&gt;
+&lt;li&gt;Recruit grant reviewers (other organizers and DEFNA members are happy to help)&lt;/li&gt;
+&lt;li&gt;Review submissions&lt;/li&gt;
+&lt;li&gt;Coordinate with the program team about grants to speakers&lt;/li&gt;
+&lt;li&gt;Notify grant recipients in waves (concurrent with program notifications)&lt;/li&gt;
+&lt;li&gt;Communicate with recipients on how to get reimbursed (we&#39;ll have templates)&lt;/li&gt;
+&lt;li&gt;Give DEFNA a list of recipients and amounts&lt;/li&gt;
+&lt;li&gt;Approve reimbursements as requests come in&lt;/li&gt;
+&lt;li&gt;Coordinate with the visa (community) team as needed to approve invitation letter requests&lt;/li&gt;
+&lt;li&gt;Write a transparency report giving a high-level overview of how the grants were awarded&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-1&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Answer questions from grant recipients and the DEFNA board&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;community-team&#34; tabindex=&#34;-1&#34;&gt;Community Team&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-2&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Schedule orientation&lt;/li&gt;
+&lt;li&gt;Arrange childcare and lactation room&lt;/li&gt;
+&lt;li&gt;Coordinate visa applications&lt;/li&gt;
+&lt;li&gt;Improve accessibility of the venue and conference as a whole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-2&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Post-sign-ups for the lactation room and distribute keys as needed&lt;/li&gt;
+&lt;li&gt;Collect receipts for childcare reimbursement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sponsorship-committee&#34; tabindex=&#34;-1&#34;&gt;Sponsorship Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;p&gt;The sponsorship committee recruits sponsors which helps offset the cost of running DCUS.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-3&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Create and announce sponsorship prospectus (we have templates, and DEFNA will help with specifics)&lt;/li&gt;
+&lt;li&gt;Recruit sponsors&lt;/li&gt;
+&lt;li&gt;Coordinate contract signing with DEFNA&lt;/li&gt;
+&lt;li&gt;Consider awarding community sponsorships (non-financial) to other non-profit Python conferences and related communities (local Python meetups near the conference will love the exposure)&lt;/li&gt;
+&lt;li&gt;Coordinate shipping of sponsor swag for the swag bag&lt;/li&gt;
+&lt;li&gt;Lay out sponsor tables (on a venue map)&lt;/li&gt;
+&lt;li&gt;Work with sponsor chair/co-chair to handle sponsor shout-outs if needed&lt;/li&gt;
+&lt;li&gt;Order banners to go behind the speakers on stage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-3&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Direct sponsors to their booths/tables and swag&lt;/li&gt;
+&lt;li&gt;Ensure that booths are reserved for sponsors who have reserved a booth, and are not open for others&lt;/li&gt;
+&lt;li&gt;Field complaints/questions from sponsors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-of-conduct-committee&#34; tabindex=&#34;-1&#34;&gt;Code of Conduct Committee&lt;/h2&gt;
+&lt;p&gt;Size: 4-6&lt;/p&gt;
+&lt;p&gt;The CoC committee suggests improvements to the CoC and investigates reports. This is the heart of the conference because, without the CoC, we wouldn&#39;t have the welcoming environment that we have at DCUS.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-4&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Suggest modifications/improvements to the CoC&lt;/li&gt;
+&lt;li&gt;Assist program committee with pre-conference review of recorded online talks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-4&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Field reports and investigate them, including recommending actions to the DEFNA board&lt;/li&gt;
+&lt;li&gt;Follow up on reports, including conversations with both reporters and those who have been reported, and facilitate the appropriate response&lt;/li&gt;
+&lt;li&gt;Write a CoC transparency report to recap reports (heavily anonymized) and actions taken&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;social-events-committee&#34; tabindex=&#34;-1&#34;&gt;Social Events Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-3&lt;/p&gt;
+&lt;p&gt;The social events committee is responsible for scheduling the &amp;quot;after-hours&amp;quot; events at DCUS to give people chances to socialize and unwind after a long day of talks.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-5&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Find a venue for the speaker appreciation dinner and coordinate contract signing with DEFNA&lt;/li&gt;
+&lt;li&gt;Plan opening reception (if sponsored, this will become a bigger event compared to previous years)&lt;/li&gt;
+&lt;li&gt;Plan any other fun events like board game night&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-5&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with the venue on any work needed for social events&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;venue-committee&#34; tabindex=&#34;-1&#34;&gt;Venue Committee&lt;/h2&gt;
+&lt;p&gt;Size: 1-2&lt;/p&gt;
+&lt;p&gt;The venue committee is responsible for coordinating plans between the other organizing teams and the venue(s).&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-6&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work with the event venue to select and lay out talk, tutorial, and sprint rooms&lt;/li&gt;
+&lt;li&gt;Lay out the extra rooms needed for the conference (lactation room, quiet room, organizers room, speaker green room, lunch/break areas)&lt;/li&gt;
+&lt;li&gt;Work with event venue and DEFNA to select catering menus (and providers if we&#39;re not contractually obligated to use one)&lt;/li&gt;
+&lt;li&gt;Work with the hotel to coordinate room blocks&lt;/li&gt;
+&lt;li&gt;Work with the venue to plan logistics (sponsor gear shipping, signage, etc.)&lt;/li&gt;
+&lt;li&gt;Allocate reward rooms in coordination with the DEFNA board&lt;/li&gt;
+&lt;li&gt;Order supplies for restroom stocking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-6&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Review room guest list against ticket list to claim reward nights&lt;/li&gt;
+&lt;li&gt;Handle any last-minute requests from vendors/sponsors/organizers/etc.&lt;/li&gt;
+&lt;li&gt;Notify venue staff of any needs (bathroom cleanliness, meals to accommodate special diets, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;online-committee&#34; tabindex=&#34;-1&#34;&gt;Online Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-3&lt;/p&gt;
+&lt;h3 id=&#34;during-conference-responsibilities&#34; tabindex=&#34;-1&#34;&gt;During-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Increase online engagement during the conference&lt;/li&gt;
+&lt;li&gt;Investigate online lightning talks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;audio%2Fvideo-(a%2Fv)-committee&#34; tabindex=&#34;-1&#34;&gt;Audio/Video (A/V) Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-3&lt;/p&gt;
+&lt;p&gt;The A/V committee is responsible for making everything look good. They handle coordination between the on-site crew, the online streaming platform, and the post-conference processing teams and upload the results to YouTube after the conference.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-7&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Select on-site video production crew&lt;/li&gt;
+&lt;li&gt;Select post-conference processing crew&lt;/li&gt;
+&lt;li&gt;Coordinate both of the above teams with the online platform&lt;/li&gt;
+&lt;li&gt;Work with the venue team to ensure high-speed wired internet access to the on-site video crew&lt;/li&gt;
+&lt;li&gt;Transfer pre-recorded talks to the post-conference processing crew and then the online conference provider&lt;/li&gt;
+&lt;li&gt;Procure a wide variety of dongles for presenters to hook their laptops up to the projectors&lt;/li&gt;
+&lt;li&gt;Procure projectors and screens if the venue doesn&#39;t already have them, including one for the green room so speakers can test their setup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-7&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Help on-site crew set up equipment and ensure streaming works&lt;/li&gt;
+&lt;li&gt;Get dongles to the right rooms as needed&lt;/li&gt;
+&lt;li&gt;Help keynote speakers get presentation mode working if needed&lt;/li&gt;
+&lt;li&gt;Answer lots and lots of questions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;swag-committee&#34; tabindex=&#34;-1&#34;&gt;Swag Committee&lt;/h2&gt;
+&lt;p&gt;Size: 1-2&lt;/p&gt;
+&lt;p&gt;The swag committee is responsible for everything speakers and attendees take home from the conference (aside from knowledge!).&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-8&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Design and order attendee t-shirts (with sponsor logos)&lt;/li&gt;
+&lt;li&gt;Design and order swag bags (with sponsor logos)&lt;/li&gt;
+&lt;li&gt;Design and order speaker gifts&lt;/li&gt;
+&lt;li&gt;Design and order DCUS-branded swag (stickers/magnets/etc.)&lt;/li&gt;
+&lt;li&gt;Order masks and COVID tests (if needed)&lt;/li&gt;
+&lt;li&gt;Order lanyards, badges, and badge flags&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-8&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Recruit volunteers to stuff swag bags on Sunday afternoon&lt;/li&gt;
+&lt;li&gt;Get T-shirts and swag bags to the registration desk&lt;/li&gt;
+&lt;li&gt;Get speaker gifts to the program team for distribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;volunteer-committee&#34; tabindex=&#34;-1&#34;&gt;Volunteer Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2&lt;/p&gt;
+&lt;p&gt;The volunteer committee is responsible for cultivating new volunteers, who can become organizers in future years.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-9&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Determine what roles need on-site volunteer support (session chairs, session managers, registration desk, etc.)&lt;/li&gt;
+&lt;li&gt;Set up sign-up for on-site volunteers and online volunteers (moderators/cheerleaders)&lt;/li&gt;
+&lt;li&gt;Draft announcements for calls for volunteers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-9&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tell volunteers where to go&lt;/li&gt;
+&lt;li&gt;Give volunteers tools to succeed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;communications-committee&#34; tabindex=&#34;-1&#34;&gt;Communications Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;p&gt;The communications committee is responsible for getting the word out about DCUS.&lt;/p&gt;
+&lt;p&gt;This team manages the various DCUS social network feeds, including Twitter, Mastodon, Bluesky, Instagram, LinkedIn, and more. This team also edits and posts blogs on the DCUS main page and coordinates bulk emails to ticketholders to remind them about the conference as it approaches.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-10&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Publish announcements and reminders on social media, the conference blog, and more (Django News, Python Community News, etc.)&lt;/li&gt;
+&lt;li&gt;Send a copy to the Django Software Foundation to get major news events on the Django blog&lt;/li&gt;
+&lt;li&gt;Review, edit, and suggest copy for the other teams&#39; announcements&lt;/li&gt;
+&lt;li&gt;Tweet. Lots of tweeting.&lt;/li&gt;
+&lt;li&gt;Select an &amp;quot;official emoji&amp;quot; for the conference (typically suggested by the design package for the year&#39;s website)&lt;/li&gt;
+&lt;li&gt;Boost and retweet speakers and organizers talking about the conference&lt;/li&gt;
+&lt;li&gt;Schedule tweets announcing talks and events&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-10&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pay attention to the &lt;code&gt;#djangocon&lt;/code&gt; topic on social media and mentions to &lt;code&gt;@djangocon&lt;/code&gt; on various social networks&lt;/li&gt;
+&lt;li&gt;Boost speakers and organizers&lt;/li&gt;
+&lt;li&gt;Answer questions as they come up&lt;/li&gt;
+&lt;li&gt;Run the &lt;code&gt;#help-desk&lt;/code&gt; channel on the conference attendee slack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;website-committee&#34; tabindex=&#34;-1&#34;&gt;Website Committee&lt;/h2&gt;
+&lt;p&gt;Size: 2-3&lt;/p&gt;
+&lt;p&gt;The website committee is responsible for updating the website as the conference transitions through phases (CFP coming soon, CFP open, CFP closed, schedule released, hotel block closed, conference over, etc.), reviewing pull requests, and adding content (e.g. new sponsors). This requires the most coding of any team aside from maybe the program team.&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-11&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update static pages for CFP status&lt;/li&gt;
+&lt;li&gt;Update static pages for venue information&lt;/li&gt;
+&lt;li&gt;Review pull requests from other teams&lt;/li&gt;
+&lt;li&gt;Add sponsors as directed by the sponsorship team&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;automation-team&#34; tabindex=&#34;-1&#34;&gt;Automation Team&lt;/h2&gt;
+&lt;p&gt;This team is more free-flowing and writes scripts to make teams&#39; lives easier. Responsibilities vary based on the year, and if you have ideas for special projects for the future, have at it!&lt;/p&gt;
+&lt;h2 id=&#34;sprints-team&#34; tabindex=&#34;-1&#34;&gt;Sprints Team&lt;/h2&gt;
+&lt;p&gt;Size: 2-4&lt;/p&gt;
+&lt;h3 id=&#34;pre-conference-responsibilities-12&#34; tabindex=&#34;-1&#34;&gt;Pre-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Write blog posts announcing sprints&lt;/li&gt;
+&lt;li&gt;Invite people to launch special sessions (e.g. Carlton&#39;s &lt;a href=&#34;https://2022.djangocon.us/sprints/getting-started-contributing-to-django/&#34;&gt;&amp;quot;Getting Started Contributing to Django&amp;quot;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ensure we have signage and power equipment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;at-conference-responsibilities-11&#34; tabindex=&#34;-1&#34;&gt;At-conference responsibilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Coordinate help desk&lt;/li&gt;
+&lt;li&gt;Direct people to lunches and breaks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wrap-up&#34; tabindex=&#34;-1&#34;&gt;Wrap-up&lt;/h2&gt;
+&lt;p&gt;To sign up for any of the teams (or just say &amp;quot;Put me to work&amp;quot;), send an email to &lt;a href=&#34;mailto:hello@djangocon.us&#34;&gt;hello@djangocon.us&lt;/a&gt; and we&#39;ll add you to our organizer Slack instance and invite you to our fortnightly organizer catch-up meetings. We would love to have you! You do not have to have previous organizing experience (although we might prefer it for some of the leadership roles).&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>What are the Benefits of Speaking at DjangoCon US?</title>
+      <link href="https://2024.djangocon.us/news/benefits-of-speaking-djangocon/" />
+      <updated>2024-04-04T12:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/benefits-of-speaking-djangocon/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;The DjangoCon US team would like to make sure you are aware of some of the benefits of giving a talk at DjangoCon US 2024.&lt;/p&gt;
+&lt;h2 id=&#34;benefits-you-will-receive-for-being-a-presenter%3A&#34; tabindex=&#34;-1&#34;&gt;Benefits you will receive for being a presenter:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;FREE! Ticket to DjancoCon US 2024.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Up to $500 in travel cost reimbursement!&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A professionally produced video of your talk will be published on our YouTube channel.&lt;/strong&gt; (You may opt out of this.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Professional photographer on hand to photograph your talk.&lt;/strong&gt; (Also optional.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;still-on-the-fence-deciding-if-you-want-to-give-a-talk-or-not%3F&#34; tabindex=&#34;-1&#34;&gt;Still on the fence deciding if you want to give a talk or not?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Building your reputation:&lt;/strong&gt; Presenting at DjangoCon US can establish you as an expert in the Django community, raising your profile and building your reputation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Networking:&lt;/strong&gt; Speaking at DjangoCon US provides an opportunity to connect with other developers, designers, and enthusiasts in the Django community, allowing you to expand your network and make new connections.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Career advancement:&lt;/strong&gt; Speaking at DjangoCon US can help you advance your career by demonstrating your knowledge and expertise, which can lead to new job opportunities or promotions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feedback and learning:&lt;/strong&gt; Presenting at DjangoCon US gives you the opportunity to receive feedback from your peers, which helps you improve your skills and knowledge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Giving back to the community:&lt;/strong&gt; By sharing your knowledge and experience with others at DjangoCon US, you are contributing to the growth and development of the Django community, which is a rewarding experience in itself.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Travel and conference experience:&lt;/strong&gt; Speaking at DjangoCon US includes travel to interesting locations, attending the conference to learn from other presenters, and give you a valuable conference experience that broadens your horizons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;need-topic-ideas%3F&#34; tabindex=&#34;-1&#34;&gt;Need Topic Ideas?&lt;/h2&gt;
+&lt;p&gt;We&#39;ve had organizers create lists of talk ideas they&#39;d like to see:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://katherinemichel.github.io/portfolio/djangocon-us-2024-topics-inspiration-list.html&#34;&gt;Kati&#39;s list&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://winstel.dev/2024/03/01/talk-ideas-for-dcus-24/&#34;&gt;Drew&#39;s list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;all-right%2C-you&#39;ve-convinced-me.-how-do-i-submit%3F&#34; tabindex=&#34;-1&#34;&gt;All right, you&#39;ve convinced me. How do I submit?&lt;/h2&gt;
+&lt;p&gt;Go to the &lt;a href=&#34;/speaking/&#34;&gt;Speaking page&lt;/a&gt; to see all the details.&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>The Call for Proposals for DjangoCon US 2024 Is Now Open!</title>
+      <link href="https://2024.djangocon.us/news/announcing-call-for-proposals/" />
+      <updated>2024-03-09T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/announcing-call-for-proposals/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We are excited that DjangoCon US 2024 is now open for talk submissions: &lt;a href=&#34;https://pretalx.com/djangocon-us-2024/cfp&#34;&gt;call for proposals&lt;/a&gt;! The deadline for submissions is April 24th, 2024 at &lt;a href=&#34;https://time.is/1200PM_24_April_2024_in_Durham,_United_States?DjangoCon_US_CFP_Closes&#34;&gt;Noon EDT&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We invite you to submit your proposal no matter your background or experience level with Django. Proposals can be from a wide range of topics; non-Django and community topics are welcome. You can look at our &lt;a href=&#34;https://2023.djangocon.us/talks/&#34;&gt;talk schedule&lt;/a&gt; from last year for reference.&lt;/p&gt;
+&lt;p&gt;We fancy first-timers! If you haven’t spoken at a conference or given a tutorial before, this is your invitation to do so. Don’t let the idea that you’re not famous or an expert stop you from submitting. It certainly won’t stop us from selecting your talk or tutorial and it won’t stop the audience from enjoying it! Please contact one of our amazing &lt;a href=&#34;https://2024.djangocon.us/speaking/speaker-resources/&#34;&gt;speaker mentors&lt;/a&gt; to help you on your way.&lt;/p&gt;
+&lt;p&gt;Plus there are perks! Presenters get free admission to DjangoCon US! Grants to assist with your travel and lodging expenses are available as well. Fill out the &lt;a href=&#34;https://forms.gle/Pi12J6vFQHq2CSAy5&#34;&gt;Opportunity Grants&lt;/a&gt; form by April 24th, 2024. Decision notifications will be sent by June 14, 2024.&lt;/p&gt;
+&lt;p&gt;For more information on talk and tutorial formats, please check out our &lt;a href=&#34;https://2024.djangocon.us/speaking/&#34;&gt;speaker information page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We want everyone attending DjangoCon US to feel safe, welcome, and included. To that end, we have a &lt;a href=&#34;https://2024.djangocon.us/conduct/&#34;&gt;Code of Conduct&lt;/a&gt; for all speakers and attendees.&lt;/p&gt;
+&lt;p&gt;If you have questions feel free &lt;a href=&#34;mailto:hello@djangocon.us&#34;&gt;to contact us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We look forward to your proposals!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Code, test, ship it! DjangoCon US 2024 has been announced!</title>
+      <link href="https://2024.djangocon.us/news/announcing-djangocon-us-2024/" />
+      <updated>2024-01-17T05:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/announcing-djangocon-us-2024/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Hello everyone, we have our dates! September 22nd-27th.&lt;/p&gt;
+&lt;p&gt;The conference will have tutorials on Sunday, September 22nd, talks from Monday, September 23rd through Wednesday, September 25th, and sprints on Thursday and Friday, September 26th and 27th, 2024.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 22: Tutorials (Additional fee)&lt;/li&gt;
+&lt;li&gt;September 23-25: Talks&lt;/li&gt;
+&lt;li&gt;September 26-27: Sprints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This year, our venue will again be the Durham Convention Center in Durham, NC.&lt;/p&gt;
+&lt;p&gt;Please start getting your submissions for talks and tutorials ready. We will be posting updates when our Opportunity Grants and speaking CFP open.&lt;br&gt;
+We look forward to seeing everyone for another great year at DjangoCon US!&lt;/p&gt;
+&lt;p&gt;Keep in touch on &lt;a href=&#34;https://twitter.com/djangocon&#34;&gt;Twitter/X&lt;/a&gt; or &lt;a href=&#34;https://fosstodon.org/@djangocon&#34;&gt;Mastodon&lt;/a&gt; for more announcements along the way!&lt;/p&gt;
+&lt;p&gt;DjangoCon US Organizers 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
+</feed>
