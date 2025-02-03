@@ -1,5 +1,5 @@
 {
-  "name": "durham.djangocon.us",
+  "name": "2025.djangocon.us",
   "version": "1.0.0",
   "description": "DjangoCon.us conference website built on 11ty",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/djangocon/durham.djangocon.us.git"
+    "url": "git+ssh://git@github.com/djangocon/2025.djangocon.us.git"
   },
   "keywords": [
     "django",
@@ -27,9 +27,9 @@
   ],
   "author": "DEFNA",
   "bugs": {
-    "url": "https://github.com/djangocon/2024.djangocon.us/issues"
+    "url": "https://github.com/djangocon/2025.djangocon.us/issues"
   },
-  "homepage": "https://github.com/djangocon/2024.djangocon.us#README",
+  "homepage": "https://github.com/djangocon/2025.djangocon.us#README",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^4.0.2",
