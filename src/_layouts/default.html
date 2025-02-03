@@ -18,10 +18,12 @@
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
+  {% comment %}
   {% block social_images %}
     <meta property="og:image" content="{{ site.domain }}/assets/img/social/og-share.jpg" />
     <meta property="twitter:image" content="{{ site.domain }}/assets/img/social/share.png" />
   {% endblock %}
+  {% endcomment %}
 
   <meta property="twitter:title" content="{{ title }}" />
   <meta name="twitter:site" content="@djangocon" />
