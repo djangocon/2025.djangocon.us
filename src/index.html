@@ -1,0 +1,46 @@
+---
+layout: default
+
+title: Welcome to DjangoCon US 2024
+
+## Archived version of homepage
+
+# Featured talks (talks only). Max 6.
+featured_session_slugs:
+  - keynote-sheena-oconnell
+  - keynote-mario-munoz
+  - keynote-natalia-bidart
+  - a-brief-history-of-django
+  - an-opinionated-guide-to-modern-django-forms
+  - django-the-web-framework-that-changed-my-life
+
+
+# Any number of featured photos. No maxiumum.
+# Desktop this looks like a 3x3 grid, with 2 on the first row.
+# Best to use (3*n + 2) photos.
+# featured_photos:
+#  - src: /assets/img/2024/54089368503_6d978c30af_c.jpg
+#    alt: Board game night at DjangoCon US 2024
+---
+
+
+{% block nav %}{% endblock %}
+{% if site.phase == "landing" %}
+  {% comment %}
+    The conference site is not ready
+  {% endcomment %}
+
+  {% include 'home/landing-conf-home.html' %}
+{% elsif site.phase == "archived" %}
+  {% comment %}
+    The conference is over
+  {% endcomment %}
+
+  {% include 'home/archived-conf-home.html' %}
+{% else %}
+  {% comment %}
+    The conference site is fully live
+  {% endcomment %}
+
+  {% include 'home/active-conf-home.html' %}
+{% endif %}
