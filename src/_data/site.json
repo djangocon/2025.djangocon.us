@@ -28,7 +28,8 @@
     "twitter": "https://x.com/djangocon",
     "x": "https://x.com/djangocon",
     "facebook": "https://www.facebook.com/djangoconus/",
-    "instagram": "https://www.instagram.com/djangocon/"
+    "instagram": "https://www.instagram.com/djangocon/",
+    "bluesky": "https://bsky.app/profile/djangocon.us/"
   },
 
   "sponsorsOrder": [
