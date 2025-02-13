@@ -12,6 +12,30 @@
         <strong>September 8-12th, 2025</strong>
       </p>
 
+      <div class="space-y-8">
+        <section>
+          <h2 class="mb-4 text-2xl font-bold font-heading lg:text-4xl">Latest News</h2>
+
+          <ol class="divide-y" reversed>
+            {%- for post in collections.posts reversed -%}
+              {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+                {% if forloop.index0 < 3 %}
+                  <li>
+                    <article class="py-4">
+                      <time
+                        class="mb-2 text-sm tracking-wide text-gray-600 uppercase"
+                        datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
+                      <h3 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h3>
+                    </article>
+                  </li>
+                {% endif %}
+              {% endunless %}
+            {%- endfor -%}
+          </ol>
+
+          <a class="button" href="/news/">Read more news</a>
+        </section>
+
       <p class="flex flex-wrap justify-center my-6 gap-4">
         <a href="{{ site.mailing_list }}" class="button ">Mailing list for updates</a>
         <a href="{{ site.social.mastodon }}" class="button">Follow us on Mastodon</a>
