@@ -1,5 +1,5 @@
 ---
-author: communications Team
+author: Communications Team
 category: General
 published_datetime: 2025-03-04 06:00:00
 cover:
