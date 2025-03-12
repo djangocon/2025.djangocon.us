@@ -8,7 +8,7 @@ cover:
 title: "The Call for Proposals for DjangoCon US 2025 Is Now Open!"
 ---
 
-We are excited that DjangoCon US 2025 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-us-2025/cfp)! The deadline for submissions is April 27th, 2025 at [Noon CST](https://time.is/1200PM_27_April_2025_in_Chicago?DjangoCon_US_CFP_Closes).
+We are excited that DjangoCon US 2025 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-us-2025/cfp)! The deadline for submissions is April 27th, 2025 at [Noon CDT](https://time.is/1200PM_27_April_2025_in_Chicago?DjangoCon_US_CFP_Closes).
 
 <!-- excerpt -->
 
