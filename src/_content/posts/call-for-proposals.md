@@ -22,6 +22,6 @@ For more information on talk and tutorial formats, please check out our [speaker
 
 We want everyone attending DjangoCon US to feel safe, welcome, and included. To that end, we have a [Code of Conduct](https://2025.djangocon.us/conduct/) for all speakers and attendees.
 
-If you have questions feel free [to contact us](mailto:hello@djangocon.us).
+If you have questions, feel free to [contact us](mailto:hello@djangocon.us).
 
 We are excited to see your proposals and can’t wait to see you in Chicago!
