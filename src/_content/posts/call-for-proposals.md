@@ -4,7 +4,7 @@ category: General
 published_datetime: 2025-03-04 06:00:00
 cover:
     url: /assets/img/2025/54089577525_de6f9bcb72_w.jpg
-    alt: "Sheena O'Connel speaking at DjangoCon US 2024"
+    alt: "Sheena O'Connell speaking at DjangoCon US 2024"
 title: "The Call for Proposals for DjangoCon US 2025 Is Now Open!"
 ---
 
