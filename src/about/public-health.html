@@ -3,35 +3,38 @@ layout: default
 
 title: Public Health Policy
 description: |
-  DjangoCon US 2024's public health policy includes required testing and a mask recommendation.
+  DjangoCon US 2025's public health policy includes required testing and a mask recommendation.
 
 permalink: /public-health/
 redirect_from: /covid/
 ---
 
-<div class="block-container">
+<!-- <div class="block-container">
   <div class="wrapper">
     <header class="flex flex-wrap items-center gap-8 lg:gap-16">
       <img
-        src="/assets/img/theme/graphics/health.svg"
-        alt="Doctor's bag"
-        class="hidden w-full max-w-80 md:block" />
+        src="/assets/img/theme/graphics/coc.svg"
+        alt="A code of conduct document"
+        class="hidden w-full max-w-40 md:block" />
       <div class="flex-1 max-w-screen-lg">
         <h1 class="mb-8 pageheading">{{ title }}</h1>
         <p class="subheading">
-          DjangoCon US 2024's public health policy includes required testing and a mask recommendation.
+          DjangoCon US 2025's public health policy includes required testing and a mask recommendation.
         </p>
       </div>
     </header>
   </div>
-</div>
+</div> -->
 
-<div class="bg-gray-100 block-container">
+<div class=" block-container">
   <div class="wrapper">
-    <div class="grid-1-2">
-      <div class="prose lg:prose-lg">
+      <div class="prose lg:prose-lg mx-auto">
+        <h1 class="mb-8 pageheading">{{ title }}</h1>
+
 {% markdown %}
-## Public Health Policy
+In light of ongoing health considerations, this year the DjangoCon US Public Health Policy highly encourages all attendees to wear masks throughout the conference spaces where distancing cannot be maintained and expect voluntary testing by attendees.
+
+Although our masking standard is relaxed compared to our 2024 event, we expect that all attendees respect those who choose to wear a mask and their boundaries.
 
 In order to keep conference attendees safe, DjangoCon US will require proof of a negative COVID test. We ask that people test again before sprints begin on Thursday. We strongly recommend that people wear a mask and have the latest vaccination boosters. If you are not familiar, we suggest you check out the [CDC's Travel guidelines to stay safe](https://wwwnc.cdc.gov/travel/diseases/covid19).
 
@@ -49,7 +52,7 @@ DjangoCon US reserves the right to increase the requirements of this policy base
 {% endmarkdown %}
       </div>
 
-      <section class="relative flex flex-col self-start p-6 prose bg-white lg:prose-lg lg:pt-10 card-effect-3">
+      <!-- <section class="relative flex flex-col self-start p-6 prose bg-white lg:prose-lg lg:pt-10 card-effect-3">
 {% markdown %}
 ## TLDR: A short-version of the policy is as follows:
 
@@ -61,8 +64,7 @@ DjangoCon US reserves the right to increase the requirements of this policy base
 -   [$50 PPE reimbursement](mailto:{{site.contact_us_email}}) for higher filtration PPE you acquire yourself (i.e. reusable respirators, etc)
 -   DjangoCon US reserves the right to make the policy more restrictive based on COVID-19 numbers
 {% endmarkdown %}
-      </section>
-    </div>
+      </section> -->
   </div>
 </div>
 
@@ -96,9 +98,9 @@ If you have taken a test 24 hours within the start of the conference, you do not
 </div>
 {% endcomment %}
 
-<div class="py-20 lg:py-24 bg-blue">
+<div class="py-6">
   <div class="flex flex-col items-center justify-center gap-4 wrapper">
-    <h2 class="subheading">Questions about our Public Health Policy?</h2>
+    <p class="subheading text-2xl">Questions about our Public Health Policy?</p>
     <a href="mailto:{{site.contact_us_email}}" class="button">Email the organizers</a>
   </div>
 </div>
