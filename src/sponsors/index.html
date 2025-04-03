@@ -1,28 +1,38 @@
 ---
-title: Sponsors
+title: Sponsorship
 layout: default
 ---
 
-<div class="block-container">
-  <div class="wrapper">
-    <header class="flex flex-wrap items-center gap-8 lg:gap-16">
-      <img
-        src="/assets/img/theme/graphics/sponsor.svg"
-        alt="The words 'Thank you'"
-        class="hidden w-full max-w-80 md:block" />
-      <div class="flex-1 max-w-screen-lg">
-        <h1 class="mb-4 pageheading">{{ title }}</h1>
-        <p class="lead">DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for five days. Thank you for your support!</p>
-      </div>
-    </header>
-  </div>
+
+<div class="pt-0 block-container">
+  <div class="wrapper my-8">
+    
+    <div class="prose lg:prose-lg mx-auto">
+      <h1 class="mb-8 pageheading">{{ title }}</h1>
+{% markdown %}
+
+DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for five days. Thank you for your support!
+
+Download our sponsorship prospectus for more information on how you can support DjangoCon US 2025.
+
+{% endmarkdown %}
+
+
+<div class="flex flex-wrap gap-4 align-center">
+  <a href="{{ site.sponsorship_prospectus }}" class="button bg-orange">Download Sponsorship Prospectus</a>
+  <a href="mailto:sponsors@djangocon.us" class="button">Get in touch</a>
 </div>
+
+    </div>
+  </div>
+
+
 
 {% for level in collections.sponsorsByLevel %}
 <div class="py-6">
   <div class="flex flex-col justify-center wrapper">
     <h2 class="flex items-center bg-sep">
-      <span class="px-8 py-2 mx-auto text-xl font-bold text-blue-700 bg-gray-200 rounded font-heading">{{ level[0] }}</span>
+      <span class="px-8 py-2 mx-auto text-xl font-bold text-teal-700 bg-gray-200 rounded font-heading">{{ level[0] }}</span>
     </h2>
 
     <ul class="divide-y divide-gray-100">
@@ -69,7 +79,7 @@ layout: default
                 </div>
               {% endif %}
               {% if sponsor.data.hiring_url %}
-                <a href="{{ sponsor.data.hiring_url }}" class="badge badge-blue">
+                <a href="{{ sponsor.data.hiring_url }}" class="badge badge-teal">
                   <span class="text-xl">🌟</span> {{ sponsor.data.name }} is hiring!</a>
               {% endif %}
             </div>

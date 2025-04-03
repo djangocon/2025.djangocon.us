@@ -20,7 +20,7 @@ title: Announcing Our DjangoCon US 2024 Talks!
 
 We are delighted to present our tutorial and talk lineup!
 
-The final talk and tutorial schedule will be announced soon. If you haven’t purchased your ticket yet, [they’re still on sale]({{site.ticket_link}}).
+The final talk and tutorial schedule will be announced soon. If you haven't purchased your ticket yet, [they're still on sale]({{site.ticket_link}}).
 
 Congratulations to the presenters of the tutorials and talks below!
 """
@@ -28,7 +28,7 @@ Congratulations to the presenters of the tutorials and talks below!
 FOOTER = """
 Congratulations to all our speakers!
 
-If you’d like to check out these talks and more, [tickets are still on sale]({{site.ticket_link}}).
+If you'd like to check out these talks and more, [tickets are still on sale]({{site.ticket_link}}).
 Tutorials (sold separately from conference registration) are $195 each, and we will have the schedule
 for those up soon. We hope to see you in Durham!
 """

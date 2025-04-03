@@ -76,7 +76,7 @@ or otherwise create a sexualized environment.
 - Harassment of any participants in any form
 - Deliberate intimidation, stalking, or following
 - Logging or taking screenshots of online activity for harassment purposes
-- Publishing others’ private information, such as a physical or electronic address, without explicit permission
+- Publishing others' private information, such as a physical or electronic address, without explicit permission
 - Violent threats or language directed against another person
 - Incitement of violence or harassment towards any individual, including encouraging a person to commit suicide or to engage in self-harm
 - Creating additional online accounts in order to harass another person or circumvent a ban

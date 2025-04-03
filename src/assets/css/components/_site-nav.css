@@ -11,11 +11,11 @@
 }
 
 .site-nav a:not(.button):hover {
-  @apply text-purple underline;
+  @apply text-teal underline;
 }
 
 .site-nav-menu {
-  @apply flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-purple lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[26ch] lg:p-6 rounded font-medium;
+  @apply flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-teal lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[26ch] lg:p-6 rounded font-medium;
 }
 
 [data-menu-trigger] {
@@ -23,8 +23,8 @@
 }
 
 [data-menu-trigger]::after {
-  @apply block w-5 h-5;
-  @apply bg-purple;
+  @apply block w-4 h-4;
+  @apply bg-teal-500;
 
   mask: url('/assets/img/theme/icons/Triangle.svg');
   mask-size: cover;
