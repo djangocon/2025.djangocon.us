@@ -36,12 +36,101 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
+  
+    <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-teal">Skip to main content</a>
+    <header id="SiteHeader" class="fixed top-0 z-40 w-full py-6 bg-white lg:py-6 lg:relative">
+      <div class="wrapper">
+        <nav class="flex flex-wrap" role="navigation">
+          <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
+            <a
+              href="/"
+              aria-label="Go to homepage">
+              <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
+            </a>
+            <button id="NavToggler" class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+          </div>
+
+          <ul class="hidden site-nav lg:flex">
+  <li class="lg:hidden"><a href="/">Home</a></li>
+  <li>
+    <a href="/about"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">About</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
+      <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" role="menuitem">Tickets</a></li>
+      <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
+      <li><a href="/public-health/" role="menuitem">Public Health</a></li>
+      <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
+      <li><a href="/visas/" role="menuitem">Visa Support</a></li>
+      <li><a href="/faq/" role="menuitem">FAQ</a></li>
+      <!-- <li><a href="/hackathon/" role="menuitem">Hackathon</a></li> -->
+      <!-- <li><a href="/organizers/" role="menuitem">Organizers</a></li> -->
+    </ul>
+  </li>
+  <!-- <li><a href="/schedule/">Schedule</a></li> -->
+  <!-- <li><a href="/venue/"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">Venue</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/venue/#welcome">Welcome to Durham!</a></li>
+      <li><a href="/venue/#hotel">Staying in Durham</a></li>
+      <li><a href="/venue/#places">Around Durham</a></li>
+      <li><a href="/venue/#accessibility">Accessibility</a></li>
+      <li><a href="/room-sharing/" role="menuitem">Room Sharing</a></li>
+    </ul>
+  </li> -->
+  <li>
+    <a href="/speaking/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Speaking</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/speaking/" role="menuitem">Speaking at DjangoCon US</a></li>
+      <li><a href="https://pretalx.com/djangocon-us-2025/cfp" target="_blank" role="menuitem">Submit a Proposal</a></li>
+      <li><a href="/speaking/speaker-resources/"  role="menuitem">Speaker Resources</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="/sponsors/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Sponsors</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/sponsors/" role="menuitem">Our Sponsors</a></li>
+      <li><a href="https://drive.google.com/file/d/1VCLBvvEu2erQ3_k0f_Ldpo-8alKw_4BR/view?usp=sharing" target="_blank" role="menuitem">Sponsorship Prospectus</a></li>
+    </ul>
+  </li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" class="button">Buy Tickets</a></li>
+</ul>
+
+        </nav>
+      </div>
+    </header>
   
 
   <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
@@ -252,16 +341,16 @@
       <div class="mt-8 prose lg:prose-lg">
         <h4 id="t-shirts-included-in-gold-tier-">T-Shirts! Included in Gold Tier +</h4>
 
-        <p>Sign your sponsorship contract and pay your invoice by July 15, 2024 to get your logo on our conference t-shirts for all sponsors Gold and up!*
+        <p>Sign your sponsorship contract and pay your invoice by July 15, 2025 to get your logo on our conference t-shirts for all sponsors Gold and up!*
           <br />T-shirts are distributed at the conference for in-person attendees to wear at no cost to them. Online attendees will be able to purchase the t-shirt to have it delivered to them from a distributor. Logos will likely be screen printed with a single-color.</p>
 
         <h4 id="opening-party--10000-14000">Opening Party – $10,000-$14,000</h4>
 
-        <p>This can be very customized. Sponsoring the opening party is a great way to introduce yourself to our attendees in a fun, lighthearted environment outside the main conference. We’ll help you coordinate logistics and get the word out about your company!</p>
+        <p>This can be very customized. Sponsoring the opening party is a great way to introduce yourself to our attendees in a fun, lighthearted environment outside the main conference. We'll help you coordinate logistics and get the word out about your company!</p>
 
         <h4 id="lanyard--silver-tier-minimum--3500">Lanyard – <em>Gold Tier Minimum</em> – $3,500</h4>
 
-        <p>The lanyard sponsor’s logo will appear on the badge lanyards that attendees wear at the conference (and thus in all photos).</p>
+        <p>The lanyard sponsor's logo will appear on the badge lanyards that attendees wear at the conference (and thus in all photos).</p>
 
         <h4 id="tote-bag--silver-tier-minimum--1500">Tote Bag – <em>Silver Tier Minimum</em> – $1,500</h4>
 
@@ -269,7 +358,7 @@
 
         <h4 id="refreshments--bronze-tier-minimum--2000">Coffee Sponsor or Similar - $4,000+</h4>
 
-        <p>Display your company’s name and logo on the break tables next to the coffee, and let us thank you! This add-on is potentially open to multiple sponsors in the Bronze Tier or higher.</p>
+        <p>Display your company's name and logo on the break tables next to the coffee, and let us thank you! This add-on is potentially open to multiple sponsors in the Bronze Tier or higher.</p>
 
         <h4 id="invitation-sponsor--bronze-tier-minimum--3000">Invitation Sponsor – <em>Bronze Tier Minimum</em> – $3,000</h4>
 
@@ -281,11 +370,11 @@
 
         <h4 id="need-a-custom-sponsorship-package">Need a custom sponsorship package?</h4>
 
-        <p>We’ve helped sponsors host luncheons, throw parties, and add opportunity grant sponsorship and other perks to existing packages.</p>
+        <p>We've helped sponsors host luncheons, throw parties, and add opportunity grant sponsorship and other perks to existing packages.</p>
 
-        <p>Whether you’re joining us in Durham or supporting us from afar, please consider sponsoring DjangoCon US 2024.</p>
+        <p>Whether you're joining us in Durham or supporting us from afar, please consider sponsoring DjangoCon US 2025.</p>
 
-        <p>We can’t do it without you and hope to see you there!</p>
+        <p>We can't do it without you and hope to see you there!</p>
 
         <p><a href="mailto:sponsors@djangocon.us" class="button">Contact Us Today</a></p>
       </div>
@@ -294,8 +383,8 @@
 </div>
 </main>
 
-  <footer id="SiteFooter" class="py-20 bg-white opacity-75 border-t-4 border-blue-200">
-    <div class="container mx-auto ">
+  <footer id="SiteFooter" class="py-20">
+    <div class="container mx-auto">
       <div class="grid gap-8 px-4 place-items-center">
         <ul class="flex flex-wrap gap-8">
   <li>

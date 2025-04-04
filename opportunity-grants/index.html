@@ -38,12 +38,101 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
+  
+    <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-teal">Skip to main content</a>
+    <header id="SiteHeader" class="fixed top-0 z-40 w-full py-6 bg-white lg:py-6 lg:relative">
+      <div class="wrapper">
+        <nav class="flex flex-wrap" role="navigation">
+          <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
+            <a
+              href="/"
+              aria-label="Go to homepage">
+              <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
+            </a>
+            <button id="NavToggler" class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+          </div>
+
+          <ul class="hidden site-nav lg:flex">
+  <li class="lg:hidden"><a href="/">Home</a></li>
+  <li>
+    <a href="/about"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">About</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
+      <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" role="menuitem">Tickets</a></li>
+      <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
+      <li><a href="/public-health/" role="menuitem">Public Health</a></li>
+      <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
+      <li><a href="/visas/" role="menuitem">Visa Support</a></li>
+      <li><a href="/faq/" role="menuitem">FAQ</a></li>
+      <!-- <li><a href="/hackathon/" role="menuitem">Hackathon</a></li> -->
+      <!-- <li><a href="/organizers/" role="menuitem">Organizers</a></li> -->
+    </ul>
+  </li>
+  <!-- <li><a href="/schedule/">Schedule</a></li> -->
+  <!-- <li><a href="/venue/"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">Venue</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/venue/#welcome">Welcome to Durham!</a></li>
+      <li><a href="/venue/#hotel">Staying in Durham</a></li>
+      <li><a href="/venue/#places">Around Durham</a></li>
+      <li><a href="/venue/#accessibility">Accessibility</a></li>
+      <li><a href="/room-sharing/" role="menuitem">Room Sharing</a></li>
+    </ul>
+  </li> -->
+  <li>
+    <a href="/speaking/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Speaking</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/speaking/" role="menuitem">Speaking at DjangoCon US</a></li>
+      <li><a href="https://pretalx.com/djangocon-us-2025/cfp" target="_blank" role="menuitem">Submit a Proposal</a></li>
+      <li><a href="/speaking/speaker-resources/"  role="menuitem">Speaker Resources</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="/sponsors/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Sponsors</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/sponsors/" role="menuitem">Our Sponsors</a></li>
+      <li><a href="https://drive.google.com/file/d/1VCLBvvEu2erQ3_k0f_Ldpo-8alKw_4BR/view?usp=sharing" target="_blank" role="menuitem">Sponsorship Prospectus</a></li>
+    </ul>
+  </li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" class="button">Buy Tickets</a></li>
+</ul>
+
+        </nav>
+      </div>
+    </header>
   
 
   <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
@@ -57,11 +146,14 @@
       <div class="flex-1 max-w-screen-lg">
         <h1 class="mb-8 pageheading">Opportunity Grants</h1>
 
-        <h2 class="mb-8 subheading">The application window is now closed. Decision notifications will be sent by July 8th, 2024.</h2>
+	
 
 
         <div class="space-y-6">
-          
+	
+
+            <p class="subheading">Our <a href="https://forms.gle/vJ3EjhK3sh17gocYA">opportunity grant application</a> is open until April 27, 2025 at <a href="https://time.is/1200PM_29_Apr_2025_in_New_York?DjangoCon_US_2025_CFP_closes">12 PM EDT</a>.
+            </p>
 
           <p class="lead">If you have any questions, feel free to reach out to the opportunity grants team at <a href="mailto:grants@djangocon.us">grants@djangocon.us</a>.</p>
         </div>
@@ -72,7 +164,7 @@
 
 <div class="bg-gray-100 block-container">
   <div class="wrapper">
-    <div class="prose lg:prose-lg">
+    <div class="prose lg:prose-lg mx-auto">
 <h2 id="diversity-sponsorships" tabindex="-1">Diversity Sponsorships</h2>
 <p>Your organization can help increase diversity at DjangoCon US by contributing to the Opportunity Grant Fund. Please <a href="mailto:sponsors@djangocon.us">e-mail us to ask about sponsorship opportunities</a>.</p>
 <h2 id="frequently-asked-questions" tabindex="-1">Frequently Asked Questions</h2>
@@ -80,8 +172,8 @@
 <p>They are grants to encourage and facilitate the participation of those who otherwise might not be able to attend the conference. They can be used for conference-related expenses like travel, lodging, etc.</p>
 <h3 id="why-did-the-name-change-to-%E2%80%9Copportunity-grants%E2%80%9D%3F" tabindex="-1">Why did the name change to “opportunity grants”?</h3>
 <p>We renamed “financial aid” to “opportunity grants” to become a more inclusive and diverse conference. We feel the wording “opportunity grants” makes a positive shift towards being a thriving, supportive and trusting community.</p>
-<h3 id="when-will-i-find-out-whether-i%E2%80%99ve-received-an-opportunity-grant%3F" tabindex="-1">When will I find out whether I’ve received an opportunity grant?</h3>
-<p>You will be notified by June 14, 2024.</p>
+<h3 id="when-will-i-find-out-whether-i've-received-an-opportunity-grant%3F" tabindex="-1">When will I find out whether I've received an opportunity grant?</h3>
+<p>You will be notified by June 14, 2025.</p>
 <h3 id="do-i-need-to-be-a-speaker%2C-a-first-time-attendee%2C-or-a-member-of-an-underrepresented-group-to-receive-an-opportunity-grant%3F" tabindex="-1">Do I need to be a speaker, a first-time attendee, or a member of an underrepresented group to receive an opportunity grant?</h3>
 <p>We try to allocate opportunity grants to a diverse set of attendees based on need. Our review process is holistic and considers many different factors, most notably the impact we think attending DjangoCon US will have on the applicant.</p>
 <h3 id="when-will-i-receive-my-opportunity-grant%3F" tabindex="-1">When will I receive my opportunity grant?</h3>
@@ -93,18 +185,18 @@
 <p>If you are traveling into the United States, we strongly encourage you to wait to purchase airfare or book a hotel room until after your visa has been accepted.</p>
 <p>Find out more details and get your invitation letter at our <a href="/visas/">Visa information page</a>.</p>
 <h3 id="what-if-there-is-an-emergency-and-i-cannot-attend%3F" tabindex="-1">What if there is an emergency and I cannot attend?</h3>
-<p>If you are denied entry to the US with a valid visa, we will pay your non-refundable costs (up to the amount of your opportunity grant). For other emergencies or additional costs, we will review the recipient’s needs on a case-by-case basis.</p>
+<p>If you are denied entry to the US with a valid visa, we will pay your non-refundable costs (up to the amount of your opportunity grant). For other emergencies or additional costs, we will review the recipient's needs on a case-by-case basis.</p>
 <h3 id="how-to-donate" tabindex="-1">How To Donate</h3>
 <p>Become a Sponsor! You or your company can sponsor at a specific level or sponsor a particular need, such as wifi, meals, or sprints. Contact our <a href="mailto:sponsors@djangocon.us">sponsorship chair</a> directly to find out how you can sponsor us.</p>
-<p>You may also donate directly to the Opportunity Grant Fund by buying an extra ticket for an attendee who couldn’t otherwise afford it when you purchase your ticket. Alternatively, you can add a dollar amount of your choosing.</p>
+<p>You may also donate directly to the Opportunity Grant Fund by buying an extra ticket for an attendee who couldn't otherwise afford it when you purchase your ticket. Alternatively, you can add a dollar amount of your choosing.</p>
 
     </div>
   </div>
 </div>
 </main>
 
-  <footer id="SiteFooter" class="py-20 bg-white opacity-75 border-t-4 border-blue-200">
-    <div class="container mx-auto ">
+  <footer id="SiteFooter" class="py-20">
+    <div class="container mx-auto">
       <div class="grid gap-8 px-4 place-items-center">
         <ul class="flex flex-wrap gap-8">
   <li>

@@ -9,7 +9,7 @@
   <meta name="author" content="DjangoCon US" />
   <meta name="description" content="" />
 
-  <meta property="og:title" content="Sponsors" />
+  <meta property="og:title" content="Sponsorship" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:description" content="" />
   <meta property="og:url" content="https://2025.djangocon.us/sponsors/" />
@@ -20,7 +20,7 @@
 
   
 
-  <meta property="twitter:title" content="Sponsors" />
+  <meta property="twitter:title" content="Sponsorship" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
 
@@ -31,41 +31,187 @@
   <link href="/assets/favicons/favicon.png" rel=icon type="image/png">
   <link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
 
-  <title>Sponsors</title>
+  <title>Sponsorship</title>
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
   
+    <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-teal">Skip to main content</a>
+    <header id="SiteHeader" class="fixed top-0 z-40 w-full py-6 bg-white lg:py-6 lg:relative">
+      <div class="wrapper">
+        <nav class="flex flex-wrap" role="navigation">
+          <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
+            <a
+              href="/"
+              aria-label="Go to homepage">
+              <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
+            </a>
+            <button id="NavToggler" class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+          </div>
 
-  <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
-<div class="block-container">
-  <div class="wrapper">
-    <header class="flex flex-wrap items-center gap-8 lg:gap-16">
-      <img
-        src="/assets/img/theme/graphics/sponsor.svg"
-        alt="The words 'Thank you'"
-        class="hidden w-full max-w-80 md:block" />
-      <div class="flex-1 max-w-screen-lg">
-        <h1 class="mb-4 pageheading">Sponsors</h1>
-        <p class="lead">DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for five days. Thank you for your support!</p>
+          <ul class="hidden site-nav lg:flex">
+  <li class="lg:hidden"><a href="/">Home</a></li>
+  <li>
+    <a href="/about"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">About</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
+      <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" role="menuitem">Tickets</a></li>
+      <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
+      <li><a href="/public-health/" role="menuitem">Public Health</a></li>
+      <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
+      <li><a href="/visas/" role="menuitem">Visa Support</a></li>
+      <li><a href="/faq/" role="menuitem">FAQ</a></li>
+      <!-- <li><a href="/hackathon/" role="menuitem">Hackathon</a></li> -->
+      <!-- <li><a href="/organizers/" role="menuitem">Organizers</a></li> -->
+    </ul>
+  </li>
+  <!-- <li><a href="/schedule/">Schedule</a></li> -->
+  <!-- <li><a href="/venue/"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">Venue</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/venue/#welcome">Welcome to Durham!</a></li>
+      <li><a href="/venue/#hotel">Staying in Durham</a></li>
+      <li><a href="/venue/#places">Around Durham</a></li>
+      <li><a href="/venue/#accessibility">Accessibility</a></li>
+      <li><a href="/room-sharing/" role="menuitem">Room Sharing</a></li>
+    </ul>
+  </li> -->
+  <li>
+    <a href="/speaking/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Speaking</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/speaking/" role="menuitem">Speaking at DjangoCon US</a></li>
+      <li><a href="https://pretalx.com/djangocon-us-2025/cfp" target="_blank" role="menuitem">Submit a Proposal</a></li>
+      <li><a href="/speaking/speaker-resources/"  role="menuitem">Speaker Resources</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="/sponsors/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Sponsors</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/sponsors/" role="menuitem">Our Sponsors</a></li>
+      <li><a href="https://drive.google.com/file/d/1VCLBvvEu2erQ3_k0f_Ldpo-8alKw_4BR/view?usp=sharing" target="_blank" role="menuitem">Sponsorship Prospectus</a></li>
+    </ul>
+  </li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" class="button">Buy Tickets</a></li>
+</ul>
+
+        </nav>
       </div>
     </header>
+  
+
+  <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
+
+<div class="pt-0 block-container">
+  <div class="wrapper my-8">
+    
+    <div class="prose lg:prose-lg mx-auto">
+      <h1 class="mb-8 pageheading">Sponsorship</h1>
+<p>DjangoCon US is only possible through the generosity of the organizations and businesses on this page. Their donations make it possible for us to provide opportunity grants to speakers and attendees, record all talks, host sprints, and feed everyone for five days. Thank you for your support!</p>
+<p>Download our sponsorship prospectus for more information on how you can support DjangoCon US 2025.</p>
+
+
+
+<div class="flex flex-wrap gap-4 align-center">
+  <a href="https://drive.google.com/file/d/1VCLBvvEu2erQ3_k0f_Ldpo-8alKw_4BR/view?usp=sharing" class="button bg-orange">Download Sponsorship Prospectus</a>
+  <a href="mailto:sponsors@djangocon.us" class="button">Get in touch</a>
+</div>
+
+    </div>
+  </div>
+
+
+
+
+<div class="py-6">
+  <div class="flex flex-col justify-center wrapper">
+    <h2 class="flex items-center bg-sep">
+      <span class="px-8 py-2 mx-auto text-xl font-bold text-teal-700 bg-gray-200 rounded font-heading">Community</span>
+    </h2>
+
+    <ul class="divide-y divide-gray-100">
+      
+        <li class="py-12 space-y-4">
+          <div class="flex flex-col gap-6 lg:flex-row lg:gap-16">
+            <div class="items-start justify-center lg:flex lg:w-1/4">
+              
+                
+                
+                
+                <a href="https://defna.org/" target="_blank" class="block w-full h-full">
+                  <span class="sr-only">Django Events Foundation North America</span>
+                  <img
+                    src="/sponsors/defna.png"
+                    alt="Django Events Foundation North America"
+                    class="h-auto w-auto max-w-56 max-h-16 lg:max-w-60 lg:max-h-28"
+                    aria-hidden="true">
+                </a>
+                
+
+              
+            </div>
+
+            <div class="space-y-4 lg:flex-1">
+              <h3 class="text-2xl lg:text-4xl font-heading">
+                
+                  <a href="https://defna.org/">Django Events Foundation North America</a>
+                
+              </h3>
+              
+                <a href="https://defna.org/" class="inline-block text-xl link" aria-hidden="true">defna.com</a>
+              
+              
+                <div class="space-y-6 prose lg:prose-lg">
+                  
+                </div>
+              
+              
+            </div>
+          </div>
+        </li>
+      
+    </ul>
   </div>
 </div>
 
 
-
 </main>
 
-  <footer id="SiteFooter" class="py-20 bg-white opacity-75 border-t-4 border-blue-200">
-    <div class="container mx-auto ">
+  <footer id="SiteFooter" class="py-20">
+    <div class="container mx-auto">
       <div class="grid gap-8 px-4 place-items-center">
         <ul class="flex flex-wrap gap-8">
   <li>

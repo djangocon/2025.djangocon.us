@@ -38,12 +38,101 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
+  
+    <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-teal">Skip to main content</a>
+    <header id="SiteHeader" class="fixed top-0 z-40 w-full py-6 bg-white lg:py-6 lg:relative">
+      <div class="wrapper">
+        <nav class="flex flex-wrap" role="navigation">
+          <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
+            <a
+              href="/"
+              aria-label="Go to homepage">
+              <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
+            </a>
+            <button id="NavToggler" class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+          </div>
+
+          <ul class="hidden site-nav lg:flex">
+  <li class="lg:hidden"><a href="/">Home</a></li>
+  <li>
+    <a href="/about"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">About</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
+      <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" role="menuitem">Tickets</a></li>
+      <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
+      <li><a href="/public-health/" role="menuitem">Public Health</a></li>
+      <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
+      <li><a href="/visas/" role="menuitem">Visa Support</a></li>
+      <li><a href="/faq/" role="menuitem">FAQ</a></li>
+      <!-- <li><a href="/hackathon/" role="menuitem">Hackathon</a></li> -->
+      <!-- <li><a href="/organizers/" role="menuitem">Organizers</a></li> -->
+    </ul>
+  </li>
+  <!-- <li><a href="/schedule/">Schedule</a></li> -->
+  <!-- <li><a href="/venue/"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">Venue</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/venue/#welcome">Welcome to Durham!</a></li>
+      <li><a href="/venue/#hotel">Staying in Durham</a></li>
+      <li><a href="/venue/#places">Around Durham</a></li>
+      <li><a href="/venue/#accessibility">Accessibility</a></li>
+      <li><a href="/room-sharing/" role="menuitem">Room Sharing</a></li>
+    </ul>
+  </li> -->
+  <li>
+    <a href="/speaking/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Speaking</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/speaking/" role="menuitem">Speaking at DjangoCon US</a></li>
+      <li><a href="https://pretalx.com/djangocon-us-2025/cfp" target="_blank" role="menuitem">Submit a Proposal</a></li>
+      <li><a href="/speaking/speaker-resources/"  role="menuitem">Speaker Resources</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="/sponsors/"
+      data-menu-trigger
+      aria-haspopup="true"
+      aria-expanded="false">Sponsors</a>
+    <ul
+      data-menu-list
+      class="hidden site-nav-menu">
+      <li><a href="/sponsors/" role="menuitem">Our Sponsors</a></li>
+      <li><a href="https://drive.google.com/file/d/1VCLBvvEu2erQ3_k0f_Ldpo-8alKw_4BR/view?usp=sharing" target="_blank" role="menuitem">Sponsorship Prospectus</a></li>
+    </ul>
+  </li>
+  <li><a href="/news/">News</a></li>
+  <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" class="button">Buy Tickets</a></li>
+</ul>
+
+        </nav>
+      </div>
+    </header>
   
 
   <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
@@ -54,19 +143,20 @@
         src="/assets/img/theme/graphics/about.svg"
         alt="Two global with a map marker on Durham, NC"
         class="hidden w-full max-w-80 md:block" />
+
       <div class="flex-1 max-w-screen-lg">
         <h1 class="mb-8 pageheading">About DjangoCon US</h1>
         <p class="mb-8 subheading">DjangoCon US is a five-day international conference for the community by the community about the Django web framework, held each year in North America.</p>
 
         <p class="lead">
-          DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time. You'll discover details about a range of diverse applications that people from all over the world are building with Django, get a deeper understanding of concepts you’re already familiar with and discover new ways to use them, and have a lot of fun!
+          DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time. You'll discover details about a range of diverse applications that people from all over the world are building with Django, get a deeper understanding of concepts you're already familiar with and discover new ways to use them, and have a lot of fun!
         </p>
       </div>
     </header>
   </div>
 </div>
 
-<div class="bg-gray-100 block-container">
+<div class="bg-cream-300 block-container">
   <div class="wrapper">
     <div class="grid-1-2">
       <section>
@@ -74,21 +164,21 @@
 
         <ul class="space-y-10">
           <li>
-            <div class="flex flex-wrap items-center gap-4">
+            <div class="flex flex-wrap items-center gap-4 py-4">
   <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-2xl font-semibold text-center text-white bg-red rounded-t-md">Apr</span>
-    <span class="px-3 py-2 text-2xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">29</span>
+    <span class="px-3 py-1 text-lg uppercase font-bold text-center text-white bg-pink rounded-t-md">Apr</span>
+    <span class="px-3 py-2 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">27</span>
   </time>
-  <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Calls for Proposals Closes</h3>
+  <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Call for Proposals Closes</h3>
 </div>
 
           </li>
 
           <li>
-            <div class="flex flex-wrap items-center gap-4">
+            <div class="flex flex-wrap items-center gap-4 py-4">
   <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-2xl font-semibold text-center text-white bg-red rounded-t-md">Apr</span>
-    <span class="px-3 py-2 text-2xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">29</span>
+    <span class="px-3 py-1 text-lg uppercase font-bold text-center text-white bg-pink rounded-t-md">Apr</span>
+    <span class="px-3 py-2 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">27</span>
   </time>
   <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Opportunity Grant Application Closes</h3>
 </div>
@@ -96,10 +186,10 @@
           </li>
 
           <li>
-            <div class="flex flex-wrap items-center gap-4">
+            <div class="flex flex-wrap items-center gap-4 py-4">
   <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-2xl font-semibold text-center text-white bg-red rounded-t-md">July</span>
-    <span class="px-3 py-2 text-2xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">8</span>
+    <span class="px-3 py-1 text-lg uppercase font-bold text-center text-white bg-pink rounded-t-md">July</span>
+    <span class="px-3 py-2 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">8</span>
   </time>
   <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Opportunity Grant and Proposal Notifications</h3>
 </div>
@@ -115,30 +205,20 @@
 
         <ul class="space-y-10">
           <li>
-            <div class="flex flex-wrap items-center gap-4">
+            <div class="flex flex-wrap items-center gap-4 py-4">
   <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-2xl font-semibold text-center text-white bg-red rounded-t-md">Sep</span>
-    <span class="px-3 py-2 text-2xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">22</span>
-  </time>
-  <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Tutorials: One day, numerous sessions</h3>
-</div>
-
-          </li>
-          <li>
-            <div class="flex flex-wrap items-center gap-4">
-  <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-2xl font-semibold text-center text-white bg-red rounded-t-md">Sep</span>
-    <span class="px-3 py-2 text-2xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">23-25</span>
+    <span class="px-3 py-1 text-lg uppercase font-bold text-center text-white bg-pink rounded-t-md">Sep</span>
+    <span class="px-3 py-2 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">8-10</span>
   </time>
   <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Talks: Dozens of talks chosen by the community</h3>
 </div>
 
           </li>
           <li>
-            <div class="flex flex-wrap items-center gap-4">
+            <div class="flex flex-wrap items-center gap-4 py-4">
   <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-2xl font-semibold text-center text-white bg-red rounded-t-md">Sep</span>
-    <span class="px-3 py-2 text-2xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">26-27</span>
+    <span class="px-3 py-1 text-lg uppercase font-bold text-center text-white bg-pink rounded-t-md">Sep</span>
+    <span class="px-3 py-2 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">11-12</span>
   </time>
   <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Sprints: Team up to work on Django!</h3>
 </div>
@@ -165,25 +245,25 @@
       <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-1">
         <img src="/assets/img/theme/icons/People.svg" alt="Two people. One person is standing slightly in front of the other." class="w-16 h-16 icon" />
         <h3 class="text-lg font-bold lg:text-2xl font-heading" id="code-of-conduct">Code of Conduct</h3>
-        <p class="lg:text-lg">We’re committed to providing a safe and friendly environment for everyone to learn, meet, and enjoy the conference. All organizers, attendees, speakers and sponsors must follow the <strong><a href="/conduct/" class="link">Code of Conduct</a></strong>.</p>
+        <p class="lg:text-lg">We're committed to providing a safe and friendly environment for everyone to learn, meet, and enjoy the conference. All organizers, attendees, speakers and sponsors must follow the <strong><a href="/conduct/" class="link">Code of Conduct</a></strong>.</p>
       </section>
 
       <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-2">
         <img src="/assets/img/theme/icons/Heart.svg" alt="A heart." class="w-16 h-16 icon" />
         <h3 class="text-lg font-bold lg:text-2xl font-heading" id="commitment-to-diversity">Commitment to Diversity</h3>
-        <p class="lg:text-lg">It is a core aim of DjangoCon US 2024 to encourage diversity, enforce our <strong><a href=/conduct/" class="link">Code of Conduct</a></strong>, and make our event as inclusive and accessible as possible.</p>
+        <p class="lg:text-lg">It is a core aim of DjangoCon US 2025 to encourage diversity, enforce our <strong><a href="/conduct/" class="link">Code of Conduct</a></strong>, and make our event as inclusive and accessible as possible.</p>
       </section>
 
       <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-3">
         <img src="/assets/img/theme/icons/Document.svg" alt="An official document with words written on it." class="w-16 h-16 icon" />
-        <h3 class="text-lg font-bold lg:text-2xl font-heading" id="opportunity-grants">COVID-19 Safety</h3>
-        <p class="lg:text-lg">As part of our commitment to the safety of our attendees, we have a <strong><a href="/public-health/" class="link">COVID-19 Policy</a></strong> and require all attendees to be vaccinated and masked, and have a negative COVID test prior to attending.</p>
+        <h3 class="text-lg font-bold lg:text-2xl font-heading" id="opportunity-grants">Public Health</h3>
+        <p class="lg:text-lg">As part of our commitment to the safety of our attendees, we have a <strong><a href="/public-health/" class="link">Public Health Policy</a></strong> and recommend all attendees to be vaccinated and masked, and have a negative COVID test prior to attending.</p>
       </section>
     </div>
   </div>
 </div>
 
-<div class="block-container">
+<!-- <div class="block-container">
   <div class="wrapper">
     <div class="grid-1-2">
       <figure>
@@ -206,20 +286,20 @@
             <li>Are you attending DjangoCon US by yourself?</li>
           </ul>
 
-          <p><strong>If so, the Day 1 orientation is for you!</strong> We’ll help you get your bearings so you can have the BEST conference experience possible.</p>
+          <p><strong>If so, the Day 1 orientation is for you!</strong> We'll help you get your bearings so you can have the BEST conference experience possible.</p>
 
           <p>More details coming in the blog.</p>
         </div>
       </section>
     </div>
   </div>
-</div>
+</div> -->
 
 
 </main>
 
-  <footer id="SiteFooter" class="py-20 bg-white opacity-75 border-t-4 border-blue-200">
-    <div class="container mx-auto ">
+  <footer id="SiteFooter" class="py-20">
+    <div class="container mx-auto">
       <div class="grid gap-8 px-4 place-items-center">
         <ul class="flex flex-wrap gap-8">
   <li>
