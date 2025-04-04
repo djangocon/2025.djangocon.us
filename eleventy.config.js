@@ -98,6 +98,19 @@ module.exports = (config) => {
     return collection.filter(item => item.data.presenter_slugs.includes(slug));
   });
 
+  // Only build pages that aren't marked as drafts, usage below
+  // draft: true
+  config.addGlobalData("eleventyComputed.permalink", function() {
+    return (data) => {
+      if (data.draft) {
+        return false;
+      }
+      
+      // Otherwise, use the permalink specified in the page front matter
+      return data.permalink;
+    }
+  });
+
   /*
     Misc configuration
   */
