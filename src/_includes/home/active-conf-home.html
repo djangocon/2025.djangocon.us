@@ -1,26 +1,28 @@
-<div class="pt-8 pb-0 bg-repeat border-b-4 border-black lg:pt-2">
+<div class="pt-2 pb-10 bg-cream">
   <div class="wrapper">
-    <div class="flex flex-col gap-8 lg:flex-row">
-      <section class="self-center w-full pb-4 lg:flex-1">
+    <div class="flex flex-col my-4 gap-8 lg:flex-row">
+      <section class="mx-auto 0 pb-4 text-center lg:flex-1 max-w-4xl">
         <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
-          Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking
+          Join us for five days of inspiration, education, and networking
         </h1>
 
         <p class="mb-4 text-2xl lg:text-3xl">
-          <strong>September 22-27, 2024</strong>
+          September 8-12th, 2025
         </p>
 
-        <p class="mb-6 text-2xl lg:text-3xl">
-          <a
-            href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
-            target="_blank"
-            class="hover:text-blue reverse-link">Durham Convention Center<br/><strong>Durham, NC</strong></a>
+        <a
+          href="https://www.ihg.com/voco/hotels/us/en/chicago/chiwp/hoteldetail"
+          target="_blank"
+          class="mb-6 text-2xl underline-offset-4  decoration-[2px] lg:text-3xl">voco Chicago Downtown</a> 
+          
+        <p class="mb-6 text-2xl lg:text-2xl">
+            Chicago, Illinois
         </p>
 
-        <div class="button-group">
-          <a class="button bg-light-blue" href="{{ site.ticket_link }}">Buy Tickets</a>
+        <div class="button-group justify-center">
+          <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
           <a
-            class="button"
+            class="font-bold"
             href="{{ site.hotel_reservation_link }}"
             >Book a Room</a>
 
@@ -31,18 +33,11 @@
           {% endcomment %}
         </div>
       </section>
-
-      <div class="self-end lg:max-w-2xl">
-        <img
-          src="/assets/img/theme/hero-img.webp"
-          alt="A collage of Durham, NC centric stickers and photos."
-        />
-      </div>
     </div>
   </div>
 </div>
 
-<div class="bg-gray-100 block-container">
+<div class=" block-container">
   <div class="wrapper">
     <div class="grid-1-2">
       <section class="flex flex-col items-start justify-center mb-6 sm:mb-0">
@@ -58,15 +53,7 @@
             {%
               include 'date-card.html',
                 month:"Sep",
-                days:"22",
-                heading:"Tutorials: One day, numerous sessions"
-            %}
-          </li>
-          <li>
-            {%
-              include 'date-card.html',
-                month:"Sep",
-                days:"23-25",
+                days:"8-10",
                 heading:"Talks: Dozens of talks chosen by the community"
             %}
           </li>
@@ -74,7 +61,7 @@
             {%
               include 'date-card.html',
                 month:"Sep",
-                days:"26-27",
+                days:"11-12",
                 heading:"Sprints: Team up to work on Django!"
             %}
           </li>
@@ -84,7 +71,7 @@
   </div>
 </div>
 
-<div class="block-container bg-blue">
+<div class="block-container bg-white">
   <div class="wrapper">
     <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl max-w-[20ch] mx-auto">A friendly conference for a friendly community</h2>
 
@@ -110,7 +97,7 @@
   </div>
 </div>
 
-<div class="block-container">
+<!-- <div class="block-container">
   <div class="wrapper">
     <div class="grid-1-2">
       <figure>
@@ -146,7 +133,7 @@
       </section>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="block-container">
   <div class="wrapper">

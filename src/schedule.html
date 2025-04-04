@@ -2,10 +2,10 @@
 title: Full Conference Schedule
 layout: default
 description: |
-  The schedule for DjangoCon US 2024.
+  The schedule for DjangoCon US 2025.
 
 sitemap: false
-permalink: false
+draft: true
 days:
   - heading: Tutorials
     text: >
@@ -36,7 +36,7 @@ days:
         <li>
           <a href="#Day-{{ forloop.index }}" class="block no-underline group">
             <time class="flex flex-col" datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd' }}">
-              <span class="px-3 py-1 min-w-[8ch] text-2xl font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | formatDateTime: "E" }}</span>
+              <span class="px-3 py-1 min-w-[8ch] text-2xl font-semibold text-center text-white bg-pink rounded-t-md border-2 border-pink group-hover:border-black group-hover:border-b-pink">{{ day[0] | formatDateTime: "E" }}</span>
               <span class="px-3 py-1 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | formatDateTime: "LLL d" }}</span>
             </time>
           </a>
@@ -83,7 +83,7 @@ days:
                     Ideally up to 4 tracks, with some sessions spanning every track
                   {% endcomment %}
 
-                  {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange" | split: "," %}
+                  {%- assign color_classes = "border-t-green,border-t-teal,border-t-cyan,border-t-orange" | split: "," %}
                   {% for session in slot.sessions %}
                     {%- assign color = color_classes[forloop.index0 | modulo: color_classes.size] %}
                     {% include "session-card.html", session:session, color_class:color %}
