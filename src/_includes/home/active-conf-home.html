@@ -22,15 +22,19 @@
         <div class="button-group justify-center">
           <a class="button" href="{{ site.cfp_application }}">Submit Talk</a>
           <a class="button" href="{{ site.ticket_link }}">Buy Tickets</a>
-          <a
-            class="font-bold"
-            href="{{ site.hotel_reservation_link }}"
-            >Book a Room</a>
 
           {% comment %}
-            <a class="button" href="https://emails.djangocon.us/sendy/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g">Join Mailing List</a>
             <a class="button" href="/schedule/">Conference Schedule</a>
           {% endcomment %}
+        </div>
+        <div class="button-group justify-center p-5">
+          <a
+          class="font-bold"
+          href="{{ site.hotel_reservation_link }}"
+          >Book a Room</a>
+          <a 
+          class="font-bold" 
+          href="{{ site.mailing_list }}">Join Mailing List</a>
         </div>
       </section>
     </div>
