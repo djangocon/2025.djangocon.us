@@ -2,7 +2,7 @@
 author: Communications Team
 category: General
 published_datetime: 2025-04-29 11:00:00
-title: "DjangoCon US Grants"
+title: "Making The Conference Accessible Through Grants"
 ---
 DjangoCon US isn't just a conference... People come for the code and stay for the community. It's a conference for Pythonistas, web developers, open-source developers, and anyone who would like to learn something new about the web. It's where people come to learn, connect, and grow.
 
