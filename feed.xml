@@ -6,13 +6,24 @@
   <link href="https://2025.djangocon.us" rel="alternate"/>
 
   <updated
-    >2025-05-05T13:45:40Z</updated
+    >2025-05-08T00:10:33Z</updated
   >
   <id>https://2025.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Talk Proposals and Opportunity Grant Applications Now Closed</title>
+      <link href="https://2025.djangocon.us/news/cfps-now-closed/" />
+      <updated>2025-05-07T06:00:00Z</updated>
+      <id>https://2025.djangocon.us/news/cfps-now-closed/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Call for Proposals and Opportunity Grant applications are now closed. Stay tuned via email to hear back about CFP decisions.&lt;/p&gt;
+&lt;p&gt;Opportunity grant notifications will be sent by June 23rd, 2025.&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>The Call for Proposals for DjangoCon US 2025 Is Now Open!</title>
       <link href="https://2025.djangocon.us/news/call-for-proposals/" />
