@@ -10,8 +10,7 @@ url:
     label: sentry.io
 hiring_url: 'https://sentry.io/careers/'
 ---
-Sentry is the application monitoring platform for development teams to holistically monitor their code health from the frontend to the backend to see clearer, solve quicker, and learn continuously.
-growth.
+Sentry is the debuggability platform for developers who favor action over dashboards. 4+ million developers use Sentry to fix fast and get back to building.
 
 
 
