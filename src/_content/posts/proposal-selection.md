@@ -2,10 +2,8 @@
 author: Programs Team
 category: General
 published_datetime: 2025-05-01 04:55:00
-title: "How DjangoCon US Selects Proposals"
+title: "How DjangoCon US Selects Talk Proposals"
 ---
-
-[Submit your proposal for DjangoCon US 2025](https://pretalx.com/djangocon-us-2025/cfp) — **CFP is open until May 4!**
 
 The DjangoCon US schedule is always highly anticipated. But how does it all come together? 
 
@@ -16,7 +14,7 @@ The journey from an open Call for Proposals (CFP) to the final lineup of talks, 
 ## 2025 Program Timeline
 _*Subject to change depending on the number of submissions and other factors._
 
-- **CFP Deadline Extension**: May 4
+- ~**CFP Deadline Extension**: May 4~
 - **Reviewer Deadline**: May 18
 - **Panel Finalization**: June 6
 - **Speaker Notifications**: June 8
@@ -76,6 +74,4 @@ Keynote announcements typically occur in **June or July** after the talk schedul
 
 
 DjangoCon US is more than a conference. It's a reflection of the community that makes Django special. Every part of our program, from anonymous reviews to committee deliberations and keynote invitations, is rooted in care and intentionality. We aim to surface new voices, avoid bias, and curate a meaningful and engaging conference experience.
-
-There's still time to participate in the conference! [Submit your talk or tutorial proposal before May 4.](https://pretalx.com/djangocon-us-2025/cfp)
 
