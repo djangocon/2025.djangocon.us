@@ -1,10 +1,10 @@
 ---
-author: DjangoCon US Communication Team
+author: DjangoCon US Communications Team
 category: General
 published_datetime: 2025-05-21 06:00:00
 layout: post
 cover:
-    url: /assets/img/blog/early-bird-2024.png
+    url: /assets/img/2025/early-bird.png
     alt: "Early-bird tickets now on sale!"
 title: "Early-bird tickets now on sale!"
 ---
