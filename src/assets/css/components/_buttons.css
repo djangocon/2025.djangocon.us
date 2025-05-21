@@ -21,7 +21,7 @@
 }
 
 .button-group {
-  @apply flex flex-wrap items-center gap-4;
+  @apply flex flex-wrap flex-col sm:flex-row items-center gap-4;
 }
 
 .button.bg-teal,
