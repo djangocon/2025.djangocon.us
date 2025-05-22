@@ -6,13 +6,37 @@
   <link href="https://2025.djangocon.us" rel="alternate"/>
 
   <updated
-    >2025-05-21T17:36:54Z</updated
+    >2025-05-22T13:22:41Z</updated
   >
   <id>https://2025.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Early-bird tickets now on sale!</title>
+      <link href="https://2025.djangocon.us/news/early-bird/" />
+      <updated>2025-05-21T06:00:00Z</updated>
+      <id>https://2025.djangocon.us/news/early-bird/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h2 id=&#34;hey-django-fans!-%F0%9F%91%8B&#34; tabindex=&#34;-1&#34;&gt;Hey Django fans! 👋&lt;/h2&gt;
+&lt;p&gt;🔥 DjangoCon US 2025 is coming to the WINDY CITY, and tickets are HOT OFF THE PRESS! 🔥&lt;/p&gt;
+&lt;p&gt;That&#39;s right, Djangonauts! We&#39;re taking over Chicago this year, and trust me, you do NOT want to miss this Python-powered party! 🐍✨&lt;/p&gt;
+&lt;p&gt;🌆🎷🎺 &lt;strong&gt;&lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;GRAB YOUR TICKETS NOW&lt;/a&gt;&lt;/strong&gt; 🌆🎷🎺&lt;/p&gt;
+&lt;p&gt;This year we have limited early-bird pricing for individual tickets and corporate tickets. We lowered individual ticket prices to make the conference more accessible and more affordable so that anyone paying to attend DjangoCon US out of their own pocket can more easily do so.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Early-bird individual: $359 (regular price: $499) - SAVE $140!&lt;/li&gt;
+&lt;li&gt;Early-bird corporate: $749 (regular price: $849) - SAVE $100!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⏰ &lt;strong&gt;The early-bird pricing will only be available through the month of May.&lt;/strong&gt; ⏰&lt;/p&gt;
+&lt;p&gt;Starting June 1st, tickets will be available at their full price.&lt;/p&gt;
+&lt;p&gt;Purchasing your tickets early not only saves you money, but it also helps organizers prepare for the conference. Besides the obvious factors of knowing how many meals to order and what size projector screens we&#39;ll need, it offsets the early payments made to vendors and gives us confidence to enhance and expand the conference experience. If you&#39;re able to commit to attending DjangoCon US early, that&#39;s fantastic. If you need more time, don&#39;t worry; that works for us too.&lt;/p&gt;
+&lt;p&gt;P.S. Did we mention Chicago deep dish pizza? Just saying...&lt;/p&gt;
+&lt;p&gt;🍕We can’t wait to see you in Chicago!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;Buy your ticket here!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Talk Proposals and Opportunity Grant Applications Now Closed</title>
       <link href="https://2025.djangocon.us/news/cfps-now-closed/" />
