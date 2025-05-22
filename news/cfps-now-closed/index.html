@@ -44,14 +44,24 @@
 <body class="view-post">
   
     <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-teal">Skip to main content</a>
-    <header id="SiteHeader" class="fixed top-0 z-40 w-full py-6 bg-white lg:py-6 lg:relative">
+    
+    
+    <aside class="fixed lg:relative lg:py-6 text-center leading-tight h-[40px] xl:text-lg z-50 top-0 block bg-pink text-white flex items-center justify-center px-4 w-full">
+      <a href="https://ti.to/defna/djangocon-us-2025" class="sm:no-underline text-white">
+        <strong>Early Bird tickets are on sale now</strong>
+        <span class="hidden sm:inline"> &mdash; <u>Get your tickets</u> before the price increases May 31st!</span>
+      </a>
+    </aside>
+    
+
+    <header id="SiteHeader" class="fixed top-[40px] lg:top-0 z-40 w-full py-4 h-[80px] lg:h-auto bg-white lg:py-6 lg:relative">
       <div class="wrapper">
         <nav class="flex flex-wrap" role="navigation">
           <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
             <a
               href="/"
               aria-label="Go to homepage">
-              <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-12 lg:h-20">
+              <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-11 :h-12 h-16 xl:h-20">
             </a>
             <button id="NavToggler" class="lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
@@ -133,7 +143,7 @@
     </header>
   
 
-  <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
+  <main id="SiteMain" class="flex-1 pt-[120px] lg:pt-0 lg:block">
 <article>
   <header class="mx-auto max-w-[60rem] pt-16 pb-6 text-center flex flex-col justify-center">
     <time datetime="git Last Modified" class="mb-2 tracking-wide text-gray-600 uppercase">May 7, 2025</time>
