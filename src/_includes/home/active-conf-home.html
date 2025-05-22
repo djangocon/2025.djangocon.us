@@ -78,6 +78,29 @@
 <div class="block-container bg-white">
   <div class="wrapper">
     <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl max-w-[20ch] mx-auto">A friendly conference for a friendly community</h2>
+<div class="space-y-8">
+        <section>
+          <h2 class="mb-4 text-2xl font-bold font-heading lg:text-4xl">Latest News</h2>
+
+          <ol class="divide-y" reversed>
+            {%- for post in collections.posts reversed -%}
+              {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+                {% if forloop.index0 < 3 %}
+                  <li>
+                    <article class="py-4">
+                      <time
+                        class="mb-2 text-sm tracking-wide text-gray-600 uppercase"
+                        datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
+                      <h3 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h3>
+                    </article>
+                  </li>
+                {% endif %}
+              {% endunless %}
+            {%- endfor -%}
+          </ol>
+
+          <a class="button" href="/news/">Read more news</a>
+        </section>
 
     <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
       <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-1">
