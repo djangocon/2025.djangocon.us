@@ -10,6 +10,8 @@
   "sponsors_email": "sponsors@djangocon.us",
   "visa_email": "visas@djangocon.us",
 
+  "banner": true,
+
   "mailing_list": "https://emails.djangocon.us/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g",
   "cfp_application": "https://pretalx.com/djangocon-us-2025/cfp",
   "hotel_reservation_link": "https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=CHIPL&checkInDate=07&checkInMonthYear=082025&checkOutDate=13&checkOutMonthYear=082025&_PMID=99801505&GPC=DJ5&cn=no&viewfullsite=true",
