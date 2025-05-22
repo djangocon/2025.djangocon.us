@@ -17,7 +17,7 @@ That's right, Djangonauts! We're taking over Chicago this year, and trust me, yo
 
 🌆🎷🎺 **[GRAB YOUR TICKETS NOW]({{ site.ticket_link }})** 🌆🎷🎺
 
-This year we have limited early-bird pricing for individual tickets and corporate tickets. We lowered Individual ticket prices to make the conference more accessible and more affordable so that anyone paying to attend DjangoCon US out of their own pocket can more easily do so.
+This year we have limited early-bird pricing for individual tickets and corporate tickets. We lowered individual ticket prices to make the conference more accessible and more affordable so that anyone paying to attend DjangoCon US out of their own pocket can more easily do so.
 
 - Early-bird individual: $359 (regular price: $499) - SAVE $140!
 - Early-bird corporate: $749 (regular price: $849) - SAVE $100!
