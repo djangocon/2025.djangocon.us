@@ -8,6 +8,7 @@
 @import "components/_site-nav.css";
 
 @import "views/_social-view.css";
+@import "views/_index.css";
 
 @import "tailwindcss/utilities";
 
@@ -32,14 +33,14 @@
   }
 
   body {
-    @apply flex flex-col relative;
+    @apply relative flex flex-col;
     @apply antialiased;
 
     color: var(--theme-text-color);
   }
 
   figcaption {
-    @apply text-sm text-center mt-3;
+    @apply mt-3 text-sm text-center;
   }
 
   input:not([type="checkbox"]):not([type="radio"]),
@@ -83,7 +84,7 @@
   }
 
   .font-heading {
-    @apply leading-tight font-medium;
+    @apply font-medium leading-tight;
   }
 
   .icon {
@@ -97,7 +98,7 @@
   }
 
   .avatar {
-    @apply block w-full object-cover object-left-top aspect-square;
+    @apply block object-cover object-left-top w-full aspect-square;
   }
 
   .pageheading {
@@ -105,11 +106,11 @@
   }
 
   .subheading {
-    @apply text-xl leading-tight font-medium lg:text-3xl;
+    @apply text-xl font-medium leading-tight lg:text-3xl;
   }
 
   .lead {
-    @apply text-lg lg:text-xl leading-8 lg:leading-8;
+    @apply text-lg leading-8 lg:text-xl lg:leading-8;
   }
 
   /* THEME-X */
@@ -174,8 +175,8 @@
 
 @layer utilities {
   .cover::before {
-    @apply absolute left-0 top-0;
-    @apply h-full w-full;
+    @apply absolute top-0 left-0;
+    @apply w-full h-full;
     content: '';
   }
 

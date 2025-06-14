@@ -82,6 +82,19 @@
         </nav>
       </div>
     </header>
+    
+    {% if site.banner %}
+    <aside class="fixed lg:relative lg:py-6 text-center leading-tight h-[40px] xl:text-lg z-50 top-0 block bg-pink text-white flex items-center justify-center px-4 w-full">
+      <a href="{{ site.ticket_link }}" class="text-white sm:no-underline">
+        <strong>Early Bird tickets are on sale now</strong>
+        <span class="hidden sm:inline"> &mdash; <u>Get your tickets</u> before the price increases May 31st!</span>
+      </a>
+    </aside>
+    {% endif %}
+
+    {% block header %}
+      {% include "header.html" %}
+    {% endblock %}
   {% endif %}
 
   <main id="SiteMain" class="flex-1 {% if site.banner %}pt-[120px]{% else %}pt-[80px]{% endif %} lg:pt-0 lg:block">
