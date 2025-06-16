@@ -14,7 +14,7 @@
 }
 
 .home-hero-content  {
-  @apply w-5/6 text-center lg:w-5/12;
+  @apply w-4/6 text-center lg:w-5/12;
   @apply py-10 lg:py-8 pt-[8rem] xl:mb-4;
   
   h2 {

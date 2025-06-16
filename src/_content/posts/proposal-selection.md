@@ -3,6 +3,7 @@ author: Programs Team
 category: General
 published_datetime: 2025-05-01 04:55:00
 title: "How DjangoCon US Selects Talk Proposals"
+featured: true
 ---
 
 The DjangoCon US schedule is always highly anticipated. But how does it all come together? 

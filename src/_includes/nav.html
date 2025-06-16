@@ -2,7 +2,6 @@
   <ul class="site-nav">
     <li class="lg:hidden"><a href="/">Home</a></li>
     <li>
-      
       <a href="/about" data-menu-trigger aria-haspopup="true" aria-expanded="false">About</a>
       <ul data-menu-list role="menu" class="hidden site-nav-menu">
         <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
@@ -17,30 +16,21 @@
       </ul>
     </li>
     <!-- <li><a href="/schedule/">Schedule</a></li> -->
-    <!-- <li><a href="/venue/"
-      data-menu-trigger
-      aria-haspopup="true"
-      aria-expanded="false">Speaking</a>
-    <ul
-      data-menu-list
-      class="hidden site-nav-menu">
+    <li>
+    <a href="/venue/" data-menu-trigger aria-haspopup="true" aria-expanded="false">Speaking</a>
+    <ul data-menu-list class="hidden site-nav-menu">
       <li><a href="/speaking/" role="menuitem">Speaking at DjangoCon US</a></li>
-       <li><a href="{{ site.cfp_application }}" target="_blank" role="menuitem">Submit a Proposal</a></li> -->
+      <li><a href="{{ site.cfp_application }}" target="_blank" role="menuitem">Submit a Proposal</a></li>
       <li><a href="/speaking/speaker-resources/"  role="menuitem">Speaker Resources</a></li>
     </ul>
   </li>
   <li>
-    <a href="/sponsors/"
-      data-menu-trigger
-      aria-haspopup="true"
-      aria-expanded="false">Sponsors</a>
-    <ul
-      data-menu-list
-      class="hidden site-nav-menu">
+    <a href="/sponsors/" data-menu-trigger aria-haspopup="true" aria-expanded="false">Sponsors</a>
+    <ul data-menu-list class="hidden site-nav-menu">
       <li><a href="/sponsors/" role="menuitem">Our Sponsors</a></li>
       <li><a href="{{site.sponsorship_prospectus}}" target="_blank" role="menuitem">Sponsorship Prospectus</a></li>
     </ul>
   </li>
   <li><a href="/news/">News</a></li>
-  <li><a href="{{ site.ticket_link }}" target="_blank" class="button">Buy Tickets</a></li>
 </ul>
+<a href="{{ site.ticket_link }}" target="_blank" class="button button-lg">Buy Tickets</a>

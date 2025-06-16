@@ -4,7 +4,7 @@
 
 .wrapper {
   @apply max-w-screen-xl;
-  @apply px-4 mx-auto;
+  @apply px-8 mx-auto;
 }
 
 .wrapper.narrow {

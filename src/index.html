@@ -50,18 +50,18 @@ templateClass: homepage
 {% endblock %}
 
 {% block content %}
-<div class="pt-0 lg:pt-20 block-container">
+<div class="pt-0 lg:pt-8 block-container">
   <div class="wrapper">
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid grid-cols-2 gap-4 align-center">
       <section class="flex flex-col items-start justify-center mb-6 sm:mb-0">
-        <h2 class="mb-4 text-3xl font-bold leading-relaxed font-heading lg:text-5xl">For Django fans of all levels</h2>
+        <h2 class="mb-4 text-3xl font-bold leading-relaxed font-heading lg:text-5xl">For Django enthusiasts of all levels</h2>
         <p class="mb-6 text-xl lg:text-2xl">
           DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time.
         </p>
         <a class="button" href="/about">About DjangoCon US</a>
       </section>
 
-        <ul class="self-end space-y-6 ">
+        <ul class="self-end px-12 space-y-6">
           <li>
             {%
               include 'date-card.html',
@@ -83,32 +83,38 @@ templateClass: homepage
   </div>
 </div>
 
-<div class="bg-white block-container">
-  <div class="wrapper">
-    <!-- <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl max-w-[20ch] mx-auto">A friendly conference for a friendly community</h2> -->
+<div class="bg-white block-container wrapper">
+  <section class="grid items-center justify-between grid-cols-4 gap-8 py-8 mb-16">
+    <img src="/assets/img/theme/blog.svg" alt="An official document with words written on it." class="w-full"/>
+    
+    <div class="col-span-3">
+      <h2 class="flex items-center justify-between mb-4 text-2xl font-bold font-heading lg:text-4xl">Featured Posts
+        <a href="/news/" class="text-lg font-semibold">See All News</a>  
+      </h2>
+
+      <ol class="col-span-2" reversed>
+        {%- for post in collections.posts reversed -%}
+          {% if post.data.featured %}
+            <li>
+              <article class="gap-8 py-4">
+                <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="{{ post.date }}">
+                  {{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}
+                </time>
+                <h3 class="text-xl font-semibold font-heading">
+                  <a href="{{ post.url }}" class="">{{ post.data.title | escape }}</a>
+                </h3>
+              </article>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ol>
+    </section>
+
+    
+    
+    
       <div class="space-y-8">
-        <section>
-          <h2 class="mb-4 text-2xl font-bold font-heading lg:text-4xl">Latest News</h2>
-
-          <ol class="divide-y" reversed>
-            {%- for post in collections.posts reversed -%}
-              {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
-                {% if forloop.index0 < 3 %}
-                  <li>
-                    <article class="py-4">
-                      <time
-                        class="mb-2 text-sm tracking-wide text-gray-600 uppercase"
-                        datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
-                      <h3 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h3>
-                    </article>
-                  </li>
-                {% endif %}
-              {% endunless %}
-            {%- endfor -%}
-          </ol>
-
-          <a class="button" href="/news/">Read more news</a>
-        </section>
+    
 
     <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
       <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-1">
@@ -132,43 +138,6 @@ templateClass: homepage
   </div>
 </div>
 
-<!-- <div class="block-container">
-  <div class="wrapper">
-    <div class="grid-1-2">
-      <figure>
-        <span class="block h-full photo-effect">
-          <img
-            src="/assets/img/noah.jpg"
-            loading="lazy"
-            alt="Noah Alorwu smiling for a picture."
-            class="object-cover w-full h-full">
-        </span>
-      </figure>
-      <section>
-        <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Latest News</h2>
-
-        <ol class="divide-y" reversed>
-          {%- for post in collections.posts reversed -%}
-            {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
-              {% if forloop.index0 < 3 %}
-                <li>
-                  <article class="py-6">
-                    <time
-                      class="mb-2 tracking-wide text-gray-600 uppercase"
-                      datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
-                    <h2 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
-                  </article>
-                </li>
-              {% endif %}
-            {% endunless %}
-          {%- endfor -%}
-        </ol>
-
-        <a class="button" href="/news/">Read More News</a>
-      </section>
-    </div>
-  </div>
-</div> -->
 
 <div class="block-container">
   <div class="wrapper">

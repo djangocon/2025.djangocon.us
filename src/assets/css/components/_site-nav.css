@@ -8,8 +8,9 @@
 }
 
 .site-nav > li > a {
-  @apply p-3 text-teal;
-  @apply no-underline;
+  @apply no-underline text-teal;
+  @apply flex items-center gap-2 p-3;
+
 }
 
 .site-nav a:not(.button):hover {
@@ -21,7 +22,7 @@
 }
 
 [data-menu-trigger] {
-  @apply relative flex items-center gap-1;
+  @apply relative;
 }
 
 [data-menu-trigger]::after {
@@ -32,7 +33,7 @@
   mask-size: cover;
   mask-repeat: no-repeat;
 
-  @apply relative rotate-180 top-[3px];
+  @apply relative rotate-180;
   
   content: '';
 }
