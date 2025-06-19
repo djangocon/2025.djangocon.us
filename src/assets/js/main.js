@@ -19,9 +19,11 @@ if (siteNav) {
     if (siteNav.classList.contains('is-closed')) {
       siteNav.classList.replace('is-closed', 'is-open');
       siteHeader.classList.replace('is-closed', 'is-open');
+      navToggler.classList.replace('is-closed', 'is-open');
     } else {
       siteNav.classList.replace('is-open', 'is-closed');
       siteHeader.classList.replace('is-open', 'is-closed');
+      navToggler.classList.replace('is-open', 'is-closed');
     }
 
     /*
