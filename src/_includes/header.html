@@ -1,4 +1,4 @@
-<header id="SiteHeader" class="fixed {% if site.banner %}top-[40px]{% endif %} lg:top-0 z-[1000] w-full py-4 h-[80px] lg:h-auto lg:py-6 lg:relative">
+<header id="SiteHeader" class="site-header is-closed lg:is-open {% if site.banner %}top-[40px]{% endif %}">
     <div class="wrapper">
       <nav class="flex flex-wrap" role="navigation">
         <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
@@ -7,10 +7,11 @@
             aria-label="Go to homepage">
             <img src="/assets/img/theme/logo.svg" alt="DjangoCon US" class="h-16 h-11 xl:h-24">
           </a>
-          <button id="NavToggler" class="lg:hidden">
+          <button id="NavToggler" class="flex items-center gap-4 text-lg font-bold uppercase lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
+            <span>Menu</span>
             <span class="sr-only">Toggle navigation</span>
           </button>
         </div>

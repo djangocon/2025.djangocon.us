@@ -1,26 +1,34 @@
 /*
   Mobile site navigation
 */
-const siteNav = document.querySelector('.site-nav');
+const siteNav = document.getElementById('SiteNav');
 
 if (siteNav) {
   const navToggler = document.getElementById('NavToggler');
   const allMenus = siteNav.querySelectorAll('[data-menu-list]');
 
   navToggler.addEventListener('click', () => {
+    const siteHero = document.getElementById('SiteHero');
     const siteMain = document.getElementById('SiteMain');
     const siteFooter = document.getElementById('SiteFooter');
+    const siteHeader = document.getElementById('SiteHeader');
 
-    if (siteNav.classList.contains('hidden')) {
-      siteNav.classList.replace('hidden', 'flex');
+    console.log('Toggling site navigation');
+    console.log(siteNav.classList.contains('hidden'));
+
+    if (siteNav.classList.contains('is-closed')) {
+      siteNav.classList.replace('is-closed', 'is-open');
+      siteHeader.classList.replace('is-closed', 'is-open');
     } else {
-      siteNav.classList.replace('flex', 'hidden');
+      siteNav.classList.replace('is-open', 'is-closed');
+      siteHeader.classList.replace('is-open', 'is-closed');
     }
 
     /*
       Hide the main content and footer when the mobile menu is open.
-      This allows the menu to be scrollable and limits the DOM for screen readrs.
+      This allows the menu to be scrollable and limits the DOM for screen readers.
     */
+    siteHero.classList.toggle('hidden');
     siteMain.classList.toggle('hidden');
     siteFooter.classList.toggle('hidden');
   });
