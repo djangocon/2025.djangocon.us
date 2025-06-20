@@ -3,6 +3,7 @@ author: Communications Team
 hidden: false
 category: General
 published_datetime: 2025-06-19 15:00:00
+featured: true
 cover:
     url: /assets/img/2025/dcus24-panel-discussion.jpg
     alt: "Description of the photo"

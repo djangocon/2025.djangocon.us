@@ -3,7 +3,6 @@ author: DjangoCon US Communications Team
 category: General
 published_datetime: 2025-05-21 06:00:00
 layout: post
-featured: true
 cover:
     url: /assets/img/2025/early-bird.png
     alt: "Early-bird tickets now on sale!"
