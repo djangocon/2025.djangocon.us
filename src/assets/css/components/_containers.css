@@ -3,7 +3,8 @@
 }
 
 .wrapper {
-  @apply container px-4 mx-auto;
+  @apply max-w-screen-xl;
+  @apply px-8 mx-auto;
 }
 
 .wrapper.narrow {

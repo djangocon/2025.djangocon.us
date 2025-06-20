@@ -1,0 +1,32 @@
+.home-gameboard {  
+  @apply absolute hidden overflow-hidden pointer-events-none lg:block;
+  @apply left-0 right-0 -top-[12rem] xl:-top-[12rem] 2xl:-top-[14rem] z-[40];
+
+  img {
+    @apply relative pointer-events-none;
+    @apply w-[65rem] xl:w-[70rem] 2xl:w-[75rem];
+    @apply right-[-45%] 2xl:right-[-50%];
+  }
+}
+
+.home-hero {
+  @apply bg-cream relative z-[10];
+}
+
+.home-hero-content  {
+  @apply w-4/6 text-center lg:w-5/12;
+  @apply py-10 lg:py-8 pt-[8rem] xl:mb-4;
+  
+  h2 {
+    @apply text-4xl font-extrabold leading-tight 2xl:text-[2.75rem];
+    @apply mb-4;
+  }
+}
+
+.home-hero-bg {
+  @apply absolute top-0 right-0;
+}
+
+.homepage #SiteMain {
+  @apply pt-4 lg:pt-20;
+}

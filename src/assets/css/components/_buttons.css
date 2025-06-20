@@ -1,27 +1,17 @@
 .button {
   @apply relative inline-flex items-center justify-center px-5 py-2;
-  @apply rounded-full bg-orange border-b-2 border-orange-700 hover:bg-orange-700;
+  @apply border-b-2 border-orange-700 rounded-full bg-orange hover:bg-orange-700;
   @apply font-semibold text-base !no-underline;
 
-
-  /* border-color: var(--theme-text-color); */
-
-  /* THEME-X */
-  /* @apply border-b-4 border-r-4; */
-
-  /* background:  theme('colors.orange.DEFAULT')); */
-  /* background-size: 100% 200%;
-  background-position: top; */
   transition: all .125s ease-out;
 }
 
-
-.button:hover {
-  background-position: bottom;
+.button-lg {
+  @apply px-5 py-2 text-xl;
 }
 
 .button-group {
-  @apply flex flex-wrap flex-col sm:flex-row items-center gap-4;
+  @apply flex flex-col flex-wrap items-center gap-4 sm:flex-row;
 }
 
 .button.bg-teal,
