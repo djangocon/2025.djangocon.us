@@ -1,7 +1,7 @@
 ---
 author: Communications Team
 category: General
-published_datetime: 2025-05-27 06:00:00
+published_datetime: 2025-06-24 06:00:00
 cover:
     url: /assets/img/2025/54089577525_de6f9bcb72_w.jpg
     alt: "Djangocon US 2025 Code of Conduct"
