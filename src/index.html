@@ -8,7 +8,7 @@ templateClass: homepage
 <div class="home-hero">
   {% include "header.html" %}
 
-  <div id="SiteHero" class="flex justify-center lg:justify-start wrapper">
+  <div id="SiteHero" class="flex justify-center lg:justify-start flex:block wrapper">
     <section class="home-hero-content">
       <h2>
         Join us for five days of inspiration, education, and networking
@@ -50,11 +50,11 @@ templateClass: homepage
 {% endblock %}
 
 {% block content %}
-<div class="pt-0 lg:pt-8 block-container">
+<div class="pt-0 lg:pt-8 block-container ">
   <div class="wrapper">
-    <h2 class="mb-4 text-3xl font-bold text-center lg:leading-relaxed sm:text-left font-heading lg:text-5xl">For Django enthusiasts of all levels</h2>
-    <div class="grid-cols-2 gap-8 lg:grid align-center">
+    <div class="grid-cols-2 gap-8 text-center lg:grid lg:text-left align-center">
       <section class="my-6 ">
+        <h2 class="mb-4 text-3xl font-bold text-center lg:text-left lg:leading-relaxed font-heading lg:text-4xl">For Djangonauts of all levels</h2>
         <p class="mb-6 text-xl lg:text-2xl">
           DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time.
         </p>
@@ -65,17 +65,17 @@ templateClass: homepage
           <li>
             {%
               include 'date-card.html',
-                month:"Sep",
-                days:"8-10",
-                heading:"Talks: Dozens of talks chosen by the community"
+              month:"Sep",
+              days:"8-10",
+              heading:"Talks: Dozens of talks chosen by the community"
             %}
           </li>
           <li>
             {%
               include 'date-card.html',
-                month:"Sep",
-                days:"11-12",
-                heading:"Sprints: Team up to work on Django!"
+              month:"Sep",
+              days:"11-12",
+              heading:"Sprints: Team up to work on Django!"
             %}
           </li>
         </ul>
@@ -85,25 +85,19 @@ templateClass: homepage
 
 <div class="bg-white block-container wrapper">
   <div class="space-y-8">
-    <h3 class="mb-4 text-3xl font-bold text-center font-heading lg:text-5xl">Our Values</h3>
+    <h3 class="mb-4 text-xl font-bold tracking-wide text-center uppercase md:text-2xl font-heading">Learn more about Our Values</h3>
     
-    <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
+    <div class="grid gap-8 lg:grid-cols-2">
       {%
         include 'value-card.html',
-        bg:"/assets/img/2025/54089577525_de6f9bcb72_w.jpg",
+        bg:"/assets/img/2025/54088239977_6e8fb060a5_c.jpg",
         heading:"Code of Conduct"
         paragraph:"Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <a href='/conduct/'>Code of Conduct</a>."
       %}
-
-      {%
-        include 'value-card.html',
-        heading:"COVID-19"
-        paragraph:"Read our <a href='/public-health'>Public Health Policy</a>, including mask and testing requirements."
-      %}
-
       {%
         include 'value-card.html',
         heading:"Accessibility"
+        bg:"/assets/img/2025/53300199096_3d72d83ebd_c.jpg",
         paragraph:"We offer a range of accommodations, including live captioning, thoughtful lunch options, and a dedicated accessibility team to ensure everyone can fully participate."
       %}
     </div>
@@ -111,44 +105,40 @@ templateClass: homepage
   </div>
   <div class="block-container">
     <div class="wrapper">
+      <section class="items-center justify-between grid-cols-4 gap-8 py-4 sm:grid">
+        <img src="/assets/img/theme/blog.svg" alt="An official document with words written on it." class="hidden w-full sm:block"/>
+        
+        <div class="col-span-3">
+          <h2 class="mb-4 text-3xl font-bold text-center md:text-left font-heading lg:text-4xl">Featured News</h2>
 
-
-
-<section class="items-center justify-between grid-cols-4 gap-8 py-4 sm:grid">
-  <img src="/assets/img/theme/blog.svg" alt="An official document with words written on it." class="hidden w-full sm:block"/>
-  
-  <div class="col-span-3">
-    <h2 class="mb-4 text-3xl font-bold text-center font-heading lg:text-5xl">Featured News</h2>
-
-    <!-- <h2 class="flex items-center justify-between mb-4 text-3xl font-bold text-center font-heading lg:text-4xl">Featured Posts
-      <a href="/news/" class="text-lg font-semibold">See All News</a>  
-    </h2> -->
-
-    <ol class="flex flex-col items-center col-span-2" reversed>
-      {%- for post in collections.posts reversed -%}
-        {% if post.data.featured %}
-          <li>
-            <article class="gap-8 py-4">
-              <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="{{ post.date }}">
-                {{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}
-              </time>
-              <h3 class="text-xl font-semibold font-heading">
-                <a href="{{ post.url }}" class="">{{ post.data.title | escape }}</a>
-              </h3>
-            </article>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ol>
-  </section>
-</div>
-</div>
-
-<div class="block-container">
-  <div class="wrapper">
-    <h2 class="mb-10 text-3xl font-bold text-center font-heading lg:text-5xl">Our Sponsors</h2>
-
-    {% include "sponsor-listing.html" %}
+          <ol class="flex flex-col items-center col-span-2 md:items-start" reversed>
+            {%- for post in collections.posts reversed -%}
+              {% if post.data.featured %}
+                <li>
+                  <article class="gap-8 py-4">
+                    <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="{{ post.date }}">
+                      {{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}
+                    </time>
+                    <h3 class="text-xl font-semibold font-heading">
+                      <a href="{{ post.url }}" class="">{{ post.data.title | escape }}</a>
+                    </h3>
+                  </article>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ol>
+        </div>
+      </section>
+    </div>
   </div>
-</div>
+
+  <div class="block-container">
+    <div class="text-center wrapper">
+      <h2 class="mb-10 text-3xl font-bold font-heading lg:text-4xl">Our Sponsors</h2>
+
+      {% include "sponsor-listing.html" %}
+
+      <a href="#" class="mt-20 text-xl button">Become a Sponsor</a>
+    </div>
+  </div>
 {% endblock %}

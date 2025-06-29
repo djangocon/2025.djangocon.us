@@ -10,7 +10,7 @@
 }
 
 .home-hero {
-  @apply bg-cream relative z-[30];
+  @apply relative z-50 bg-cream;
 }
 
 .home-hero-content  {
@@ -32,31 +32,26 @@
 }
 
 .value-card {
-  /* background-image: var(--bg-url);
-  @apply bg-center bg-no-repeat bg-cover; */
-  @apply overflow-hidden bg-gradient-to-b from-teal-400 to-teal-900;
-  @apply relative flex flex-col gap-4 p-6 pt-40 text-white bg-teal-700 rounded-lg md:p-6 lg:pt-10;
+  @apply overflow-hidden bg-teal-100;
+  @apply relative flex flex-col h-[20rem] gap-3 p-6 rounded-lg;
 
+  h3 {
+    @apply mt-auto text-2xl font-bold lg:text-2xl font-heading;
+  }
 
-  
-h3 {
-  @apply flex items-center gap-4 text-2xl font-bold lg:text-2xl font-heading;
-}
+  p {
+    @apply text-lg leading-snug;
 
-p {
-  @apply text-lg;
+    a {
+      @apply font-bold link;
+    }
+  }
 
-  a {
-    @apply font-bold link;
+  :not(.value-card-bg) {
+    @apply relative z-30;
   }
 }
 
-:not(.value-card-bg) {
-  @apply relative z-30;
-}
-}
-
 .value-card-bg {
-
-  @apply absolute inset-0 z-20 object-cover object-center w-full h-full opacity-50 pointer-events-none;
+  @apply absolute  bg-teal-100 inset-0 z-20 object-cover object-center w-full h-full pointer-events-none opacity-[15%];
 }

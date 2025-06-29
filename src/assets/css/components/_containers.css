@@ -8,10 +8,10 @@
 .wrapper.narrow {
   @apply max-w-screen-lg;
 }
-/* 
+
 .hero {
   @apply pt-8 pb-12;
-} */
+}
 
 .grid-1-2 {
   @apply grid gap-8 lg:grid-cols-2 lg:gap-16;

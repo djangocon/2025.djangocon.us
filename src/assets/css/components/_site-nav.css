@@ -48,6 +48,12 @@
 
 /* JS Specific and interactive styles */
 @media (max-width: theme('screens.lg')) {
+  #SiteBody.mobile-nav-open #SiteMain,
+  #SiteBody.mobile-nav-open #SiteHero,
+  #SiteBody.mobile-nav-open #SiteFooter {
+    @apply hidden;
+  }
+
   #SiteHeader.is-open {
     @apply h-screen bg-cream;
   }
