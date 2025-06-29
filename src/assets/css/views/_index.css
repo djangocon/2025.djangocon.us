@@ -10,11 +10,11 @@
 }
 
 .home-hero {
-  @apply bg-cream relative z-[10];
+  @apply bg-cream relative z-[30];
 }
 
 .home-hero-content  {
-  @apply w-4/6 text-center lg:w-5/12;
+  @apply text-center md:w-5/6 lg:w-5/12;
   @apply py-10 lg:py-8 pt-[8rem] xl:mb-4;
   
   h2 {
@@ -29,4 +29,34 @@
 
 .homepage #SiteMain {
   @apply pt-4 lg:pt-20;
+}
+
+.value-card {
+  /* background-image: var(--bg-url);
+  @apply bg-center bg-no-repeat bg-cover; */
+  @apply overflow-hidden bg-gradient-to-b from-teal-400 to-teal-900;
+  @apply relative flex flex-col gap-4 p-6 pt-40 text-white bg-teal-700 rounded-lg md:p-6 lg:pt-10;
+
+
+  
+h3 {
+  @apply flex items-center gap-4 text-2xl font-bold lg:text-2xl font-heading;
+}
+
+p {
+  @apply text-lg;
+
+  a {
+    @apply font-bold link;
+  }
+}
+
+:not(.value-card-bg) {
+  @apply relative z-30;
+}
+}
+
+.value-card-bg {
+
+  @apply absolute inset-0 z-20 object-cover object-center w-full h-full opacity-50 pointer-events-none;
 }
