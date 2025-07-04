@@ -12,6 +12,10 @@
 
 @import "tailwindcss/utilities";
 
+@theme {
+  --breakpoint-xs: 30rem;
+}
+
 @layer base {
   /* THEME-X */
   :root {

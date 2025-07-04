@@ -8,7 +8,7 @@ templateClass: homepage
 <div class="home-hero">
   {% include "header.html" %}
 
-  <div id="SiteHero" class="flex justify-center lg:justify-start wrapper">
+  <div id="SiteHero" class="flex justify-center lg:justify-start flex:block wrapper">
     <section class="home-hero-content">
       <h2>
         Join us for five days of inspiration, education, and networking
@@ -21,22 +21,22 @@ templateClass: homepage
       <a
         href="https://www.ihg.com/voco/hotels/us/en/chicago/chiwp/hoteldetail"
         target="_blank"
-        class="mb-6 text-xl md:text-2xl underline-offset-4  decoration-[2px] lg:text-3xl">voco Chicago Downtown</a>
+        class="mb-6 text-2xl underline-offset-4 decoration-[2px] lg:text-3xl">voco Chicago Downtown</a>
 
-      <p class="mb-6 text-xl md:text-2xl">
+      <p class="mb-8 text-2xl">
           Chicago, Illinois
       </p>
 
       <div class="justify-center button-group">
-        <a class="w-full text-lg button sm:w-auto" href="{{ site.ticket_link }}">Buy Tickets</a>
-        <a class="w-full text-lg button sm:w-auto" href="{{ site.hotel_reservation_link }}">Book a Hotel Room</a>
+        <a class="w-full text-xl button sm:w-auto" href="{{ site.ticket_link }}">Buy Tickets</a>
+        <a class="w-full text-xl button sm:w-auto" href="{{ site.hotel_reservation_link }}">Book a Hotel Room</a>
 
         {% comment %}
           <a class="button" href="/schedule/">Conference Schedule</a>
         {% endcomment %}
       </div>
       <div class="justify-center p-5 button-group">
-        <a class="font-bold" href="{{ site.mailing_list }}">Join Mailing List</a>
+        <a class="text-lg font-bold" href="{{ site.mailing_list }}">Join Mailing List</a>
       </div>
     </section>
   </div>
@@ -50,32 +50,32 @@ templateClass: homepage
 {% endblock %}
 
 {% block content %}
-<div class="pt-0 lg:pt-8 block-container">
+<div class="pt-0 lg:pt-8 block-container ">
   <div class="wrapper">
-    <div class="grid grid-cols-2 gap-4 align-center">
-      <section class="flex flex-col items-start justify-center mb-6 sm:mb-0">
-        <h2 class="mb-4 text-3xl font-bold leading-relaxed font-heading lg:text-5xl">For Django enthusiasts of all levels</h2>
+    <div class="grid-cols-2 gap-8 text-center lg:grid lg:text-left align-center">
+      <section class="my-6 ">
+        <h2 class="mb-4 text-3xl font-bold text-center lg:text-left lg:leading-relaxed font-heading lg:text-4xl">For Djangonauts of all levels</h2>
         <p class="mb-6 text-xl lg:text-2xl">
           DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time.
         </p>
-        <a class="button" href="/about">About DjangoCon US</a>
+        <a class="w-full text-xl button sm:w-auto" href="/about">About DjangoCon US</a>
       </section>
 
-        <ul class="self-end px-12 space-y-6">
+        <ul class="items-center self-end gap-6 py-4 text-left lg:gap-0 md:flex lg:flex-col lg:items-start">
           <li>
             {%
               include 'date-card.html',
-                month:"Sep",
-                days:"8-10",
-                heading:"Talks: Dozens of talks chosen by the community"
+              month:"Sep",
+              days:"8-10",
+              heading:"Talks: Dozens of talks chosen by the community"
             %}
           </li>
           <li>
             {%
               include 'date-card.html',
-                month:"Sep",
-                days:"11-12",
-                heading:"Sprints: Team up to work on Django!"
+              month:"Sep",
+              days:"11-12",
+              heading:"Sprints: Team up to work on Django!"
             %}
           </li>
         </ul>
@@ -84,66 +84,61 @@ templateClass: homepage
 </div>
 
 <div class="bg-white block-container wrapper">
-  <section class="grid items-center justify-between grid-cols-4 gap-8 py-8 mb-16">
-    <img src="/assets/img/theme/blog.svg" alt="An official document with words written on it." class="w-full"/>
+  <div class="space-y-8">
+    <h3 class="mb-4 text-xl font-bold tracking-wide text-center uppercase md:text-2xl font-heading">Learn more about Our Values</h3>
     
-    <div class="col-span-3">
-      <h2 class="flex items-center justify-between mb-4 text-2xl font-bold font-heading lg:text-4xl">Featured Posts
-        <a href="/news/" class="text-lg font-semibold">See All News</a>  
-      </h2>
+    <div class="grid gap-8 lg:grid-cols-2">
+      {%
+        include 'value-card.html',
+        bg:"/assets/img/2025/54088239977_6e8fb060a5_c.jpg",
+        heading:"Code of Conduct"
+        paragraph:"Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <a href='/conduct/'>Code of Conduct</a>."
+      %}
+      {%
+        include 'value-card.html',
+        heading:"Accessibility"
+        bg:"/assets/img/2025/53300199096_3d72d83ebd_c.jpg",
+        paragraph:"We offer a range of accommodations, including live captioning, thoughtful lunch options, and a dedicated accessibility team to ensure everyone can fully participate."
+      %}
+    </div>
+  </div>
+  </div>
+  <div class="block-container">
+    <div class="wrapper">
+      <section class="items-center justify-between grid-cols-4 gap-8 py-4 sm:grid">
+        <img src="/assets/img/theme/blog.svg" alt="An official document with words written on it." class="hidden w-full sm:block"/>
+        
+        <div class="col-span-3">
+          <h2 class="mb-4 text-3xl font-bold text-center md:text-left font-heading lg:text-4xl">Featured News</h2>
 
-      <ol class="col-span-2" reversed>
-        {%- for post in collections.posts reversed -%}
-          {% if post.data.featured %}
-            <li>
-              <article class="gap-8 py-4">
-                <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="{{ post.date }}">
-                  {{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}
-                </time>
-                <h3 class="text-xl font-semibold font-heading">
-                  <a href="{{ post.url }}" class="">{{ post.data.title | escape }}</a>
-                </h3>
-              </article>
-            </li>
-          {%- endif -%}
-        {%- endfor -%}
-      </ol>
-    </section>
-
-    
-    
-    
-      <div class="space-y-8">
-    
-
-    <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
-      <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-1">
-        <img src="/assets/img/theme/icons/People.svg" alt="Two people. One person is standing slightly in front of the other." class="w-16 h-16 icon" />
-        <h3 class="text-lg font-bold lg:text-2xl font-heading">Code of Conduct</h3>
-        <p class="lg:text-lg">Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="/conduct/" class="link">Code of Conduct</a></strong>.</p>
-      </section>
-
-      <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-2">
-        <img src="/assets/img/theme/icons/Document.svg" alt="An official document with words written on it." class="w-16 h-16 icon" />
-        <h3 class="text-lg font-bold lg:text-2xl font-heading">COVID-19</h3>
-        <p class="lg:text-lg">Read our <strong><a href="/public-health" class="link">Public Health Policy</a></strong>, including mask and testing requirements.</p>
-      </section>
-
-      <section class="relative flex flex-col gap-4 p-6 bg-white lg:pt-10 card-effect-3">
-        <img src="/assets/img/theme/icons/Heart.svg" alt="A heart." class="w-16 h-16 icon" />
-        <h3 class="text-lg font-bold lg:text-2xl font-heading">Accessibility</h3>
-        <p class="lg:text-lg">We offer a range of accommodations, including live captioning, thoughtful lunch options, and a dedicated accessibility team to ensure everyone can fully participate.</p>
+          <ol class="flex flex-col items-center col-span-2 md:items-start" reversed>
+            {%- for post in collections.posts reversed -%}
+              {% if post.data.featured %}
+                <li>
+                  <article class="gap-8 py-4">
+                    <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="{{ post.date }}">
+                      {{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}
+                    </time>
+                    <h3 class="text-xl font-semibold font-heading">
+                      <a href="{{ post.url }}" class="">{{ post.data.title | escape }}</a>
+                    </h3>
+                  </article>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ol>
+        </div>
       </section>
     </div>
   </div>
-</div>
 
+  <div class="block-container">
+    <div class="text-center wrapper">
+      <h2 class="mb-10 text-3xl font-bold font-heading lg:text-4xl">Our Sponsors</h2>
 
-<div class="block-container">
-  <div class="wrapper">
-    <h2 class="mb-10 text-2xl font-bold text-center font-heading lg:text-5xl">Our Sponsors</h2>
+      {% include "sponsor-listing.html" %}
 
-    {% include "sponsor-listing.html" %}
+      <a href="#" class="mt-20 text-xl button">Become a Sponsor</a>
+    </div>
   </div>
-</div>
 {% endblock %}
