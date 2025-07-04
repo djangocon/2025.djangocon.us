@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '420px'
+      },
       fontFamily: {
         sans: ['Figtree', 'sans-serif'],
       },

@@ -44,7 +44,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-<body{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+<body id="SiteBody" {% if templateClass %} class="{{ templateClass }}"{% endif %}>
   {% block header %}
   {% include "header.html" %}
   {% endblock %}
