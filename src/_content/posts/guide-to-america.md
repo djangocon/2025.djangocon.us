@@ -68,7 +68,7 @@ In Chicago, Illinois, the combined sales tax rate is 10.25%. This is made up of 
 
 ## Tipping
 
-Tipping (gratuities) in the United States is rampant. Here's a rough idea of how much you'll be expected to add on top of your bill in Chicago:
+Tipping (gratuities) culture in the United States is rampant. Here's a rough idea of how much you'll be expected to add on top of your goods and services in Chicago:
 
 - Restaurants: 18-20% for everything except for the big-name fast food restaurants (e.g., McDonald's, Wendy's, Burger King). 
 - Even some self-serve kiosk ordering places will try to ask for a tip! This money will theoretically go to the staff preparing and/or delivering your food, but it definitely feels odd. If service is exceptional, you might consider tipping more than 20%. Some restaurants may automatically add a gratuity for large parties, so always check your bill.
