@@ -11,48 +11,51 @@ cover:
 title: "A First-Timer's Guide to Navigating America"
 ---
 
-For many first-time attendees from abroad, DjangoCon US represents their first time entering the United States.
+For many international attendees, DjangoCon US marks their very first visit to the United States. Whether you're here for the code or the community, this quick guide will help you navigate the essentials of everyday life during your stay.
 
-Before you can get into the USA, though, you may need a visa. Check our [Visa Support](/visas/) page for details and organizer Benedict Kofi Amofah's excellent [blog post](https://iamdreamo.medium.com/a-first-timers-guide-to-attending-tech-conferences-in-the-usa-visa-prep-and-beyond-e2e121db15df) on the visa preparation process.
+## Visa Requirements
+
+Before you can get into the USA though, you may need a visa. Check the [US State Department's Visa Wizard](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wizard.html) to determine the type of visa you will need, if any. Our [Visa Support](/visas/) page offers more resources, and check out organizer Benedict Kofi Amofah's excellent [blog post](https://iamdreamo.medium.com/a-first-timers-guide-to-attending-tech-conferences-in-the-usa-visa-prep-and-beyond-e2e121db15df) on the visa preparation process.
 
 Here's a quick guide to navigating life in the United States as a newcomer:
 
-## Payments
+## Payments & Currency
 
-Almost every venue nowadays takes Visa, MasterCard, American Express, and usually Discover. Make sure you notify your bank before you are traveling that you are going to the United States so you don't set off any fraud alerts. In the US, this requires calling the customer service number printed on the back of the card, but overseas banks may differ.
+### Credit and Debit Cards
 
-When making payments, some card machines will give you the option to pay in USD or your home country; generally your bank will give you a more favorable exchange rate (even after conversion fees) than the merchant, so you should probably pick USD.
+Credit and debit cards are widely accepted throughout the U.S.—including Visa, MasterCard, American Express, and usually Discover. Before you travel, notify your bank to avoid any unexpected fraud alerts that might freeze your account. *Tap to Pay*/mobile pay is generally available in the US, but it is not recommended to rely on it soley.
+
+### Currency Choice 
+
+When making payments, some card machines will give you the option to pay in USD or your home currency; generally your bank will give you a more favorable exchange rate (even after conversion fees) than the merchant, so you should probably pick USD. 
 
 ### Carrying Cash
 
-However, credit card machine failures do happen, so it's a good idea to carry a small bit of cash just in case. You will typically get better exchange rates at ATMs over airport currency exchange shops.
+There are some cases where cards are not accepted, so it's a good idea to carry a small bit of cash just in case. You will typically get better exchange rates at ATMs over airport currency exchange shops.
 
-Many taxis will not have working card readers, so having cash for this is a must!
 
 Most but not all vending machines will take cards and NFC payments (e.g. Apple Pay and Google Pay), so it's useful to have a few small bills ($1 is a paper note in the US, unlike most countries) just in case.
 
-## Mobile Phones
+## Mobile Phones & Data
 
-The United States has 3 main wireless telecommunications providers: Verizon, AT&T, and T-Mobile. Now that Verizon has retired its 3G service, you should be able to bring nearly any phone that supports Voice over LTE (all 5G phones automatically do) and have it work in the US via roaming. However, that can be super expensive depending on your plan back home.
+Most modern phones that support Voice over LTE (VoLTE) or 5G should work in the U.S. via international roaming. That said, roaming can be expensive—especially for data.
 
-If you want to get a temporary US plan, you have numerous options. The big three carriers are all post-paid, typically requiring long contract terms which make them unsuitable for a quick visit. However, there are numerous providers called MVNOs (mobile virtual network operators) that offer prepaid service, including:
+If you're planning a short stay and want to avoid high roaming charges, consider getting a temporary U.S. mobile plan. While the major carriers primarily offer postpaid plans (which typically involve long-term contracts and credit checks), many providers offer flexible prepaid options without contracts:
 
-- Boost Mobile
-- Cricket
-- Visible
-- Google Fi
-- Tracfone
-- Mint Mobile
+- [Boost Mobile](https://www.boostmobile.com/)
+- [Cricket Wireless](https://www.cricketwireless.com/)
+- [Visible](https://www.visible.com/)
+- [Google Fi](https://fi.google.com/)
+- [Tracfone](https://www.tracfone.com/)
+- [Mint Mobile](https://www.mintmobile.com/)
 
-Many of these are able to offer a "bring your own phone" plan where you would have to get a SIM card, likely having it shipped to your hotel and then doing the swap yourself after you land in the US. You may also be able to find shops in the airport once you arrive in the US while you wait to board your final flight to ORD (O'Hare International Airport) that offer SIM cards. Check the directory of your connecting airport for more information.
+These providers often support "bring your own device" (BYOD) plans, where you simply insert a new SIM card into your current phone. You can usually order a SIM card online and have it shipped to your U.S. hotel or pickup location. Alternatively, some airport shops in major hubs may sell SIM cards — check the airport directory for availability, especially if you're connecting through a large hub before arriving in Chicago.
 
-Alternatively, you can get an eSIM that you activate upon arrival. If your phone supports both an eSIM and a physical SIM, you can keep your normal phone number for receiving calls and use the eSIM for mobile data in the US. A few common providers are:
-
-- Airalo
-- Holafly
-- Nomad
-- aloSIM
-- Jetpac
+- [Airalo](https://www.airalo.com/)
+- [Holafly](https://www.holafly.com/)
+- [Nomad](https://www.getnomad.app/)
+- [aloSIM](https://www.alosim.com/)
+- [Jetpac](https://www.jetpacglobal.com/)
 
 Doing some internet searches (or asking your friends) might yield some handy discount codes, too.
 
@@ -60,14 +63,15 @@ Doing some internet searches (or asking your friends) might yield some handy dis
 
 Many countries have some form of value added tax or goods and services tax rolled into the retail price that you pay, so a bottle of water that's listed as costing $2 is exactly what you  pay. In the US, this is very much _not_ the case. Instead, each state charges its own sales tax, and in many states, counties and municipalities add their own tax on top of that. Some places charge different tax rates for different classes of goods, such as a discount for food.
 
-In Chicago, Illinois, the combined sales tax rate is 10.25%. This is made up of the 6.25% Illinois state tax, 1.75% Cook County tax, 1.25% Chicago city tax, and a 1.0% Regional Transportation Authority (RTA) tax. For example, if you were to buy a $2 bottle of water, you would pay $2.21 for it.
+In Chicago, Illinois, the combined sales tax rate is 10.25%. This is made up of the 6.25% Illinois state tax, 1.75% Cook County tax, 1.25% Chicago city tax, and a 1.0% Regional Transportation Authority (RTA) tax. So, for example, a $2 bottle of water will cost you $2.21 after tax.
+
 
 ## Tipping
 
 Tipping (gratuities) in the United States is rampant. Here's a rough idea of how much you'll be expected to add on top of your bill in Chicago:
 
 - Restaurants: 18-20% for everything except for the big-name fast food restaurants (e.g., McDonald's, Wendy's, Burger King). 
-    - Even some self-serve kiosk ordering places will try to ask for a tip! This money will theoretically go to the staff preparing and/or delivering your food, but it definitely feels odd. If service is exceptional, you might consider tipping more than 20%. Some restaurants may automatically add a gratuity for large parties, so always check your bill.
+- Even some self-serve kiosk ordering places will try to ask for a tip! This money will theoretically go to the staff preparing and/or delivering your food, but it definitely feels odd. If service is exceptional, you might consider tipping more than 20%. Some restaurants may automatically add a gratuity for large parties, so always check your bill.
 - Coffee shops: $1-2 per complicated drink order. For a simple cup of coffee or tea, tipping is not strictly expected but appreciated, especially if there's a tip jar.
 - Bars: $1-2 per beer/glass of wine, $2-4 per cocktail, or 15-20% of the total tab.
 - Rideshare and taxis: 15-20% of the fare. While optional on apps, it's highly encouraged. Drivers often prefer cash tips.
@@ -84,7 +88,8 @@ There are 3 ways to get from the ORD airport to Voco Chicago Downtown:
 
 ## Identification/Purchasing Alcohol
 
-To purchase alcohol or enter places that predominantly serve alcohol, there's a very good chance you'll be required to present identification. You _may_ be able to get away with a national ID card, but your safest option is your passport. It needs to be the original; photocopies are not accepted.
+In the United States, you must be 21 or older to legally purchase alcohol or enter establishments that primarily serve it (such as bars or pubs). Be prepared to show valid identification, even if you clearly appear to be of legal age. While some places may accept a national ID card, your passport is the most reliable form of ID. Importantly, photocopies or digital scans are not accepted — only the original document will work.
+
 
 ## Recycling
 
@@ -96,10 +101,12 @@ All other waste goes into a single trash stream.
 
 Unlike many European cities, you're not likely to find public paid toilets. If you find yourself in need of a trip to the restroom while out in public, you have a few options:
 
-- Public parks typically have restrooms open to the public
-- Visit a retail establishment (grocery store, convenience store, coffee shop, etc.) and buy something
-- Public libraries
+- Public parks often have free restroom facilities (though cleanliness and availability can vary).
+
+- Retail businesses such as coffee shops, grocery stores, and convenience stores typically have restrooms — but you're generally expected to make a small purchase first.
+
+- Public libraries are an excellent option; they almost always have clean, free restrooms accessible during business hours.
 
 ## Flying Home
 
-When returning home, you'll want to plan on arriving at ORD airport two hours before your departure time. Odds are you will clear security with plenty of time to spare, but in the event of another CrowdStrike-class outage, it's better to have time on your side.
+For your return flight from Chicago O'Hare International Airport (ORD), plan to arrive at the airport at least two hours before your scheduled departure for international flights. Security lines often move quickly, but occasional disruptions can cause unexpected delays. Giving yourself extra time ensures a stress-free departure, especially during peak travel periods.
