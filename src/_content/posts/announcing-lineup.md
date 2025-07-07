@@ -26,8 +26,8 @@ _All talks will be available live for those with online-only tickets. They will 
 - Michael Trythall ([linkedin](https://www.linkedin.com/in/mtrythall/)) - Building a Wagtail CMS Experience that Editors Love
 - Alex Henman ([linkedin](https://www.linkedin.com/in/alexhenman/)) - Building sustainable Django projects: the difficult teenage years
 - Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn't
-- Ryan Cheley - Django as a Database Documentation Tool: The Hidden Power of Model Comments
-- Will Vincent - Django for Data Science: Deploying Machine Learning Models with Django
+- Ryan Cheley ([linkedin](https://www.linkedin.com/in/ryan-cheley/)) - Django as a Database Documentation Tool: The Hidden Power of Model Comments
+- Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for Data Science: Deploying Machine Learning Models with Django
 - Paolo Melchiorre ([linkedin](https://www.linkedin.com/in/paolomelchiorre/)) - Django's GeneratedField By Example
 - Lilian - Djangonaut Space: A Mentorship Program for Open Source
 - Colleen Dunlap ([linkedin](https://www.linkedin.com/in/colleen-dunlap-118a5a10b/)) - Easy, Breezy, Beautiful... Django Unit Tests
@@ -40,11 +40,11 @@ _All talks will be available live for those with online-only tickets. They will 
 - Henrietta Dombrovskaya ([linkedin](https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/)) - PostgreSQL: Tuning Parameters or Tuning Queries?
 - Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action
 - Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service
-- Viola Bergere - Tailwind CSS vs Bootstrap: Choosing the Right Styling Framework for Your Django Project
+- Viola Bergere ([linkedin](https://www.linkedin.com/in/viola-bergere/)) - Tailwind CSS vs Bootstrap: Choosing the Right Styling Framework for Your Django Project
 - Kudzayi Bamhare ([linkedin](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/)) - The X's and O's of Open Source With ShotGeek
 - Timothy Allen ([linkedin](https://www.linkedin.com/in/flipperpa/)) - What a Decade!
-- Lisa Dusseault - What Would the Django of Data Pipelines Look Like?
-- Tim Schilling and Rachell Calhoun - Why Governance in Open-Source Is Important
+- Lisa Dusseault ([linkedin](https://www.linkedin.com/in/lisadusseault/)) - What Would the Django of Data Pipelines Look Like?
+- Tim Schilling ([linkedin](https://www.linkedin.com/in/tim-schilling-5b365a15/)) and Rachell Calhoun ([linkedin](https://www.linkedin.com/in/rachell-calhoun-0793525a/)) - Why Governance in Open-Source Is Important
 - Chris Muthig - Winemaking With Mutable Event Sourcing in Django
 
 Congratulations to all our speakers!
