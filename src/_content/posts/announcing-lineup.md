@@ -35,7 +35,6 @@ _All talks will be available live for those with online-only tickets. They will 
 - Micah Lyle ([linkedin](https://www.linkedin.com/in/micahlyle/)) - Free Threaded Django
 - Ryan J Sullivan - From Breakpoints to Querysets: Debugging Django With Ease
 - Jeanette O'Brien ([linkedin](https://www.linkedin.com/in/jeanetteob/)) - From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps
-- Ojima Grace Ohaba - From Law to Code: My Journey of Inclusion and Resilience in Tech
 - Peter Baumgartner - High Performance Django at Ten: Old Tricks and New Picks
 - Karen Tracey ([linkedin](https://www.linkedin.com/in/karen-tracey-b616255/)) - How to Enjoy Debugging In Production
 - Henrietta Dombrovskaya ([linkedin](https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/)) - PostgreSQL: Tuning Parameters or Tuning Queries?
