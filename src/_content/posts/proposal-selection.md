@@ -18,9 +18,9 @@ _*Subject to change depending on the number of submissions and other factors._
 - ~**CFP Deadline Extension**: May 4~
 - **Reviewer Deadline**: May 18
 - **Panel Finalization**: June 6
-- **Speaker Notifications**: June 8
-- **Schedule Announcement**: mid-June
-- **Keynote Announcements**: June-July
+- **Speaker Notifications**: June 28
+- **Schedule Announcement**: July 24
+- **Start of Keynote Announcements**: July 6
 
 
 ## Call for Proposals Opens
@@ -57,7 +57,7 @@ Once the reviews are in, the committee will lift the anonymization and meet to c
 
 
 Some talks are accepted or declined based on strong consensus. The most difficult decisions often revolve around the final handful of slots, which we may reserve in case of scheduling conflicts or withdrawals.
-The speakers will receive notifications about the decision on or before **June 8**.
+The speakers will receive notifications about the decision on or before **June 28**.
 
 
 At this point, we evaluate the suggested panellists and hosts who will participate in the last conference day and the discussion topic.
@@ -71,7 +71,7 @@ Keynote speakers follow a separate, invitation-based process that begins well be
 - **Representation of the community**, especially those who've contributed significantly or brought underrepresented viewpoints to the forefront
 
 
-Keynote announcements typically occur in **June or July** after the talk schedule is shared.
+Keynote announcements typically occur in **July or August** after the talk schedule is shared.
 
 
 DjangoCon US is more than a conference. It's a reflection of the community that makes Django special. Every part of our program, from anonymous reviews to committee deliberations and keynote invitations, is rooted in care and intentionality. We aim to surface new voices, avoid bias, and curate a meaningful and engaging conference experience.

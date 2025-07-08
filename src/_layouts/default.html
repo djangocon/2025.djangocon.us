@@ -7,11 +7,11 @@
 
   <link rel="canonical" href="{{ site.domain }}{{ page.url }}" />
   <meta name="author" content="DjangoCon US" />
-  <meta name="description" content="{{ description }}" />
+  <meta name="description" content="{% if description %}{{ description }}{% else %}DjangoCon US 2025 is a Python and Django focused web development conference in Chicago, Illinois.{% endif %}" />
 
-  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}DjangoCon US 2025" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:description" content="{{ description }}" />
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}DjangoCon US 2025 is a Python and Django focused web development conference in Chicago, Illinois.{% endif %}" />
   <meta property="og:url" content="{{ site.domain }}{{ page.url }}" />
   <meta property="og:site_name" content="DjangoCon US" />
 
@@ -25,9 +25,8 @@
   {% endblock %}
   {% endcomment %}
 
-  <meta property="twitter:title" content="{{ title }}" />
+  <meta property="twitter:title" content="{% if title %}{{ title }} | {% endif %}DjangoCon US 2025" />
   <meta name="twitter:site" content="@djangocon" />
-  <meta name="twitter:creator" content="@DjangoCon US" />
 
   <meta property="fb:app_id" content="280981518972848" />
   <meta name="google-site-verification" content="fkIplA0HzMWPz64TqaW1xp4RH5JfDyRekV3QO_MqJ8Q" />
@@ -36,11 +35,8 @@
   <link href="/assets/favicons/favicon.png" rel=icon type="image/png">
   <link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
 
-  <title>{{ title }}</title>
+  <title>{% if title %}{{ title }} | {% endif %}DjangoCon US 2025</title>
 
-  {% comment %}
-    THEME-X - Adjust fonts to theme
-  {% endcomment %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
@@ -48,7 +44,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-<body{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+<body id="SiteBody" {% if templateClass %} class="{{ templateClass }}"{% endif %}>
   {% block header %}
   {% include "header.html" %}
   {% endblock %}

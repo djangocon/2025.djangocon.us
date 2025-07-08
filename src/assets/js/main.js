@@ -8,9 +8,7 @@ if (siteNav) {
   const allMenus = siteNav.querySelectorAll('[data-menu-list]');
 
   navToggler.addEventListener('click', () => {
-    const siteHero = document.getElementById('SiteHero');
-    const siteMain = document.getElementById('SiteMain');
-    const siteFooter = document.getElementById('SiteFooter');
+    const siteBody = document.getElementById('SiteBody');
     const siteHeader = document.getElementById('SiteHeader');
 
     console.log('Toggling site navigation');
@@ -30,9 +28,7 @@ if (siteNav) {
       Hide the main content and footer when the mobile menu is open.
       This allows the menu to be scrollable and limits the DOM for screen readers.
     */
-    siteHero.classList.toggle('hidden');
-    siteMain.classList.toggle('hidden');
-    siteFooter.classList.toggle('hidden');
+    siteBody.classList.toggle('mobile-nav-open');
   });
 
   const navMenuTriggers = document.querySelectorAll('[data-menu-trigger]');
