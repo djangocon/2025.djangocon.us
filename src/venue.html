@@ -84,15 +84,23 @@ other_lodging:
 <div class="block-container bg-gray-50" id="hotel">
   <div class="wrapper">
     <div class="grid-1-2">
-      <figure>
-        <img
+      <div>
+        <figure>
+          <img
           class="w-full media"
           src="/assets/img/venue/voco.png"
           alt="Exterior photo of Voco Chicago Downtown"
           loading="lazy"
-        />
-        <figcaption>Voco Chicago Downtown</figcaption>
-      </figure>
+          />
+          <figcaption>Voco Chicago Downtown</figcaption>
+        </figure>
+        <ul class="flex flex-wrap justify-center gap-2 my-4">
+          <li class="badge badge-blue">🛜 Free Wi-Fi</li>
+          <li class="badge badge-blue">🧑‍💻 Room for hallway hacking</li>
+          <li class="badge badge-blue">🏙️ In the middle of downtown</li>
+          <li class="badge badge-blue">🚶 Steps from Chicago Riverwalk</li>
+        </ul>
+      </div>
 
       <section class="space-y-6 text-xl lg:text-2xl">
         <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">Staying at the voco Chicago Downtown</h2>
@@ -103,12 +111,6 @@ other_lodging:
           Please check the official DjangoCon US website for any specific room block information or discount codes. If the special rate block is closed, you can still
           <a href="https://www.ihg.com/voco/hotels/us/en/chicago/chiwp/hoteldetail" target="_blank">book a room</a> at their normal retail rates.
         </p>
-        <ul class="flex flex-wrap gap-2">
-          <li class="badge badge-blue">🛜 Free Wi-Fi</li>
-          <li class="badge badge-blue">🧑‍💻 Room for hallway hacking</li>
-          <li class="badge badge-blue">🏙️ In the middle of downtown</li>
-          <li class="badge badge-blue">🚶 Steps from Chicago Riverwalk</li>
-        </ul>
       </section>
     </div>
   </div>
@@ -118,10 +120,10 @@ other_lodging:
       <h2 class="text-3xl font-bold font-heading lg:text-5xl">Other hotel options nearby</h2>
     </header>
 
-    <div class="grid-1-2">
+
       <div>
 
-        <ul class="grid gap-8 lg:grid-cols-2 lg:gap-8">
+        <ul class="grid gap-8 lg:grid-cols-3 lg:gap-8">
           {% for lodge in other_lodging %}
             <li class="flex flex-col gap-2 bg-white border-2 border-gray-100 rounded-md">
               <div class="flex flex-col flex-1 order-1 gap-8 p-4">
@@ -143,7 +145,7 @@ other_lodging:
 
         <p class="mt-6 text-center">All rates are "the last time we checked" and may be outdated. Prices in downtown Chicago vary significantly based on demand and season.</p>
       </div>
-      <figure class="hidden lg:block">
+      <!-- <figure class="hidden lg:block">
         <img
           src="/assets/img/2025/venue-3.png"
           alt="Another exterior photo of voco Chicago Downtown"
@@ -151,8 +153,8 @@ other_lodging:
           class="w-full media"
         />
         <figcaption>Hyatt Centric Chicago Magnificent Mile</figcaption>
-      </figure>
-    </div>
+      </figure> -->
+   
   </div>
 </div>
 
@@ -234,7 +236,6 @@ other_lodging:
             <a href="mailto:recovery@pyphilly.org">recovery@pyphilly.org</a>.
             Anonymity will be maintained.
           </li>
-          {% endcomment %}
           -->
       <li>
         <a href="/news/childcare-at-djangocon-us/">Sponsored childcare</a>
