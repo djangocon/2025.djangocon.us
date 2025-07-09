@@ -8,11 +8,13 @@ cover:
 title: "Announcing our DjangoCon US 2025 Talks!"
 ---
 
-We are thrilled to present our talk lineup!
+We’re absolutely delighted to unveil the official talk lineup for DjangoCon US 2025! This year’s conference promises to be a vibrant celebration of Django’s community, innovation, and real-world impact. Whether you’re joining us in Chicago or tuning in online, there’s something for everyone—from Django newcomers to seasoned veterans.
 
 The final talk schedule will be announced soon. If you haven’t purchased your ticket yet, [they’re still on sale]({{site.ticket_link}}).
 
-Congratulations to the presenters of the talks below!
+## Congratulations to Our Speakers!
+
+A heartfelt congratulations to all the talented speakers whose proposals were selected! Your passion, expertise, and creativity are what make DjangoCon US such a special event. We’re excited to hear your stories, insights, and discoveries.
 
 ## Talks (Monday, September 8th through Wednesday, September 10th)
 
@@ -26,8 +28,8 @@ _All talks will be available live for those with online-only tickets. They will 
 - Michael Trythall ([linkedin](https://www.linkedin.com/in/mtrythall/)) - Building a Wagtail CMS Experience that Editors Love
 - Alex Henman ([linkedin](https://www.linkedin.com/in/alexhenman/)) - Building sustainable Django projects: the difficult teenage years
 - Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn't
-- Ryan Cheley ([linkedin](https://www.linkedin.com/in/ryan-cheley/)) - Django as a Database Documentation Tool: The Hidden Power of Model Comments
-- Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for Data Science: Deploying Machine Learning Models with Django
+- Ryan Cheley - Django as a Database Documentation Tool: The Hidden Power of Model Comments
+- Will Vincent - Django for Data Science: Deploying Machine Learning Models with Django
 - Paolo Melchiorre ([linkedin](https://www.linkedin.com/in/paolomelchiorre/)) - Django's GeneratedField By Example
 - Lilian - Djangonaut Space: A Mentorship Program for Open Source
 - Colleen Dunlap ([linkedin](https://www.linkedin.com/in/colleen-dunlap-118a5a10b/)) - Easy, Breezy, Beautiful... Django Unit Tests
@@ -40,13 +42,16 @@ _All talks will be available live for those with online-only tickets. They will 
 - Henrietta Dombrovskaya ([linkedin](https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/)) - PostgreSQL: Tuning Parameters or Tuning Queries?
 - Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action
 - Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service
-- Viola Bergere ([linkedin](https://www.linkedin.com/in/viola-bergere/)) - Tailwind CSS vs Bootstrap: Choosing the Right Styling Framework for Your Django Project
+- Viola Bergere - Tailwind CSS vs Bootstrap: Choosing the Right Styling Framework for Your Django Project
 - Kudzayi Bamhare ([linkedin](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/)) - The X's and O's of Open Source With ShotGeek
 - Timothy Allen ([linkedin](https://www.linkedin.com/in/flipperpa/)) - What a Decade!
-- Lisa Dusseault ([linkedin](https://www.linkedin.com/in/lisadusseault/)) - What Would the Django of Data Pipelines Look Like?
-- Tim Schilling ([linkedin](https://www.linkedin.com/in/tim-schilling-5b365a15/)) and Rachell Calhoun ([linkedin](https://www.linkedin.com/in/rachell-calhoun-0793525a/)) - Why Governance in Open-Source Is Important
+- Lisa Dusseault - What Would the Django of Data Pipelines Look Like?
+- Tim Schilling and Rachell Calhoun - Why Governance in Open-Source Is Important
 - Chris Muthig - Winemaking With Mutable Event Sourcing in Django
 
-Congratulations to all our speakers!
 
-If you’d like to check out these talks and more, [tickets are still on sale]({{site.ticket_link}}). We are not having tutorials this year, but we have Sprints on September 11th and 12th. There are no minimum or suggested donations for Sprints, and Sprints are available online as well. We hope to see you in Chicago!
+## Don't Miss out
+
+If you’d like to check out these talks and more, [tickets are still on sale]({{site.ticket_link}}). We are not having tutorials this year, but we have Sprints on September 11th and 12th. There are no minimum or suggested donations for Sprints, and Sprints are available online as well.
+
+We can’t wait to see you in Chicago (or online)! Congratulations again to all our speakers, and thank you to everyone who submitted a proposal. Let’s make DjangoCon US 2025 unforgettable!
