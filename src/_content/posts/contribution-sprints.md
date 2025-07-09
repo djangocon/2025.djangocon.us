@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2025-08-15 12:00:00-04:00
+published_datetime: 2025-07-07 12:00:00-04:00
 layout: post
 title: Contribute to Django at the Contribution Sprints!
 
