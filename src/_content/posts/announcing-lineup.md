@@ -29,8 +29,8 @@ _All talks will be available live for those with online-only tickets. They will 
 - Alex Henman ([linkedin](https://www.linkedin.com/in/alexhenman/)) - Building sustainable Django projects: the difficult teenage years
 - Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn't
 - Alex Clarke - Evolving Django: What We Learned by Integrating MongoDB
-- Ryan Cheley - Django as a Database Documentation Tool: The Hidden Power of Model Comments
-- Will Vincent - Django for Data Science: Deploying Machine Learning Models with Django
+- Ryan Cheley ([linkedin](https://www.linkedin.com/in/ryan-cheley/)) - Django as a Database Documentation Tool: The Hidden Power of Model Comments
+- Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for Data Science: Deploying Machine Learning Models with Django
 - Paolo Melchiorre ([linkedin](https://www.linkedin.com/in/paolomelchiorre/)) - Django's GeneratedField By Example
 - Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue 
 - Lilian - Djangonaut Space: A Mentorship Program for Open Source
@@ -49,8 +49,8 @@ _All talks will be available live for those with online-only tickets. They will 
 - Kattni - ([website](https://kattni.com)) The Source of Change: Bettering Online Open Source Communities Can Begin with You
 - Kudzayi Bamhare ([linkedin](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/)) - The X's and O's of Open Source With ShotGeek
 - Timothy Allen ([linkedin](https://www.linkedin.com/in/flipperpa/)) - What a Decade!
-- Lisa Dusseault - What Would the Django of Data Pipelines Look Like?
-- Tim Schilling and Rachell Calhoun - Why Governance in Open-Source Is Important
+- Lisa Dusseault ([linkedin](https://www.linkedin.com/in/lisadusseault/)) - What Would the Django of Data Pipelines Look Like?
+- Tim Schilling ([linkedin](https://www.linkedin.com/in/tim-schilling-5b365a15/)) and Rachell Calhoun ([linkedin](https://www.linkedin.com/in/rachell-calhoun-0793525a/)) - Why Governance in Open-Source Is Important
 - Chris Muthig - Winemaking With Mutable Event Sourcing in Django
 - Ngazetungue Muheue - Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia
 
