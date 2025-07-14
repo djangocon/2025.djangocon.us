@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2025-07-03 00:00:00
+published_datetime: 2025-07-14 00:00:00
 cover:
     url: /assets/img/2025/54089577525_de6f9bcb72_w.jpg
     alt: "Sheena O'Connell speaking at DjangoCon US 2024"
@@ -28,12 +28,16 @@ _All talks will be available live for those with online-only tickets. They will 
 - Michael Trythall ([linkedin](https://www.linkedin.com/in/mtrythall/)) - Building a Wagtail CMS Experience that Editors Love
 - Alex Henman ([linkedin](https://www.linkedin.com/in/alexhenman/)) - Building sustainable Django projects: the difficult teenage years
 - Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn't
+- Alex Clarke - Evolving Django: What We Learned by Integrating MongoDB
 - Ryan Cheley - Django as a Database Documentation Tool: The Hidden Power of Model Comments
 - Will Vincent - Django for Data Science: Deploying Machine Learning Models with Django
 - Paolo Melchiorre ([linkedin](https://www.linkedin.com/in/paolomelchiorre/)) - Django's GeneratedField By Example
+- Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue 
 - Lilian - Djangonaut Space: A Mentorship Program for Open Source
 - Colleen Dunlap ([linkedin](https://www.linkedin.com/in/colleen-dunlap-118a5a10b/)) - Easy, Breezy, Beautiful... Django Unit Tests
 - Michael Riley ([linkedin](https://www.linkedin.com/in/michael-riley-jr-99366589/)) - Entering the World of CMS with Wagtail
+- Efe Öge - Peaceful Django Migrations
+- Kumar Shivendu - Beyond Filters: Modern Search (and more) with Vectors in Django
 - Micah Lyle ([linkedin](https://www.linkedin.com/in/micahlyle/)) - Free Threaded Django
 - Ryan J Sullivan - From Breakpoints to Querysets: Debugging Django With Ease
 - Jeanette O'Brien ([linkedin](https://www.linkedin.com/in/jeanetteob/)) - From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps
@@ -42,12 +46,13 @@ _All talks will be available live for those with online-only tickets. They will 
 - Henrietta Dombrovskaya ([linkedin](https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/)) - PostgreSQL: Tuning Parameters or Tuning Queries?
 - Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action
 - Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service
-- Viola Bergere - Tailwind CSS vs Bootstrap: Choosing the Right Styling Framework for Your Django Project
+- Kattni - ([website](https://kattni.com)) The Source of Change: Bettering Online Open Source Communities Can Begin with You
 - Kudzayi Bamhare ([linkedin](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/)) - The X's and O's of Open Source With ShotGeek
 - Timothy Allen ([linkedin](https://www.linkedin.com/in/flipperpa/)) - What a Decade!
 - Lisa Dusseault - What Would the Django of Data Pipelines Look Like?
 - Tim Schilling and Rachell Calhoun - Why Governance in Open-Source Is Important
 - Chris Muthig - Winemaking With Mutable Event Sourcing in Django
+- Ngazetungue Muheue - Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia
 
 
 ## Don't Miss out
