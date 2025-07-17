@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2025-07-14 00:00:00
+published_datetime: 2025-07-17 18:00:00
 cover:
     url: /assets/img/2025/54089577525_de6f9bcb72_w.jpg
     alt: "Sheena O'Connell speaking at DjangoCon US 2024"
