@@ -28,7 +28,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Michael Trythall ([linkedin](https://www.linkedin.com/in/mtrythall/)) - Building a Wagtail CMS Experience that Editors Love
 - Alex Henman ([linkedin](https://www.linkedin.com/in/alexhenman/)) - Building sustainable Django projects: the difficult teenage years
 - Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn't
-- Alex Clarke - Evolving Django: What We Learned by Integrating MongoDB
+- Jeffrey A. Clark - Evolving Django: What We Learned by Integrating MongoDB
 - Ryan Cheley ([linkedin](https://www.linkedin.com/in/ryan-cheley/)) - Django as a Database Documentation Tool: The Hidden Power of Model Comments
 - Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for Data Science: Deploying Machine Learning Models with Django
 - Paolo Melchiorre ([linkedin](https://www.linkedin.com/in/paolomelchiorre/)) - Django's GeneratedField By Example
