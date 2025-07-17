@@ -50,7 +50,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Kudzayi Bamhare ([linkedin](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/)) - The X's and O's of Open Source With ShotGeek
 - Timothy Allen ([linkedin](https://www.linkedin.com/in/flipperpa/)) - What a Decade!
 - Lisa Dusseault ([linkedin](https://www.linkedin.com/in/lisadusseault/)) - What Would the Django of Data Pipelines Look Like?
-- Tim Schilling ([linkedin](https://www.linkedin.com/in/tim-schilling-5b365a15/)) and Rachell Calhoun ([linkedin](https://www.linkedin.com/in/rachell-calhoun-0793525a/)) - Why Governance in Open-Source Is Important
+- Rachell Calhoun ([linkedin](https://www.linkedin.com/in/rachell-calhoun-0793525a/)) and Tim Schilling ([linkedin](https://www.linkedin.com/in/tim-schilling-5b365a15/)) - Why Governance in Open-Source Is Important
 - Chris Muthig - Winemaking With Mutable Event Sourcing in Django
 - Ngazetungue Muheue - Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia
 
