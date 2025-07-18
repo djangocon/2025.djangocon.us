@@ -17,7 +17,7 @@ We’re spending a little time getting to know people who will be attending Djan
 
 - [Apoorv Garg](https://www.linkedin.com/in/apoorv-garg-/) is a first-time attendee at DjangoCon US
 - [Richel Agyemang](https://www.linkedin.com/in/richel-agyemang-468379211/) is a first-time organizer
-- [Katherine Michel](https://fosstodon.org/@kati) is a long-time attendee, speaker and organizer of DjangoCon US 
+- [Katherine "Kati" Michel](https://fosstodon.org/@kati) is a long-time attendee, speaker and organizer of DjangoCon US 
 - [Kudzayi Bamhare](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/ ) is a first-time speaker
 - [Nathan Zeager](https://www.linkedin.com/in/nathan-zeager/) is a board member of DEFNA and DjangoCon US organizer
 
@@ -42,7 +42,7 @@ Hello, thanks for agreeing to this. Let’s start with having you tell us a litt
 >
 > As I learned more, I discovered [Django](https://www.djangoproject.com/) while exploring [Python](https://www.python.org/) for web development. I was drawn to how clean and powerful it is and was even more impressed by the kindness and support within the community. I didn’t want to just learn from afar, so I joined the [DjangoCon US 2025](https://2025.djangocon.us/) team as a volunteer. I currently help with graphic design where I have been creating flyers and graphics for the event and it’s been an amazing experience working with such a thoughtful and inclusive team.
 
-**Katherine**:
+**Kati**:
 
 > I am a Python/Django software engineer at [JPMorganChase](https://www.jpmorganchase.com/). I became interested in [Python](https://www.python.org/))and open-source code in 2013, and stumbled upon [DjangoCon US](https://2025.djangocon.us/) through its website code hosted on [GitHub](https://github.com/djangocon/2025.djangocon.us). I became a DjangoCon US volunteer in 2016 and served as website chair or co-chair from 2017 to 2020. In 2017, I became a Django Events Foundation North America [(DEFNA) Board Member](https://www.defna.org/). 
 >
@@ -71,7 +71,7 @@ That's cool! Can you please share what you are looking forward to at DjangoCon U
 
 > I’m excited about the talks, especially those focused on accessibility and community building. I can’t wait to learn from others, hear their stories, and be inspired by the creative ways people are using Django to make a difference. I’m really looking forward to connecting with people from all kinds of backgrounds who are passionate about open source, design, and inclusion.
 
-**Katherine**:
+**Kati**:
 
 > I am most looking forward to leveling up my knowledge. I enjoy learning about the latest features implemented by Django fellows and volunteers, and other deep dives. I am also excited that the conference will be held in downtown Chicago this year. It will be an amazing location!
 
@@ -96,7 +96,7 @@ That's cool! Can you please share what you are looking forward to at DjangoCon U
 > Be curious, and don’t be afraid to talk to people! Introduce yourself, ask questions, take notes, and be open to learning from everyone you meet because never know
 what kind of collaborations or friendships might come out of it. And don’t forget to take breaks when you need them.
 
-**Katherine**:
+**Kati**:
 
 > Seize the day! Set aside any shyness or doubts. Got up to the author you've always admired and chat for a bit. Sit with different people at every meal. Connect with a prospective employer. Learn about a new topic that inspires you. Take time to enjoy some once-in-a-lifetime food and sight-seeing in the host city.
 
@@ -120,7 +120,7 @@ what kind of collaborations or friendships might come out of it. And don’t for
 
 > Empowering
 
-**Katherine**:
+**Kati**:
 
 > Empowerment. DjangoCon US is what you make of it, and the opportunities are endless. My involvement with DjangoCon US has been life changing. It has grown my network, knowledge, and opened doors for me.  
 
@@ -188,12 +188,12 @@ something bigger; an event that brings people together and creates a positive im
 > Go for it! You don’t have to have it all figured out. Volunteering helps you learn, meet amazing people, grow your confidence, and discover skills you didn’t know
 you had. Just be willing to help and stay open and you will be surprised how much you will gain.
 
-<!-- Katherine -->
+<!-- Kati -->
 **Interviewer Velda**:
 
 > How has DjangoCon US changed over the years?
 
-**Katherine**:
+**Kati**:
 
 > By design, DjangoCon US has become substantially more diverse. It has been great to see the number of women and Black attendees increase over the years. Everyone is welcome and everyone makes it a better place. Here are a few important milestones. In 2016, the number of women speakers was nearly 50%. In 2017, three women of color keynoted. In 2023, the conference was an important platform for the newly formed [Black Python Devs](https://blackpythondevs.com/index.html) organization. By one organizer's count, we had around 10 Black speakers, and a Django Girls workshop had a majority of Black participants. In 2024, the conference hosted the Black Python Devs Leadership Summit.
 
@@ -201,7 +201,7 @@ you had. Just be willing to help and stay open and you will be surprised how muc
 
 > What keeps you coming back?
 
-**Katherine**:
+**Kati**:
 
 > The community keeps me coming back. DjangoCon US is often called "the conference with heart." I have met so many kind, supportive, inspiring people through the conference. I am forever grateful for the many friendships I have made.  
 
@@ -209,7 +209,7 @@ you had. Just be willing to help and stay open and you will be surprised how muc
 
 > What’s one unforgettable moment or conversation you’ve had at DjangoCon US?
 
-**Katherine**:
+**Kati**:
 
 > Not only was DjangoCon US 2017 the first conference that I ever attended, it was my first time ever giving a conference talk! Looking back, I still marvel that I had the courage to get up on that stage and teach a crowd of strangers what I had learned as the conference website chair that year. DjangoCon US loves to be remembered as the place that started speaking careers. Taking that leap of faith was a pivotal moment for me.
 
