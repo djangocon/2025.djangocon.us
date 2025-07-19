@@ -10,7 +10,6 @@ title: "Announcing our DjangoCon US 2025 Talks!"
 
 We’re absolutely delighted to unveil the official talk lineup for DjangoCon US 2025! This year’s conference promises to be a vibrant celebration of Django’s community, innovation, and real-world impact. Whether you’re joining us in Chicago or tuning in online, there’s something for everyone—from Django newcomers to seasoned veterans.
 
-The final talk schedule will be announced soon. If you haven’t purchased your ticket yet, [they’re still on sale]({{site.ticket_link}}).
 
 ## Congratulations to Our Speakers!
 
