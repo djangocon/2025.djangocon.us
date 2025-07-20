@@ -6,13 +6,65 @@
   <link href="https://2025.djangocon.us" rel="alternate"/>
 
   <updated
-    >2025-07-09T17:07:59Z</updated
+    >2025-07-20T19:53:11Z</updated
   >
   <id>https://2025.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Announcing our DjangoCon US 2025 Talks!</title>
+      <link href="https://2025.djangocon.us/news/announcing-lineup/" />
+      <updated>2025-07-17T18:00:00Z</updated>
+      <id>https://2025.djangocon.us/news/announcing-lineup/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We’re absolutely delighted to unveil the official talk lineup for DjangoCon US 2025! This year’s conference promises to be a vibrant celebration of Django’s community, innovation, and real-world impact. Whether you’re joining us in Chicago or tuning in online, there’s something for everyone—from Django newcomers to seasoned veterans.&lt;/p&gt;
+&lt;h2 id=&#34;congratulations-to-our-speakers!&#34; tabindex=&#34;-1&#34;&gt;Congratulations to Our Speakers!&lt;/h2&gt;
+&lt;p&gt;A heartfelt congratulations to all the talented speakers whose proposals were selected! Your passion, expertise, and creativity are what make DjangoCon US such a special event. We’re excited to hear your stories, insights, and discoveries.&lt;/p&gt;
+&lt;h2 id=&#34;talks-(monday%2C-september-8th-through-wednesday%2C-september-10th)&#34; tabindex=&#34;-1&#34;&gt;Talks (Monday, September 8th through Wednesday, September 10th)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;All talks will be available live for those with online-only tickets. They will be posted to YouTube after the conference for free.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mario Munoz (&lt;a href=&#34;https://www.linkedin.com/in/mario-a-munoz/&#34;&gt;linkedin&lt;/a&gt;) - A(i) Modest Proposal&lt;/li&gt;
+&lt;li&gt;Eric Matthes (&lt;a href=&#34;https://www.linkedin.com/in/eric-matthes-598765205/&#34;&gt;linkedin&lt;/a&gt;) - Automating Initial Deployments with Django-Simple-Deploy&lt;/li&gt;
+&lt;li&gt;Aayush Gauba (&lt;a href=&#34;https://www.linkedin.com/in/aayush-gauba-4b1223161/&#34;&gt;linkedin&lt;/a&gt;) - Beyond Rate Limiting: Building an Active Learning Defense System in Django&lt;/li&gt;
+&lt;li&gt;Andrew Mshar (&lt;a href=&#34;https://www.linkedin.com/in/andrew-mshar/&#34;&gt;linkedin&lt;/a&gt;) - Beyond the ORM: From Postgres to OpenSearch&lt;/li&gt;
+&lt;li&gt;Elizabeth Garrett Christensen (&lt;a href=&#34;https://www.linkedin.com/in/elizabeth-garrett-christensen/&#34;&gt;linkedin&lt;/a&gt;) - Big Bad World of Postgres Dev Environments&lt;/li&gt;
+&lt;li&gt;Michael Trythall (&lt;a href=&#34;https://www.linkedin.com/in/mtrythall/&#34;&gt;linkedin&lt;/a&gt;) - Building a Wagtail CMS Experience that Editors Love&lt;/li&gt;
+&lt;li&gt;Alex Henman (&lt;a href=&#34;https://www.linkedin.com/in/alexhenman/&#34;&gt;linkedin&lt;/a&gt;) - Building sustainable Django projects: the difficult teenage years&lt;/li&gt;
+&lt;li&gt;Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn&#39;t&lt;/li&gt;
+&lt;li&gt;Jeffrey A. Clark - Evolving Django: What We Learned by Integrating MongoDB&lt;/li&gt;
+&lt;li&gt;Ryan Cheley (&lt;a href=&#34;https://www.linkedin.com/in/ryan-cheley/&#34;&gt;linkedin&lt;/a&gt;) - Django as a Database Documentation Tool: The Hidden Power of Model Comments&lt;/li&gt;
+&lt;li&gt;Will Vincent (&lt;a href=&#34;https://www.linkedin.com/in/william-s-vincent/&#34;&gt;linkedin&lt;/a&gt;) - Django for Data Science: Deploying Machine Learning Models with Django&lt;/li&gt;
+&lt;li&gt;Paolo Melchiorre (&lt;a href=&#34;https://www.linkedin.com/in/paolomelchiorre/&#34;&gt;linkedin&lt;/a&gt;) - Django&#39;s GeneratedField By Example&lt;/li&gt;
+&lt;li&gt;Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue&lt;/li&gt;
+&lt;li&gt;Lilian - Djangonaut Space: A Mentorship Program for Open Source&lt;/li&gt;
+&lt;li&gt;Colleen Dunlap (&lt;a href=&#34;https://www.linkedin.com/in/colleen-dunlap-118a5a10b/&#34;&gt;linkedin&lt;/a&gt;) - Easy, Breezy, Beautiful... Django Unit Tests&lt;/li&gt;
+&lt;li&gt;Michael Riley (&lt;a href=&#34;https://www.linkedin.com/in/michael-riley-jr-99366589/&#34;&gt;linkedin&lt;/a&gt;) - Entering the World of CMS with Wagtail&lt;/li&gt;
+&lt;li&gt;Efe Öge - Peaceful Django Migrations&lt;/li&gt;
+&lt;li&gt;Kumar Shivendu - Beyond Filters: Modern Search (and more) with Vectors in Django&lt;/li&gt;
+&lt;li&gt;Micah Lyle (&lt;a href=&#34;https://www.linkedin.com/in/micahlyle/&#34;&gt;linkedin&lt;/a&gt;) - Free Threaded Django&lt;/li&gt;
+&lt;li&gt;Ryan J Sullivan - From Breakpoints to Querysets: Debugging Django With Ease&lt;/li&gt;
+&lt;li&gt;Jeanette O&#39;Brien (&lt;a href=&#34;https://www.linkedin.com/in/jeanetteob/&#34;&gt;linkedin&lt;/a&gt;) - From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps&lt;/li&gt;
+&lt;li&gt;Peter Baumgartner - High Performance Django at Ten: Old Tricks and New Picks&lt;/li&gt;
+&lt;li&gt;Karen Tracey (&lt;a href=&#34;https://www.linkedin.com/in/karen-tracey-b616255/&#34;&gt;linkedin&lt;/a&gt;) - How to Enjoy Debugging In Production&lt;/li&gt;
+&lt;li&gt;Henrietta Dombrovskaya (&lt;a href=&#34;https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/&#34;&gt;linkedin&lt;/a&gt;) - PostgreSQL: Tuning Parameters or Tuning Queries?&lt;/li&gt;
+&lt;li&gt;Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action&lt;/li&gt;
+&lt;li&gt;Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service&lt;/li&gt;
+&lt;li&gt;Kattni - (&lt;a href=&#34;https://kattni.com&#34;&gt;website&lt;/a&gt;) The Source of Change: Bettering Online Open Source Communities Can Begin with You&lt;/li&gt;
+&lt;li&gt;Kudzayi Bamhare (&lt;a href=&#34;https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/&#34;&gt;linkedin&lt;/a&gt;) - The X&#39;s and O&#39;s of Open Source With ShotGeek&lt;/li&gt;
+&lt;li&gt;Timothy Allen (&lt;a href=&#34;https://www.linkedin.com/in/flipperpa/&#34;&gt;linkedin&lt;/a&gt;) - What a Decade!&lt;/li&gt;
+&lt;li&gt;Lisa Dusseault (&lt;a href=&#34;https://www.linkedin.com/in/lisadusseault/&#34;&gt;linkedin&lt;/a&gt;) - What Would the Django of Data Pipelines Look Like?&lt;/li&gt;
+&lt;li&gt;Rachell Calhoun (&lt;a href=&#34;https://www.linkedin.com/in/rachell-calhoun-0793525a/&#34;&gt;linkedin&lt;/a&gt;) and Tim Schilling (&lt;a href=&#34;https://www.linkedin.com/in/tim-schilling-5b365a15/&#34;&gt;linkedin&lt;/a&gt;) - Why Governance in Open-Source Is Important&lt;/li&gt;
+&lt;li&gt;Chris Muthig - Winemaking With Mutable Event Sourcing in Django&lt;/li&gt;
+&lt;li&gt;Ngazetungue Muheue - Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;don&#39;t-miss-out&#34; tabindex=&#34;-1&#34;&gt;Don&#39;t Miss out&lt;/h2&gt;
+&lt;p&gt;If you’d like to check out these talks and more, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;tickets are still on sale&lt;/a&gt;. We are not having tutorials this year, but we have Sprints on September 11th and 12th. There are no minimum or suggested donations for Sprints, and Sprints are available online as well.&lt;/p&gt;
+&lt;p&gt;We can’t wait to see you in Chicago (or online)! Congratulations again to all our speakers, and thank you to everyone who submitted a proposal. Let’s make DjangoCon US 2025 unforgettable!&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Attention All Hackers! - 5 DjangoCon US Hackathon Essentials</title>
       <link href="https://2025.djangocon.us/news/djus-hackathon-essentials/" />
