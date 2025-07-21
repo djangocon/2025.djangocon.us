@@ -6,7 +6,7 @@
   <link href="https://2025.djangocon.us" rel="alternate"/>
 
   <updated
-    >2025-07-21T22:48:23Z</updated
+    >2025-07-21T22:49:58Z</updated
   >
   <id>https://2025.djangocon.us</id>
   <author>
@@ -14,116 +14,9 @@
     <email>hello@djangocon.us</email>
   </author>
     <entry>
-      <title>Introducing Keanya Phelps, DjangoCon US 2025 Conference Chair</title>
-      <link href="https://2025.djangocon.us/news/conference-chair/" />
-      <updated>2025-07-21T10:00:00Z</updated>
-      <id>https://2025.djangocon.us/news/conference-chair/</id>
-      <content xml:lang="en" type="html"
-        >&lt;p&gt;This week I had the pleasure of chatting with the DjangoCon US 2025 Conference Chair, Keanya Phelps about her role as Conference Chair and her experience with Django.&lt;/p&gt;
-&lt;h2 id=&#34;please-tell-us-a-little-bit-about-yourself-and-your-background%3F&#34; tabindex=&#34;-1&#34;&gt;Please tell us a little bit about yourself and your background?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I’m a mid-life career changer who found my way into tech through a coding bootcamp and it completely changed the trajectory of my life. Before tech, I worked in roles that centered around people, process, and purpose, which now inform how I approach software development, project management, and community building.&lt;/p&gt;
-&lt;p&gt;I&#39;m passionate about creating spaces where people feel seen and supported, especially those navigating new beginnings, like I once was. Django played a huge role in helping me grow as a developer and find my tech community, so giving back through DjangoCon US feels like coming full circle.&lt;/p&gt;
-&lt;p&gt;Outside of work, I’m a proud wife and mom (both human and canine!), lover of house music, I’m someone who believes in dancing things out and building people up&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;what%E2%80%99s-your-history-with-djangocon-us%3F&#34; tabindex=&#34;-1&#34;&gt;What’s your history with DjangoCon US?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I attended DjangoCon US Durham in 2023 and 2024. In 2023, I had the opportunity to speak, which was a huge milestone for me as a newer developer in the community. In 2024, I chaired the sprints, where I got to help create an inclusive, collaborative space for folks to contribute to Django and related projects.&lt;/p&gt;
-&lt;p&gt;I also submitted the proposal to bring DjangoCon US to Chicago in 2025, a city I love. Stepping into the role of Conference Chair this year feels like a chance to turn inspiration into action to help shape the kind of experience that welcomed and motivated me early on.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;what-made-you-want-to-take-on-the-role-of-conference-chair%3F&#34; tabindex=&#34;-1&#34;&gt;What made you want to take on the role of Conference Chair?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;As someone who found a sense of belonging and growth through the Django community, taking on the role of Conference Chair for DjangoCon US 2025 felt like a natural next step in giving back.&lt;/p&gt;
-&lt;p&gt;I’m passionate about creating spaces where people from all backgrounds feel welcome, included, and inspired.  Especially those newer to tech or from underrepresented communities.&lt;/p&gt;
-&lt;p&gt;Chairing DjangoCon US in Chicago is an opportunity to shape an experience that reflects the values of collaboration, learning, and inclusion that have been so important in my own journey. Also, I love building things and this time, it’s not just code, but community.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;what%E2%80%99s-something-unique-you%E2%80%99re-hoping-to-bring-to-djangocon-us-2025-in-chicago%3F&#34; tabindex=&#34;-1&#34;&gt;What’s something unique you’re hoping to bring to DjangoCon US 2025 in Chicago?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I want DjangoCon US 2025 to feel approachable, relevant, and energizing for everyone from seasoned contributors to first-time attendees. We are hoping to intentionally design for inclusion beyond the basics, creating moments of connection, building bridges between technical and non-technical roles, and spotlighting voices that often go unheard. And since we’re in Chicago, I’m excited to infuse the conference with the energy, grit, and creativity that defines this city.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2025%3F&#34; tabindex=&#34;-1&#34;&gt;What are you most looking forward to at DjangoCon US 2025?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I&#39;m most looking forward to watching people light up when they make a meaningful connection, or feel truly seen in the Django community. There’s nothing like the energy: hallway chats that turn into collaborations, talks that spark new ideas, and the joy of being surrounded by folks who care about both code and community. I’m excited to help create that atmosphere and to witness the magic that happens when people come together with openness, curiosity, and care.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;what%E2%80%99s-one-of-your-favourite-memories-from-a-past-djangocon-us%3F&#34; tabindex=&#34;-1&#34;&gt;What’s one of your favourite memories from a past DjangoCon US?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;One of my favorite memories is the organizer and speaker dinner at DjangoCon US 2024. It was such a great time, being surrounded by people who care  about the community, sharing stories, and laughter. It reminded me how much heart goes into making DjangoCon what it is.&lt;/p&gt;
-&lt;p&gt;I also loved finally meeting so many of the Djangonauts from DjangoSpace in person. After connecting online, getting to share space with folks I admire and have learned from was so energizing.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;what-advice-would-you-give-to-someone-attending-djangocon-us-for-the-first-time%3F&#34; tabindex=&#34;-1&#34;&gt;What advice would you give to someone attending DjangoCon US for the first time?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Come as you are! you belong here. Whether you’re just getting started with Django or have been writing code for years, there’s space for you to learn, share, and connect. Don’t be afraid to introduce yourself, ask questions, or attend a talk that’s outside your comfort zone. Some of the best moments happen in the hallways, over coffee, or during the sprints. And remember, everyone was new once, the speakers, organizers, and core contributors.You’re part of this community just by showing up.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;what%E2%80%99s-something-people-might-be-surprised-to-learn-about-you%3F&#34; tabindex=&#34;-1&#34;&gt;What’s something people might be surprised to learn about you?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;People are often surprised to learn how I made my way to Tech. I made a mid-life pivot after attending a coding bootcamp. Before that, I worked in roles that were all about problem-solving, organizing, and building relationships, skills I now bring into every tech space I’m in.  Also, I’m a huge fan of house music and will absolutely hit the dance floor if the DJ is right. Dancing helps me recharge and stay grounded, it’s my version of debugging life.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;any-parting-words%3F&#34; tabindex=&#34;-1&#34;&gt;Any parting words?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;DjangoCon US isn’t just a conference, it’s a community. Whether you’re here to level up your skills, share your story, or simply find your people, I hope you leave feeling more connected, more seen, and more confident in the value you bring.&lt;/p&gt;
-&lt;p&gt;Keep showing up. Keep asking questions. And don’t underestimate the power of community! it changes careers, and sometimes, it changes lives. I’m so glad you’re here.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;If you would like to contact Keanya for questions about being a Chair of conference or any other questions you may have, you can reach out to her via &lt;a href=&#34;https://www.linkedin.com/in/keanyaphelps/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;we-organizers-would-like-to-thank-keanya-for-her-leadership-and-work-with-the-planning-of-djangocon-us-2025&#34; tabindex=&#34;-1&#34;&gt;We organizers would like to thank Keanya for her leadership and work with the planning of DjangoCon US 2025&lt;/h3&gt;
-</content
-      >
-    </entry>
-    <entry>
-      <title>Announcing our DjangoCon US 2025 Talks!</title>
-      <link href="https://2025.djangocon.us/news/announcing-lineup/" />
-      <updated>2025-07-17T18:00:00Z</updated>
-      <id>https://2025.djangocon.us/news/announcing-lineup/</id>
-      <content xml:lang="en" type="html"
-        >&lt;p&gt;We’re absolutely delighted to unveil the official talk lineup for DjangoCon US 2025! This year’s conference promises to be a vibrant celebration of Django’s community, innovation, and real-world impact. Whether you’re joining us in Chicago or tuning in online, there’s something for everyone—from Django newcomers to seasoned veterans.&lt;/p&gt;
-&lt;h2 id=&#34;congratulations-to-our-speakers!&#34; tabindex=&#34;-1&#34;&gt;Congratulations to Our Speakers!&lt;/h2&gt;
-&lt;p&gt;A heartfelt congratulations to all the talented speakers whose proposals were selected! Your passion, expertise, and creativity are what make DjangoCon US such a special event. We’re excited to hear your stories, insights, and discoveries.&lt;/p&gt;
-&lt;h2 id=&#34;talks-(monday%2C-september-8th-through-wednesday%2C-september-10th)&#34; tabindex=&#34;-1&#34;&gt;Talks (Monday, September 8th through Wednesday, September 10th)&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;All talks will be available live for those with online-only tickets. They will be posted to YouTube after the conference for free.&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mario Munoz (&lt;a href=&#34;https://www.linkedin.com/in/mario-a-munoz/&#34;&gt;linkedin&lt;/a&gt;) - A(i) Modest Proposal&lt;/li&gt;
-&lt;li&gt;Eric Matthes (&lt;a href=&#34;https://www.linkedin.com/in/eric-matthes-598765205/&#34;&gt;linkedin&lt;/a&gt;) - Automating Initial Deployments with Django-Simple-Deploy&lt;/li&gt;
-&lt;li&gt;Aayush Gauba (&lt;a href=&#34;https://www.linkedin.com/in/aayush-gauba-4b1223161/&#34;&gt;linkedin&lt;/a&gt;) - Beyond Rate Limiting: Building an Active Learning Defense System in Django&lt;/li&gt;
-&lt;li&gt;Andrew Mshar (&lt;a href=&#34;https://www.linkedin.com/in/andrew-mshar/&#34;&gt;linkedin&lt;/a&gt;) - Beyond the ORM: From Postgres to OpenSearch&lt;/li&gt;
-&lt;li&gt;Elizabeth Garrett Christensen (&lt;a href=&#34;https://www.linkedin.com/in/elizabeth-garrett-christensen/&#34;&gt;linkedin&lt;/a&gt;) - Big Bad World of Postgres Dev Environments&lt;/li&gt;
-&lt;li&gt;Michael Trythall (&lt;a href=&#34;https://www.linkedin.com/in/mtrythall/&#34;&gt;linkedin&lt;/a&gt;) - Building a Wagtail CMS Experience that Editors Love&lt;/li&gt;
-&lt;li&gt;Alex Henman (&lt;a href=&#34;https://www.linkedin.com/in/alexhenman/&#34;&gt;linkedin&lt;/a&gt;) - Building sustainable Django projects: the difficult teenage years&lt;/li&gt;
-&lt;li&gt;Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn&#39;t&lt;/li&gt;
-&lt;li&gt;Jeffrey A. Clark - Evolving Django: What We Learned by Integrating MongoDB&lt;/li&gt;
-&lt;li&gt;Ryan Cheley (&lt;a href=&#34;https://www.linkedin.com/in/ryan-cheley/&#34;&gt;linkedin&lt;/a&gt;) - Django as a Database Documentation Tool: The Hidden Power of Model Comments&lt;/li&gt;
-&lt;li&gt;Will Vincent (&lt;a href=&#34;https://www.linkedin.com/in/william-s-vincent/&#34;&gt;linkedin&lt;/a&gt;) - Django for AI: Deploying Machine Learning Models with Django&lt;/li&gt;
-&lt;li&gt;Paolo Melchiorre (&lt;a href=&#34;https://www.linkedin.com/in/paolomelchiorre/&#34;&gt;linkedin&lt;/a&gt;) - Django&#39;s GeneratedField By Example&lt;/li&gt;
-&lt;li&gt;Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue&lt;/li&gt;
-&lt;li&gt;Lilian - Djangonaut Space: A Mentorship Program for Open Source&lt;/li&gt;
-&lt;li&gt;Colleen Dunlap (&lt;a href=&#34;https://www.linkedin.com/in/colleen-dunlap-118a5a10b/&#34;&gt;linkedin&lt;/a&gt;) - Easy, Breezy, Beautiful... Django Unit Tests&lt;/li&gt;
-&lt;li&gt;Michael Riley (&lt;a href=&#34;https://www.linkedin.com/in/michael-riley-jr-99366589/&#34;&gt;linkedin&lt;/a&gt;) - Entering the World of CMS with Wagtail&lt;/li&gt;
-&lt;li&gt;Efe Öge - Peaceful Django Migrations&lt;/li&gt;
-&lt;li&gt;Kumar Shivendu - Beyond Filters: Modern Search (and more) with Vectors in Django&lt;/li&gt;
-&lt;li&gt;Micah Lyle (&lt;a href=&#34;https://www.linkedin.com/in/micahlyle/&#34;&gt;linkedin&lt;/a&gt;) - Free Threaded Django&lt;/li&gt;
-&lt;li&gt;Ryan J Sullivan - From Breakpoints to Querysets: Debugging Django With Ease&lt;/li&gt;
-&lt;li&gt;Jeanette O&#39;Brien (&lt;a href=&#34;https://www.linkedin.com/in/jeanetteob/&#34;&gt;linkedin&lt;/a&gt;) - From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps&lt;/li&gt;
-&lt;li&gt;Peter Baumgartner - High Performance Django at Ten: Old Tricks and New Picks&lt;/li&gt;
-&lt;li&gt;Karen Tracey (&lt;a href=&#34;https://www.linkedin.com/in/karen-tracey-b616255/&#34;&gt;linkedin&lt;/a&gt;) - How to Enjoy Debugging In Production&lt;/li&gt;
-&lt;li&gt;Henrietta Dombrovskaya (&lt;a href=&#34;https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/&#34;&gt;linkedin&lt;/a&gt;) - PostgreSQL: Tuning Parameters or Tuning Queries?&lt;/li&gt;
-&lt;li&gt;Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action&lt;/li&gt;
-&lt;li&gt;Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service&lt;/li&gt;
-&lt;li&gt;Kattni - (&lt;a href=&#34;https://kattni.com&#34;&gt;website&lt;/a&gt;) The Source of Change: Bettering Online Open Source Communities Can Begin with You&lt;/li&gt;
-&lt;li&gt;Kudzayi Bamhare (&lt;a href=&#34;https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/&#34;&gt;linkedin&lt;/a&gt;) - The X&#39;s and O&#39;s of Open Source With ShotGeek&lt;/li&gt;
-&lt;li&gt;Timothy Allen (&lt;a href=&#34;https://www.linkedin.com/in/flipperpa/&#34;&gt;linkedin&lt;/a&gt;) - What a Decade!&lt;/li&gt;
-&lt;li&gt;Lisa Dusseault (&lt;a href=&#34;https://www.linkedin.com/in/lisadusseault/&#34;&gt;linkedin&lt;/a&gt;) - What Would the Django of Data Pipelines Look Like?&lt;/li&gt;
-&lt;li&gt;Rachell Calhoun (&lt;a href=&#34;https://www.linkedin.com/in/rachell-calhoun-0793525a/&#34;&gt;linkedin&lt;/a&gt;) and Tim Schilling (&lt;a href=&#34;https://www.linkedin.com/in/tim-schilling-5b365a15/&#34;&gt;linkedin&lt;/a&gt;) - Why Governance in Open-Source Is Important&lt;/li&gt;
-&lt;li&gt;Chris Muthig - Winemaking With Mutable Event Sourcing in Django&lt;/li&gt;
-&lt;li&gt;Ngazetungue Muheue - Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;don&#39;t-miss-out&#34; tabindex=&#34;-1&#34;&gt;Don&#39;t Miss out&lt;/h2&gt;
-&lt;p&gt;If you’d like to check out these talks and more, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;tickets are still on sale&lt;/a&gt;. We are not having tutorials this year, but we have Sprints on September 11th and 12th. There are no minimum or suggested donations for Sprints, and Sprints are available online as well.&lt;/p&gt;
-&lt;p&gt;We can’t wait to see you in Chicago (or online)! Congratulations again to all our speakers, and thank you to everyone who submitted a proposal. Let’s make DjangoCon US 2025 unforgettable!&lt;/p&gt;
-</content
-      >
-    </entry>
-    <entry>
       <title>Getting to know folks: A pre-conference interview</title>
       <link href="https://2025.djangocon.us/news/getting-to-know-folks/" />
-      <updated>2025-07-13T12:00:00Z</updated>
+      <updated>2025-07-21T12:00:00Z</updated>
       <id>https://2025.djangocon.us/news/getting-to-know-folks/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;Hello Djangonauts!&lt;/p&gt;
@@ -367,6 +260,113 @@ you had. Just be willing to help and stay open and you will be surprised how muc
 &lt;p&gt;Watching the hackathon participants present the work they got done in just one week. It was very impressive! I was excited that people wanted to participate and it was fun to be there and support everyone in their accomplishments.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Thank you all for spending your time and energy on this, the event, your talks and the Django community as a whole. I’m looking forward to seeing you all in September! For  everyone else, if this has excited you about DjangoCon US, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;buy your ticket today&lt;/a&gt;!&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Introducing Keanya Phelps, DjangoCon US 2025 Conference Chair</title>
+      <link href="https://2025.djangocon.us/news/conference-chair/" />
+      <updated>2025-07-21T10:00:00Z</updated>
+      <id>https://2025.djangocon.us/news/conference-chair/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;This week I had the pleasure of chatting with the DjangoCon US 2025 Conference Chair, Keanya Phelps about her role as Conference Chair and her experience with Django.&lt;/p&gt;
+&lt;h2 id=&#34;please-tell-us-a-little-bit-about-yourself-and-your-background%3F&#34; tabindex=&#34;-1&#34;&gt;Please tell us a little bit about yourself and your background?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m a mid-life career changer who found my way into tech through a coding bootcamp and it completely changed the trajectory of my life. Before tech, I worked in roles that centered around people, process, and purpose, which now inform how I approach software development, project management, and community building.&lt;/p&gt;
+&lt;p&gt;I&#39;m passionate about creating spaces where people feel seen and supported, especially those navigating new beginnings, like I once was. Django played a huge role in helping me grow as a developer and find my tech community, so giving back through DjangoCon US feels like coming full circle.&lt;/p&gt;
+&lt;p&gt;Outside of work, I’m a proud wife and mom (both human and canine!), lover of house music, I’m someone who believes in dancing things out and building people up&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what%E2%80%99s-your-history-with-djangocon-us%3F&#34; tabindex=&#34;-1&#34;&gt;What’s your history with DjangoCon US?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I attended DjangoCon US Durham in 2023 and 2024. In 2023, I had the opportunity to speak, which was a huge milestone for me as a newer developer in the community. In 2024, I chaired the sprints, where I got to help create an inclusive, collaborative space for folks to contribute to Django and related projects.&lt;/p&gt;
+&lt;p&gt;I also submitted the proposal to bring DjangoCon US to Chicago in 2025, a city I love. Stepping into the role of Conference Chair this year feels like a chance to turn inspiration into action to help shape the kind of experience that welcomed and motivated me early on.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-made-you-want-to-take-on-the-role-of-conference-chair%3F&#34; tabindex=&#34;-1&#34;&gt;What made you want to take on the role of Conference Chair?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As someone who found a sense of belonging and growth through the Django community, taking on the role of Conference Chair for DjangoCon US 2025 felt like a natural next step in giving back.&lt;/p&gt;
+&lt;p&gt;I’m passionate about creating spaces where people from all backgrounds feel welcome, included, and inspired.  Especially those newer to tech or from underrepresented communities.&lt;/p&gt;
+&lt;p&gt;Chairing DjangoCon US in Chicago is an opportunity to shape an experience that reflects the values of collaboration, learning, and inclusion that have been so important in my own journey. Also, I love building things and this time, it’s not just code, but community.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what%E2%80%99s-something-unique-you%E2%80%99re-hoping-to-bring-to-djangocon-us-2025-in-chicago%3F&#34; tabindex=&#34;-1&#34;&gt;What’s something unique you’re hoping to bring to DjangoCon US 2025 in Chicago?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I want DjangoCon US 2025 to feel approachable, relevant, and energizing for everyone from seasoned contributors to first-time attendees. We are hoping to intentionally design for inclusion beyond the basics, creating moments of connection, building bridges between technical and non-technical roles, and spotlighting voices that often go unheard. And since we’re in Chicago, I’m excited to infuse the conference with the energy, grit, and creativity that defines this city.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2025%3F&#34; tabindex=&#34;-1&#34;&gt;What are you most looking forward to at DjangoCon US 2025?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;m most looking forward to watching people light up when they make a meaningful connection, or feel truly seen in the Django community. There’s nothing like the energy: hallway chats that turn into collaborations, talks that spark new ideas, and the joy of being surrounded by folks who care about both code and community. I’m excited to help create that atmosphere and to witness the magic that happens when people come together with openness, curiosity, and care.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what%E2%80%99s-one-of-your-favourite-memories-from-a-past-djangocon-us%3F&#34; tabindex=&#34;-1&#34;&gt;What’s one of your favourite memories from a past DjangoCon US?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One of my favorite memories is the organizer and speaker dinner at DjangoCon US 2024. It was such a great time, being surrounded by people who care  about the community, sharing stories, and laughter. It reminded me how much heart goes into making DjangoCon what it is.&lt;/p&gt;
+&lt;p&gt;I also loved finally meeting so many of the Djangonauts from DjangoSpace in person. After connecting online, getting to share space with folks I admire and have learned from was so energizing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-advice-would-you-give-to-someone-attending-djangocon-us-for-the-first-time%3F&#34; tabindex=&#34;-1&#34;&gt;What advice would you give to someone attending DjangoCon US for the first time?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Come as you are! you belong here. Whether you’re just getting started with Django or have been writing code for years, there’s space for you to learn, share, and connect. Don’t be afraid to introduce yourself, ask questions, or attend a talk that’s outside your comfort zone. Some of the best moments happen in the hallways, over coffee, or during the sprints. And remember, everyone was new once, the speakers, organizers, and core contributors.You’re part of this community just by showing up.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what%E2%80%99s-something-people-might-be-surprised-to-learn-about-you%3F&#34; tabindex=&#34;-1&#34;&gt;What’s something people might be surprised to learn about you?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;People are often surprised to learn how I made my way to Tech. I made a mid-life pivot after attending a coding bootcamp. Before that, I worked in roles that were all about problem-solving, organizing, and building relationships, skills I now bring into every tech space I’m in.  Also, I’m a huge fan of house music and will absolutely hit the dance floor if the DJ is right. Dancing helps me recharge and stay grounded, it’s my version of debugging life.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;any-parting-words%3F&#34; tabindex=&#34;-1&#34;&gt;Any parting words?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;DjangoCon US isn’t just a conference, it’s a community. Whether you’re here to level up your skills, share your story, or simply find your people, I hope you leave feeling more connected, more seen, and more confident in the value you bring.&lt;/p&gt;
+&lt;p&gt;Keep showing up. Keep asking questions. And don’t underestimate the power of community! it changes careers, and sometimes, it changes lives. I’m so glad you’re here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you would like to contact Keanya for questions about being a Chair of conference or any other questions you may have, you can reach out to her via &lt;a href=&#34;https://www.linkedin.com/in/keanyaphelps/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;we-organizers-would-like-to-thank-keanya-for-her-leadership-and-work-with-the-planning-of-djangocon-us-2025&#34; tabindex=&#34;-1&#34;&gt;We organizers would like to thank Keanya for her leadership and work with the planning of DjangoCon US 2025&lt;/h3&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Announcing our DjangoCon US 2025 Talks!</title>
+      <link href="https://2025.djangocon.us/news/announcing-lineup/" />
+      <updated>2025-07-17T18:00:00Z</updated>
+      <id>https://2025.djangocon.us/news/announcing-lineup/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We’re absolutely delighted to unveil the official talk lineup for DjangoCon US 2025! This year’s conference promises to be a vibrant celebration of Django’s community, innovation, and real-world impact. Whether you’re joining us in Chicago or tuning in online, there’s something for everyone—from Django newcomers to seasoned veterans.&lt;/p&gt;
+&lt;h2 id=&#34;congratulations-to-our-speakers!&#34; tabindex=&#34;-1&#34;&gt;Congratulations to Our Speakers!&lt;/h2&gt;
+&lt;p&gt;A heartfelt congratulations to all the talented speakers whose proposals were selected! Your passion, expertise, and creativity are what make DjangoCon US such a special event. We’re excited to hear your stories, insights, and discoveries.&lt;/p&gt;
+&lt;h2 id=&#34;talks-(monday%2C-september-8th-through-wednesday%2C-september-10th)&#34; tabindex=&#34;-1&#34;&gt;Talks (Monday, September 8th through Wednesday, September 10th)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;All talks will be available live for those with online-only tickets. They will be posted to YouTube after the conference for free.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mario Munoz (&lt;a href=&#34;https://www.linkedin.com/in/mario-a-munoz/&#34;&gt;linkedin&lt;/a&gt;) - A(i) Modest Proposal&lt;/li&gt;
+&lt;li&gt;Eric Matthes (&lt;a href=&#34;https://www.linkedin.com/in/eric-matthes-598765205/&#34;&gt;linkedin&lt;/a&gt;) - Automating Initial Deployments with Django-Simple-Deploy&lt;/li&gt;
+&lt;li&gt;Aayush Gauba (&lt;a href=&#34;https://www.linkedin.com/in/aayush-gauba-4b1223161/&#34;&gt;linkedin&lt;/a&gt;) - Beyond Rate Limiting: Building an Active Learning Defense System in Django&lt;/li&gt;
+&lt;li&gt;Andrew Mshar (&lt;a href=&#34;https://www.linkedin.com/in/andrew-mshar/&#34;&gt;linkedin&lt;/a&gt;) - Beyond the ORM: From Postgres to OpenSearch&lt;/li&gt;
+&lt;li&gt;Elizabeth Garrett Christensen (&lt;a href=&#34;https://www.linkedin.com/in/elizabeth-garrett-christensen/&#34;&gt;linkedin&lt;/a&gt;) - Big Bad World of Postgres Dev Environments&lt;/li&gt;
+&lt;li&gt;Michael Trythall (&lt;a href=&#34;https://www.linkedin.com/in/mtrythall/&#34;&gt;linkedin&lt;/a&gt;) - Building a Wagtail CMS Experience that Editors Love&lt;/li&gt;
+&lt;li&gt;Alex Henman (&lt;a href=&#34;https://www.linkedin.com/in/alexhenman/&#34;&gt;linkedin&lt;/a&gt;) - Building sustainable Django projects: the difficult teenage years&lt;/li&gt;
+&lt;li&gt;Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn&#39;t&lt;/li&gt;
+&lt;li&gt;Jeffrey A. Clark - Evolving Django: What We Learned by Integrating MongoDB&lt;/li&gt;
+&lt;li&gt;Ryan Cheley (&lt;a href=&#34;https://www.linkedin.com/in/ryan-cheley/&#34;&gt;linkedin&lt;/a&gt;) - Django as a Database Documentation Tool: The Hidden Power of Model Comments&lt;/li&gt;
+&lt;li&gt;Will Vincent (&lt;a href=&#34;https://www.linkedin.com/in/william-s-vincent/&#34;&gt;linkedin&lt;/a&gt;) - Django for AI: Deploying Machine Learning Models with Django&lt;/li&gt;
+&lt;li&gt;Paolo Melchiorre (&lt;a href=&#34;https://www.linkedin.com/in/paolomelchiorre/&#34;&gt;linkedin&lt;/a&gt;) - Django&#39;s GeneratedField By Example&lt;/li&gt;
+&lt;li&gt;Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue&lt;/li&gt;
+&lt;li&gt;Lilian - Djangonaut Space: A Mentorship Program for Open Source&lt;/li&gt;
+&lt;li&gt;Colleen Dunlap (&lt;a href=&#34;https://www.linkedin.com/in/colleen-dunlap-118a5a10b/&#34;&gt;linkedin&lt;/a&gt;) - Easy, Breezy, Beautiful... Django Unit Tests&lt;/li&gt;
+&lt;li&gt;Michael Riley (&lt;a href=&#34;https://www.linkedin.com/in/michael-riley-jr-99366589/&#34;&gt;linkedin&lt;/a&gt;) - Entering the World of CMS with Wagtail&lt;/li&gt;
+&lt;li&gt;Efe Öge - Peaceful Django Migrations&lt;/li&gt;
+&lt;li&gt;Kumar Shivendu - Beyond Filters: Modern Search (and more) with Vectors in Django&lt;/li&gt;
+&lt;li&gt;Micah Lyle (&lt;a href=&#34;https://www.linkedin.com/in/micahlyle/&#34;&gt;linkedin&lt;/a&gt;) - Free Threaded Django&lt;/li&gt;
+&lt;li&gt;Ryan J Sullivan - From Breakpoints to Querysets: Debugging Django With Ease&lt;/li&gt;
+&lt;li&gt;Jeanette O&#39;Brien (&lt;a href=&#34;https://www.linkedin.com/in/jeanetteob/&#34;&gt;linkedin&lt;/a&gt;) - From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps&lt;/li&gt;
+&lt;li&gt;Peter Baumgartner - High Performance Django at Ten: Old Tricks and New Picks&lt;/li&gt;
+&lt;li&gt;Karen Tracey (&lt;a href=&#34;https://www.linkedin.com/in/karen-tracey-b616255/&#34;&gt;linkedin&lt;/a&gt;) - How to Enjoy Debugging In Production&lt;/li&gt;
+&lt;li&gt;Henrietta Dombrovskaya (&lt;a href=&#34;https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/&#34;&gt;linkedin&lt;/a&gt;) - PostgreSQL: Tuning Parameters or Tuning Queries?&lt;/li&gt;
+&lt;li&gt;Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action&lt;/li&gt;
+&lt;li&gt;Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service&lt;/li&gt;
+&lt;li&gt;Kattni - (&lt;a href=&#34;https://kattni.com&#34;&gt;website&lt;/a&gt;) The Source of Change: Bettering Online Open Source Communities Can Begin with You&lt;/li&gt;
+&lt;li&gt;Kudzayi Bamhare (&lt;a href=&#34;https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/&#34;&gt;linkedin&lt;/a&gt;) - The X&#39;s and O&#39;s of Open Source With ShotGeek&lt;/li&gt;
+&lt;li&gt;Timothy Allen (&lt;a href=&#34;https://www.linkedin.com/in/flipperpa/&#34;&gt;linkedin&lt;/a&gt;) - What a Decade!&lt;/li&gt;
+&lt;li&gt;Lisa Dusseault (&lt;a href=&#34;https://www.linkedin.com/in/lisadusseault/&#34;&gt;linkedin&lt;/a&gt;) - What Would the Django of Data Pipelines Look Like?&lt;/li&gt;
+&lt;li&gt;Rachell Calhoun (&lt;a href=&#34;https://www.linkedin.com/in/rachell-calhoun-0793525a/&#34;&gt;linkedin&lt;/a&gt;) and Tim Schilling (&lt;a href=&#34;https://www.linkedin.com/in/tim-schilling-5b365a15/&#34;&gt;linkedin&lt;/a&gt;) - Why Governance in Open-Source Is Important&lt;/li&gt;
+&lt;li&gt;Chris Muthig - Winemaking With Mutable Event Sourcing in Django&lt;/li&gt;
+&lt;li&gt;Ngazetungue Muheue - Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;don&#39;t-miss-out&#34; tabindex=&#34;-1&#34;&gt;Don&#39;t Miss out&lt;/h2&gt;
+&lt;p&gt;If you’d like to check out these talks and more, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;tickets are still on sale&lt;/a&gt;. We are not having tutorials this year, but we have Sprints on September 11th and 12th. There are no minimum or suggested donations for Sprints, and Sprints are available online as well.&lt;/p&gt;
+&lt;p&gt;We can’t wait to see you in Chicago (or online)! Congratulations again to all our speakers, and thank you to everyone who submitted a proposal. Let’s make DjangoCon US 2025 unforgettable!&lt;/p&gt;
 </content
       >
     </entry>
