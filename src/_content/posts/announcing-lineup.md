@@ -29,7 +29,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn't
 - Jeffrey A. Clark - Evolving Django: What We Learned by Integrating MongoDB
 - Ryan Cheley ([linkedin](https://www.linkedin.com/in/ryan-cheley/)) - Django as a Database Documentation Tool: The Hidden Power of Model Comments
-- Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for Data Science: Deploying Machine Learning Models with Django
+- Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for AI: Deploying Machine Learning Models with Django
 - Paolo Melchiorre ([linkedin](https://www.linkedin.com/in/paolomelchiorre/)) - Django's GeneratedField By Example
 - Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue 
 - Lilian - Djangonaut Space: A Mentorship Program for Open Source
