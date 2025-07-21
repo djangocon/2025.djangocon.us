@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2025-07-13 12:00:00
+published_datetime: 2025-07-21 12:00:00
 layout: post
 cover:
     url: /assets/img/2025/preconference.png
