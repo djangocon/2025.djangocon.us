@@ -6,7 +6,7 @@
   <link href="https://2025.djangocon.us" rel="alternate"/>
 
   <updated
-    >2025-07-20T19:53:11Z</updated
+    >2025-07-21T14:24:08Z</updated
   >
   <id>https://2025.djangocon.us</id>
   <author>
@@ -35,7 +35,7 @@
 &lt;li&gt;Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn&#39;t&lt;/li&gt;
 &lt;li&gt;Jeffrey A. Clark - Evolving Django: What We Learned by Integrating MongoDB&lt;/li&gt;
 &lt;li&gt;Ryan Cheley (&lt;a href=&#34;https://www.linkedin.com/in/ryan-cheley/&#34;&gt;linkedin&lt;/a&gt;) - Django as a Database Documentation Tool: The Hidden Power of Model Comments&lt;/li&gt;
-&lt;li&gt;Will Vincent (&lt;a href=&#34;https://www.linkedin.com/in/william-s-vincent/&#34;&gt;linkedin&lt;/a&gt;) - Django for Data Science: Deploying Machine Learning Models with Django&lt;/li&gt;
+&lt;li&gt;Will Vincent (&lt;a href=&#34;https://www.linkedin.com/in/william-s-vincent/&#34;&gt;linkedin&lt;/a&gt;) - Django for AI: Deploying Machine Learning Models with Django&lt;/li&gt;
 &lt;li&gt;Paolo Melchiorre (&lt;a href=&#34;https://www.linkedin.com/in/paolomelchiorre/&#34;&gt;linkedin&lt;/a&gt;) - Django&#39;s GeneratedField By Example&lt;/li&gt;
 &lt;li&gt;Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue&lt;/li&gt;
 &lt;li&gt;Lilian - Djangonaut Space: A Mentorship Program for Open Source&lt;/li&gt;
