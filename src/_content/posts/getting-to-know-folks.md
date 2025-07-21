@@ -44,7 +44,7 @@ Hello, thanks for agreeing to this. Let’s start with having you tell us a litt
 
 **Kati**:
 
-> I am a Python/Django software engineer at [JPMorganChase](https://www.jpmorganchase.com/). I became interested in [Python](https://www.python.org/))and open-source code in 2013, and stumbled upon [DjangoCon US](https://2025.djangocon.us/) through its website code hosted on [GitHub](https://github.com/djangocon/2025.djangocon.us). I became a DjangoCon US volunteer in 2016 and served as website chair or co-chair from 2017 to 2020. In 2017, I became a Django Events Foundation North America [(DEFNA) Board Member](https://www.defna.org/). 
+> I am a Python/Django software engineer at [JPMorganChase](https://www.jpmorganchase.com/). I became interested in [Python](https://www.python.org/) and open-source code in 2013, and stumbled upon [DjangoCon US](https://2025.djangocon.us/) through its website code hosted on [GitHub](https://github.com/djangocon/2025.djangocon.us). I became a DjangoCon US volunteer in 2016 and served as website chair or co-chair from 2017 to 2020. In 2017, I became a [Django Events Foundation North America (DEFNA)](https://www.defna.org/) Board Member. 
 >
 > During my eight+ years as a board member, I served as corporate secretary from 2020 to 2022 and took great enjoyment in collaborating on the DjangoCon US website design every year. I frequently attend [Python](https://www.python.org/) and [Django](https://www.djangoproject.com/) conferences, make connections in person and online, and share what I've learned through conference recaps.
 
@@ -98,7 +98,7 @@ what kind of collaborations or friendships might come out of it. And don’t for
 
 **Kati**:
 
-> Seize the day! Set aside any shyness or doubts. Got up to the author you've always admired and chat for a bit. Sit with different people at every meal. Connect with a prospective employer. Learn about a new topic that inspires you. Take time to enjoy some once-in-a-lifetime food and sight-seeing in the host city.
+> Seize the day! Set aside any shyness or doubts. Go up to the author you've always admired and chat for a bit. Sit with different people at every meal. Connect with a prospective employer. Learn about a new topic that inspires you. Take time to enjoy some once-in-a-lifetime food and sight-seeing in the host city.
 
 **Kudzayi**:
 
