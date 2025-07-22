@@ -55,7 +55,7 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 
 ## What advice would you offer to attendees who wish to contribute to Django or its ecosystem after the conference?
 
-> I’d tell them they are in the right place!! Documentation is a great place to start when contributing to Open source and it should help them learn the codebase more. Even just updating doc strings is a good way to get started.
+> I’d tell them they are in the right place!! Documentation is a great place to start when contributing to open source and it should help them learn the codebase more. Even just updating doc strings is a good way to get started.
 
 ## Are you ok with people asking you more later?
 
