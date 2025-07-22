@@ -63,6 +63,6 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 
 Be sure to follow [Marlene](https://www.linkedin.com/in/marlenemhangami/) on LinkedIn.
 
-We can't wait to hear Marlene's keynote at DjangoCon US 2025!. If you haven’t purchased your ticket yet, [they’re still on sale](https://ti.to/defna/djangocon-us-2025).
+We can't wait to hear Marlene's keynote at DjangoCon US 2025! If you haven’t purchased your ticket yet, [they’re still on sale](https://ti.to/defna/djangocon-us-2025).
 
 We hope to see you in Chicago.
