@@ -27,7 +27,7 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 
 ## What are your favourite topics at conferences?
 
-> I love talks that are creative or have a story telling element to them! These tend to be my favorites. I’m also really into AI at the moment so if anyone’s doing something interesting with that I’ll probably be interested in the talk.
+> I love talks that are creative or have a story telling element to them! These tend to be my favorites. I’m also really into AI at the moment so if anyone’s doing something interesting with that, I’ll probably be interested in the talk.
 
 ## How do you view the connections made at conferences?
 
