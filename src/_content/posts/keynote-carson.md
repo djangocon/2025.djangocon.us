@@ -45,7 +45,7 @@ We had the opportunity to sit down with Carson and ask him a few questions about
 
 ## When did you start speaking at conferences, and what has your experience been like so far?
 
-> I have been speaking at conferences in 2016, when I gave a talk on ``` intercooler.js ```, the predecessor to HTMX.  It was to an almost empty room.  It's gotten better since then.
+> I have been speaking at conferences since 2016, when I gave a talk on ``` intercooler.js ```, the predecessor to HTMX.  It was to an almost empty room.  It's gotten better since then.
 
 ## What do you like to do outside of your typical workday?
 
