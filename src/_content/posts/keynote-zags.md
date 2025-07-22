@@ -23,7 +23,7 @@ We had the opportunity to sit down with Zags and ask him a few questions about h
 
 ## What are you most looking forward to at DjangoCon US 2025?
 
-> I've been going to DjangoCon US  for a number of years running, and I'm excited both to catch up with the other conference regulars and make some new friends as well.
+> I've been going to DjangoCon US for a number of years running, and I'm excited both to catch up with the other conference regulars and make some new friends as well.
 
 ## What are your favourite topics at conferences?
 
