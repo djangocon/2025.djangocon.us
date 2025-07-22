@@ -23,7 +23,7 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 
 ## What are you most looking forward to at DjangoCon US 2025?
 
-> Catching up with friends from the community! It’s been a while since I’ve been at DjangoCon US so I’m excited about seeing people I’ve connected with over the years
+> Catching up with friends from the community! It’s been a while since I’ve been at DjangoCon US so I’m excited about seeing people I’ve connected with over the years.
 
 ## What are your favourite topics at conferences?
 
