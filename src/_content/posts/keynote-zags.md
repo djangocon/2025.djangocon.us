@@ -43,7 +43,7 @@ We had the opportunity to sit down with Zags and ask him a few questions about h
 
 ## When did you start speaking at conferences, and what has your experience been like so far?
 
-> I've been teaching classes internally at Zagaran for about a decade.  In 2016, I started giving talks at the Boston Django Meetup, and have been doing talks at national conferences like DjangoCon US since 2021.  This is my fifth year in a row giving a talk at DjangoCon US, and I'm thrilled to be back
+> I've been teaching classes internally at Zagaran for about a decade.  In 2016, I started giving talks at the Boston Django Meetup, and have been doing talks at national conferences like DjangoCon US since 2021.  This is my fifth year in a row giving a talk at DjangoCon US, and I'm thrilled to be back.
 
 ## What do you like to do outside of your typical workday?
 
