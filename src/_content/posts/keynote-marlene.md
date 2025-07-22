@@ -35,7 +35,7 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 
 ## Can you tell us about your career journey?
 
-> In college I initially studied molecular biology on a pre-med track. Thought I was going to be a doctor but didn’t really enjoy the things I was doing. I ended up spending a year in Zimbabwe experimenting with different things and wound up helping girls learn how to code in Python! Ironically, we were using the Django Girls tutorial. I hadn’t been exposed to much coding before that, but after I changed my trajectory and went back to school for software engineering, I ended up getting an internship at Nvidia, and I currently work at Microsoft.
+> In college I initially studied molecular biology on a pre-med track. I thought I was going to be a doctor but didn’t really enjoy the things I was doing. I ended up spending a year in Zimbabwe experimenting with different things and wound up helping girls learn how to code in Python! Ironically, we were using the Django Girls tutorial. I hadn’t been exposed to much coding before that, but after I changed my trajectory and went back to school for software engineering, I ended up getting an internship at Nvidia, and I currently work at Microsoft.
 
 ## How did you approach your career growth?
 
