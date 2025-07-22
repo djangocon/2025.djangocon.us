@@ -15,7 +15,7 @@ We had the opportunity to sit down with Carson and ask him a few questions about
 
 ## How do you use Django?
 
-> I do not use Django very often because my main profession is as a teacher and we mainly use Java here. However, the Django community has embraced HTMX, a web library that I created, and so I have a lot of friends in the community.
+> I do not use Django very often because my main profession is teaching and we mainly use Java. However, the Django community has embraced HTMX, a web library that I created, and so I have a lot of friends in the community.
 
 ## Can you give us a teaser about what your talk is about?
 
