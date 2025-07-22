@@ -55,7 +55,7 @@ We had the opportunity to sit down with Zags and ask him a few questions about h
 
 ## What advice would you offer to attendees who wish to contribute to Django or its ecosystem after the conference?
 
-> Django needs more support for JavaScript frameworks.  There are a whole range of things that could make this better.  Model serializer functionality and auto-generation of REST APIs should be part of Django; DjangoRestFramework is a popular third party library that does this, but this is such a common need, it should be moved into the main framework.  There is also a dearth of support for compiling JavaScript in a Django project and mounting compiled JavaScript (especially React components and Vue directives) into Django templates.
+> Django needs more support for JavaScript frameworks.  There are a whole range of things that could make this better.  Model serializer functionality and auto-generation of REST APIs should be part of Django; Django REST Framework is a popular third party library that does this, but this is such a common need, it should be moved into the main framework.  There is also a dearth of support for compiling JavaScript in a Django project and mounting compiled JavaScript (especially React components and Vue directives) into Django templates.
 
 ## Are you ok with people asking you more later?
 
