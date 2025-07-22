@@ -39,7 +39,7 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 
 ## How did you approach your career growth?
 
-> I think I’m genuinely interested in experimenting with code and learning how things work. Sharing my code online has been a big part of my career as well as networking and people in the community. At work I do my best to share what I’m learning, seeing or doing and try to be open to feedback.
+> I’m genuinely interested in experimenting with code and learning how things work. Sharing my code online has been a big part of my career as well as networking and people in the community. At work I do my best to share what I’m learning, seeing or doing and try to be open to feedback.
 
 ## When did you start speaking at conferences, and what has your experience been like so far?
 
