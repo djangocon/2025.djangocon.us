@@ -106,6 +106,19 @@ class Schedule(FrontmatterModel):
     def __init__(self, **data):
         super().__init__(**data)
 
+    @property
+    def filename(self) -> str:
+        return (
+            "-".join(
+                [
+                    self.start_datetime.strftime("%Y-%m-%d-%H-%M"),
+                    self.track,
+                    slugify(self.title),
+                ]
+            )
+            + ".md"
+        )
+
 
 class ManualScheduleEntry(BaseModel):
     start_datetime: pydatetime.datetime
@@ -114,6 +127,19 @@ class ManualScheduleEntry(BaseModel):
     room: str
     title: str
     track: str
+
+    @property
+    def filename(self) -> str:
+        return (
+            "-".join(
+                [
+                    self.start_datetime.strftime("%Y-%m-%d-%H-%M"),
+                    "t0",
+                    slugify(self.title),
+                ]
+            )
+            + ".md"
+        )
 
 
 def migrate_mastodon_handle(*, handle: str) -> str:

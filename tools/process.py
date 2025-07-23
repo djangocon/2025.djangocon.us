@@ -102,8 +102,7 @@ def generate_placeholders():
             / "_content"
             / "schedule"
             / "talks"
-            / f"{schedule_item.start_datetime.strftime('%Y-%m-%d-%H-%M-%S')}-{schedule_item.track}-"
-            f"{slugify(schedule_item.title)}.md"
+            / schedule_item.filename
         )
         post = frontmatter.loads("")
         post.metadata.update(schedule_item.model_dump(exclude_unset=True))
