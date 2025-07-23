@@ -1,11 +1,11 @@
 ---
 category: talks
-start_datetime: 2025-09-09 17:00:00-05:00
-end_datetime: 2025-09-09 17:25:00-05:00
+end_datetime: 2025-09-08 16:55:00-05:00
 permalink: /talks/the-xs-and-os-of-open-source-with-shotgeek/
 presenter_slugs:
 - kudzayi-bamhare
 room: Room B
+start_datetime: 2025-09-08 16:30:00-05:00
 tags:
 - Dev Experience
 title: The X’s and O’s of Open Source with ShotGeek
