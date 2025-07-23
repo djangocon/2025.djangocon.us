@@ -206,12 +206,13 @@ def copy_organizer_and_create_schedule(
     organizer_slug: str,
     title: str,
 ) -> models.Schedule:
-    copy_organizer_to_presenter(organizer_slug)
+    if organizer_slug:
+        copy_organizer_to_presenter(organizer_slug)
     return models.Schedule(
         category="talks",
         difficulty="All",
         end_datetime=end_time,
-        presenter_slugs=[organizer_slug],
+        presenter_slugs=[organizer_slug] if organizer_slug else [],
         datetime=start_time,
         track="t0",
         title=title,

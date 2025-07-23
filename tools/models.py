@@ -126,59 +126,59 @@ def migrate_mastodon_handle(*, handle: str) -> str:
 
 MANUAL_SCHEDULE_ENTRIES = [
     # Sunday breakfast
-    ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(8),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(9),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="lunch",
-        permalink=constants.SUNDAY_BREAKFAST_LINK,
-        room=constants.LUNCH_ROOM,
-        title="Continental Breakfast",
-        track="t0",
-    ),
-    # TODO decide whether we'll have quiet/lactation rooms on tutorial day
-    ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(8),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(18),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="break",
-        permalink=None,
-        room=f"In front of {constants.LARGE_TALK_ROOM}",
-        title="Registration",
-        track="t0",
-    ),
-    # sunday lunch
-    ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(12, 30),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(13, 30),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="lunch",
-        permalink=constants.SUNDAY_LUNCH_LINK,
-        room=constants.LUNCH_ROOM,
-        title="Lunch",
-        track="t0",
-    ),
+    # ManualScheduleEntry(
+    #     datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(8),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(9),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="lunch",
+    #     permalink=constants.SUNDAY_BREAKFAST_LINK,
+    #     room=constants.LUNCH_ROOM,
+    #     title="Continental Breakfast",
+    #     track="t0",
+    # ),
+    # # TODO decide whether we'll have quiet/lactation rooms on tutorial day
+    # ManualScheduleEntry(
+    #     datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(8),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(18),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="break",
+    #     permalink=None,
+    #     room=f"In front of {constants.LARGE_TALK_ROOM}",
+    #     title="Registration",
+    #     track="t0",
+    # ),
+    # # sunday lunch
+    # ManualScheduleEntry(
+    #     datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(12, 30),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(13, 30),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="lunch",
+    #     permalink=constants.SUNDAY_LUNCH_LINK,
+    #     room=constants.LUNCH_ROOM,
+    #     title="Lunch",
+    #     track="t0",
+    # ),
     # Monday!
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
