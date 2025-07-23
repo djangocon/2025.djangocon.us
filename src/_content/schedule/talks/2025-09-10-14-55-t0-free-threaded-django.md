@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-10 14:55:00-05:00
+start_datetime: 2025-09-10 14:55:00-05:00
 end_datetime: 2025-09-10 15:40:00-05:00
 permalink: /talks/free-threaded-django/
 presenter_slugs:

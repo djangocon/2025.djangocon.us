@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 10:50:00-05:00
+start_datetime: 2025-09-09 10:50:00-05:00
 end_datetime: 2025-09-09 11:35:00-05:00
 permalink: /talks/reverse-engineering-the-qr-code-generator-and-url-forwarder-service/
 presenter_slugs:

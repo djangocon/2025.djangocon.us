@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-08 17:00:00-05:00
+start_datetime: 2025-09-08 17:00:00-05:00
 end_datetime: 2025-09-08 17:25:00-05:00
 permalink: /talks/django-without-borders-a-10-year-journey-of-open-source-impact-in-namibia/
 presenter_slugs:

@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-08 14:40:00-05:00
+start_datetime: 2025-09-08 14:40:00-05:00
 end_datetime: 2025-09-08 15:05:00-05:00
 permalink: /talks/how-to-enjoy-debugging-in-production/
 presenter_slugs:

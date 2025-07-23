@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 11:40:00-05:00
+start_datetime: 2025-09-09 11:40:00-05:00
 end_datetime: 2025-09-09 12:05:00-05:00
 permalink: /talks/big-bad-world-of-postgres-dev-environments/
 presenter_slugs:

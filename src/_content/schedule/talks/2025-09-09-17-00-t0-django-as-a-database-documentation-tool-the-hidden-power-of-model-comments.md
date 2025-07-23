@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 17:00:00-05:00
+start_datetime: 2025-09-09 17:00:00-05:00
 end_datetime: 2025-09-09 17:25:00-05:00
 permalink: /talks/django-as-a-database-documentation-tool-the-hidden-power-of-model-comments/
 presenter_slugs:

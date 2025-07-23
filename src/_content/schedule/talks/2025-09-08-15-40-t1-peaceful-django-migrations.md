@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-08 15:40:00-05:00
+start_datetime: 2025-09-08 15:40:00-05:00
 end_datetime: 2025-09-08 16:25:00-05:00
 permalink: /talks/peaceful-django-migrations/
 presenter_slugs:

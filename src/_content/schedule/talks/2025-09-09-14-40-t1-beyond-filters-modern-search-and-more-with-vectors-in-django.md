@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 14:40:00-05:00
+start_datetime: 2025-09-09 14:40:00-05:00
 end_datetime: 2025-09-09 15:05:00-05:00
 permalink: /talks/beyond-filters-modern-search-and-more-with-vectors-in-django/
 presenter_slugs:

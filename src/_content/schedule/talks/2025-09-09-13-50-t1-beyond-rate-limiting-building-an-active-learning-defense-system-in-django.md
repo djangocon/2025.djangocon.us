@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 13:50:00-05:00
+start_datetime: 2025-09-09 13:50:00-05:00
 end_datetime: 2025-09-09 14:35:00-05:00
 permalink: /talks/beyond-rate-limiting-building-an-active-learning-defense-system-in-django/
 presenter_slugs:

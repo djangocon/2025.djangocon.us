@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 13:50:00-05:00
+start_datetime: 2025-09-09 13:50:00-05:00
 end_datetime: 2025-09-09 14:35:00-05:00
 permalink: /talks/entering-the-world-of-cms-with-wagtail/
 presenter_slugs:

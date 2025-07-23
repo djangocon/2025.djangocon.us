@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-10 17:00:00-05:00
+start_datetime: 2025-09-10 17:00:00-05:00
 end_datetime: 2025-09-10 17:45:00-05:00
 permalink: /talks/high-performance-django-at-ten-old-tricks-new-picks/
 presenter_slugs:

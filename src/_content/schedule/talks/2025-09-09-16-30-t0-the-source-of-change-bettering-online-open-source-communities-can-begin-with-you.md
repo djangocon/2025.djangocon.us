@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 16:30:00-05:00
+start_datetime: 2025-09-09 16:30:00-05:00
 end_datetime: 2025-09-09 16:55:00-05:00
 permalink: /talks/the-source-of-change-bettering-online-open-source-communities-can-begin-with-you/
 presenter_slugs:

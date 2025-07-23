@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-10 11:40:00-05:00
+start_datetime: 2025-09-10 11:40:00-05:00
 end_datetime: 2025-09-10 12:05:00-05:00
 permalink: /talks/a-i-modest-proposal/
 presenter_slugs:

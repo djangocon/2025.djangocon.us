@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-10 16:20:00-05:00
+start_datetime: 2025-09-10 16:20:00-05:00
 end_datetime: 2025-09-10 16:45:00-05:00
 permalink: /talks/automating-initial-deployments-with-django-simple-deploy/
 presenter_slugs:

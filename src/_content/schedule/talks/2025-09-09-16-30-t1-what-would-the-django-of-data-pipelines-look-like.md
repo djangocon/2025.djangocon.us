@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 16:30:00-05:00
+start_datetime: 2025-09-09 16:30:00-05:00
 end_datetime: 2025-09-09 16:55:00-05:00
 permalink: /talks/what-would-the-django-of-data-pipelines-look-like/
 presenter_slugs:

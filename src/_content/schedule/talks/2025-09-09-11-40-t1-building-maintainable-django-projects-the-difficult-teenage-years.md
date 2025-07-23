@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-09 11:40:00-05:00
+start_datetime: 2025-09-09 11:40:00-05:00
 end_datetime: 2025-09-09 12:05:00-05:00
 permalink: /talks/building-maintainable-django-projects-the-difficult-teenage-years/
 presenter_slugs:

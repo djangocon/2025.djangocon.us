@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-08 10:50:00-05:00
+start_datetime: 2025-09-08 10:50:00-05:00
 end_datetime: 2025-09-08 11:35:00-05:00
 permalink: /talks/django-for-ai-deploying-machine-learning-models-with-django/
 presenter_slugs:

@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2025-09-08 13:50:00-05:00
+start_datetime: 2025-09-08 13:50:00-05:00
 end_datetime: 2025-09-08 14:35:00-05:00
 permalink: /talks/building-a-wagtail-cms-experience-that-editors-love/
 presenter_slugs:
