@@ -1,180 +1,180 @@
-- start_datetime: 2025-09-08 07:30:00-05:00
-  end_datetime: 2025-09-08 08:30:00-05:00
+- end_datetime: 2025-09-08 08:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 07:30:00-05:00
   title: Continental Breakfast
   track: t0
-- start_datetime: 2025-09-08 07:30:00-05:00
-  end_datetime: 2025-09-08 17:30:00-05:00
+- end_datetime: 2025-09-08 17:30:00-05:00
   permalink: null
-  room: In front of Room B
+  room: In front of Room A
+  start_datetime: 2025-09-08 07:30:00-05:00
   title: Registration
   track: t0
-- start_datetime: 2025-09-08 08:00:00-05:00
-  end_datetime: 2025-09-08 17:30:00-05:00
+- end_datetime: 2025-09-08 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 08:00:00-05:00
   title: Lactation Room
   track: t0
-- start_datetime: 2025-09-08 08:00:00-05:00
-  end_datetime: 2025-09-08 17:30:00-05:00
+- end_datetime: 2025-09-08 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 08:00:00-05:00
   title: Quiet Room
   track: t0
-- start_datetime: 2025-09-08 08:00:00-05:00
-  end_datetime: 2025-09-08 17:30:00-05:00
+- end_datetime: 2025-09-08 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 08:00:00-05:00
   title: Speaker Green Room
   track: t0
-- start_datetime: 2025-09-08 10:10:00-05:00
-  end_datetime: 2025-09-08 10:35:00-05:00
+- end_datetime: 2025-09-08 10:35:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 10:10:00-05:00
   title: Break
   track: t0
-- start_datetime: 2025-09-08 12:10:00-05:00
-  end_datetime: 2025-09-08 13:00:00-05:00
+- end_datetime: 2025-09-08 13:00:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 12:10:00-05:00
   title: Early Lunch
   track: t0
-- start_datetime: 2025-09-08 13:00:00-05:00
-  end_datetime: 2025-09-08 13:45:00-05:00
+- end_datetime: 2025-09-08 13:45:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 13:00:00-05:00
   title: Lunch
   track: t0
-- start_datetime: 2025-09-08 15:30:00-05:00
-  end_datetime: 2025-09-08 15:55:00-05:00
+- end_datetime: 2025-09-08 15:55:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-08 15:30:00-05:00
   title: Break
   track: t0
-- start_datetime: 2025-09-08 19:00:00-05:00
-  end_datetime: 2025-09-08 22:00:00-05:00
+- end_datetime: 2025-09-08 22:00:00-05:00
   permalink: null
-  room: Room B
+  room: Room A
+  start_datetime: 2025-09-08 19:00:00-05:00
   title: Board Game Night
   track: t0
-- start_datetime: 2025-09-09 08:00:00-05:00
-  end_datetime: 2025-09-09 09:00:00-05:00
+- end_datetime: 2025-09-09 09:00:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 08:00:00-05:00
   title: Continental Breakfast
   track: t0
-- start_datetime: 2025-09-09 08:00:00-05:00
-  end_datetime: 2025-09-09 17:30:00-05:00
+- end_datetime: 2025-09-09 17:30:00-05:00
   permalink: null
-  room: In front of Room B
+  room: In front of Room A
+  start_datetime: 2025-09-09 08:00:00-05:00
   title: Registration
   track: t0
-- start_datetime: 2025-09-09 08:00:00-05:00
-  end_datetime: 2025-09-09 17:30:00-05:00
+- end_datetime: 2025-09-09 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 08:00:00-05:00
   title: Lactation Room
   track: t0
-- start_datetime: 2025-09-09 08:00:00-05:00
-  end_datetime: 2025-09-09 17:30:00-05:00
+- end_datetime: 2025-09-09 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 08:00:00-05:00
   title: Quiet Room
   track: t0
-- start_datetime: 2025-09-09 08:00:00-05:00
-  end_datetime: 2025-09-09 17:30:00-05:00
+- end_datetime: 2025-09-09 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 08:00:00-05:00
   title: Speaker Green Room
   track: t0
-- start_datetime: 2025-09-09 10:10:00-05:00
-  end_datetime: 2025-09-09 10:35:00-05:00
+- end_datetime: 2025-09-09 10:35:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 10:10:00-05:00
   title: Break
   track: t0
-- start_datetime: 2025-09-09 12:10:00-05:00
-  end_datetime: 2025-09-09 13:00:00-05:00
+- end_datetime: 2025-09-09 13:00:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 12:10:00-05:00
   title: Early Lunch
   track: t0
-- start_datetime: 2025-09-09 13:00:00-05:00
-  end_datetime: 2025-09-09 13:45:00-05:00
+- end_datetime: 2025-09-09 13:45:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 13:00:00-05:00
   title: Lunch
   track: t0
-- start_datetime: 2025-09-09 15:00:00-05:00
-  end_datetime: 2025-09-09 15:25:00-05:00
+- end_datetime: 2025-09-09 15:25:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-09 15:00:00-05:00
   title: Break
   track: t0
-- start_datetime: 2025-09-10 08:00:00-05:00
-  end_datetime: 2025-09-10 09:00:00-05:00
+- end_datetime: 2025-09-10 09:00:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 08:00:00-05:00
   title: Continental Breakfast
   track: t0
-- start_datetime: 2025-09-10 08:00:00-05:00
-  end_datetime: 2025-09-10 17:30:00-05:00
+- end_datetime: 2025-09-10 17:30:00-05:00
   permalink: null
-  room: In front of Room B
+  room: In front of Room A
+  start_datetime: 2025-09-10 08:00:00-05:00
   title: Registration
   track: t0
-- start_datetime: 2025-09-10 08:00:00-05:00
-  end_datetime: 2025-09-10 17:30:00-05:00
+- end_datetime: 2025-09-10 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 08:00:00-05:00
   title: Lactation Room
   track: t0
-- start_datetime: 2025-09-10 08:00:00-05:00
-  end_datetime: 2025-09-10 17:30:00-05:00
+- end_datetime: 2025-09-10 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 08:00:00-05:00
   title: Quiet Room
   track: t0
-- start_datetime: 2025-09-10 08:00:00-05:00
-  end_datetime: 2025-09-10 17:30:00-05:00
+- end_datetime: 2025-09-10 17:30:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 08:00:00-05:00
   title: Speaker Green Room
   track: t0
-- start_datetime: 2025-09-10 10:10:00-05:00
-  end_datetime: 2025-09-10 10:35:00-05:00
+- end_datetime: 2025-09-10 10:35:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 10:10:00-05:00
   title: Break
   track: t0
-- start_datetime: 2025-09-10 12:10:00-05:00
-  end_datetime: 2025-09-10 13:00:00-05:00
+- end_datetime: 2025-09-10 13:00:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 12:10:00-05:00
   title: Early Lunch
   track: t0
-- start_datetime: 2025-09-10 13:00:00-05:00
-  end_datetime: 2025-09-10 13:45:00-05:00
+- end_datetime: 2025-09-10 13:45:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 13:00:00-05:00
   title: Lunch
   track: t0
-- start_datetime: 2025-09-10 15:00:00-05:00
-  end_datetime: 2025-09-10 15:25:00-05:00
+- end_datetime: 2025-09-10 15:25:00-05:00
   permalink: null
   room: TBD
+  start_datetime: 2025-09-10 15:00:00-05:00
   title: Break
   track: t0
-- start_datetime: 2025-09-11 09:00:00-05:00
-  end_datetime: 2025-09-11 17:00:00-05:00
+- end_datetime: 2025-09-11 17:00:00-05:00
   permalink: null
   room: Caktus Group
+  start_datetime: 2025-09-11 09:00:00-05:00
   title: Contribution Sprints
   track: t0
-- start_datetime: 2025-09-12 09:00:00-05:00
-  end_datetime: 2025-09-12 17:00:00-05:00
+- end_datetime: 2025-09-12 17:00:00-05:00
   permalink: null
   room: Caktus Group
+  start_datetime: 2025-09-12 09:00:00-05:00
   title: Contribution Sprints
   track: t0
