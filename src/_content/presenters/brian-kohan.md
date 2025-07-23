@@ -3,7 +3,7 @@ company: NASA/JPL
 hidden: false
 name: Brian Kohan
 permalink: /presenters/brian-kohan/
-photo: brian-kohan.jpeg
+photo: null
 social:
     bluesky: null
     github: null
