@@ -2,7 +2,7 @@
 name: Benedict Kofi Amofah
 hidden: false
 photo: Benedict-Kofi-Amofah.jpg
-role: "Online Conference Chair, Communications Team, Opportunity Grant Team"
+role: "Online Conference Chair, Communications Team, Opportunity Grants Team"
 
 # Mastodon and Website accept a URL. Other networks accept a handle.
 social:
