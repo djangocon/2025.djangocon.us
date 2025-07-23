@@ -11,6 +11,6 @@ social:
     instagram:
     mastodon:
     twitter: RichelAgyemang
-    website: www.linkedin.com/in/richel-agyemang-468379211
+    website: https://linkedin.com/in/richel-agyemang-468379211
 
 ---
