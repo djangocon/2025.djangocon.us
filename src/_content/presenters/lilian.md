@@ -3,7 +3,7 @@ company: n/a
 hidden: false
 name: Lilian
 permalink: /presenters/lilian/
-photo: lilian.png
+photo: null
 social:
     bluesky: null
     github: null
