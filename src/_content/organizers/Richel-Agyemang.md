@@ -2,7 +2,7 @@
 name: Richel Agyemang
 hidden: false
 photo: Richel-Agyemang.jpg
-role: "Communications Team, Opportunity Grant Team, Website Team"
+role: "Communications Team, Opportunity Grants Team, Website Team"
 
 # Mastodon and Website accept a URL. Other networks accept a handle.
 social:
