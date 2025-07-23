@@ -71,7 +71,7 @@ DAY_3_KEYNOTE_START = DAY_3_OPENING_REMARKS_END
 DAY_3_KEYNOTE_END = DAY_3_KEYNOTE_START + datetime.timedelta(minutes=45)
 
 CLOSING_REMARKS_START = datetime.datetime.combine(
-    TALK_DAY_3, datetime.time(17, 20), tzinfo=CONFERENCE_TZ
+    TALK_DAY_3, datetime.time(17, 45), tzinfo=CONFERENCE_TZ
 )
 CLOSING_REMARKS_END = CLOSING_REMARKS_START + datetime.timedelta(minutes=20)
 
