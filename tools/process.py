@@ -102,8 +102,7 @@ def generate_placeholders():
             / "_content"
             / "schedule"
             / "talks"
-            / f"{schedule_item.datetime.strftime('%Y-%m-%d-%H-%M-%S')}-{schedule_item.track}-"
-            f"{slugify(schedule_item.title)}.md"
+            / schedule_item.filename
         )
         post = frontmatter.loads("")
         post.metadata.update(schedule_item.model_dump(exclude_unset=True))
@@ -127,7 +126,7 @@ def create_opening_remarks(
         category="talks",
         difficulty="All",
         end_datetime=end_time,
-        datetime=start_time,
+        start_datetime=start_time,
         track="t0",
         title=f"Opening Remarks ({start_time.strftime('%A')})",
         permalink=f'/talks/opening-remarks-{start_time.strftime("%A").lower()}/',
@@ -192,7 +191,7 @@ def create_placeholder_keynote(
         difficulty="All",
         end_datetime=end_time,
         presenter_slugs=None,
-        datetime=start_time,
+        start_datetime=start_time,
         track="t0",
         title=f"Keynote (to be announced) ({start_time.strftime('%A')})",
         permalink=f"/talks/keynote-{start_time.strftime('%A').lower()}/",
@@ -206,13 +205,14 @@ def copy_organizer_and_create_schedule(
     organizer_slug: str,
     title: str,
 ) -> models.Schedule:
-    copy_organizer_to_presenter(organizer_slug)
+    if organizer_slug:
+        copy_organizer_to_presenter(organizer_slug)
     return models.Schedule(
         category="talks",
         difficulty="All",
         end_datetime=end_time,
-        presenter_slugs=[organizer_slug],
-        datetime=start_time,
+        presenter_slugs=[organizer_slug] if organizer_slug else [],
+        start_datetime=start_time,
         track="t0",
         title=title,
         permalink=f"/talks/{slugify(title)}/",

@@ -1,6 +1,6 @@
 {
   "domain": "https://2025.djangocon.us",
-  "timezone": "America/New_York",
+  "timezone": "America/Chicago",
   "conf_year": 2025,
   "phase": "active",
   "conduct_email": "conduct@djangocon.us",
