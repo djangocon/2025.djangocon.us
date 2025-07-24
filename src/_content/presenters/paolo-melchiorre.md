@@ -5,11 +5,11 @@ name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/
 photo: paolo-melchiorre.jpeg
 social:
-    bluesky: https://bsky.app/profile/paulox.net
-    github: https://github.com/pauloxnet
-    instagram: https://www.instagram.com/paulox_net
+    bluesky: paulox.net
+    github: pauloxnet
+    instagram: paulox_net
     mastodon: https://fosstodon.org/@paulox
-    twitter: https://twitter.com/pauloxnet
+    twitter: pauloxnet
     website: https://www.paulox.net
 ---
 
