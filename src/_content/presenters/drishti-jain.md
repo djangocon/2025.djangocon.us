@@ -7,9 +7,9 @@ photo: drishti-jain.png
 social:
     bluesky: null
     github: null
-    instagram: null
-    mastodon: null
-    twitter: null
+    instagram: geekyearthian
+    mastodon: [https://mastodon.social/@drishtijjain](https://mastodon.social/@drishtijjain)
+    twitter: drishtijjain
     website: null
 ---
 
