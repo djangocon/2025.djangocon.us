@@ -41,7 +41,18 @@
 
 <body id="SiteBody"  class="view-post">
   
-  <header id="SiteHeader" class="site-header is-closed lg:is-open ">
+    
+<aside class="fixed lg:relative lg:py-6 text-center justify-around leading-tight h-[40px] xl:text-lg z-[200] top-0 block bg-pink text-white flex items-center justify-center px-4 w-full">
+  <a href="/schedule" class="hidden text-white no-underline md:inline-flex">
+   🎉 &nbsp; <strong class="underline">Schedule announced!</strong> &nbsp; 🎉
+  </a>
+  <a href="https://ti.to/defna/djangocon-us-2025" class="text-white no-underline">
+     🎫  &nbsp;<strong class="underline">Get your tickets now</strong>&nbsp; 🎫
+  </a>
+</aside>
+
+
+<header id="SiteHeader" class="top-[40px] lg:top-0 site-header is-closed lg:is-open">
     <div class="wrapper">
       <nav class="flex flex-wrap" role="navigation">
         <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
@@ -70,35 +81,35 @@
       <a href="/about" data-menu-trigger aria-haspopup="true" aria-expanded="false">About</a>
       <ul data-menu-list role="menu" class="hidden site-nav-menu">
         <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
-        <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" role="menuitem">Tickets</a></li>
+        <li><a href="https://ti.to/defna/djangocon-us-2025" target="_blank" role="menuitem">Registration</a></li>
         <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
         <li><a href="/public-health/" role="menuitem">Public Health</a></li>
-        <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li>
+        <!-- <li><a href="/opportunity-grants/" role="menuitem">Opportunity Grants</a></li> -->
         <li><a href="/visas/" role="menuitem">Visa Support</a></li>
         <li><a href="/faq/" role="menuitem">FAQ</a></li>
         <!-- <li><a href="/hackathon/" role="menuitem">Hackathon</a></li> -->
         <li><a href="/organizers/" role="menuitem">Organizers</a></li>
+        <li><a href="/speaking/speaker-resources/"  role="menuitem">Speaker Resources</a></li>
       </ul>
     </li>
     <li><a href="/schedule/">Schedule</a></li>
     <li>
-    <a href="/venue/" data-menu-trigger aria-haspopup="true" aria-expanded="false">Venue</a>
-    <ul data-menu-list class="hidden site-nav-menu">
-      <li><a href="/venue/#welcome">Welcome to Chicago!</a></li>
-      <li><a href="/venue/#hotel">Staying in Chicago</a></li>
-      <li><a href="/venue/#places">Around Chicago</a></li>
-      <li><a href="/venue/#accessibility">Accessibility</a></li>
-      <li><a href="/room-sharing/" role="menuitem">Room Sharing</a></li>
-    </ul>
+      <a href="/venue/" data-menu-trigger aria-haspopup="true" aria-expanded="false">Venue</a>
+      <ul data-menu-list class="hidden site-nav-menu">
+        <li><a href="/venue/#welcome">Welcome to Chicago!</a></li>
+        <li><a href="/venue/#hotel">Staying in Chicago</a></li>
+        <li><a href="/venue/#places">Around Chicago</a></li>
+        <li><a href="/venue/#accessibility">Accessibility</a></li>
+        <li><a href="/room-sharing/" role="menuitem">Room Sharing</a></li>
+      </ul>
     </li>
-    <li>
+    <!-- <li>
     <a href="/venue/" data-menu-trigger aria-haspopup="true" aria-expanded="false">Speaking</a>
     <ul data-menu-list class="hidden site-nav-menu">
       <li><a href="/speaking/" role="menuitem">Speaking at DjangoCon US</a></li>
       <li><a href="https://pretalx.com/djangocon-us-2025/cfp" target="_blank" role="menuitem">Submit a Proposal</a></li>
-      <li><a href="/speaking/speaker-resources/"  role="menuitem">Speaker Resources</a></li>
     </ul>
-  </li>
+  </li> -->
   <li>
     <a href="/sponsors/" data-menu-trigger aria-haspopup="true" aria-expanded="false">Sponsors</a>
     <ul data-menu-list class="hidden site-nav-menu">
@@ -115,7 +126,7 @@
   </header>
   
 
-  <main id="SiteMain" class="flex-1 pt-[96px] lg:pt-0 lg:block">
+  <main id="SiteMain" class="flex-1 pt-[120px] lg:pt-0 lg:block">
 <article>
   <header class="mx-auto max-w-[60rem] pt-16 pb-6 text-center flex flex-col justify-center">
     <time datetime="git Last Modified" class="mb-2 tracking-wide text-gray-600 uppercase">July 2, 2025</time>
