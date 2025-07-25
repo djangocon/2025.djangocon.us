@@ -12,6 +12,15 @@ title: 'Beyond the ORM: from Postgres to OpenSearch'
 track: t0
 ---
 
+Our team at Energy Solutions spent a year building a robust data ingestion and query pipeline using OpenSearch to provide centralized data to a distributed suite of applications. Along the way, we learned to question and rethink a lot of our relational database assumptions and take fuzzy search customization and accuracy to the next level. Meanwhile, we implemented Pydantic wrappers around JSON responses so we could continue to handle responses like native Python objects (along with other benefits we’ll discuss). We addressed long-standing challenges, such as:
+
+- Improving the performance of the per-row create/update/delete paradigm (in one case, leading to a ~9x faster data ingest + load!)
+- Putting OpenSearch “aliases” to work to help track current vs archival data
+- Improving search relevancy
+- PII exposure reduction
+
+In this presentation, we’ll walk through the decisions that led us to moving to an OpenSearch-based solution that works within a traditional Django framework, how we tackled advanced topics like token analysis, and how we put OpenSearch aliases to work. We’ll also cover some of the cost-benefit equations, summarize our next phase of work in the project, and include real-time demonstrations of some concepts.
+
 ### Background on Energy Efficiency
 
 Utilities, which are often regulated, are responsible for generating a consistent supply of energy for their consumers at a stable price. Efficiency incentive programs that manage demand help insulate utilities from the costs associated with purchasing raw materials (coal, gas, etc.) and help reduce the need to build new power plants that are expensive to build, staff, insure, and supply with consumable, non-renewable resources. 
