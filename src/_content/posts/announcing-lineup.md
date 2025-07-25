@@ -43,7 +43,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Peter Baumgartner ([linkedin](https://www.linkedin.com/in/pbaumgartner/)) - High Performance Django at Ten: Old Tricks and New Picks
 - Karen Tracey ([linkedin](https://www.linkedin.com/in/karen-tracey-b616255/)) - How to Enjoy Debugging In Production
 - Henrietta Dombrovskaya ([linkedin](https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/)) - PostgreSQL: Tuning Parameters or Tuning Queries?
-- Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action
+- Drishti Jain ([linkedin](https://www.linkedin.com/in/jaindrishti/)) - Python for Planet Earth: Climate Modeling and Sustainability in Action
 - Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service
 - Kattni - ([website](https://kattni.com)) The Source of Change: Bettering Online Open Source Communities Can Begin with You
 - Kudzayi Bamhare ([linkedin](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/)) - The X's and O's of Open Source With ShotGeek
