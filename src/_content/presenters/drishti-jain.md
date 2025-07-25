@@ -5,7 +5,7 @@ name: Drishti Jain
 permalink: /presenters/drishti-jain/
 photo: drishti-jain.png
 social:
-    bluesky: null
+    bluesky: drishtijjain.bsky.social
     github: null
     instagram: geekyearthian
     mastodon: [https://mastodon.social/@drishtijjain](https://mastodon.social/@drishtijjain)
