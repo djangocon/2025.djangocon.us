@@ -8,7 +8,7 @@ cover:
 title: "The DjangoCon US 2025 schedule has been released!"
 ---
 
-We are beyond thrilled to unveil the 2025 DjangoCon US [talk and tutorial lineup](/schedule/). We'll have three days of talks on September 8-10, and two days of sprints on September 11-12.
+We are beyond thrilled to unveil the 2025 DjangoCon US [talk lineup](/schedule/). We'll have three days of talks on September 8-10, and two days of sprints on September 11-12.
 
 We will have three keynote speakers which will be announced over the next several weeks. Stay tuned to our [Mastodon](https://fosstodon.org/@djangocon) and [news feed](/news/) for the announcements.
 
