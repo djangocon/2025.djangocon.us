@@ -8,7 +8,7 @@ social:
     bluesky: drishtijjain.bsky.social
     github: null
     instagram: geekyearthian
-    mastodon: [https://mastodon.social/@drishtijjain](https://mastodon.social/@drishtijjain)
+    mastodon: https://mastodon.social/@drishtijjain
     twitter: drishtijjain
     website: null
 ---
