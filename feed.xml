@@ -6,13 +6,30 @@
   <link href="https://2025.djangocon.us" rel="alternate"/>
 
   <updated
-    >2025-07-28T19:22:28Z</updated
+    >2025-07-28T19:22:56Z</updated
   >
   <id>https://2025.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>The DjangoCon US 2025 schedule has been released!</title>
+      <link href="https://2025.djangocon.us/news/announcing-schedule-dcus/" />
+      <updated>2025-07-28T12:00:00Z</updated>
+      <id>https://2025.djangocon.us/news/announcing-schedule-dcus/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We are beyond thrilled to unveil the 2025 DjangoCon US &lt;a href=&#34;/schedule/&#34;&gt;talk lineup&lt;/a&gt;. We&#39;ll have three days of talks on September 8-10, and two days of sprints on September 11-12.&lt;/p&gt;
+&lt;p&gt;We will have three keynote speakers which will be announced over the next couple of weeks. Stay tuned to our &lt;a href=&#34;https://fosstodon.org/@djangocon&#34;&gt;Mastodon&lt;/a&gt; and &lt;a href=&#34;/news/&#34;&gt;news feed&lt;/a&gt; for the announcements.&lt;/p&gt;
+&lt;p&gt;We have lots of great talks lined up, from talks about &lt;a href=&#34;/talks/django-for-ai-deploying-machine-learning-models-with-django/&#34;&gt;Django for AI: Deploying Machine Learning Models with Django&lt;/a&gt;, &lt;a href=&#34;/talks/from-hype-to-hard-truths-the-rise-and-fall-of-coding-boot-camps/&#34;&gt;From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps&lt;/a&gt;, &lt;a href=&#34;/talks/building-maintainable-django-projects-the-difficult-teenage-years/&#34;&gt;Building maintainable Django projects: the difficult teenage years&lt;/a&gt;, &lt;a href=&#34;/talks/evolving-django-what-we-learned-by-integrating-mongodb/&#34;&gt;Evolving Django: What We Learned by Integrating MongoDB&lt;/a&gt;, &lt;a href=&#34;/talks/the-source-of-change-bettering-online-open-source-communities-can-begin-with-you/&#34;&gt;The Source of Change: Bettering Online Open Source Communities Can Begin with You&lt;/a&gt;, &lt;a href=&#34;/talks/djangonaut-space-a-mentorship-program-for-open-source/&#34;&gt;Djangonaut Space: A Mentorship Program For Open Source&lt;/a&gt;, and so much more!&lt;/p&gt;
+&lt;p&gt;Don&#39;t forget our awesome deep dive day, where we dig into things like &lt;a href=&#34;/talks/what-a-decade/&#34;&gt;What a Decade!&lt;/a&gt;, &lt;a href=&#34;/talks/free-threaded-django/&#34;&gt;Free Threaded Django&lt;/a&gt;, and &lt;a href=&#34;/talks/high-performance-django-at-ten-old-tricks-new-picks/&#34;&gt;High Performance Django at Ten: Old Tricks &amp;amp; New Picks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;ll also have lightning talks on all three days; you will sign up for those in Chicago. Details will be announced later.&lt;/p&gt;
+&lt;p&gt;If you haven&#39;t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;you can get them here!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a reminder, the in person conference runs from September 8-12 in Chicago.&lt;/p&gt;
+&lt;p&gt;We hope to see you in Chicago!&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Announcing Our Keynotes: Carson Gross</title>
       <link href="https://2025.djangocon.us/news/keynote-carson/" />
