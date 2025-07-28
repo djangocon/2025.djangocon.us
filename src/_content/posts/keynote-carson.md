@@ -15,15 +15,19 @@ We had the opportunity to sit down with Carson and ask him a few questions about
 
 ## How do you use Django?
 
-> I do not use Django very often because my main profession is teaching and we mainly use Java. However, the Django community has embraced HTMX, a web library that I created, and so I have a lot of friends in the community.
+> I do not use [Django](https://www.djangoproject.com/) very often because my main profession is teaching and we mainly use Java. However, the [Django](https://www.djangoproject.com/) community has embraced [HTMX](https://htmx.org/), a web library that I created, and so I have a lot of friends in the community.
+
+## How do you see Django evolving over the next few years, and what excites you most about its future?
+
+> I'm excited to see how [HTMX](https://htmx.org/) & [Django](https://www.djangoproject.com/) can continue to drive forward the notion of hypermedia-oriented web applications.
 
 ## Can you give us a teaser about what your talk is about?
 
-> I will be speaking about the philosophy of Nintendo Game Designer Gunpei Yokoi who created the original Game Boy.  His philosophy translates as "Lateral Thinking with Withered (or Seasoned) Technology" and I am going to apply that thinking to web development, particularly the combination of HTMX & Django.
+> I will be speaking about the philosophy of Nintendo Game Designer [Gunpei Yokoi](https://en.wikipedia.org/wiki/Gunpei_Yokoi) who created the original Game Boy.  His philosophy translates as "Lateral Thinking with Withered (or Seasoned) Technology" and I am going to apply that thinking to web development, particularly the combination of [HTMX](https://htmx.org/) & [Django](https://www.djangoproject.com/).
 
 ## What are you most looking forward to at DjangoCon US 2025?
 
-> I am looking forward to meeting people and talking about hypermedia.
+> I am looking forward to meeting people and talking about [hypermedia](https://hypermedia.systems/).
 
 ## What are your favourite topics at conferences?
 
@@ -37,7 +41,7 @@ We had the opportunity to sit down with Carson and ask him a few questions about
 
 > I went to college thinking I would be a computer programmer, since I enjoyed it in school.  I dropped out of CS due to being overwhelmed in the program I was in.  I ended up getting a job as a programmer anyway because that was what people were hiring for at the time.  I eventually went back to grad school and finished getting a masters in computer science.
 >
-> After that I worked in the Bay Area in a traditional software company for about a decade, then moved on to found a small company.  I eventually had to sell that company due to partner disagreements and decided to move to Montana and try teaching at Montana State.  Over my working career I also created a few open source projects, the most famous of which is HTMX.
+> After that I worked in the Bay Area in a traditional software company for about a decade, then moved on to found a small company.  I eventually had to sell that company due to partner disagreements and decided to move to Montana and try teaching at Montana State.  Over my working career I also created a few open source projects, the most famous of which is [HTMX](https://htmx.org/).
 
 ## How did you approach your career growth?
 
@@ -45,15 +49,11 @@ We had the opportunity to sit down with Carson and ask him a few questions about
 
 ## When did you start speaking at conferences, and what has your experience been like so far?
 
-> I have been speaking at conferences since 2016, when I gave a talk on ``` intercooler.js ```, the predecessor to HTMX.  It was to an almost empty room.  It's gotten better since then.
+> I have been speaking at conferences since 2016, when I gave a talk on [Intercooler.js](https://intercoolerjs.org/),  the predecessor to [HTMX](https://htmx.org/).  It was to an almost empty room.  It's gotten better since then.
 
 ## What do you like to do outside of your typical workday?
 
 > I like skiing, fishing & hiking with my family.
-
-## How do you see Django evolving over the next few years, and what excites you most about its future?
-
-> I'm excited to see how HTMX & Django can continue to drive forward the notion of hypermedia-oriented web applications.
 
 ## What advice would you offer to attendees who wish to contribute to Django or its ecosystem after the conference?
 
@@ -65,5 +65,4 @@ We had the opportunity to sit down with Carson and ask him a few questions about
 
 Be sure to follow [Carson on the HTMX handle](https://x.com/htmx_org) on X!
 
-We can't wait to hear Carson's keynote at DjangoCon US 2025! Stay tuned for more keynote announcements. If you haven’t purchased your ticket yet, [they’re still on sale](https://ti.to/defna/djangocon-us-2025).
-We hope to see you in Chicago.
+We can't wait to hear Carson's keynote at DjangoCon US 2025! Stay tuned for more keynote announcements. If you haven’t purchased your ticket yet, [they’re still on sale](https://ti.to/defna/[Django](https://www.djangoproject.com/)con-us-2025). We hope to see you in Chicago.
