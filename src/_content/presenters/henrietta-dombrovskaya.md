@@ -5,11 +5,11 @@ name: Henrietta Dombrovskaya
 permalink: /presenters/henrietta-dombrovskaya/
 photo: henrietta-dombrovskaya.jpeg
 social:
-    bluesky: ‪@hettied.bsky.social‬
-    github: https://github.com/hettie-d
-    instagram: @hettie-rogers_park
+    bluesky: hettied.bsky.social
+    github: hettie-d
+    instagram: hettie-rogers_park
     mastodon: null
-    twitter: @HettieDombr
+    twitter: HettieDombr
     website: https://hdombrovskaya.wordpress.com/
 ---
 
