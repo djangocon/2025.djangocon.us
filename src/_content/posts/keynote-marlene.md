@@ -17,6 +17,10 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 
 > Mainly for developing personal websites! It was one of the first frameworks I used in Python so it’s been one of my favorites to use for that.
 
+## How do you see Django evolving over the next few years, and what excites you most about its future?
+
+> One of my favorite things about Django is the open source community. I’d love to see the community change the way we talk about and use AI, I think in general the AI space needs more creativity, fun and empathy and I think those are things Django can offer. I’m excited to see how people use it in new ways too.
+
 ## Can you give us a teaser about what your talk is about?
 
 > My talk will be about reimagining Django for the age of AI! I’ll be drawing inspiration from the principles that have historically made Django great as a framework and as a community and trying to imagine how that applies today.
@@ -48,10 +52,6 @@ We had the opportunity to sit down with Marlene and ask her a few questions abou
 ## What do you like to do outside of your typical workday?
 
 > I like to sleep! Haha, I also enjoy playing tennis, running and reading!
-
-## How do you see Django evolving over the next few years, and what excites you most about its future?
-
-> One of my favorite things about Django is the open source community. I’d love to see the community change the way we talk about and use AI, I think in general the AI space needs more creativity, fun and empathy and I think those are things Django can offer. I’m excited to see how people use it in new ways too.
 
 ## What advice would you offer to attendees who wish to contribute to Django or its ecosystem after the conference?
 
