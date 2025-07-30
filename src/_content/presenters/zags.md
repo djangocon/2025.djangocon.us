@@ -9,7 +9,7 @@ social:
     github: null
     instagram: null
     mastodon: null
-    linkedin: https://www.linkedin.com/in/zagorsky/.
+    twitter: null
     website: https://zagaran.com/
 ---
 
