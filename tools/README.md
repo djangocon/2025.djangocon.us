@@ -1,8 +1,8 @@
-# Python tools for 2024 schedule generation
+# Python tools for 2025 schedule generation
 
 ## Getting started
 
-1. Download and install Python 3.12 (or newer)
+1. Download and install Python 3.13 (or newer)
 2. `cd /path/to/repo/root/`
 3. `python3.12 -m venv .venv`
 4. `pip install --upgrade pip setuptools wheel pip-tools`

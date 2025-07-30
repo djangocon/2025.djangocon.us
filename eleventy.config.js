@@ -15,7 +15,7 @@ const timezone = siteConfig.timezone || 'UTC'; // Default to 'UTC' if not specif
 
 module.exports = (config) => {
   setupCollections(config);
-  setupSessions(config);
+  setupSessions(config, timezone);
   setupFeed(config);
 
   /*
@@ -105,7 +105,7 @@ module.exports = (config) => {
       if (data.draft) {
         return false;
       }
-      
+
       // Otherwise, use the permalink specified in the page front matter
       return data.permalink;
     }

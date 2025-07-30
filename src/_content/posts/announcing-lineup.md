@@ -29,7 +29,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Timothy Mccurrach - Cutting Latency in Half: What Actually Worked—and What Didn't
 - Jeffrey A. Clark - Evolving Django: What We Learned by Integrating MongoDB
 - Ryan Cheley ([linkedin](https://www.linkedin.com/in/ryan-cheley/)) - Django as a Database Documentation Tool: The Hidden Power of Model Comments
-- Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for Data Science: Deploying Machine Learning Models with Django
+- Will Vincent ([linkedin](https://www.linkedin.com/in/william-s-vincent/)) - Django for AI: Deploying Machine Learning Models with Django
 - Paolo Melchiorre ([linkedin](https://www.linkedin.com/in/paolomelchiorre/)) - Django's GeneratedField By Example
 - Mike Hoolehan - Unleash your Django Frontend: Integrate Web Components into Django Templates with Vue 
 - Lilian - Djangonaut Space: A Mentorship Program for Open Source
@@ -40,10 +40,10 @@ _All talks will be available live for those with online-only tickets. They will 
 - Micah Lyle ([linkedin](https://www.linkedin.com/in/micahlyle/)) - Free Threaded Django
 - Ryan J Sullivan - From Breakpoints to Querysets: Debugging Django With Ease
 - Jeanette O'Brien ([linkedin](https://www.linkedin.com/in/jeanetteob/)) - From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps
-- Peter Baumgartner - High Performance Django at Ten: Old Tricks and New Picks
+- Peter Baumgartner ([linkedin](https://www.linkedin.com/in/pbaumgartner/)) - High Performance Django at Ten: Old Tricks and New Picks
 - Karen Tracey ([linkedin](https://www.linkedin.com/in/karen-tracey-b616255/)) - How to Enjoy Debugging In Production
 - Henrietta Dombrovskaya ([linkedin](https://www.linkedin.com/in/henrietta-dombrovskaya-367b26/)) - PostgreSQL: Tuning Parameters or Tuning Queries?
-- Drishti Jain - Python for Planet Earth: Climate Modeling and Sustainability in Action
+- Drishti Jain ([linkedin](https://www.linkedin.com/in/jaindrishti/)) - Python for Planet Earth: Climate Modeling and Sustainability in Action
 - Mariatta - Reverse Engineering the QR Code Generator and URL Forwarder Service
 - Kattni - ([website](https://kattni.com)) The Source of Change: Bettering Online Open Source Communities Can Begin with You
 - Kudzayi Bamhare ([linkedin](https://www.linkedin.com/in/kudzayi-bamhare-3b6991b7/)) - The X's and O's of Open Source With ShotGeek

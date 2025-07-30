@@ -5,7 +5,7 @@ date: 2024-07-03
 hiring_url: https://goauthentik.io/jobs
 logo:
     filename: authentik-security.svg
-    orientation: portrait
+    orientation: landscape
 url:
     target: 'https://goauthentik.io/'
     label: goauthentik.io

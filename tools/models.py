@@ -98,7 +98,7 @@ class Schedule(FrontmatterModel):
     room: str | None = None
     show_video_urls: bool | None = None
     slides_url: str | None = None
-    datetime: pydatetime.datetime | None
+    start_datetime: pydatetime.datetime | None
     tags: list[str] | None = None
     track: str | None = None
     video_url: str | None = None
@@ -106,14 +106,40 @@ class Schedule(FrontmatterModel):
     def __init__(self, **data):
         super().__init__(**data)
 
+    @property
+    def filename(self) -> str:
+        return (
+            "-".join(
+                [
+                    self.start_datetime.strftime("%Y-%m-%d-%H-%M"),
+                    self.track,
+                    slugify(self.title),
+                ]
+            )
+            + ".md"
+        )
+
 
 class ManualScheduleEntry(BaseModel):
-    datetime: pydatetime.datetime
+    start_datetime: pydatetime.datetime
     end_datetime: pydatetime.datetime
     permalink: str | None
     room: str
     title: str
     track: str
+
+    @property
+    def filename(self) -> str:
+        return (
+            "-".join(
+                [
+                    self.start_datetime.strftime("%Y-%m-%d-%H-%M"),
+                    "t0",
+                    slugify(self.title),
+                ]
+            )
+            + ".md"
+        )
 
 
 def migrate_mastodon_handle(*, handle: str) -> str:
@@ -126,62 +152,62 @@ def migrate_mastodon_handle(*, handle: str) -> str:
 
 MANUAL_SCHEDULE_ENTRIES = [
     # Sunday breakfast
-    ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(8),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(9),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="lunch",
-        permalink=constants.SUNDAY_BREAKFAST_LINK,
-        room=constants.LUNCH_ROOM,
-        title="Continental Breakfast",
-        track="t0",
-    ),
-    # TODO decide whether we'll have quiet/lactation rooms on tutorial day
-    ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(8),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(18),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="break",
-        permalink=None,
-        room=f"In front of {constants.LARGE_TALK_ROOM}",
-        title="Registration",
-        track="t0",
-    ),
-    # sunday lunch
-    ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(12, 30),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.TUTORIAL_DAY,
-            pydatetime.time(13, 30),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="lunch",
-        permalink=constants.SUNDAY_LUNCH_LINK,
-        room=constants.LUNCH_ROOM,
-        title="Lunch",
-        track="t0",
-    ),
+    # ManualScheduleEntry(
+    #     start_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(8),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(9),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="lunch",
+    #     permalink=constants.SUNDAY_BREAKFAST_LINK,
+    #     room=constants.LUNCH_ROOM,
+    #     title="Continental Breakfast",
+    #     track="t0",
+    # ),
+    # # TODO decide whether we'll have quiet/lactation rooms on tutorial day
+    # ManualScheduleEntry(
+    #     start_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(8),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(18),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="break",
+    #     permalink=None,
+    #     room=f"In front of {constants.LARGE_TALK_ROOM}",
+    #     title="Registration",
+    #     track="t0",
+    # ),
+    # # sunday lunch
+    # ManualScheduleEntry(
+    #     start_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(12, 30),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.TUTORIAL_DAY,
+    #         pydatetime.time(13, 30),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="lunch",
+    #     permalink=constants.SUNDAY_LUNCH_LINK,
+    #     room=constants.LUNCH_ROOM,
+    #     title="Lunch",
+    #     track="t0",
+    # ),
     # Monday!
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(7, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -198,7 +224,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(7, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -215,7 +241,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -232,7 +258,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -249,7 +275,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -265,15 +291,16 @@ MANUAL_SCHEDULE_ENTRIES = [
         title="Speaker Green Room",
         track="t0",
     ),
+    # monday AM break
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(10, 10),
+            pydatetime.time(10, 20),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(10, 35),
+            pydatetime.time(10, 45),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -284,7 +311,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # monday early lunch
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             constants.LIGHTNING_TALK_START_TIME,
             tzinfo=constants.CONFERENCE_TZ,
@@ -302,7 +329,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # monday main lunch
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
@@ -321,14 +348,14 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # monday PM break
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(15, 30),
+            pydatetime.time(15, 10),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(15, 55),
+            pydatetime.time(15, 35),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -339,7 +366,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # board game night
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(19),
             tzinfo=constants.CONFERENCE_TZ,
@@ -357,7 +384,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # Tuesday!
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -374,14 +401,14 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(17, 30),
+            pydatetime.time(17),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -391,7 +418,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -408,7 +435,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -425,7 +452,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -442,14 +469,14 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(10, 10),
+            pydatetime.time(10, 20),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(10, 35),
+            pydatetime.time(10, 45),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -460,7 +487,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # tuesday early lunch
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             constants.LIGHTNING_TALK_START_TIME,
             tzinfo=constants.CONFERENCE_TZ,
@@ -478,7 +505,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # tuesday main lunch
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
@@ -497,14 +524,14 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # tuesday PM break
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(15, 0),
+            pydatetime.time(15, 10),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(15, 25),
+            pydatetime.time(15, 35),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -515,7 +542,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # Wednesday!
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -532,14 +559,14 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(17, 30),
+            pydatetime.time(17),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -549,7 +576,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -566,7 +593,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -583,7 +610,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
@@ -600,14 +627,14 @@ MANUAL_SCHEDULE_ENTRIES = [
         track="t0",
     ),
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(10, 10),
+            pydatetime.time(10, 20),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(10, 35),
+            pydatetime.time(10, 45),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -618,7 +645,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # wed early lunch
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             constants.LIGHTNING_TALK_START_TIME,
             tzinfo=constants.CONFERENCE_TZ,
@@ -636,7 +663,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # wed main lunch
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
@@ -655,14 +682,14 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # wed PM break
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(15, 0),
+            pydatetime.time(15, 45),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(15, 25),
+            pydatetime.time(16, 15),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -673,7 +700,7 @@ MANUAL_SCHEDULE_ENTRIES = [
     ),
     # Thursday!
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.SPRINTS_DAY_1,
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
@@ -685,13 +712,13 @@ MANUAL_SCHEDULE_ENTRIES = [
         ),
         group="talks",
         permalink=None,
-        room="Caktus Group",
+        room=constants.LARGE_TALK_ROOM,
         title="Contribution Sprints",
         track="t0",
     ),
     # Friday!
     ManualScheduleEntry(
-        datetime=pydatetime.datetime.combine(
+        start_datetime=pydatetime.datetime.combine(
             constants.SPRINTS_DAY_2,
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
@@ -703,7 +730,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         ),
         group="talks",
         permalink=None,
-        room="Caktus Group",
+        room=constants.LARGE_TALK_ROOM,
         title="Contribution Sprints",
         track="t0",
     ),

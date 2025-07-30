@@ -23,3 +23,4 @@ We're going to take Django apart and look at its pieces.  In the process, we'll 
 * When you have a lot of existing software not built in Django
 
 Throughout this talk, we'll look at how to use Django an appropriate amount for each situation, how Django can still be powerful even if you only use a few pieces of the framework, and things that could be added to Django for it to better address some of these use-cases.
+
