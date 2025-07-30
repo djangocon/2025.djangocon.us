@@ -17,6 +17,10 @@ We had the opportunity to sit down with Zags and ask him a few questions about h
 
 > I am the CTO of Zagaran, a software consulting firm.  We use Django as the backend for a majority of our projects, powering web applications for a whole variety of industries and government agencies.  We've used Django to power applicant management for subsidized housing programs, document management systems, Ecommerce ordering and fulfillment, and a medical research platform, to name a few of the many things we've built.
 
+## How do you see Django evolving over the next few years, and what excites you most about its future?
+
+> I'm always excited when Django adds new database features because database management is one of the hardest aspects of application development.  Django's ORM is the area where I believe Django is most ahead of other software frameworks.  The addition of native support for complex database constraints in Django 2, the support for JSONFields across all database backends in Django 3, and the addition of db_default of Django 5 are all features that have made major impacts in the way I plan features on a Django project.  I'm always excited for more things like these.
+
 ## Can you give us a teaser about what your talk is about?
 
 > Over my career, I've seen the power of Django in a lot of different business and technology contexts.  One goal of my talk is to show people ways to use Django that they might never have considered or that they ruled out as infeasible.
@@ -48,10 +52,6 @@ We had the opportunity to sit down with Zags and ask him a few questions about h
 ## What do you like to do outside of your typical workday?
 
 > I'm an avid board gamer.  I also like spending time with my two kids, and finding ways to combine kids toys to make new toys and games beyond the limits the toy designers intended.
-
-## How do you see Django evolving over the next few years, and what excites you most about its future?
-
-> I'm always excited when Django adds new database features because database management is one of the hardest aspects of application development.  Django's ORM is the area where I believe Django is most ahead of other software frameworks.  The addition of native support for complex database constraints in Django 2, the support for JSONFields across all database backends in Django 3, and the addition of db_default of Django 5 are all features that have made major impacts in the way I plan features on a Django project.  I'm always excited for more things like these.
 
 ## What advice would you offer to attendees who wish to contribute to Django or its ecosystem after the conference?
 
