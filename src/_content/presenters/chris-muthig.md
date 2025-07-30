@@ -6,7 +6,7 @@ permalink: /presenters/chris-muthig/
 photo: chris-muthig.jpg
 social:
     bluesky: null
-    github: https://github.com/camuthig/
+    github: camuthig
     instagram: null
     mastodon: null
     twitter: null
