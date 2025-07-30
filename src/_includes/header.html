@@ -1,4 +1,15 @@
-<header id="SiteHeader" class="site-header is-closed lg:is-open {% if site.banner %}top-[40px]{% endif %}">
+{% if site.banner %}
+<aside class="fixed lg:relative lg:py-6 text-center justify-around leading-tight h-[40px] xl:text-lg z-[200] top-0 block bg-pink text-white flex items-center justify-center px-4 w-full">
+  <a href="/schedule" class="hidden text-white no-underline md:inline-flex">
+   🎉 &nbsp; <strong class="underline">Schedule announced!</strong> &nbsp; 🎉
+  </a>
+  <a href="{{ site.ticket_link }}" class="text-white no-underline">
+     🎫  &nbsp;<strong class="underline">Get your tickets now</strong>&nbsp; 🎫
+  </a>
+</aside>
+{% endif %}
+
+<header id="SiteHeader" class="top-[40px] lg:top-0 site-header is-closed lg:is-open">
     <div class="wrapper">
       <nav class="flex flex-wrap" role="navigation">
         <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
