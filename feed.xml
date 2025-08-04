@@ -6,13 +6,75 @@
   <link href="https://2025.djangocon.us" rel="alternate"/>
 
   <updated
-    >2025-07-31T11:00:52Z</updated
+    >2025-08-04T09:38:42Z</updated
   >
   <id>https://2025.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Announcing Our Keynotes: Marlene Mhangami</title>
+      <link href="https://2025.djangocon.us/news/keynote-marlene/" />
+      <updated>2025-08-04T10:00:00Z</updated>
+      <id>https://2025.djangocon.us/news/keynote-marlene/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-third-keynote-speaker-for-djangocon-us-2025%3A-marlene-mhangami&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our third keynote speaker for DjangoCon US 2025: Marlene Mhangami&lt;/h3&gt;
+&lt;p&gt;We had the opportunity to sit down with Marlene and ask her a few questions about her work, her upcoming talk, and what she&#39;s looking forward to at DjangoCon US 2025.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-you-use-django%3F&#34; tabindex=&#34;-1&#34;&gt;How do you use Django?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mainly for developing personal websites! It was one of the first frameworks I used in Python so it’s been one of my favorites to use for that.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;how-do-you-see-django-evolving-over-the-next-few-years%2C-and-what-excites-you-most-about-its-future%3F&#34; tabindex=&#34;-1&#34;&gt;How do you see Django evolving over the next few years, and what excites you most about its future?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One of my favorite things about Django is the open source community. I’d love to see the community change the way we talk about and use AI, I think in general the AI space needs more creativity, fun and empathy and I think those are things Django can offer. I’m excited to see how people use it in new ways too.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-give-us-a-teaser-about-what-your-talk-is-about%3F&#34; tabindex=&#34;-1&#34;&gt;Can you give us a teaser about what your talk is about?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My talk will be about reimagining Django for the age of AI! I’ll be drawing inspiration from the principles that have historically made Django great as a framework and as a community and trying to imagine how that applies today.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2025%3F&#34; tabindex=&#34;-1&#34;&gt;What are you most looking forward to at DjangoCon US 2025?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Catching up with friends from the community! It’s been a while since I’ve been at DjangoCon US so I’m excited about seeing people I’ve connected with over the years.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-your-favourite-topics-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;What are your favourite topics at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I love talks that are creative or have a story telling element to them! These tend to be my favorites. I’m also really into AI at the moment so if anyone’s doing something interesting with that, I’ll probably be interested in the talk.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;how-do-you-view-the-connections-made-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;How do you view the connections made at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;These are so valuable! I’ve made great friends and even now co-workers at conferences, so I highly recommend.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-tell-us-about-your-career-journey%3F&#34; tabindex=&#34;-1&#34;&gt;Can you tell us about your career journey?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In college I initially studied molecular biology on a pre-med track. I thought I was going to be a doctor but didn’t really enjoy the things I was doing. I ended up spending a year in Zimbabwe experimenting with different things and wound up helping girls learn how to code in Python! Ironically, we were using the Django Girls tutorial. I hadn’t been exposed to much coding before that, but after I changed my trajectory and went back to school for software engineering, I ended up getting an internship at Nvidia, and I currently work at Microsoft.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;how-did-you-approach-your-career-growth%3F&#34; tabindex=&#34;-1&#34;&gt;How did you approach your career growth?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m genuinely interested in experimenting with code and learning how things work. Sharing my code online has been a big part of my career as well as networking and people in the community. At work I do my best to share what I’m learning, seeing or doing and try to be open to feedback.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;when-did-you-start-speaking-at-conferences%2C-and-what-has-your-experience-been-like-so-far%3F&#34; tabindex=&#34;-1&#34;&gt;When did you start speaking at conferences, and what has your experience been like so far?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I started speaking at conferences in 2016! I spoke at a few meetups in Zimbabwe and then did my first international conference in 2017 at PyCon Italia! It’s been such a positive experience for me. Speaking has really grown my confidence and I’ve had so many opportunities and friendships come from it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-do-you-like-to-do-outside-of-your-typical-workday%3F&#34; tabindex=&#34;-1&#34;&gt;What do you like to do outside of your typical workday?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I like to sleep! Haha, I also enjoy playing tennis, running and reading!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-advice-would-you-offer-to-attendees-who-wish-to-contribute-to-django-or-its-ecosystem-after-the-conference%3F&#34; tabindex=&#34;-1&#34;&gt;What advice would you offer to attendees who wish to contribute to Django or its ecosystem after the conference?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’d tell them they are in the right place!! Documentation is a great place to start when contributing to open source and it should help them learn the codebase more. Even just updating doc strings is a good way to get started.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;are-you-ok-with-people-asking-you-more-later%3F&#34; tabindex=&#34;-1&#34;&gt;Are you ok with people asking you more later?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yes, always happy to chat and make new friends.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be sure to follow &lt;a href=&#34;https://www.linkedin.com/in/marlenemhangami/&#34;&gt;Marlene&lt;/a&gt; on LinkedIn.&lt;/p&gt;
+&lt;p&gt;We can&#39;t wait to hear Marlene&#39;s keynote at DjangoCon US 2025! If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2025&#34;&gt;they’re still on sale&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We hope to see you in Chicago.&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Announcing Our Keynotes: Zags (Benjamin Zagorsky)</title>
       <link href="https://2025.djangocon.us/news/keynote-zags/" />
