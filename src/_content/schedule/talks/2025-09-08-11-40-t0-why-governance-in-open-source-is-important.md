@@ -4,8 +4,8 @@ start_datetime: 2025-09-08 11:40:00-05:00
 end_datetime: 2025-09-08 12:05:00-05:00
 permalink: /talks/why-governance-in-open-source-is-important/
 presenter_slugs:
-- tim-schilling
 - rachell-calhoun
+- tim-schilling
 room: Room A
 tags:
 - Community
@@ -13,29 +13,6 @@ title: Why governance in open-source is important
 track: t0
 ---
 
-Talk outline:
+"Come for the language, stay for the community." This is a mantra of Python communities, including Django. It's clear how easy it is to forge a strong bond with people in our communities. But have you noticed when you solve one problem for the community, you're soon asked to help with two more problems? You might have even noticed that this phenomenon seems to never stop either. As long as you have time and energy, you're welcomed to do more and more for the community.
 
-Introduction
-- Speaker backgrounds and experience
-- Caveats of emotional bonds in open source software
-- The double edged sword of being productive
-
-Governance
-- What is it?
-- How does your organization employ it already?
-    - How do you make decisions
-    - Who runs meetings, takes notes, files reports, responds to questions
-- How to use it to define healthy boundaries
-    - Set expectations on results and time involvements
-    - Clear is kind
-- How not having it can cause problems
-    - People keep wanting to help others and run out of time, then feel guilty
-    - Misunderstanding on expectations leads to resentment
-    - People don't know what they are empowered to do and fear keeps them from doing anything
-
-Implementation
-- Write it down and make it easy to find!
-- Revisit it at least annually
-- [individuals] Make a budget of your time
-- [individuals] Proactively communicate
-- Resource links
+Our communities and our contributors need boundaries. Open source software governance is one way to help raise those boundaries. Rachell and Tim want to share with you their lessons learned from their time as open source contributors and community organizers in various organizations in the Django community. Leaving this talk you will understand why governance is important to think about from the start, how to define a basic governance structure and how to integrate it into an existing community. Our goal is to raise awareness around the need for clearer expectations so people feel more confident contributing and feel less guilty when they can't.
