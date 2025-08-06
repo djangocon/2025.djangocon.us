@@ -23,9 +23,9 @@ Need to bring real interactivity to your Django app but reluctant to commit to a
 
 This talk is for you.
 
-In this 45-minute deep dive, you’ll learn how to bring modern frontend power to your Django app without giving up the simplicity of Django Templates. Starting with a simple Django-only note-taking app, I'll show you how to incrementally build and integrate interactive Web Components that bring the application to life.
+In this 45-minute deep dive, you’ll learn how to bring modern frontend power to your Django app without giving up the simplicity of Django Templates. Starting with a simple Django-only dice-rolling app, I'll show you how to incrementally build and integrate interactive Web Components that bring the application to life.
 
-You’ll see how Vue 3.5, the Vite build tool, and Web Components make it faster and easier than ever to add full-featured, maintainable interactivity to your template-driven Django apps.
+You’ll see how Vue 3.5, the Vite build tool, and Web Components make it fast and easy to add full-featured, maintainable interactivity to your template-driven Django apps.
 
 By the end of the talk, you'll understand how to:
 
@@ -37,7 +37,7 @@ By the end of the talk, you'll understand how to:
  * Style your components using existing site styles and scoped component styles
  * Pass data from Django to Web Components via properties and injection
  * Include rendered template content and media in Web Components using slots
- * Break components out of their containers using Teleport
+ * Break interactive content out of their containers and place them anywhere using Teleport
  * Send data from Web Components to Django views via AJAX or POST requests
  * Dynamically render Django responses inside Web Components
  * Deploy your application using your existing static files setup
