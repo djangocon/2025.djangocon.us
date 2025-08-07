@@ -3,7 +3,7 @@ name: Victor Ogunjobi
 hidden: false
 photo: victor-ogunjobi.jpg
 
-role: "Programs & Communications"
+role: "Program Team, Communications Team"
 
 social:
     github: chemicoPy
