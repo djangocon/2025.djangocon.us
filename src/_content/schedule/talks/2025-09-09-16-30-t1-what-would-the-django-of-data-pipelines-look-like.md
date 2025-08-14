@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 16:55:00-05:00
 permalink: /talks/what-would-the-django-of-data-pipelines-look-like/
 presenter_slugs:
 - lisa-dusseault
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Data Pipelines
 - Web Dev

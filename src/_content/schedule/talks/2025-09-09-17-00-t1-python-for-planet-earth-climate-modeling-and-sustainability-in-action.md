@@ -4,7 +4,7 @@ end_datetime: 2025-09-09 17:25:00-05:00
 permalink: /talks/python-for-planet-earth-climate-modeling-and-sustainability-in-action/
 presenter_slugs:
 - drishti-jain
-room: Room B
+room: Wolf Point Ballroom
 start_datetime: 2025-09-09 17:00:00-05:00
 tags:
 - Python

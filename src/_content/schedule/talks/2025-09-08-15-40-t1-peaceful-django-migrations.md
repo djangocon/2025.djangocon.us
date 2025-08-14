@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 16:25:00-05:00
 permalink: /talks/peaceful-django-migrations/
 presenter_slugs:
 - efe-oge
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Migrations
 title: Peaceful Django Migrations

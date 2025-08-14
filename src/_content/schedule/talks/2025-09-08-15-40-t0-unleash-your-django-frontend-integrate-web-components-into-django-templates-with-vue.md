@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 16:25:00-05:00
 permalink: /talks/unleash-your-django-frontend-integrate-web-components-into-django-templates-with-vue/
 presenter_slugs:
 - mike-hoolehan
-room: Room A
+room: Sauganash Ballroom
 tags:
 - FrontEnd
 - Templates

@@ -5,7 +5,7 @@ end_datetime: 2025-09-10 12:05:00-05:00
 permalink: /talks/a-i-modest-proposal/
 presenter_slugs:
 - mario-munoz
-room: Room A
+room: Sauganash Ballroom
 tags:
 - open-source
 - AI

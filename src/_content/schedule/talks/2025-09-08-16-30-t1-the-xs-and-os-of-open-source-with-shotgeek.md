@@ -4,7 +4,7 @@ end_datetime: 2025-09-08 16:55:00-05:00
 permalink: /talks/the-xs-and-os-of-open-source-with-shotgeek/
 presenter_slugs:
 - kudzayi-bamhare
-room: Room B
+room: Wolf Point Ballroom
 start_datetime: 2025-09-08 16:30:00-05:00
 tags:
 - Dev Experience

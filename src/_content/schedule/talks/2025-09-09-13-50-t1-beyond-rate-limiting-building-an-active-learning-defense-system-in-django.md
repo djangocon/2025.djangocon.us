@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 14:35:00-05:00
 permalink: /talks/beyond-rate-limiting-building-an-active-learning-defense-system-in-django/
 presenter_slugs:
 - aayush-gauba
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Web Dev
 - Networking

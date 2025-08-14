@@ -4,7 +4,7 @@ end_datetime: 2025-09-10 11:35:00-05:00
 permalink: /talks/high-performance-django-at-ten-old-tricks-new-picks/
 presenter_slugs:
 - peter-baumgartner
-room: Room A
+room: Sauganash Ballroom
 start_datetime: 2025-09-10 10:50:00-05:00
 tags:
 - Deployment

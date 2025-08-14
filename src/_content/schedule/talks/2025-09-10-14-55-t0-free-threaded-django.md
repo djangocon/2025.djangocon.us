@@ -5,7 +5,7 @@ end_datetime: 2025-09-10 15:40:00-05:00
 permalink: /talks/free-threaded-django/
 presenter_slugs:
 - micah-lyle
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Python
 - Threading

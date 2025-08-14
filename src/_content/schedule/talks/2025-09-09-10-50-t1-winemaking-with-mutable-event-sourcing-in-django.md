@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 11:35:00-05:00
 permalink: /talks/winemaking-with-mutable-event-sourcing-in-django/
 presenter_slugs:
 - chris-muthig
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Design Patterns
 title: Winemaking with Mutable Event Sourcing in Django

@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 17:25:00-05:00
 permalink: /talks/django-as-a-database-documentation-tool-the-hidden-power-of-model-comments/
 presenter_slugs:
 - ryan-cheley
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Docs
 - Databases

@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 11:35:00-05:00
 permalink: /talks/django-for-ai-deploying-machine-learning-models-with-django/
 presenter_slugs:
 - will-vincent
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Data Science
 title: 'Django for AI: Deploying Machine Learning Models with Django'

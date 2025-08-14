@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 16:25:00-05:00
 permalink: /talks/beyond-the-orm-from-postgres-to-opensearch/
 presenter_slugs:
 - andrew-mshar
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Postgres
 title: 'Beyond the ORM: from Postgres to OpenSearch'

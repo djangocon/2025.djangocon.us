@@ -6,7 +6,7 @@ permalink: /talks/why-governance-in-open-source-is-important/
 presenter_slugs:
 - rachell-calhoun
 - tim-schilling
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Community
 title: Why governance in open-source is important

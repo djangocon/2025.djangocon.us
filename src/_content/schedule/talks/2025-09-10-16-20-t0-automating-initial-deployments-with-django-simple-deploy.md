@@ -5,7 +5,7 @@ end_datetime: 2025-09-10 16:45:00-05:00
 permalink: /talks/automating-initial-deployments-with-django-simple-deploy/
 presenter_slugs:
 - eric-matthes
-room: Room A
+room: Sauganash Ballroom
 tags:
 - CI/CD
 - Web Dev

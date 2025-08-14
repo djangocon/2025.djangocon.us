@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 15:05:00-05:00
 permalink: /talks/evolving-django-what-we-learned-by-integrating-mongodb/
 presenter_slugs:
 - jeffrey-a-clark
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Databases
 - Web Dev

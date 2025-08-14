@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 15:05:00-05:00
 permalink: /talks/from-breakpoints-to-querysets-debugging-django-with-ease/
 presenter_slugs:
 - ryan-j-sullivan
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Debugging
 title: 'From Breakpoints to Querysets: Debugging Django with Ease'

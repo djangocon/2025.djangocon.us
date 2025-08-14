@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 15:05:00-05:00
 permalink: /talks/how-to-enjoy-debugging-in-production/
 presenter_slugs:
 - karen-tracey
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Web Dev
 - Debugging

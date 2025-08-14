@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 12:05:00-05:00
 permalink: /talks/big-bad-world-of-postgres-dev-environments/
 presenter_slugs:
 - elizabeth-garrett-christensen
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Postgres
 title: Big Bad World of Postgres Dev Environments

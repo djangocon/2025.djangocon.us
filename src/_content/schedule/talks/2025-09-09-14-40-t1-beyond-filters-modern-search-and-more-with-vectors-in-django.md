@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 15:05:00-05:00
 permalink: /talks/beyond-filters-modern-search-and-more-with-vectors-in-django/
 presenter_slugs:
 - kumar-shivendu
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Databases
 title: 'Beyond Filters: Modern Search (and more) with Vectors in Django'

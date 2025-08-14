@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 14:35:00-05:00
 permalink: /talks/building-a-wagtail-cms-experience-that-editors-love/
 presenter_slugs:
 - michael-trythall
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Web Dev
 - CMS
