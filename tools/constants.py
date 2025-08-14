@@ -20,6 +20,7 @@ LARGE_TALK_ROOM = "Sauganash Ballroom"
 SMALL_TALK_ROOM = "Wolf Point Ballroom"
 
 LUNCH_ROOM = "Sauganash & Wolf Point Ballrooms"
+EARLY_LUNCH_ROOM = SMALL_TALK_ROOM
 
 LACTATION_ROOM = "TBD"
 QUIET_ROOM = "Shakespeare Hotel"
