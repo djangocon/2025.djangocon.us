@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 16:55:00-05:00
 permalink: /talks/the-source-of-change-bettering-online-open-source-communities-can-begin-with-you/
 presenter_slugs:
 - kattni
-room: Room A
+room: Sauganash Ballroom
 tags:
 - open-source
 - Inclusion

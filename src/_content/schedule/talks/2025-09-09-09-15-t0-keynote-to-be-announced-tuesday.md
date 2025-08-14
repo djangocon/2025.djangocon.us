@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 10:00:00-05:00
 permalink: /talks/keynote-tuesday/
 presenter_slugs:
 - zags
-room: Room A
+room: Sauganash Ballroom
 start_datetime: 2025-09-09 09:15:00-05:00
 title: "Keynote: All The Ways To Use Django"
 track: t0

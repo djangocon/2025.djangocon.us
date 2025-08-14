@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 17:25:00-05:00
 permalink: /talks/postgresql-tuning-parameters-or-tuning-queries/
 presenter_slugs:
 - henrietta-dombrovskaya
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Databases
 title: 'PostgreSQL: Tuning parameters or Tuning Queries?'

@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 14:35:00-05:00
 permalink: /talks/from-hype-to-hard-truths-the-rise-and-fall-of-coding-boot-camps/
 presenter_slugs:
 - jeanette-o-brien
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Education
 title: 'From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps'

@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 11:35:00-05:00
 permalink: /talks/easy-breezy-beautiful-django-unit-tests/
 presenter_slugs:
 - colleen-dunlap
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Testing
 title: Easy, Breezy, Beautiful... Django Unit Tests

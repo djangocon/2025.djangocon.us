@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 12:05:00-05:00
 permalink: /talks/django-s-generatedfield-by-example/
 presenter_slugs:
 - paolo-melchiorre
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Databases
 title: Django's GeneratedField by example

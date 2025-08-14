@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 16:55:00-05:00
 permalink: /talks/djangonaut-space-a-mentorship-program-for-open-source/
 presenter_slugs:
 - lilian
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Community
 title: 'Djangonaut Space: A Mentorship Program For Open Source'

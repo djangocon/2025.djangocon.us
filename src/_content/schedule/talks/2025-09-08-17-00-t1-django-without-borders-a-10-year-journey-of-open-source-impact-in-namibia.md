@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 17:25:00-05:00
 permalink: /talks/django-without-borders-a-10-year-journey-of-open-source-impact-in-namibia/
 presenter_slugs:
 - ngazetungue-muheue
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Community
 title: 'Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia'

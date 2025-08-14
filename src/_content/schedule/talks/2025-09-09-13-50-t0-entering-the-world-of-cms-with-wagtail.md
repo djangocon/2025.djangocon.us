@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 14:35:00-05:00
 permalink: /talks/entering-the-world-of-cms-with-wagtail/
 presenter_slugs:
 - michael-riley
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Web Dev
 - CMS

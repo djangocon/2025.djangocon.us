@@ -5,7 +5,7 @@ end_datetime: 2025-09-10 14:40:00-05:00
 permalink: /talks/panel-discussion-details/
 presenter_slugs:
 - velda-kiara
-room: Room A
+room: Sauganash Ballroom
 start_datetime: 2025-09-10 13:55:00-05:00
 title: "Panel Discussion: Two Decades of Django: The Past, Present and Future"
 track: t0

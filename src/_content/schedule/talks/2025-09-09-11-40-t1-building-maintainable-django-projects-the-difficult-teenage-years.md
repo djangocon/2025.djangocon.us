@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 12:05:00-05:00
 permalink: /talks/building-maintainable-django-projects-the-difficult-teenage-years/
 presenter_slugs:
 - alex-henman
-room: Room B
+room: Wolf Point Ballroom
 tags:
 - Web Dev
 title: 'Building maintainable Django projects: the difficult teenage years'

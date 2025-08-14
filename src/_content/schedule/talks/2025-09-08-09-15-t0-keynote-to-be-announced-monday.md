@@ -5,7 +5,7 @@ end_datetime: 2025-09-08 10:00:00-05:00
 permalink: /talks/keynote-monday/
 presenter_slugs:
 - carson-gross
-room: Room A
+room: Sauganash Ballroom
 start_datetime: 2025-09-08 09:15:00-05:00
 title: "Keynote: Lateral Thinking with Weathered Technology: How The Nintendo Philosophy Applies to Modern Web Development"
 track: t0

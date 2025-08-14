@@ -5,7 +5,7 @@ end_datetime: 2025-09-09 11:35:00-05:00
 permalink: /talks/reverse-engineering-the-qr-code-generator-and-url-forwarder-service/
 presenter_slugs:
 - mariatta
-room: Room A
+room: Sauganash Ballroom
 tags:
 - Python
 title: Reverse engineering the QR code generator and URL forwarder service
