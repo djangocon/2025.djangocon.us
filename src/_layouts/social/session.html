@@ -3,11 +3,11 @@ layout: social/default-social.html
 ---
 
 {% assign presenter_count = talk.data.presenter_slugs | size %}
-{% assign template_bg = "social-card-1.svg" %}
+{% assign template_bg = "social-card-1.png" %}
 {% if presenter_count > 2 %}
-  {% assign template_bg = "social-card-3.svg" %}
+  {% assign template_bg = "social-card-3.png" %}
 {% elsif presenter_count > 1 %}
-  {% assign template_bg = "social-card-2.svg" %}
+  {% assign template_bg = "social-card-2.png" %}
 {% endif %}
 
 <div class="session-social-template session-social-presenter-count-{{ presenter_count }}">
