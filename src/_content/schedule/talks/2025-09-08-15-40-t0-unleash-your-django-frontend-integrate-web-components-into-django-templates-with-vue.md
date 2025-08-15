@@ -10,8 +10,7 @@ tags:
 - FrontEnd
 - Templates
 - Web Dev
-title: 'Unleash your Django Frontend: Integrate Web Components into Django Templates
-  with Vue'
+title: 'Level Up Your Django Frontend: Integrate Web Components into Django Templates with Vue'
 track: t0
 ---
 
