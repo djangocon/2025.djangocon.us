@@ -4,7 +4,7 @@ category: General
 published_datetime: 2025-08-19 12:00:00
 cover:
     url: /assets/img/2025/volunteer-at-djcus.jpg
-    alt: "Be Part of Something Amazing: Volunteer at DjangoCon US 2025 in Chicago!"
+    alt: "Volunteers at DjangoCon US hand out t-shirts to excited attendees"
 title: "Be Part of Something Amazing: Volunteer at DjangoCon US 2025 in Chicago!"
 ---
 
