@@ -93,7 +93,7 @@ We understand that as attendees, you want to experience the conference too\! Vol
 
 ### **Apply to Volunteer**
 
-Ready to join our volunteer team? Submit your application here: **[https://docs.google.com/spreadsheets/d/1H4X4X7DtWOKmGe_S0KSZjSuXRjqcps4OUbXzNir2u1U/edit?gid=2088259231#gid=2088259231](https://docs.google.com/spreadsheets/d/1H4X4X7DtWOKmGe_S0KSZjSuXRjqcps4OUbXzNir2u1U/edit?gid=2088259231#gid=2088259231)**
+Ready to join our volunteer team? Have a valid ticket already? **[Sign up for slots here!](https://docs.google.com/spreadsheets/d/1H4X4X7DtWOKmGe_S0KSZjSuXRjqcps4OUbXzNir2u1U/edit?gid=2088259231#gid=2088259231)** 
 
 ### **Questions?**
 
