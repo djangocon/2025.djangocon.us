@@ -4,8 +4,8 @@ category: General
 published_datetime: 2025-08-29 12:00:00-05:00
 layout: post
 cover:
-    url: /assets/img/blog/philippe-oursel-hEzxeDOMXoo-unsplash-biking.jpg
-    alt: "Cyclists enjoying a trail ride on a sunny day"
+    url: /assets/img/blog/marc-riding-durham.jpg
+    alt: "A cyclist riding on a wet paved trail during DjangoCon US 2024"
 title: Get Active at DjangoCon US 2025
 ---
 
