@@ -30,7 +30,7 @@ Congratulations to all our speakers!
 
 If you'd like to check out these talks and more, [tickets are still on sale]({{site.ticket_link}}).
 Tutorials (sold separately from conference registration) are $195 each, and we will have the schedule
-for those up soon. We hope to see you in Durham!
+for those up soon. We hope to see you in Chicago!
 """
 
 LINE_TEMPLATE = """- {talk["title"]} by {talk["presenters"][0]["name"]} {urls}"""
