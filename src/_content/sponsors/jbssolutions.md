@@ -15,6 +15,3 @@ JBS is a highly experienced team of senior developers and technology trailblazer
 innovation at any size. From high-growth startups to Fortune 500 organizations, we are problem-solvers orchestrating
 software development with the right harmony of passion and pragmatism to closely align with your business needs and
 growth.
-
-
-
