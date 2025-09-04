@@ -1,7 +1,7 @@
 ---
 category: talks
 difficulty: All
-end_datetime: 2025-09-10 14:40:00-05:00
+end_datetime: 2025-09-10 14:50:00-05:00
 permalink: /talks/panel-discussion-details/
 presenter_slugs:
 - velda-kiara
