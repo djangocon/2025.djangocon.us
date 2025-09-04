@@ -3,7 +3,7 @@ company: Torchbox, Django Software Foundation
 hidden: false
 name: Thibaud Colas
 permalink: /presenters/thibaud-colas/
-photo: null
+photo: thibaud-colas.jpg
 social:
     bluesky: null
     github: null
