@@ -5,25 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="https://2025.djangocon.us/talks/from-breakpoints-to-querysets-debugging-django-with-ease/" />
+  <link rel="canonical" href="https://2025.djangocon.us/talks/hidden-dangers-of-ai-in-developer-workflows-navigating-security-risks-with-human-insight/" />
   <meta name="author" content="DjangoCon US" />
   <meta name="description" content="DjangoCon US 2025 is a Python and Django focused web development conference in Chicago, Illinois." />
 
-  <meta property="og:title" content="From Breakpoints to Querysets: Debugging Django with Ease | DjangoCon US 2025" />
+  <meta property="og:title" content="Hidden Dangers Of AI In Developer Workflows: Navigating Security Risks with Human Insight | DjangoCon US 2025" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:description" content="DjangoCon US 2025 is a Python and Django focused web development conference in Chicago, Illinois." />
-  <meta property="og:url" content="https://2025.djangocon.us/talks/from-breakpoints-to-querysets-debugging-django-with-ease/" />
+  <meta property="og:url" content="https://2025.djangocon.us/talks/hidden-dangers-of-ai-in-developer-workflows-navigating-security-risks-with-human-insight/" />
   <meta property="og:site_name" content="DjangoCon US" />
 
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
   
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Ffrom-breakpoints-to-querysets-debugging-django-with-ease%2Fsocial/opengraph/" />
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Ffrom-breakpoints-to-querysets-debugging-django-with-ease%2Fsocial/opengraph/" />
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Fhidden-dangers-of-ai-in-developer-workflows-navigating-security-risks-with-human-insight%2Fsocial/opengraph/" />
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Fhidden-dangers-of-ai-in-developer-workflows-navigating-security-risks-with-human-insight%2Fsocial/opengraph/" />
 
 
-  <meta property="twitter:title" content="From Breakpoints to Querysets: Debugging Django with Ease | DjangoCon US 2025" />
+  <meta property="twitter:title" content="Hidden Dangers Of AI In Developer Workflows: Navigating Security Risks with Human Insight | DjangoCon US 2025" />
   <meta name="twitter:site" content="@djangocon" />
 
   <meta property="fb:app_id" content="280981518972848" />
@@ -33,7 +33,7 @@
   <link href="/assets/favicons/favicon.png" rel=icon type="image/png">
   <link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
 
-  <title>From Breakpoints to Querysets: Debugging Django with Ease | DjangoCon US 2025</title>
+  <title>Hidden Dangers Of AI In Developer Workflows: Navigating Security Risks with Human Insight | DjangoCon US 2025</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -133,7 +133,7 @@
   <div class="pb-8 lg:pb-10 hero">
     <div class="wrapper narrow">
       <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">From Breakpoints to Querysets: Debugging Django with Ease</h1>
+      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">Hidden Dangers Of AI In Developer Workflows: Navigating Security Risks with Human Insight</h1>
 
       <p class="flex flex-wrap items-center gap-4">
         <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
@@ -167,11 +167,16 @@
 
       <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
       <div class="prose lg:prose-lg">
-        <p>Debugging is an essential skill for any developer, and modern Integrated Development Environments (IDEs) like PyCharm and VS Code have transformed how we debug web applications. This talk dives into leveraging debugging tools built into IDEs to streamline your development process.</p>
-<p>I'll begin by introducing the concept of debugging, exploring what makes it powerful compared to traditional techniques like print statements. You'll learn about different types of debuggers, including pdb, IDE-based debuggers, and web-based debugging tools, and how to set up debugging environments tailored to Django applications—both locally and using Docker.</p>
-<p>Next, I'll focus on the practical aspects of debugging. You’ll discover how to pause your application using breakpoints, navigate the call stack, inspect variables, and interact with your code dynamically. I'll discuss advanced debugging tips, such as inspecting object properties, working with <strong>class</strong> and MRO, and using object IDs effectively.</p>
-<p>Throughout the talk, I'll address common Django debugging gotchas, like debugging querysets with lazy evaluation, handling large objects, and the quirks of calling super() while paused. We'll also cover tricks for optimizing your debugging workflow, like configuring breakpoints effectively and putting your IDE in low-power mode to reduce distractions.</p>
-<p>My talk is structured to provide practical demonstrations and tips. By the end of this session, you’ll have a comprehensive understanding of how to unlock the full power of debugging in Django. This knowledge will help you debug smarter, solve problems faster, and write better code. I'd like you to leave with actionable techniques to use immediately.</p>
+        <p>AI tools like ChatGPT and Copilot have become indispensable in developers' daily workflows. Whether it is for code samples and scaffolding, prototyping, or documentation, AI can help eliminate a lot of toil from the developer's day-to-day.</p>
+<p>The hidden dangers that AI have introduced that are worth exploring.</p>
+<p>This presentation will look at the critical security challenges associated with AI-enhanced development workflows and the essential role of human oversight in mitigating these risks.</p>
+<p>We'll look into three major areas of concern:</p>
+<ol>
+<li>The AI told me to do it that way…</li>
+<li>Hallucinations everywhere</li>
+<li>Where did my data go?</li>
+</ol>
+<p>Join this talk to see some real examples of AI getting it wrong, but stay for a discussion on how you can leverage already existing tools to make the best use of the most valuable resource in the company…your team's time. Expect to leave with a fresh perspective on how bright a future we can build as people fostering more secure and efficient development practices.</p>
 
       </div>
     </div>
@@ -192,26 +197,54 @@
               <section class="flex flex-wrap gap-6">
                 
                   
-                  <img class="inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48" alt="Ryan J Sullivan" loading="lazy" decoding="async" src="/presenters/ryan-j-sullivan-180.webp" width="460" height="460" srcset="/presenters/ryan-j-sullivan-180.webp 180w, /presenters/ryan-j-sullivan-300.webp 300w, /presenters/ryan-j-sullivan-460.webp 460w" sizes="(max-width: 1024px) 180px, 180px">
+                  <img class="inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48" alt="Dwayne McDaniel" loading="lazy" decoding="async" src="/presenters/dwayne-mcdaniel-180.webp" width="600" height="600" srcset="/presenters/dwayne-mcdaniel-180.webp 180w, /presenters/dwayne-mcdaniel-300.webp 300w, /presenters/dwayne-mcdaniel-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
                 
 
                 <div class="md:flex-1">
                   <span class="flex flex-col gap-2 mb-4">
-                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Ryan J Sullivan</h3>
+                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Dwayne McDaniel</h3>
                     
                   </span>
 
                   
                     <ul class="flex flex-wrap gap-4 mt-auto">
                       
-                      
+                        <li>
+                          <a
+                            href="https://bsky.app/profile/@mdwayne-real.bsky.social"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-bluesky"
+                            aria-label="GitHub">
+                            <svg class="icon">
+                              <title>Bluesky</title>
+                              <use xlink:href="#bluesky-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
                       
                       
                       
                       
                         <li>
                           <a
-                            href="https://wrds-www.wharton.upenn.edu/"
+                            href="@mcdwayne@mastodon.social"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-mastodon"
+                            aria-label="Mastodon">
+                            <svg class="icon">
+                              <title>Mastodon</title>
+                              <use xlink:href="#mastodon-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      
+                      
+                      
+                        <li>
+                          <a
+                            href="https://blog.gitguardian.com/author/dwayne/"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="hover:text-green"
@@ -227,7 +260,7 @@
 
                   
                     <div class="mt-4 prose">
-                      <p>Ryan Sullivan is a full stack web application developer primarily working with Django. Ryan joined Wharton Research Data Services (WRDS) in 2012 and has has worked in Philadelphia tech since 2003. Prior to joining WRDS, he was a back-end Java Developer at Urban Outfitters. Originally from Oakland California (USA), when he’s not working, Ryan enjoys serving his community through board memberships and volunteering, cycling, and traveling out west frequently to visit family and friends.</p>
+                      <p>Dwayne has been working as a Developer Advocate since 2014 and has been involved in tech communities since 2005. His entire mission is to “help people figure stuff out.” He loves sharing his knowledge, and he has done so by giving talks at hundreds of events worldwide. He has been fortunate enough to speak at institutions like MIT and Stanford and internationally in Paris and Iceland. Dwayne currently lives in Chicago. Outside of tech, he loves karaoke, live music, and crochet.</p>
 
                     </div>
                   
