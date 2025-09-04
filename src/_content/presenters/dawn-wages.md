@@ -13,4 +13,4 @@ social:
     website: null
 ---
 
-Dawn (she/her) is the Treasurer for the PSF, Wagtail Core Team Member, Director of Community and Developer Relations at Anaconda, and Django software engineer. She lives in Philadelphia, USA with her partner and three dogs watching Star Trek and noodling about inclusive tech.
+Dawn (she/her) is the President/Chair of the PSF, Wagtail Core Team Member, Director of Community and Developer Relations at Anaconda, and Django software engineer. She lives in Philadelphia, USA with her partner and three dogs watching Star Trek and noodling about inclusive tech.
