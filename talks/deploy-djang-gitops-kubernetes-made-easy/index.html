@@ -5,25 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="https://2025.djangocon.us/talks/from-hype-to-hard-truths-the-rise-and-fall-of-coding-boot-camps/" />
+  <link rel="canonical" href="https://2025.djangocon.us/talks/deploy-djang-gitops-kubernetes-made-easy/" />
   <meta name="author" content="DjangoCon US" />
   <meta name="description" content="DjangoCon US 2025 is a Python and Django focused web development conference in Chicago, Illinois." />
 
-  <meta property="og:title" content="From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps | DjangoCon US 2025" />
+  <meta property="og:title" content="Deploy Django: GitOps & Kubernetes Made Easy | DjangoCon US 2025" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:description" content="DjangoCon US 2025 is a Python and Django focused web development conference in Chicago, Illinois." />
-  <meta property="og:url" content="https://2025.djangocon.us/talks/from-hype-to-hard-truths-the-rise-and-fall-of-coding-boot-camps/" />
+  <meta property="og:url" content="https://2025.djangocon.us/talks/deploy-djang-gitops-kubernetes-made-easy/" />
   <meta property="og:site_name" content="DjangoCon US" />
 
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
   
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Ffrom-hype-to-hard-truths-the-rise-and-fall-of-coding-boot-camps%2Fsocial/opengraph/" />
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Ffrom-hype-to-hard-truths-the-rise-and-fall-of-coding-boot-camps%2Fsocial/opengraph/" />
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Fdeploy-djang-gitops-kubernetes-made-easy%2Fsocial/opengraph/" />
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2025.djangocon.us%2Ftalks%2Fdeploy-djang-gitops-kubernetes-made-easy%2Fsocial/opengraph/" />
 
 
-  <meta property="twitter:title" content="From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps | DjangoCon US 2025" />
+  <meta property="twitter:title" content="Deploy Django: GitOps & Kubernetes Made Easy | DjangoCon US 2025" />
   <meta name="twitter:site" content="@djangocon" />
 
   <meta property="fb:app_id" content="280981518972848" />
@@ -33,7 +33,7 @@
   <link href="/assets/favicons/favicon.png" rel=icon type="image/png">
   <link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
 
-  <title>From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps | DjangoCon US 2025</title>
+  <title>Deploy Django: GitOps & Kubernetes Made Easy | DjangoCon US 2025</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -133,7 +133,7 @@
   <div class="pb-8 lg:pb-10 hero">
     <div class="wrapper narrow">
       <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">From Hype to Hard Truths: The Rise and Fall of Coding Boot Camps</h1>
+      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">Deploy Django: GitOps & Kubernetes Made Easy</h1>
 
       <p class="flex flex-wrap items-center gap-4">
         <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
@@ -167,12 +167,19 @@
 
       <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
       <div class="prose lg:prose-lg">
-        <p>Coding boot camps reshaped tech education, offering an intensive, fast-track path into software development that brought thousands of new developers into the industry—including myself. But as quickly as they rose, many boot camps faltered, leaving students, instructors, and the broader tech community grappling with tough questions about their long-term impact.</p>
-<p>This talk is structured into three parts:</p>
-<p>The Rise—We’ll examine boot camps' early success, highlighting their innovative teaching methods, focus on outcomes, and ability to bring new voices into tech.</p>
-<p>The Fall – Next, I’ll unpack the challenges that led to their decline, from unsustainable business models to widening equity gaps and unfulfilled promises.</p>
-<p>The Lessons – Finally, we’ll discuss how the Django community can apply these hard-learned lessons to create more inclusive, sustainable ways of onboarding and mentoring new developers.</p>
-<p>This talk combines personal stories with broader industry insights, giving attendees a clear view of how we can build on boot camps' successes while avoiding their pitfalls. Whether you’re an educator, mentor, or hiring manager, this session will leave you with actionable ideas to better support the next generation of Django developers.</p>
+        <p>This talk will show attendees how to streamline the day two operations of delivering and maintaining Python applications in production environments. It emphasizes GitOps principles, repeatable CI/CD workflows, and cloud-agnostic deployment using Kubernetes and Argo CD.</p>
+<p>Deploying code shouldn’t be stressful. But too often, the journey from local dev to production is fragile, manual, and hard to debug. This talk is about building peace of mind into your pipeline — with GitOps, Kubernetes, and open source tools like Argo CD that make continuous delivery predictable, repeatable, and scalable from the very first release to the 50th.</p>
+<p>We’ll tackle the realities of “day two” DevOps — what happens after the first deploy. From managing rollbacks and coordinating releases to enforcing consistency across dev, staging, and production, you’ll learn how to bring stability and scalability to your delivery pipeline.</p>
+<p>In a live demo, we’ll deploy a full stack Django app from GitHub to production using Argo CD and GitHub Actions — with observability, rollback strategies, and environment parity built in from the start.</p>
+<p><strong>You’ll learn how to:</strong></p>
+<ul>
+<li>Set up a GitOps-based CI/CD pipeline that works across all environments</li>
+<li>Automate rollouts, rollbacks, and version control of infrastructure</li>
+<li>Understand why Kubernetes is a future-proof platform for Django teams</li>
+<li>Gain confidence in releasing updates safely, consistently, and at scale</li>
+<li>Leverage open source tools to eliminate manual deployment headaches</li>
+</ul>
+<p>Whether you're writing the code or leading the team, you'll leave with a clear, practical blueprint for shipping faster — and with fewer surprises.</p>
 
       </div>
     </div>
@@ -193,26 +200,68 @@
               <section class="flex flex-wrap gap-6">
                 
                   
-                  <img class="inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48" alt="Jeanette O'Brien" loading="lazy" decoding="async" src="/presenters/jeanette-o-brien-180.webp" width="600" height="400" srcset="/presenters/jeanette-o-brien-180.webp 180w, /presenters/jeanette-o-brien-300.webp 300w, /presenters/jeanette-o-brien-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+                  <img class="inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48" alt="Calvin Hendryx-Parker" loading="lazy" decoding="async" src="/presenters/calvin-hendryx-parker-180.webp" width="512" height="512" srcset="/presenters/calvin-hendryx-parker-180.webp 180w, /presenters/calvin-hendryx-parker-300.webp 300w, /presenters/calvin-hendryx-parker-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
                 
 
                 <div class="md:flex-1">
                   <span class="flex flex-col gap-2 mb-4">
-                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Jeanette O'Brien</h3>
+                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Calvin Hendryx-Parker</h3>
                     
                   </span>
 
                   
                     <ul class="flex flex-wrap gap-4 mt-auto">
                       
-                      
+                        <li>
+                          <a
+                            href="https://bsky.app/profile/calvinhp.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-bluesky"
+                            aria-label="GitHub">
+                            <svg class="icon">
+                              <title>Bluesky</title>
+                              <use xlink:href="#bluesky-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
                       
                       
                       
                       
                         <li>
                           <a
-                            href="http://www.jeanetteobrien.com"
+                            href="https://fosstodon.org/@calvinhp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-mastodon"
+                            aria-label="Mastodon">
+                            <svg class="icon">
+                              <title>Mastodon</title>
+                              <use xlink:href="#mastodon-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      
+                      
+                        <li>
+                          <a
+                            href="https://twitter.com/calvinhp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-twitter"
+                            aria-label="X.com">
+                            <svg class="icon">
+                              <title>X (Formerly Twitter)</title>
+                              <use xlink:href="#twitter-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      
+                      
+                        <li>
+                          <a
+                            href="https://sixfeetup.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="hover:text-green"
@@ -228,8 +277,10 @@
 
                   
                     <div class="mt-4 prose">
-                      <p>With over seven years of experience in front-end development and UX design, I now focus on developer advocacy, championing best practices and fostering engagement—especially within the Django ecosystem. I’ve collaborated with teams at Caktus Group and Ansible by Red Hat, building scalable, user-friendly applications using Python, JavaScript, and modern frameworks like Django and React. Passionate about making technology more accessible, I create resources, lead discussions, and support developers in creating impactful software.</p>
-<p>Outside of coding, I’m highly committed to mentorship and community building. As the Director of Women Who Code Raleigh-Durham, I organize workshops and networking events designed to empower women in tech. In my spare time, you’ll find me gaming or exploring digital illustration—creative outlets that energize my problem-solving mindset and keep me inspired. Whether through code, art, or community initiatives, I enjoy connecting with others who share a passion for technology and innovation.</p>
+                      <p>Calvin Hendryx-Parker is the co-founder and CTO of Six Feet Up, the premier AI and Python agency in the U.S.</p>
+<p>Calvin’s Massive Transformative Purpose (MTP) is to inspire and enable tech leaders to open minds and bring the world together for a sustainable future. At Six Feet Up, Calvin establishes the company's technical vision and leads all aspects of the company's technology development.</p>
+<p>Calvin is passionate about the open-source community and specializes in app development, AI, big data and cloud technology. He is regularly sought after to share his expertise — both at international conferences and in the media.</p>
+<p>Six Feet Up, a top 10 United States Custom Software Development Company according to <a href="http://Clutch.co">Clutch.co</a>, was founded with Python at the forefront. In 2019, Calvin was named an AWS Hero — one of only 50 Heroes in North America. He is the co-founder of IndyPy, the largest Python meetup in Indiana with nearly 2,500 members. In 2023, he was named Tech Executive of the Year by the Indiana Business Journal.</p>
 
                     </div>
                   
