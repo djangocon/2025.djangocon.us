@@ -9,7 +9,7 @@ presenter_slugs:
 room: Sauganash Ballroom
 tags:
 - Community
-title: Django Governance: 🌱Growing Sustainable Open-Source Communities Together🤝
+title: "Django Governance: 🌱Growing Sustainable Open-Source Communities Together🤝"
 track: t0
 ---
 
