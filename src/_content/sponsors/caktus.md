@@ -4,7 +4,7 @@ name: Caktus Consulting Group LLC
 date: 2024-07-03
 logo:
     filename: caktus.png
-    orientation: portrait
+    orientation: landscape
 url:
     target: 'https://www.caktusgroup.com/'
     label: caktusgroup.com
