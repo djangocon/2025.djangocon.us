@@ -5,10 +5,10 @@ name: Dwayne McDaniel
 permalink: /presenters/dwayne-mcdaniel/
 photo: dwayne-mcdaniel.png
 social:
-    bluesky: '@mdwayne-real.bsky.social'
+    bluesky: "mdwayne-real.bsky.social"
     github: null
     instagram: null
-    mastodon: '@mcdwayne@mastodon.social'
+    mastodon: https://mastodon.social/@mcdwayne@mastodon.social
     twitter: null
     website: https://blog.gitguardian.com/author/dwayne/
 ---
