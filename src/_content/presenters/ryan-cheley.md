@@ -8,7 +8,7 @@ social:
     bluesky: null
     github: null
     instagram: null
-    mastodon: ryancheley@mastodon.social
+    mastodon: https://mastodogn.social/@ryancheley
     twitter: null
     website: https://ryancheley.com/
 ---
