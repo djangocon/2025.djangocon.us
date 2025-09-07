@@ -10,7 +10,7 @@
   "sponsors_email": "sponsors@djangocon.us",
   "visa_email": "visas@djangocon.us",
 
-  "banner": true,
+  "banner": false,
 
   "mailing_list": "https://dcus.eo.page/dcus-25",
   "cfp_application": "https://pretalx.com/djangocon-us-2025/cfp",
