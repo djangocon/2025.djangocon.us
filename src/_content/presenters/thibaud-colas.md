@@ -5,12 +5,12 @@ name: Thibaud Colas
 permalink: /presenters/thibaud-colas/
 photo: thibaud-colas.jpg
 social:
-    bluesky: null
-    github: null
-    instagram: null
-    mastodon: null
+    bluesky: thibaudcolas.bsky.social
+    github: thibaudcolas
+    instagram: thibaudcolas
+    mastodon: https://fosstodon.org/notifications
     twitter: thibaud_colas
-    website: null
+    website: https://thib.me/
 ---
 
 Thibaud is a developer interested in all things accessibility and sustainability. I’m the President of the Django Software Foundation, a core contributor to the Wagtail open source CMS, and part of Django’s accessibility team.
