@@ -10,3 +10,5 @@ start_datetime: 2025-09-08 12:10:00-05:00
 title: Lightning Talks (Monday)
 track: t0
 ---
+# Sign-up Link
+https://bit.ly/DCUS25Lightning
