@@ -10,3 +10,5 @@ start_datetime: 2025-09-09 12:10:00-05:00
 title: Lightning Talks (Tuesday)
 track: t0
 ---
+# The sign-up form to give a  Lightning Talk is here:
+https://bit.ly/DCUS25Lightning
