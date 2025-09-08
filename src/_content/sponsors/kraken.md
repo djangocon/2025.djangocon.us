@@ -1,6 +1,6 @@
 ---
 level: Gold
-name: Caktus Consulting Group LLC
+name: Kraken
 date: 2025-09-08
 hiring_url: https://kraken.tech/working-at-kraken
 logo:
