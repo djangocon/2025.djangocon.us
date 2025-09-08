@@ -18,13 +18,13 @@ SPRINTS_DAY_2 = datetime.date(CONFERENCE_YEAR, 9, 12)
 
 LARGE_TALK_ROOM = "Sauganash Ballroom"
 SMALL_TALK_ROOM = "Wolf Point Ballroom"
-SPRINTS_ROOM = 'LaSalle Ballroom'
+SPRINTS_ROOM = "LaSalle Ballroom"
 
 LUNCH_ROOM = "Sauganash & Wolf Point Ballrooms"
 EARLY_LUNCH_ROOM = SMALL_TALK_ROOM
 
-LACTATION_ROOM = "TBD"
-QUIET_ROOM = "Shakespeare Hotel"
+LACTATION_ROOM = "Lake House"
+QUIET_ROOM = "Shakespeare House"
 GREEN_ROOM = "American House"
 
 # TUTORIAL_TRACK_A_ROOM = "Tutorial Track A (TBD)"

@@ -254,7 +254,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         group="break",
         permalink=constants.LACTATION_BLOG_POST_LINK,
         room=constants.LACTATION_ROOM,
-        title="Lactation Room",
+        title="Private Wellness Room",
         track="t0",
     ),
     ManualScheduleEntry(
@@ -431,7 +431,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         group="break",
         permalink=constants.LACTATION_BLOG_POST_LINK,
         room=constants.LACTATION_ROOM,
-        title="Lactation Room",
+        title="Private Wellness Room",
         track="t0",
     ),
     ManualScheduleEntry(
@@ -589,7 +589,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         group="break",
         permalink=constants.LACTATION_BLOG_POST_LINK,
         room=constants.LACTATION_ROOM,
-        title="Lactation Room",
+        title="Private Wellness Room",
         track="t0",
     ),
     ManualScheduleEntry(
