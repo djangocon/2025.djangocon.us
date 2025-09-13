@@ -8,7 +8,7 @@ social:
     bluesky: thibaudcolas.bsky.social
     github: thibaudcolas
     instagram: thibaudcolas
-    mastodon: https://fosstodon.org/notifications
+    mastodon: https://fosstodon.org/@thibaudcolas
     twitter: thibaud_colas
     website: https://thib.me/
 ---
