@@ -10,6 +10,7 @@ tags:
 - CI/CD
 - Web Dev
 title: Automating initial deployments with django-simple-deploy
+video_url: GpHxaxnMAi4
 track: t0
 ---
 

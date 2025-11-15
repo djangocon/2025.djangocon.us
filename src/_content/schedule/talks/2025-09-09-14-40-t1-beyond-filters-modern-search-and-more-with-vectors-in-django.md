@@ -9,6 +9,7 @@ room: Wolf Point Ballroom
 tags:
 - Databases
 title: 'Beyond Filters: Modern Search (and more) with Vectors in Django'
+video_url: GvEkCBvvA_g
 track: t1
 ---
 

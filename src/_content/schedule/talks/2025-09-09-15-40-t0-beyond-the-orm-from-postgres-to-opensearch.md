@@ -9,6 +9,7 @@ room: Sauganash Ballroom
 tags:
 - Postgres
 title: 'Beyond the ORM: from Postgres to OpenSearch'
+video_url: _iB7ET5rt7s
 track: t0
 ---
 

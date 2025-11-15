@@ -8,6 +8,7 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-09 09:15:00-05:00
 title: "Keynote: All The Ways To Use Django"
+video_url: 7SGqZcrUGSU
 track: t0
 ---
 Ever thought "I love Django but I can't use it on this project because [REASON]"?  Let's take a second look.  Django has lots of parts, and it can still do a lot even if you don't use all of them.

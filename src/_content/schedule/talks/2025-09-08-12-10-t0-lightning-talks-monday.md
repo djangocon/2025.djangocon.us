@@ -8,5 +8,6 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-08 12:10:00-05:00
 title: Lightning Talks (Monday)
+video_url: gWEwPy9mjqQ
 track: t0
 ---

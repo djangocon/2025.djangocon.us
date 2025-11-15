@@ -10,6 +10,7 @@ tags:
 - open-source
 - AI
 title: A(i) Modest Proposal
+video_url: Ws9lNrrK8dw
 track: t0
 ---
 

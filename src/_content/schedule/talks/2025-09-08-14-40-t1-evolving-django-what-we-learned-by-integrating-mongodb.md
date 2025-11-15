@@ -10,6 +10,7 @@ tags:
 - Databases
 - Web Dev
 title: 'Evolving Django: What We Learned by Integrating MongoDB'
+video_url: MlXFBgUpcO0
 track: t1
 ---
 

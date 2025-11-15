@@ -9,6 +9,7 @@ room: Sauganash Ballroom
 tags:
 - Community
 title: 'Djangonaut Space: A Mentorship Program For Open Source'
+video_url: hs8sf-4ymZY
 track: t0
 ---
 

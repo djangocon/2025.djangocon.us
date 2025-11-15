@@ -8,5 +8,6 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-10 09:00:00-05:00
 title: Opening Remarks (Wednesday)
+video_url: AkEdiGIGm9U
 track: t0
 ---

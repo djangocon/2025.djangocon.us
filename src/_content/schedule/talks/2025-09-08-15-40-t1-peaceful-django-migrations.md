@@ -9,6 +9,7 @@ room: Wolf Point Ballroom
 tags:
 - Migrations
 title: Peaceful Django Migrations
+video_url: 5QbLbL7QSec
 track: t1
 ---
 

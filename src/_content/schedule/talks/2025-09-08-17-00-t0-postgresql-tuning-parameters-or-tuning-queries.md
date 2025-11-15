@@ -9,6 +9,7 @@ room: Sauganash Ballroom
 tags:
 - Databases
 title: 'PostgreSQL: Tuning parameters or Tuning Queries?'
+video_url: yKeSkDd5PYY
 track: t0
 ---
 

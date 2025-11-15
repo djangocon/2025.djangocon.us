@@ -9,6 +9,7 @@ start_datetime: 2025-09-08 16:30:00-05:00
 tags:
 - Dev Experience
 title: The X’s and O’s of Open Source with ShotGeek
+video_url: -TCSzQMr9ng
 track: t1
 ---
 

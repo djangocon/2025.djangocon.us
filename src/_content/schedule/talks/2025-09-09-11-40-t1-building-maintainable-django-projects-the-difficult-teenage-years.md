@@ -9,6 +9,7 @@ room: Wolf Point Ballroom
 tags:
 - Web Dev
 title: 'Building maintainable Django projects: the difficult teenage years'
+video_url: J30ltoatmYo
 track: t1
 ---
 

@@ -9,6 +9,7 @@ room: Wolf Point Ballroom
 tags:
 - Testing
 title: Easy, Breezy, Beautiful... Django Unit Tests
+video_url: RAFB0J2AbGw
 track: t1
 ---
 

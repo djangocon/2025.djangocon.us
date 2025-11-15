@@ -11,6 +11,7 @@ tags:
 - Caching
 - Web Dev
 title: 'Cutting latency in half: What actually worked—and what didn’t'
+video_url: jxk1BRTJsAY
 track: t1
 ---
 

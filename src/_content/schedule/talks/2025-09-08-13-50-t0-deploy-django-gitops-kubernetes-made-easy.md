@@ -10,6 +10,7 @@ tags:
 - GitOps
 - Deployment
 title: 'Deploy Django: GitOps & Kubernetes Made Easy'
+video_url: tX0PxR0cnaE
 track: t0
 ---
 

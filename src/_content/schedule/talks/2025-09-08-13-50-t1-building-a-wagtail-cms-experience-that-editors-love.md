@@ -10,6 +10,7 @@ tags:
 - Web Dev
 - CMS
 title: Building a Wagtail CMS Experience that Editors Love
+video_url: 47RsWpnB_JI
 track: t1
 ---
 
