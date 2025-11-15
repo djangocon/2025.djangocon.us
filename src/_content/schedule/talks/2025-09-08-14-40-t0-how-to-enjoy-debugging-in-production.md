@@ -10,7 +10,7 @@ tags:
 - Web Dev
 - Debugging
 title: How to Enjoy Debugging in Production
-video_url: https://www.youtube.com/watch?v=OVvbatcjd14
+video_url: OVvbatcjd14
 track: t0
 ---
 

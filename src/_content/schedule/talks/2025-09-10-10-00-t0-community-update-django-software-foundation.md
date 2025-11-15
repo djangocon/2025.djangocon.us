@@ -8,7 +8,7 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-10 10:00:00-05:00
 title: 'Community Update: Django Software Foundation'
-video_url: https://www.youtube.com/watch?v=Sx3T6WrNefQ
+video_url: Sx3T6WrNefQ
 track: t0
 ---
 

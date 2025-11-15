@@ -9,7 +9,7 @@ room: Sauganash Ballroom
 tags:
 - Data Science
 title: 'Django for AI: Deploying Machine Learning Models with Django'
-video_url: https://www.youtube.com/watch?v=zIQZXr6XIU0
+video_url: zIQZXr6XIU0
 track: t0
 ---
 

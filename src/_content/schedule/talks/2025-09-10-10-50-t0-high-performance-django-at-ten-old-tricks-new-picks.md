@@ -10,7 +10,7 @@ tags:
 - Deployment
 - Web Dev
 title: 'High Performance Django at Ten: Old Tricks & New Picks'
-video_url: https://www.youtube.com/watch?v=Yq4gewWIPJc
+video_url: Yq4gewWIPJc
 track: t0
 ---
 

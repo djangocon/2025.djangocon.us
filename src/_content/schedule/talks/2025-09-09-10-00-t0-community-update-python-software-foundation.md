@@ -8,7 +8,7 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-09 10:00:00-05:00
 title: 'Community Update: Python Software Foundation'
-video_url: https://www.youtube.com/watch?v=RT1yd-sMs3Y
+video_url: RT1yd-sMs3Y
 track: t0
 ---
 

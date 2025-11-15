@@ -10,7 +10,7 @@ room: Sauganash Ballroom
 tags:
 - Community
 title: "Django Governance: 🌱Growing Sustainable Open-Source Communities Together🤝"
-video_url: https://www.youtube.com/watch?v=aVhd0MZvSRw
+video_url: aVhd0MZvSRw
 track: t0
 ---
 

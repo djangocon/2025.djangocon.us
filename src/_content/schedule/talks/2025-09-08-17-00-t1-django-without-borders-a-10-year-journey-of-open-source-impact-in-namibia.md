@@ -9,7 +9,7 @@ room: Wolf Point Ballroom
 tags:
 - Community
 title: 'Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia'
-video_url: https://www.youtube.com/watch?v=GehnuLvpBq8
+video_url: GehnuLvpBq8
 track: t1
 ---
 

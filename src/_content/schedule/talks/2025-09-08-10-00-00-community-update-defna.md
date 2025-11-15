@@ -8,7 +8,7 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-08 10:00:00-05:00
 title: "Community Update: Django Events Foundation North America"
-video_url: https://www.youtube.com/watch?v=MSH_hU6qG6I
+video_url: MSH_hU6qG6I
 track: t0
 ---
 DEFNA President Peter Grandstaff will give an update on DEFNA's activities in the community, how you can help, and what the foundation is looking forward to in 2026.

@@ -10,7 +10,7 @@ tags:
 - Docs
 - Databases
 title: 'Django as a Database Documentation Tool: The Hidden Power of Model Comments'
-video_url: https://www.youtube.com/watch?v=aZwKCo5kwJU
+video_url: aZwKCo5kwJU
 track: t0
 ---
 

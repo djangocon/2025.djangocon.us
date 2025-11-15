@@ -9,7 +9,7 @@ room: Sauganash Ballroom
 tags:
 - Debugging
 title: 'Hidden Dangers Of AI In Developer Workflows: Navigating Security Risks with Human Insight'
-video_url: https://www.youtube.com/watch?v=rDWLAPeQ4vc
+video_url: rDWLAPeQ4vc
 track: t0
 ---
 

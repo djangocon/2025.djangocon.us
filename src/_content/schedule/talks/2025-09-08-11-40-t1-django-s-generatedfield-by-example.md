@@ -9,7 +9,7 @@ room: Wolf Point Ballroom
 tags:
 - Databases
 title: Django's GeneratedField by example
-video_url: https://www.youtube.com/watch?v=5Iv48N9_4M0
+video_url: 5Iv48N9_4M0
 track: t1
 ---
 

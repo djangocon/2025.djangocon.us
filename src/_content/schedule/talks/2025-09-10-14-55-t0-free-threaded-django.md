@@ -10,7 +10,7 @@ tags:
 - Python
 - Threading
 title: Free Threaded Django
-video_url: https://www.youtube.com/watch?v=8VfX5z7zoas
+video_url: 8VfX5z7zoas
 track: t0
 ---
 

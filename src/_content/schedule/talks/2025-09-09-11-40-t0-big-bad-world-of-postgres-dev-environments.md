@@ -9,7 +9,7 @@ room: Sauganash Ballroom
 tags:
 - Postgres
 title: Big Bad World of Postgres Dev Environments
-video_url: https://www.youtube.com/watch?v=xeYAfPZUw18
+video_url: xeYAfPZUw18
 track: t0
 ---
 

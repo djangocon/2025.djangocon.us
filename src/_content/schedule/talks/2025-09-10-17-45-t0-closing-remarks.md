@@ -8,6 +8,6 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-10 17:40:00-05:00
 title: Closing Remarks
-video_url: https://www.youtube.com/watch?v=z0aZtG47GTA
+video_url: z0aZtG47GTA
 track: t0
 ---
