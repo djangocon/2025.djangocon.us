@@ -9,6 +9,7 @@ room: Sauganash Ballroom
 tags:
 - Python
 title: Reverse engineering the QR code generator and URL forwarder service
+video_url: https://www.youtube.com/watch?v=7knxXLg4enA
 track: t0
 ---
 

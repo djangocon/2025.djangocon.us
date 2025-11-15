@@ -8,6 +8,7 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-10 12:10:00-05:00
 title: Lightning Talks (Wednesday)
+video_url: https://www.youtube.com/watch?v=dw8_s3DMdcA
 track: t0
 ---
 # The sign-up form to give a  Lightning Talk is here:

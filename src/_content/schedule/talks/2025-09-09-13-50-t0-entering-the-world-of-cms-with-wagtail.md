@@ -10,6 +10,7 @@ tags:
 - Web Dev
 - CMS
 title: Entering the World of CMS with Wagtail
+video_url: https://www.youtube.com/watch?v=sXNQcn6szRg
 track: t0
 ---
 

@@ -10,6 +10,7 @@ tags:
 - Python
 - Climate
 title: 'Python for Planet Earth: Climate Modeling and Sustainability in Action'
+video_url: https://www.youtube.com/watch?v=kJprOBEZgto
 track: t1
 ---
 

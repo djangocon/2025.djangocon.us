@@ -8,6 +8,7 @@ presenter_slugs:
 room: Sauganash Ballroom
 start_datetime: 2025-09-10 13:55:00-05:00
 title: "Panel Discussion: Two Decades of Django: The Past, Present and Future"
+video_url: https://www.youtube.com/watch?v=uYN7cpxhuhE
 track: t0
 ---
 This special anniversary panel will reflect on Django's evolution, from its early days to its global adoption and look into what's needed to sustain and grow the Django ecosystem into the future.

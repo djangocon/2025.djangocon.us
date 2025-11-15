@@ -11,6 +11,7 @@ tags:
 - Web Dev
 - Debugging
 title: What would the django of data pipelines look like?
+video_url: https://www.youtube.com/watch?v=ax61sii5wU8
 track: t1
 ---
 

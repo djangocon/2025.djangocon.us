@@ -10,6 +10,7 @@ tags:
 - Web Dev
 - Networking
 title: 'Beyond Rate Limiting: Building an Active Learning Defense System in Django'
+video_url: https://www.youtube.com/watch?v=PUPSRMUlvdw
 track: t1
 ---
 

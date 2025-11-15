@@ -9,6 +9,7 @@ room: Wolf Point Ballroom
 tags:
 - Design Patterns
 title: Winemaking with Mutable Event Sourcing in Django
+video_url: https://www.youtube.com/watch?v=uHJCje7QqXA
 track: t1
 ---
 

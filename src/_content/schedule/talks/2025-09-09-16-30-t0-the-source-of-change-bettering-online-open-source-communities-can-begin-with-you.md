@@ -11,6 +11,7 @@ tags:
 - Inclusion
 - Community
 title: 'The Source of Change: Bettering Online Open Source Communities Can Begin with
+video_url: https://www.youtube.com/watch?v=FYxbVioCX1Q
   You'
 track: t0
 ---
