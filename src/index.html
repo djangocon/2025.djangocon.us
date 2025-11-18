@@ -41,15 +41,13 @@ featured_photos:
 <div class="home-hero">
   {% include "header.html" %}
 
-  <div id="SiteHero" class="flex justify-center lg:justify-start flex:block wrapper">
-    <section class="home-hero-content">
-      <h2 class="pt-8">
-        Join us for five days of inspiration, education, and networking
-      </h2>
-
-      <p class="py-3 mb-4 text-2xl lg:text-3xl">
-        September 8-12th, 2025
-      </p>
+  {% include 'home/landing-conf-home.html' %}
+{% elsif site.phase == "archived" %}
+  {% include 'home/archived-conf-home.html' %}
+{% else %}
+  {% comment %}
+    The conference site is fully live
+  {% endcomment %}
 
       <a
         href="https://www.ihg.com/voco/hotels/us/en/chicago/chiwp/hoteldetail"

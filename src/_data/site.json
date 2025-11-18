@@ -2,7 +2,7 @@
   "domain": "https://2025.djangocon.us",
   "timezone": "America/Chicago",
   "conf_year": 2025,
-  "phase": "active",
+  "phase": "archived",
   "conduct_email": "conduct@djangocon.us",
   "contact_us_email": "hello@djangocon.us",
   "opportunity_grants_email": "grants@djangocon.us",
