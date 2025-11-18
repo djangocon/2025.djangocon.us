@@ -1,68 +1,118 @@
-<!-- Hero -->
-<div class="pt-8 pb-0 bg-repeat border-b-4 border-blue-400 lg:pt-2">
-  <div class="wrapper my-8">
-    <div class="flex flex-col pt-4 items-center gap-8 ">
-      <section class="text-center self-center">
-        <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
-          {{ site.conf_year }} DjangoCon US Recap
-        </h1>
-
-        <p class="mb-4 text-2xl lg:text-3xl">
-          <strong>September 22-27, 2024</strong>
-        </p>
-      </section>
-
-      <div class="py-4">
-        <img
-          src="/assets/img/theme/welcome-durham.svg"
-          alt="The word Durham surrounded by colorful characters and stickers"
-          aria-hidden="true"
-        />
+<header id="SiteHeader" class="absolute top-0 z-40 w-full py-4 lg:py-6">
+  <div class="wrapper">
+    <nav class="flex flex-wrap">
+      <div
+        class="flex items-center justify-between w-full lg:max-w-max lg:flex-1"
+      >
+        <a href="/" aria-label="Go to homepage" class="fill-white">
+          <img
+            src="/assets/img/theme/logo-recap.svg"
+            alt="DjangoCon US"
+            class="h-16 h-11 xl:h-24"
+          />
+        </a>
+        <button id="NavToggler" class="p-2 bg-white lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 h-8"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
       </div>
 
-      <a href="{{ site.youtube_link }}" class="button bg-yellow my-4">Watch Talks on YouTube</a>
+      {% include "nav.html" %}
+    </nav>
+  </div>
+</header>
+
+<img
+  src="/assets/img/2025/bg-2025-recap-tall.jpg"
+  alt="A collage of Chicago centric stickers and photos."
+  class="w-full md:-mt-[10%]"
+/>
+
+<div class="pt-8 pb-0">
+  <div class="flex flex-col items-center gap-8 pt-4">
+    <section class="self-center text-center">
+      <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+        {{ site.conf_year }} DjangoCon US Recap
+      </h1>
+
+      <p class="text-2xl lg:text-3xl">
+        <strong>September 8-12, 2025</strong>
+      </p>
+    </section>
+
+    <div class="flex gap-4 my-2">
+      <a href="{{ site.youtube_link }}" class="button button-lg bg-yellow"
+        >Watch Talks on YouTube</a
+      >
+      <a href="{{ site.photos_link }}" class="button button-lg bg-yellow"
+        >Conference Photos</a
+      >
     </div>
   </div>
 </div>
 
-<!-- Secondary -->
 <div class="block-container">
   <div class="wrapper">
-    <div class=" mx-auto gap-4 max-w-3xl :grid-cols-1">
-      <h2 class="mb-8 subheading">DjangoCon US {{ site.conf_year }} was hosted in Durham, North Carolina for the second time and brought together over 300 attendees from all over the world!</h2>
+    <div class="max-w-3xl gap-4 mx-auto :grid-cols-1">
+      <h2 class="mb-8 subheading">
+        DjangoCon US {{ site.conf_year }} was hosted in Chicago, Illinois and
+        brought together over 300 attendees from all over the world!
+      </h2>
 
       <section class="prose prose-lg">
-        {% markdown %}
-        Wow, what a ride! With three days of Django magic and two days of sprints, over 440 of us came together both online and in-person to learn, share and grow.
-
-        DjangoCon US continues to be a hallmark event for the Django community, and strives to bring together the people behind the projects we all know and love. We had a great time learning from each other, sharing our experiences, and making new friends.
-
-        We thank our fantastic sponsors, speakers, volunteers, and the City of Durham for making this event possible.
-        {% endmarkdown %}
+        {% markdown %} Wow, what a ride! With three full days of Django talks,
+        and two days of sprints, over 400 of us came together both online and
+        in-person to learn, share and grow. DjangoCon US continues to be a
+        hallmark event for the Django community, and strives to bring together
+        the people behind the projects we all know and love. We had a great time
+        learning from each other, sharing our experiences, and making new
+        friends. We thank our fantastic sponsors, speakers, volunteers, and
+        attendees for making this event possible. {% endmarkdown %}
       </section>
     </div>
   </div>
 </div>
 
-<!-- Talk highlights -->
 <div class="bg-gray-100 block-container">
   <div class="wrapper">
     <section class="mb-8 text-center">
-      <h2 class="mb-4 text-2xl font-bold font-heading lg:text-5xl">Awesome Talks and Tutorials</h2>
-      <p class="mb-6 text-lg lg:text-xl">Speakers shared over 50 talks & tutorials this year. Here are some crowd favorites!</p>
+      <h2 class="mb-4 text-2xl font-bold font-heading lg:text-5xl">
+        Awesome Talks and Tutorials
+      </h2>
+      <p class="mb-6 text-lg lg:text-xl">
+        Speakers shared over 50 talks & tutorials this year. Here are some crowd
+        favorites!
+      </p>
     </section>
 
     <ul class="grid gap-8 lg:grid-cols-3 auto-rows-fr">
-      {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange,border-t-blue,border-t-yellow" | split: "," %}
-      {%- for session_slug in featured_session_slugs %}
-        {%- assign session = collections.talks | find:session_slug %}
-        {%- assign color_class = color_classes[forloop.index0 | modulo: color_classes.size] %}
-        {%- include "session-card.html", session:session.data, color_class: color_class %}
-      {%- endfor %}
+      {%- assign color_classes =
+      "border-t-green,border-t-light-blue,border-t-purple,border-t-orange,border-t-blue,border-t-yellow"
+      | split: "," %} {%- for session_slug in featured_session_slugs %} {%-
+      assign session = collections.talks | find:session_slug %} {%- assign
+      color_class = color_classes[forloop.index0 | modulo: color_classes.size]
+      %} {%- include "session-card.html", session:session.data, color_class:
+      color_class %} {%- endfor %}
     </ul>
 
     <section class="my-8 text-center">
-      <a href="{{ site.youtube_link }}" class="button bg-yellow">Watch Talks on YouTube</a>
+      <a href="{{ site.youtube_link }}" class="button bg-yellow"
+        >Watch Talks on YouTube</a
+      >
       <a href="/schedule" class="button bg-yellow">See list of all talks</a>
     </section>
   </div>
@@ -71,7 +121,9 @@
 <!-- Presenters -->
 <div class="block-container">
   <div class="wrapper">
-    <h2 class="mb-8 text-3xl font-bold font-heading lg:text-5xl">Our Presenters are Amazing</h2>
+    <h2 class="mb-8 text-3xl font-bold font-heading lg:text-5xl">
+      Our Presenters are Amazing
+    </h2>
     {% include "presenters-grid.html" %}
   </div>
 </div>
@@ -80,34 +132,52 @@
 <div class="block-container">
   <div class="wrapper">
     <div class="grid lg:grid-cols-3 auto-rows-fr">
-      <section class="p-6">
-        <h2 class="mb-4 text-2xl font-bold font-heading lg:text-3xl">Picture Perfect</h2>
-        <p class="mb-6 text-lg lg:text-xl">We captured so many Kodak moments over the week! Thanks to <a href="http://bartpawlik.com/" rel="noreferrer noopener" target="_blank" class="link">Bartek Pawlik</a> for being our official conference photographer and saving these memories for us.</p>
-        <a href="{{ site.photos_link }}" class="button">View all photos</a>
+      <section class="flex flex-col justify-center pr-8">
+        <h2 class="mb-4 font-bold md:text-2xl font-heading lg:text-3xl">
+          Picture Perfect
+        </h2>
+        <p class="mb-0 md:text-lg xl:text-xl">
+          We captured so many Kodak moments over the week! Thanks to
+          <a
+            href="http://bartpawlik.com/"
+            rel="noreferrer noopener"
+            target="_blank"
+            class="link"
+            >Bartek Pawlik<span class="sr-only"> (opens in new tab)</span></a
+          >
+          for being our official conference photographer and saving these
+          memories for us.
+        </p>
       </section>
 
-      {%- for photo in featured_photos %}
-        {% comment %}
-          Ideal 600x400 image
-        {% endcomment %}
-        <figure class="relative lg:col-span-1">
-          <img
-            src="{{ photo.src }}"
-            alt="{{ photo.alt }}"
-            class="object-cover w-full h-full"
-            loading="lazy" />
-          </figure>
+      {%- for photo in featured_photos %} {% comment %} Ideal 600x400 image {%
+      endcomment %}
+      <figure class="relative lg:col-span-1">
+        <img
+          src="{{ photo.src }}"
+          alt="{{ photo.alt }}"
+          class="object-cover w-full h-full"
+          loading="lazy"
+        />
+      </figure>
       {%- endfor %}
     </div>
+
+    <a href="{{ site.photos_link }}" class="button">View all photos</a>
   </div>
 </div>
 
 <!-- Organizers -->
-<div class="block-container bg-gray-100">
+<div class="bg-gray-100 block-container">
   <div class="wrapper">
-    <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">DjangoCon US {{ site.conf_year }} was<br/> possible through lots of ❤️</h2>
+    <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">
+      DjangoCon US {{ site.conf_year }} was<br />
+      possible through lots of <span aria-hidden="true">❤️</span
+      ><span class="sr-only">love</span>
+    </h2>
     <p class="mb-6 text-xl lg:text-2xl">
-      Our organizers put hundreds of hours of heart and soul into this conference. We couldn't do it without each and every one of you!
+      Our organizers put hundreds of hours of heart and soul into this
+      conference. We couldn't do it without each and every one of you!
     </p>
     {% include "organizers-grid.html" %}
   </div>
@@ -116,7 +186,9 @@
 <!-- Sponsors -->
 <div class="block-container">
   <div class="wrapper">
-    <h2 class="mb-10 text-2xl font-bold text-center font-heading lg:text-5xl">Our Sponsors</h2>
+    <h2 class="mb-10 text-2xl font-bold text-center font-heading lg:text-5xl">
+      Our Sponsors
+    </h2>
 
     {% include "sponsor-listing.html" %}
   </div>

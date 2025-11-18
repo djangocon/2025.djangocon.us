@@ -1,144 +1,61 @@
 ---
-templateClass: homepage
+layout: default
+
+title: Welcome to DjangoCon US 2025
+
+## Archived version of homepage
+
+# Featured talks (talks only). Max 6.
+featured_session_slugs:
+  - 11-40-t0-why-governance-in-open-source-is-important
+  - 09-15-t0-keynote-to-be-announced-tuesday
+  - 10-50-t0-django-for-ai-deploying-machine-learning-models-with-django
+  - 14-40-t0-how-to-enjoy-debugging-in-production
+  - 13-50-t1-building-a-wagtail-cms-experience-that-editors-love
+  - 14-40-t0-hidden-dangers-of-ai-in-developer-workflows-navigating-security-risks-with-human-insight
+
+
+# Any number of featured photos. No maxiumum.
+# Desktop this looks like a 3x3 grid, with 2 on the first row.
+# Best to use (3*n + 2) photos.
+featured_photos:
+  - src: /assets/img/2025/54857916879_3436d08302_c.jpg
+    alt: Attendees laughing and socializing at a restaurant during DjangoCon US 2025
+  - src: /assets/img/2025/54857911792_867c903977_c.jpg
+    alt: Group of attendees posing outside Mr. Beef restaurant in Chicago
+  - src: /assets/img/2025/54858756306_2a4439a0bc_c.jpg
+    alt: DjangoCon US 2025 swag including tote bag, stickers, t-shirt, and lanyard
+  - src: /assets/img/2025/54858756536_fba37eb0eb_c.jpg
+    alt: Attendees collaborating on laptops in the hotel lobby during sprints
+  - src: /assets/img/2025/54856773462_0b8463f472_c.jpg
+    alt: Attendee smiling while working on a laptop in the hotel lobby
+  - src: /assets/img/2025/54859064120_cfa23698c3_c.jpg
+    alt: Attendees having a discussion during sprints
+  - src: /assets/img/2025/54859063285_433d813a63_c.jpg
+    alt: DjangoCon US 2025 tote bag on Chicago beach with sandals
+  - src: /assets/img/2025/54859025228_c38408a2dd_c.jpg
+    alt: Group of attendees jumping in front of Cloud Gate (The Bean) in Chicago  
+
 ---
 
-{% layout "_layouts/default.html" %}
 
-{% block header %}
-<div class="home-hero">
-  {% include "header.html" %}
+{% block nav %}{% endblock %}
+{% if site.phase == "landing" %}
+  {% comment %}
+    The conference site is not ready
+  {% endcomment %}
 
-  <div id="SiteHero" class="flex justify-center lg:justify-start flex:block wrapper">
-    <section class="home-hero-content">
-      <h2 class="pt-8">
-        Join us for five days of inspiration, education, and networking
-      </h2>
+  {% include 'home/landing-conf-home.html' %}
+{% elsif site.phase == "archived" %}
+  {% comment %}
+    The conference is over
+  {% endcomment %}
 
-      <p class="py-3 mb-4 text-2xl lg:text-3xl">
-        September 8-12th, 2025
-      </p>
+  {% include 'home/archived-conf-home.html' %}
+{% else %}
+  {% comment %}
+    The conference site is fully live
+  {% endcomment %}
 
-      <a
-        href="https://www.ihg.com/voco/hotels/us/en/chicago/chiwp/hoteldetail"
-        target="_blank"
-        class="mb-6 text-2xl underline-offset-4 decoration-[2px] lg:text-3xl">voco Chicago Downtown</a>
-
-      <p class="mb-8 text-2xl">
-          Chicago, Illinois
-      </p>
-
-      <div class="justify-center button-group">
-        <a class="w-full text-xl button sm:w-auto" href="{{ site.ticket_link }}">Buy Tickets</a>
-        <a class="w-full text-xl button sm:w-auto" target="_blank" href="{{ site.hotel_reservation_link }}">Book a Hotel Room</a>
-
-        {% comment %}
-          <a class="button" href="/schedule/">Conference Schedule</a>
-        {% endcomment %}
-      </div>
-      <div class="justify-center p-5 button-group">
-        <a class="text-lg font-bold" href="{{ site.mailing_list }}">Join Mailing List</a>
-      </div>
-    </section>
-  </div>
-
-  <div class="home-gameboard">
-    <img src="/assets/img/theme/dj-gameboard-25.svg" class="" role="presentation" />
-  </div>
-
-  <img src="/assets/img/theme/hero-wave-invert.svg" class="object-cover object-center w-full h-20 pointer-events-none 2xl:h-auto" role="presentation" />
-</div>
-{% endblock %}
-
-{% block content %}
-<div class="pt-0 lg:pt-8 block-container ">
-  <div class="wrapper">
-    <div class="grid-cols-2 gap-8 text-center lg:grid lg:text-left align-center">
-      <section class="my-6 ">
-        <h2 class="mb-4 text-3xl font-bold text-center lg:text-left lg:leading-relaxed font-heading lg:text-4xl">For Djangonauts of all levels</h2>
-        <p class="mb-6 text-xl lg:text-2xl">
-          DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time.
-        </p>
-        <a class="w-full text-xl button sm:w-auto" href="/about">About DjangoCon US</a>
-      </section>
-
-        <ul class="items-center self-end gap-6 py-4 text-left lg:gap-0 md:flex lg:flex-col lg:items-start">
-          <li>
-            {%
-              include 'date-card.html',
-              month:"Sep",
-              days:"8-10",
-              heading:"Talks: Dozens of talks chosen by the community"
-            %}
-          </li>
-          <li>
-            {%
-              include 'date-card.html',
-              month:"Sep",
-              days:"11-12",
-              heading:"Sprints: Team up to work on Django!"
-            %}
-          </li>
-        </ul>
-    </div>
-  </div>
-</div>
-
-<div class="bg-white block-container wrapper">
-  <div class="space-y-8">
-    <h3 class="mb-4 text-xl font-bold tracking-wide text-center uppercase md:text-2xl font-heading">Learn more about Our Values</h3>
-    
-    <div class="grid gap-8 lg:grid-cols-2">
-      {%
-        include 'value-card.html',
-        bg:"/assets/img/2025/54088239977_6e8fb060a5_c.jpg",
-        heading:"Code of Conduct"
-        paragraph:"Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <a href='/conduct/'>Code of Conduct</a>."
-      %}
-      {%
-        include 'value-card.html',
-        heading:"Accessibility"
-        bg:"/assets/img/2025/53300199096_3d72d83ebd_c.jpg",
-        paragraph:"We offer a range of accommodations, including live captioning, thoughtful lunch options, and a dedicated accessibility team to ensure everyone can fully participate."
-      %}
-    </div>
-  </div>
-  </div>
-  <div class="block-container">
-    <div class="wrapper">
-      <section class="items-center justify-between grid-cols-4 gap-8 py-4 sm:grid">
-        <img src="/assets/img/theme/blog.svg" alt="An official document with words written on it." class="hidden w-full sm:block"/>
-        
-        <div class="col-span-3">
-          <h2 class="mb-4 text-3xl font-bold text-center md:text-left font-heading lg:text-4xl">Featured News</h2>
-
-          <ol class="flex flex-col items-center col-span-2 md:items-start" reversed>
-            {%- for post in collections.posts reversed -%}
-              {% if post.data.featured %}
-                <li>
-                  <article class="gap-8 py-4">
-                    <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="{{ post.date }}">
-                      {{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}
-                    </time>
-                    <h3 class="text-xl font-semibold font-heading">
-                      <a href="{{ post.url }}" class="">{{ post.data.title | escape }}</a>
-                    </h3>
-                  </article>
-                </li>
-              {%- endif -%}
-            {%- endfor -%}
-          </ol>
-        </div>
-      </section>
-    </div>
-  </div>
-
-  <div class="block-container">
-    <div class="text-center wrapper">
-      <h2 class="mb-10 text-3xl font-bold font-heading lg:text-4xl">Our Sponsors</h2>
-
-      {% include "sponsor-listing.html" %}
-
-      <a href="#" class="mt-20 text-xl button">Become a Sponsor</a>
-    </div>
-  </div>
-{% endblock %}
+  {% include 'home/active-conf-home.html' %}
+{% endif %}
