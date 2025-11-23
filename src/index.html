@@ -3,7 +3,7 @@ layout: default
 
 title: Welcome to DjangoCon US 2025
 
-# Set custom_header for active phase (hero wraps header)
+# Set custom_header so homepage controls its own header
 custom_header: true
 
 # Featured talks (talks only). Max 6.
@@ -38,16 +38,19 @@ featured_photos:
 ---
 
 {% if site.phase == "active" %}
+{%- comment -%} Active: header wrapped in hero section {%- endcomment -%}
 <div class="home-hero">
   {% include "header.html" %}
 
-  {% include 'home/landing-conf-home.html' %}
-{% elsif site.phase == "archived" %}
-  {% include 'home/archived-conf-home.html' %}
-{% else %}
-  {% comment %}
-    The conference site is fully live
-  {% endcomment %}
+  <div id="SiteHero" class="flex justify-center lg:justify-start flex:block wrapper">
+    <section class="home-hero-content">
+      <h2 class="pt-8">
+        Join us for five days of inspiration, education, and networking
+      </h2>
+
+      <p class="py-3 mb-4 text-2xl lg:text-3xl">
+        September 8-12th, 2025
+      </p>
 
       <a
         href="https://www.ihg.com/voco/hotels/us/en/chicago/chiwp/hoteldetail"
@@ -74,14 +77,16 @@ featured_photos:
 
   <img src="/assets/img/theme/hero-wave-invert.svg" class="object-cover object-center w-full h-20 pointer-events-none 2xl:h-auto" role="presentation" />
 </div>
-{% else %}
-  {% include "header.html" %}
-{% endif %}
+{% include 'home/active-conf-home.html' %}
 
-{% if site.phase == "landing" %}
-  {% include 'home/landing-conf-home.html' %}
 {% elsif site.phase == "archived" %}
-  {% include 'home/archived-conf-home.html' %}
-{% elsif site.phase == "active" %}
-  {% include 'home/active-conf-home.html' %}
+{%- comment -%} Archived: standard header {%- endcomment -%}
+{% include "header.html" %}
+{% include 'home/archived-conf-home.html' %}
+
+{% else %}
+{%- comment -%} Landing: standard header {%- endcomment -%}
+{% include "header.html" %}
+{% include 'home/landing-conf-home.html' %}
+
 {% endif %}
