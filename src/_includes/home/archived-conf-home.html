@@ -1,45 +1,11 @@
-<header id="SiteHeader" class="absolute top-0 z-40 w-full py-4 lg:py-6">
-  <div class="wrapper">
-    <nav class="flex flex-wrap">
-      <div
-        class="flex items-center justify-between w-full lg:max-w-max lg:flex-1"
-      >
-        <a href="/" aria-label="Go to homepage" class="fill-white">
-          <img
-            src="/assets/img/theme/logo-recap.svg"
-            alt="DjangoCon US"
-            class="h-16 h-11 xl:h-24"
-          />
-        </a>
-        <button id="NavToggler" class="p-2 bg-white lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-8 h-8"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-          <span class="sr-only">Toggle navigation</span>
-        </button>
-      </div>
-
-      {% include "nav.html" %}
-    </nav>
-  </div>
-</header>
+{%- comment -%}
+  Header is provided by default.html layout via header.html include.
+{%- endcomment -%}
 
 <img
   src="/assets/img/2025/bg-2025-recap-tall.jpg"
   alt="A collage of Chicago centric stickers and photos."
-  class="w-full md:-mt-[10%]"
+  class="w-full md:-mt-[20%]"
 />
 
 <div class="pt-8 pb-0">
@@ -69,19 +35,19 @@
   <div class="wrapper">
     <div class="max-w-3xl gap-4 mx-auto :grid-cols-1">
       <h2 class="mb-8 subheading">
-        DjangoCon US {{ site.conf_year }} was hosted in Chicago, Illinois and
+        DjangoCon US {{ site.conf_year }} was hosted in Chicago and
         brought together over 300 attendees from all over the world!
       </h2>
 
       <section class="prose prose-lg">
-        {% markdown %} Wow, what a ride! With three full days of Django talks,
+        Wow, what a ride! With three full days of Django talks,
         and two days of sprints, over 400 of us came together both online and
         in-person to learn, share and grow. DjangoCon US continues to be a
         hallmark event for the Django community, and strives to bring together
         the people behind the projects we all know and love. We had a great time
         learning from each other, sharing our experiences, and making new
         friends. We thank our fantastic sponsors, speakers, volunteers, and
-        attendees for making this event possible. {% endmarkdown %}
+        attendees for making this event possible.
       </section>
     </div>
   </div>
@@ -100,19 +66,16 @@
     </section>
 
     <ul class="grid gap-8 lg:grid-cols-3 auto-rows-fr">
-      {%- assign color_classes =
-      "border-t-green,border-t-light-blue,border-t-purple,border-t-orange,border-t-blue,border-t-yellow"
-      | split: "," %} {%- for session_slug in featured_session_slugs %} {%-
-      assign session = collections.talks | find:session_slug %} {%- assign
-      color_class = color_classes[forloop.index0 | modulo: color_classes.size]
-      %} {%- include "session-card.html", session:session.data, color_class:
-      color_class %} {%- endfor %}
+      {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange,border-t-blue,border-t-yellow" | split: "," %} 
+      {%- for session_slug in featured_session_slugs %}
+        {%- assign session = collections.talks | find:session_slug %}
+        {%- assign color_class = color_classes[forloop.index0 | modulo: color_classes.size] %}
+        {%- include "session-card.html", session:session.data, color_class: color_class %}
+      {%- endfor %}
     </ul>
 
     <section class="my-8 text-center">
-      <a href="{{ site.youtube_link }}" class="button bg-yellow"
-        >Watch Talks on YouTube</a
-      >
+      <a href="{{ site.youtube_link }}" class="button bg-yellow">Watch Talks on YouTube</a>
       <a href="/schedule" class="button bg-yellow">See list of all talks</a>
     </section>
   </div>
@@ -143,15 +106,15 @@
             rel="noreferrer noopener"
             target="_blank"
             class="link"
-            >Bartek Pawlik<span class="sr-only"> (opens in new tab)</span></a
           >
+            Bartek Pawlik<span class="sr-only"> (opens in new tab)</span>
+          </a>
           for being our official conference photographer and saving these
           memories for us.
         </p>
       </section>
 
-      {%- for photo in featured_photos %} {% comment %} Ideal 600x400 image {%
-      endcomment %}
+      {%- for photo in featured_photos %}
       <figure class="relative lg:col-span-1">
         <img
           src="{{ photo.src }}"
@@ -163,7 +126,9 @@
       {%- endfor %}
     </div>
 
-    <a href="{{ site.photos_link }}" class="button">View all photos</a>
+    <div class="mt-8 text-center">
+      <a href="{{ site.photos_link }}" target="_blank" class="button button-lg">View Flickr album</a>
+    </div>
   </div>
 </div>
 
@@ -171,8 +136,7 @@
 <div class="bg-gray-100 block-container">
   <div class="wrapper">
     <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">
-      DjangoCon US {{ site.conf_year }} was<br />
-      possible through lots of <span aria-hidden="true">❤️</span
+      DjangoCon US {{ site.conf_year }} was possible through lots of <span aria-hidden="true">❤️</span
       ><span class="sr-only">love</span>
     </h2>
     <p class="mb-6 text-xl lg:text-2xl">

@@ -1,0 +1,55 @@
+---
+layout: default
+title: "Preview: Active Phase"
+draft: true
+preview_phase: active
+custom_header: true
+permalink: /preview/active/
+---
+
+<div class="home-hero">
+  {% include "header.html" %}
+
+  <div id="SiteHero" class="flex justify-center lg:justify-start flex:block wrapper">
+    <section class="home-hero-content">
+      <h2 class="pt-8">
+        Join us for five days of inspiration, education, and networking
+      </h2>
+
+      <p class="py-3 mb-4 text-2xl lg:text-3xl">
+        September 8-12th, 2025
+      </p>
+
+      <a
+        href="https://www.ihg.com/voco/hotels/us/en/chicago/chiwp/hoteldetail"
+        target="_blank"
+        class="mb-6 text-2xl underline-offset-4 decoration-[2px] lg:text-3xl">voco Chicago Downtown</a>
+
+      <p class="mb-8 text-2xl">
+          Chicago, Illinois
+      </p>
+
+      <div class="justify-center button-group">
+        <a class="w-full text-xl button sm:w-auto" href="{{ site.ticket_link }}">Buy Tickets</a>
+        <a class="w-full text-xl button sm:w-auto" target="_blank" href="{{ site.hotel_reservation_link }}">Book a Hotel Room</a>
+      </div>
+      <div class="justify-center p-5 button-group">
+        <a class="text-lg font-bold" href="{{ site.mailing_list }}">Join Mailing List</a>
+      </div>
+    </section>
+  </div>
+
+  <div class="home-gameboard">
+    <img src="/assets/img/theme/dj-gameboard-25.svg" class="" role="presentation" />
+  </div>
+
+  <img src="/assets/img/theme/hero-wave-invert.svg" class="object-cover object-center w-full h-20 pointer-events-none 2xl:h-auto" role="presentation" />
+</div>
+
+<div class="bg-yellow-100 p-4 text-center text-sm">
+  <strong>Developer Preview:</strong> This shows the homepage in <code>active</code> phase.
+  <a href="/preview/landing/" class="underline ml-2">Landing</a> |
+  <a href="/preview/archived/" class="underline">Archived</a>
+</div>
+
+{% include 'home/active-conf-home.html' %}

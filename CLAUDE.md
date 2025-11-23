@@ -167,14 +167,12 @@ Look for `THEME-X` comments throughout codebase for customization points.
 1. Copy previous year's repo (e.g., `durham.djangocon.us`)
 2. Update `src/_data/site.json`: `conf_year`, `domain`, email addresses, external links
 3. Update `CNAME` with new domain (e.g., `2026.djangocon.us`)
-4. Update `CODE_OF_CONDUCT.md` year
 5. Update landing page content: `src/_includes/home/landing-conf-home.html`
 6. Set `"phase": "landing"` in `site.json` until ready to launch full site
 7. Deploy via GitHub Pages
 
 ## Important Notes
 
-- Liquid syntax highlighting recommended: [VS Code extension](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid)
 - Images below fold should include `loading="lazy"`
 - Always add `alt` attributes to images
 - Draft pages: Add `draft: true` to front matter to exclude from build
