@@ -42,19 +42,25 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-<body id="SiteBody" {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-  {% block header %}
+<body{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+  <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-light-blue">Skip to main content</a>
+  {% unless custom_header %}
     {% include "header.html" %}
-  {% endblock %}
+  {% endunless %}
+  
 
-  <main id="SiteMain" class="flex-1 {% if site.banner %}pt-[120px]{% else %}pt-[96px]{% endif %} lg:pt-0 lg:block">
+  {% assign current_phase = preview_phase | default: site.phase %}
+  <main id="SiteMain" class="{% if current_phase == 'landing' %}pt-[80px]{% endif %} flex-1  lg:pt-0 lg:block">
     {%- block content -%}
       {{- content -}}
     {%- endblock -%}
   </main>
 
-  <footer id="SiteFooter" class="py-20">
-    <div class="container mx-auto">
+  {% if current_phase != "landing" %}
+    <img src="/assets/img/theme/city.svg" alt="The city skyline of Chicago" aria-hidden="true" class="mt-16 -mb-[4vw]"/>
+  {% endif %}
+  <footer id="SiteFooter" class="py-20 bg-white border-t-4 border-black">
+    <div class="container mx-auto ">
       <div class="grid gap-8 px-4 place-items-center">
         {% include "conf-social-share.html" %}
 
@@ -67,7 +73,7 @@
         </p>
         <small class="text-sm text-center">
           &copy; {{ site.conf_year }} DjangoCon US
-          {%- comment -%}· Design by <a href="https://yupgup.com/" class="link" target="_blank">YupGup</a>{%- endcomment -%}
+          · Design by <a href="https://yupgup.com/" class="link" target="_blank">YupGup</a>
           · Presented by <a href="https://www.defna.org/" class="link" target="_blank">DEFNA</a>
           · <a href="/styleguide/">Styleguide</a>
           {%- comment -%}· <a href="/colophon/" class="link">Colophon</a>{%- endcomment -%}

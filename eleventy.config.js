@@ -99,11 +99,13 @@ module.exports = (config) => {
     return collection.filter(item => item.data.presenter_slugs.includes(slug));
   });
 
-  // Only build pages that aren't marked as drafts, usage below
-  // draft: true
+  // Only build pages that aren't marked as drafts in production
+  // In development mode, draft pages are built for preview purposes
+  // Usage: draft: true
   config.addGlobalData("eleventyComputed.permalink", function() {
     return (data) => {
-      if (data.draft) {
+      // In production, exclude draft pages
+      if (data.draft && process.env.NODE_ENV === 'production') {
         return false;
       }
 
