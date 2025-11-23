@@ -27,7 +27,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T083000
 DTEND;TZID=America/Chicago:20250908T090000
 DTSTAMP:20250908T083000Z
-UID:08-30-t0-orientation@https://2025.djangocon.us
+UID:orientation@https://2025.djangocon.us
 SUMMARY:Orientation
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Kojo Idrissa\n\n
@@ -38,7 +38,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T090000
 DTEND;TZID=America/Chicago:20250908T091500
 DTSTAMP:20250908T090000Z
-UID:09-00-t0-opening-remarks-monday@https://2025.djangocon.us
+UID:opening-remarks-monday@https://2025.djangocon.us
 SUMMARY:Opening Remarks (Monday)
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Keanya Phelps\n\n
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T091500
 DTEND;TZID=America/Chicago:20250908T100000
 DTSTAMP:20250908T091500Z
-UID:09-15-t0-keynote-to-be-announced-monday@https://2025.djangocon.us
+UID:keynote-to-be-announced-monday@https://2025.djangocon.us
 SUMMARY:Keynote: Lateral Thinking with Weathered Technology: How The Nintendo Philosophy Applies to Modern Web Development
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Carson Gross\n\nIn this talk Carson Gross will explore a little known philosophy of Nintendo's Gunpei Yokoi: Lateral Thinking with Weathered (or Withered, or Seasoned) Technology.  He will examine both django and htmx in terms of this philosophy and explore why these two technologies work together so well.
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T100000
 DTEND;TZID=America/Chicago:20250908T101500
 DTSTAMP:20250908T100000Z
-UID:10-00-00-community-update-defna@https://2025.djangocon.us
+UID:community-update-defna@https://2025.djangocon.us
 SUMMARY:Community Update: Django Events Foundation North America
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Peter Grandstaff\n\nDEFNA President Peter Grandstaff will give an update on DEFNA's activities in the community, how you can help, and what the foundation is looking forward to in 2026.
@@ -73,7 +73,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T105000
 DTEND;TZID=America/Chicago:20250908T113500
 DTSTAMP:20250908T105000Z
-UID:10-50-t0-django-for-ai-deploying-machine-learning-models-with-django@https://2025.djangocon.us
+UID:django-for-ai-deploying-machine-learning-models-with-django@https://2025.djangocon.us
 SUMMARY:Django for AI: Deploying Machine Learning Models with Django
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Will Vincent\n\nIn this talk, we'll bridge the gap between AI/data science and web development by demonstrating how to first train and then deploy a machine learning model using Django. Starting with the classic Iris dataset, we'll walk through training a classification model with scikit-learn, covering key steps like data preprocessing, model selection, and evaluation.
@@ -87,7 +87,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T105000
 DTEND;TZID=America/Chicago:20250908T113500
 DTSTAMP:20250908T105000Z
-UID:10-50-t1-easy-breezy-beautiful-django-unit-tests@https://2025.djangocon.us
+UID:easy-breezy-beautiful-django-unit-tests@https://2025.djangocon.us
 SUMMARY:Easy, Breezy, Beautiful... Django Unit Tests
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Colleen Dunlap\n\nWe’ve all been in a situation where test coverage was lacking. And unless you’ve been very lucky, we’ve all seen a situation where that lack of coverage led to bugs sneaking into production. With the complex backend and full-stack systems of today, it is unrealistic to expect any programmer to know exactly how a code change will affect all parts of the project. And we don’t have to! That’s why we have testing. And unit tests are the most accessible form of testing throughout the entire development process — it’s accessible right there in your terminal with a simple “pytest” or “make tests”. Unit tests are the first line of defense against bugs and breaks — let’s ensure you have a strong, reliable Alexander the Great of unit test suites and not a temperamental, vulnerable Achilles Heel!
@@ -102,19 +102,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T114000
 DTEND;TZID=America/Chicago:20250908T120500
 DTSTAMP:20250908T114000Z
-UID:11-40-t0-why-governance-in-open-source-is-important@https://2025.djangocon.us
-SUMMARY:Django Governance: 🌱Growing Sustainable Open-Source Communities Together🤝
-LOCATION:Sauganash Ballroom
-DESCRIPTION:Presenter: Rachell Calhoun\nPresenter: Tim Schilling\n\n&quot;Come for the language, stay for the community.&quot; This is a mantra of Python communities, including Django. It's clear how easy it is to forge a strong bond with people in our communities. But have you noticed when you solve one problem for the community, you're soon asked to help with two more problems? You might have even noticed that this phenomenon seems to never stop either. As long as you have time and energy, you're welcomed to do more and more for the community.
- Our communities and our contributors need boundaries. Open source software governance is one way to help raise those boundaries. Rachell and Tim want to share with you their lessons learned from their time as open source contributors and community organizers in various organizations in the Django community. Leaving this talk you will understand why governance is important to think about from the start, how to define a basic governance structure and how to integrate it into an existing community. Our goal is...
-URL:https://2025.djangocon.us/talks/why-governance-in-open-source-is-important/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20250908T114000
-DTEND;TZID=America/Chicago:20250908T120500
-DTSTAMP:20250908T114000Z
-UID:11-40-t1-django-s-generatedfield-by-example@https://2025.djangocon.us
+UID:django-s-generatedfield-by-example@https://2025.djangocon.us
 SUMMARY:Django's GeneratedField by example
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Paolo Melchiorre\n\nDatabase generated columns are a killer feature for Django and are now available in Django 5.0 with the new GeneratedField.
@@ -125,10 +113,22 @@ URL:https://2025.djangocon.us/talks/django-s-generatedfield-by-example/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20250908T114000
+DTEND;TZID=America/Chicago:20250908T120500
+DTSTAMP:20250908T114000Z
+UID:why-governance-in-open-source-is-important@https://2025.djangocon.us
+SUMMARY:Django Governance: 🌱Growing Sustainable Open-Source Communities Together🤝
+LOCATION:Sauganash Ballroom
+DESCRIPTION:Presenter: Rachell Calhoun\nPresenter: Tim Schilling\n\n&quot;Come for the language, stay for the community.&quot; This is a mantra of Python communities, including Django. It's clear how easy it is to forge a strong bond with people in our communities. But have you noticed when you solve one problem for the community, you're soon asked to help with two more problems? You might have even noticed that this phenomenon seems to never stop either. As long as you have time and energy, you're welcomed to do more and more for the community.
+ Our communities and our contributors need boundaries. Open source software governance is one way to help raise those boundaries. Rachell and Tim want to share with you their lessons learned from their time as open source contributors and community organizers in various organizations in the Django community. Leaving this talk you will understand why governance is important to think about from the start, how to define a basic governance structure and how to integrate it into an existing community. Our goal is...
+URL:https://2025.djangocon.us/talks/why-governance-in-open-source-is-important/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T121000
 DTEND;TZID=America/Chicago:20250908T130000
 DTSTAMP:20250908T121000Z
-UID:12-10-t0-lightning-talks-monday@https://2025.djangocon.us
+UID:lightning-talks-monday@https://2025.djangocon.us
 SUMMARY:Lightning Talks (Monday)
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Andrew Mshar\n\n
@@ -139,21 +139,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T135000
 DTEND;TZID=America/Chicago:20250908T143500
 DTSTAMP:20250908T135000Z
-UID:13-50-t0-deploy-django-gitops-kubernetes-made-easy@https://2025.djangocon.us
-SUMMARY:Deploy Django: GitOps & Kubernetes Made Easy
-LOCATION:Sauganash Ballroom
-DESCRIPTION:Presenter: Calvin Hendryx-Parker\n\nThis talk will show attendees how to streamline the day two operations of delivering and maintaining Python applications in production environments. It emphasizes GitOps principles, repeatable CI/CD workflows, and cloud-agnostic deployment using Kubernetes and Argo CD.
- Deploying code shouldn’t be stressful. But too often, the journey from local dev to production is fragile, manual, and hard to debug. This talk is about building peace of mind into your pipeline — with GitOps, Kubernetes, and open source tools like Argo CD that make continuous delivery predictable, repeatable, and scalable from the very first release to the 50th.
- We’ll tackle the realities of “day two” DevOps — what happens after the first deploy. From managing rollbacks and coordinating releases to enforcing consistency across dev, staging, and production, you’ll learn how to bring stability and scalability to your delivery pipeline.
- In a live demo, we’ll deploy a full stack Django app from GitHub to production us...
-URL:https://2025.djangocon.us/talks/deploy-djang-gitops-kubernetes-made-easy/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20250908T135000
-DTEND;TZID=America/Chicago:20250908T143500
-DTSTAMP:20250908T135000Z
-UID:13-50-t1-building-a-wagtail-cms-experience-that-editors-love@https://2025.djangocon.us
+UID:building-a-wagtail-cms-experience-that-editors-love@https://2025.djangocon.us
 SUMMARY:Building a Wagtail CMS Experience that Editors Love
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Michael Trythall\n\nWhen a website redesign is on the horizon, frustrations with the existing content management system (CMS) are often a major driver. Yet in many cases, the root problem isn't the CMS itself; it's how it was implemented.
@@ -164,10 +150,41 @@ URL:https://2025.djangocon.us/talks/building-a-wagtail-cms-experience-that-edito
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20250908T135000
+DTEND;TZID=America/Chicago:20250908T143500
+DTSTAMP:20250908T135000Z
+UID:deploy-django-gitops-kubernetes-made-easy@https://2025.djangocon.us
+SUMMARY:Deploy Django: GitOps & Kubernetes Made Easy
+LOCATION:Sauganash Ballroom
+DESCRIPTION:Presenter: Calvin Hendryx-Parker\n\nThis talk will show attendees how to streamline the day two operations of delivering and maintaining Python applications in production environments. It emphasizes GitOps principles, repeatable CI/CD workflows, and cloud-agnostic deployment using Kubernetes and Argo CD.
+ Deploying code shouldn’t be stressful. But too often, the journey from local dev to production is fragile, manual, and hard to debug. This talk is about building peace of mind into your pipeline — with GitOps, Kubernetes, and open source tools like Argo CD that make continuous delivery predictable, repeatable, and scalable from the very first release to the 50th.
+ We’ll tackle the realities of “day two” DevOps — what happens after the first deploy. From managing rollbacks and coordinating releases to enforcing consistency across dev, staging, and production, you’ll learn how to bring stability and scalability to your delivery pipeline.
+ In a live demo, we’ll deploy a full stack Django app from GitHub to production us...
+URL:https://2025.djangocon.us/talks/deploy-djang-gitops-kubernetes-made-easy/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T144000
 DTEND;TZID=America/Chicago:20250908T150500
 DTSTAMP:20250908T144000Z
-UID:14-40-t0-how-to-enjoy-debugging-in-production@https://2025.djangocon.us
+UID:evolving-django-what-we-learned-by-integrating-mongodb@https://2025.djangocon.us
+SUMMARY:Evolving Django: What We Learned by Integrating MongoDB
+LOCATION:Wolf Point Ballroom
+DESCRIPTION:Presenter: Jeffrey A. Clark\n\nHistory
+ Building on the progress of the past, most notably django-mongodb-engine and django-nonrel, MongoDB has taken on the challenge of developing a production-ready Django database backend for MongoDB.
+ Early in 2024 with help from Django core developer Tim Graham, MongoDB has systematically developed and tested a database backend with the potential to be greater than the sum of its parts.
+ Present
+ In September 2024, I started working for MongoDB to help with this project and what I've seen so far is amazing! - Query support with MongoDB's aggregate function. - A custom model manager with raw_aggregate function to support MongoDB's QuerySet language - Many more amazing things to be added between now and presentation! - Released our beta we urge folks to try!
+ Future
+ As a long time Django developer and newcomer to MongoDB, I am excited about the possibilities. - An alternative to PostgreSQL and MySQL! - Deployments to MongoDB's Atlas cloud database service. - Many more exciting...
+URL:https://2025.djangocon.us/talks/evolving-django-what-we-learned-by-integrating-mongodb/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20250908T144000
+DTEND;TZID=America/Chicago:20250908T150500
+DTSTAMP:20250908T144000Z
+UID:how-to-enjoy-debugging-in-production@https://2025.djangocon.us
 SUMMARY:How to Enjoy Debugging in Production
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Karen Tracey\n\nAs developers, we go to great lengths to try to ensure our code is bug-free: automated code linters, code reviews, unit tests, and quality assurance testing on staging environments before production release. Despite our best efforts though, we still find bugs that only surface after release to production. In this talk, we'll draw on years of experience in supporting production sites to illustrate using real examples:
@@ -191,27 +208,23 @@ URL:https://2025.djangocon.us/talks/how-to-enjoy-debugging-in-production/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20250908T144000
-DTEND;TZID=America/Chicago:20250908T150500
-DTSTAMP:20250908T144000Z
-UID:14-40-t1-evolving-django-what-we-learned-by-integrating-mongodb@https://2025.djangocon.us
-SUMMARY:Evolving Django: What We Learned by Integrating MongoDB
+DTSTART;TZID=America/Chicago:20250908T154000
+DTEND;TZID=America/Chicago:20250908T162500
+DTSTAMP:20250908T154000Z
+UID:peaceful-django-migrations@https://2025.djangocon.us
+SUMMARY:Peaceful Django Migrations
 LOCATION:Wolf Point Ballroom
-DESCRIPTION:Presenter: Jeffrey A. Clark\n\nHistory
- Building on the progress of the past, most notably django-mongodb-engine and django-nonrel, MongoDB has taken on the challenge of developing a production-ready Django database backend for MongoDB.
- Early in 2024 with help from Django core developer Tim Graham, MongoDB has systematically developed and tested a database backend with the potential to be greater than the sum of its parts.
- Present
- In September 2024, I started working for MongoDB to help with this project and what I've seen so far is amazing! - Query support with MongoDB's aggregate function. - A custom model manager with raw_aggregate function to support MongoDB's QuerySet language - Many more amazing things to be added between now and presentation! - Released our beta we urge folks to try!
- Future
- As a long time Django developer and newcomer to MongoDB, I am excited about the possibilities. - An alternative to PostgreSQL and MySQL! - Deployments to MongoDB's Atlas cloud database service. - Many more exciting...
-URL:https://2025.djangocon.us/talks/evolving-django-what-we-learned-by-integrating-mongodb/
+DESCRIPTION:Presenter: Efe Öge\n\nDjango’s migration framework is a powerful tool for evolving your database schema, but with great power comes great responsibility. In production systems, the wrong migration at the wrong time can introduce serious performance issues or even temporary outages.
+ This talk demystifies what actually happens during makemigrations, migrate, and sqlmigrate, explains how Django interacts with the database engine, and highlights the locking behavior that can impact availability. Through real-world examples, we’ll explore schema changes that are especially risky—such as adding columns with defaults or modifying indexes—and how to spot them in advance using Django’s tools and external linters like Squawk.
+ Attendees will leave with a practical toolkit of strategies for minimizing risk, including safe migration patterns, multi-step deployment techniques, and tips for planning changes during low-traffic windows. Whether you're running a high-traffic SaaS product or a growing internal tool, you'...
+URL:https://2025.djangocon.us/talks/peaceful-django-migrations/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T154000
 DTEND;TZID=America/Chicago:20250908T162500
 DTSTAMP:20250908T154000Z
-UID:15-40-t0-unleash-your-django-frontend-integrate-web-components-into-django-templates-with-vue@https://2025.djangocon.us
+UID:unleash-your-django-frontend-integrate-web-components-into-django-templates-with-vue@https://2025.djangocon.us
 SUMMARY:Level Up Your Django Frontend: Integrate Web Components into Django Templates with Vue
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Mike Hoolehan\n\nHave you avoided heavyweight JavaScript frameworks because they're overwhelming, complicated, or difficult to integrate?
@@ -228,23 +241,10 @@ URL:https://2025.djangocon.us/talks/unleash-your-django-frontend-integrate-web-c
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20250908T154000
-DTEND;TZID=America/Chicago:20250908T162500
-DTSTAMP:20250908T154000Z
-UID:15-40-t1-peaceful-django-migrations@https://2025.djangocon.us
-SUMMARY:Peaceful Django Migrations
-LOCATION:Wolf Point Ballroom
-DESCRIPTION:Presenter: Efe Öge\n\nDjango’s migration framework is a powerful tool for evolving your database schema, but with great power comes great responsibility. In production systems, the wrong migration at the wrong time can introduce serious performance issues or even temporary outages.
- This talk demystifies what actually happens during makemigrations, migrate, and sqlmigrate, explains how Django interacts with the database engine, and highlights the locking behavior that can impact availability. Through real-world examples, we’ll explore schema changes that are especially risky—such as adding columns with defaults or modifying indexes—and how to spot them in advance using Django’s tools and external linters like Squawk.
- Attendees will leave with a practical toolkit of strategies for minimizing risk, including safe migration patterns, multi-step deployment techniques, and tips for planning changes during low-traffic windows. Whether you're running a high-traffic SaaS product or a growing internal tool, you'...
-URL:https://2025.djangocon.us/talks/peaceful-django-migrations/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T163000
 DTEND;TZID=America/Chicago:20250908T165500
 DTSTAMP:20250908T163000Z
-UID:16-30-t0-djangonaut-space-a-mentorship-program-for-open-source@https://2025.djangocon.us
+UID:djangonaut-space-a-mentorship-program-for-open-source@https://2025.djangocon.us
 SUMMARY:Djangonaut Space: A Mentorship Program For Open Source
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Lilian\n\nDjangonaut Space is a mentorship program created to address the problem of sustainability for open source projects. It helps grow the community and bridge the gap between new contributors and long-time maintainers, ensuring the web framework and its eco-system continues to thrive and adapt to changing needs.
@@ -257,7 +257,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T163000
 DTEND;TZID=America/Chicago:20250908T165500
 DTSTAMP:20250908T163000Z
-UID:16-30-t1-the-xs-and-os-of-open-source-with-shotgeek@https://2025.djangocon.us
+UID:the-xs-and-os-of-open-source-with-shotgeek@https://2025.djangocon.us
 SUMMARY:The X’s and O’s of Open Source with ShotGeek
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Kudzayi Bamhare\n\nWhat happens when your coding skills and your passions collide? Sometimes, you get a project like ShotGeek—and a whole lot of lessons along the way.
@@ -287,19 +287,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250908T170000
 DTEND;TZID=America/Chicago:20250908T172500
 DTSTAMP:20250908T170000Z
-UID:17-00-t0-postgresql-tuning-parameters-or-tuning-queries@https://2025.djangocon.us
-SUMMARY:PostgreSQL: Tuning parameters or Tuning Queries?
-LOCATION:Sauganash Ballroom
-DESCRIPTION:Presenter: Henrietta Dombrovskaya\n\nWhen it comes to database performance tuning, most PostgreSQL practitioners focus on optimizing configuration parameters. It is often assumed that as soon as we choose the correct values for parameters and restart the database instance, all the world's problems will be solved. Indeed, due to configuration parameters tuning, we can observe database performance increase up to 10-20% and sometimes up to 50%. That might sound like impressive numbers, but individual query optimization routinely makes queries run several times faster, sometimes ten or more times faster. All of us might recall some examples of such drastic performance improvement, but it is not easy to quantify the impact.
- In this talk, we will demonstrate the difference each approach can make with practical examples by using the Postgres_air database (https://github.com/hettie-d/postgres_air)- the largest publicly available PostgreSQL training DB. We will compare the impact of tuning different memory allocation parameter...
-URL:https://2025.djangocon.us/talks/postgresql-tuning-parameters-or-tuning-queries/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20250908T170000
-DTEND;TZID=America/Chicago:20250908T172500
-DTSTAMP:20250908T170000Z
-UID:17-00-t1-django-without-borders-a-10-year-journey-of-open-source-impact-in-namibia@https://2025.djangocon.us
+UID:django-without-borders-a-10-year-journey-of-open-source-impact-in-namibia@https://2025.djangocon.us
 SUMMARY:Django Without Borders: A 10-Year Journey of Open Source Impact in Namibia
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Ngazetungue Muheue\n\nIn this talk, I’ll share how we built one of Africa’s most impactful Python and Django communities in Namibia, focusing on the strategies and challenges we overcame to create a thriving, inclusive open-source ecosystem in a region with limited tech infrastructure. Attendees will learn howto grow a sustainable community, empowering underrepresented groups, and using open-source tools like Django to address local challenges in real-world projects.
@@ -308,10 +296,22 @@ URL:https://2025.djangocon.us/talks/django-without-borders-a-10-year-journey-of-
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20250908T170000
+DTEND;TZID=America/Chicago:20250908T172500
+DTSTAMP:20250908T170000Z
+UID:postgresql-tuning-parameters-or-tuning-queries@https://2025.djangocon.us
+SUMMARY:PostgreSQL: Tuning parameters or Tuning Queries?
+LOCATION:Sauganash Ballroom
+DESCRIPTION:Presenter: Henrietta Dombrovskaya\n\nWhen it comes to database performance tuning, most PostgreSQL practitioners focus on optimizing configuration parameters. It is often assumed that as soon as we choose the correct values for parameters and restart the database instance, all the world's problems will be solved. Indeed, due to configuration parameters tuning, we can observe database performance increase up to 10-20% and sometimes up to 50%. That might sound like impressive numbers, but individual query optimization routinely makes queries run several times faster, sometimes ten or more times faster. All of us might recall some examples of such drastic performance improvement, but it is not easy to quantify the impact.
+ In this talk, we will demonstrate the difference each approach can make with practical examples by using the Postgres_air database (https://github.com/hettie-d/postgres_air)- the largest publicly available PostgreSQL training DB. We will compare the impact of tuning different memory allocation parameter...
+URL:https://2025.djangocon.us/talks/postgresql-tuning-parameters-or-tuning-queries/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T090000
 DTEND;TZID=America/Chicago:20250909T091500
 DTSTAMP:20250909T090000Z
-UID:09-00-t0-opening-remarks-tuesday@https://2025.djangocon.us
+UID:opening-remarks-tuesday@https://2025.djangocon.us
 SUMMARY:Opening Remarks (Tuesday)
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Peter Grandstaff\n\n
@@ -322,7 +322,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T091500
 DTEND;TZID=America/Chicago:20250909T100000
 DTSTAMP:20250909T091500Z
-UID:09-15-t0-keynote-to-be-announced-tuesday@https://2025.djangocon.us
+UID:keynote-to-be-announced-tuesday@https://2025.djangocon.us
 SUMMARY:Keynote: All The Ways To Use Django
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Zags (Benjamin Zagorsky)\n\nEver thought &quot;I love Django but I can't use it on this project because [REASON]&quot;?  Let's take a second look.  Django has lots of parts, and it can still do a lot even if you don't use all of them.
@@ -344,7 +344,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T100000
 DTEND;TZID=America/Chicago:20250909T101500
 DTSTAMP:20250909T100000Z
-UID:10-00-t0-community-update-python-software-foundation@https://2025.djangocon.us
+UID:community-update-python-software-foundation@https://2025.djangocon.us
 SUMMARY:Community Update: Python Software Foundation
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Dawn Wages\n\nPSF President/Chair Dawn Wages will give an update on the PSF's activities in the community, how you can help, other conferences you should think of attending, and what the foundation is looking forward to in 2026.
@@ -356,7 +356,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T105000
 DTEND;TZID=America/Chicago:20250909T113500
 DTSTAMP:20250909T105000Z
-UID:10-50-t0-reverse-engineering-the-qr-code-generator-and-url-forwarder-service@https://2025.djangocon.us
+UID:reverse-engineering-the-qr-code-generator-and-url-forwarder-service@https://2025.djangocon.us
 SUMMARY:Reverse engineering the QR code generator and URL forwarder service
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Mariatta\n\nSharing urls using QR code is a common use case nowadays.
@@ -372,7 +372,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T105000
 DTEND;TZID=America/Chicago:20250909T113500
 DTSTAMP:20250909T105000Z
-UID:10-50-t1-winemaking-with-mutable-event-sourcing-in-django@https://2025.djangocon.us
+UID:winemaking-with-mutable-event-sourcing-in-django@https://2025.djangocon.us
 SUMMARY:Winemaking with Mutable Event Sourcing in Django
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Chris Muthig\n\nEvent sourcing offers powerful advantages for traceability and domain modeling, but its strict immutability can become a constraint in domains where history needs revision. In this talk, we’ll explore how the complexities of winemaking led us to design a mutable event sourcing system, built with Django, that lets users correct and update the past while preserving consistency across the system. You’ll learn how we combined domain-driven design with a custom command model to add flexibility to an architecture that's traditionally rigid.
@@ -384,7 +384,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T114000
 DTEND;TZID=America/Chicago:20250909T120500
 DTSTAMP:20250909T114000Z
-UID:11-40-t0-big-bad-world-of-postgres-dev-environments@https://2025.djangocon.us
+UID:big-bad-world-of-postgres-dev-environments@https://2025.djangocon.us
 SUMMARY:Big Bad World of Postgres Dev Environments
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Elizabeth Garrett Christensen\n\nYou want to test against something as close to production as possible - but you don’t want to expose client data or company secrets during your development process. Let’s talk through the world of development environments for your Postgres database. From local options to using the cloud. We’ll also cover what’s available in terms of replication, copies, anonymizing data, and automation. Believe it or not, there’s some Postgres tricks that can make this easier for your team.
@@ -397,7 +397,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T114000
 DTEND;TZID=America/Chicago:20250909T120500
 DTSTAMP:20250909T114000Z
-UID:11-40-t1-building-maintainable-django-projects-the-difficult-teenage-years@https://2025.djangocon.us
+UID:building-maintainable-django-projects-the-difficult-teenage-years@https://2025.djangocon.us
 SUMMARY:Building maintainable Django projects: the difficult teenage years
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Alex Henman\n\nRather than focusing on a single theme this talk touches on a range of real-world engineering problems and patterns, all centred around the challenges that arise in a mature codebase. Topics include:
@@ -414,7 +414,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T121000
 DTEND;TZID=America/Chicago:20250909T130000
 DTSTAMP:20250909T121000Z
-UID:12-10-t0-lightning-talks-tuesday@https://2025.djangocon.us
+UID:lightning-talks-tuesday@https://2025.djangocon.us
 SUMMARY:Lightning Talks (Tuesday)
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Andrew Mshar\n\nThe sign-up form to give a  Lightning Talk is here:
@@ -427,7 +427,19 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T135000
 DTEND;TZID=America/Chicago:20250909T143500
 DTSTAMP:20250909T135000Z
-UID:13-50-t0-entering-the-world-of-cms-with-wagtail@https://2025.djangocon.us
+UID:beyond-rate-limiting-building-an-active-learning-defense-system-in-django@https://2025.djangocon.us
+SUMMARY:Beyond Rate Limiting: Building an Active Learning Defense System in Django
+LOCATION:Wolf Point Ballroom
+DESCRIPTION:Presenter: Aayush Gauba\n\nWhat if your Django app could defend itself and get smarter over time? In this talk, we'll dive into AIWAF, an open-source, Django-native firewall that learns from real web traffic to catch suspicious behavior like 404 floods, probing attacks, and UUID tampering. You'll learn how easy it is to plug AIWAF into your project and build a self-adapting defense system without needing a full security team.
+ 
+URL:https://2025.djangocon.us/talks/beyond-rate-limiting-building-an-active-learning-defense-system-in-django/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20250909T135000
+DTEND;TZID=America/Chicago:20250909T143500
+DTSTAMP:20250909T135000Z
+UID:entering-the-world-of-cms-with-wagtail@https://2025.djangocon.us
 SUMMARY:Entering the World of CMS with Wagtail
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Michael Riley\n\nContent Management Systems are a crucial element of any organization's online presence in a world where customers get their information online. Depending on the content management system, you may encounter different challenges in completely different aspects. Whether it's the developers having a headache, the content writers having difficulty working with the content management system, or the customers having issues, does it have to be this way?
@@ -437,22 +449,29 @@ URL:https://2025.djangocon.us/talks/entering-the-world-of-cms-with-wagtail/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20250909T135000
-DTEND;TZID=America/Chicago:20250909T143500
-DTSTAMP:20250909T135000Z
-UID:13-50-t1-beyond-rate-limiting-building-an-active-learning-defense-system-in-django@https://2025.djangocon.us
-SUMMARY:Beyond Rate Limiting: Building an Active Learning Defense System in Django
+DTSTART;TZID=America/Chicago:20250909T144000
+DTEND;TZID=America/Chicago:20250909T150500
+DTSTAMP:20250909T144000Z
+UID:beyond-filters-modern-search-and-more-with-vectors-in-django@https://2025.djangocon.us
+SUMMARY:Beyond Filters: Modern Search (and more) with Vectors in Django
 LOCATION:Wolf Point Ballroom
-DESCRIPTION:Presenter: Aayush Gauba\n\nWhat if your Django app could defend itself and get smarter over time? In this talk, we'll dive into AIWAF, an open-source, Django-native firewall that learns from real web traffic to catch suspicious behavior like 404 floods, probing attacks, and UUID tampering. You'll learn how easy it is to plug AIWAF into your project and build a self-adapting defense system without needing a full security team.
+DESCRIPTION:Presenter: Kumar Shivendu\n\nTraditional search in Django apps, typically powered by queryset filters or keyword search, often fails to capture user intent. It matches exact words but misses meaning. Vector search solves this by representing the &quot;meaning&quot; of data (text, images, audio, video, etc) as high-dimensional vectors generated with ML models, enabling more relevant, personalized, and faster results.
+ In this talk, you'll learn:
  
-URL:https://2025.djangocon.us/talks/beyond-rate-limiting-building-an-active-learning-defense-system-in-django/
+ When traditional search with Postgres or Elasticsearch falls short
+ What vectors are, how vector search works, and when vector databases help
+ How to integrate vector databases into your Django models using django-semantic-search
+ A demo of &quot;More products like this&quot; feature with vectors in a Django e-commerce app
+ Brief understanding of use cases beyond text search: multi-modal search, recommendations, content discovery, clustering, anomaly detection, and retrieval-augmented generation (RAG)
+ The trade-offs and limitations of vector search — when it helps an...
+URL:https://2025.djangocon.us/talks/beyond-filters-modern-search-and-more-with-vectors-in-django/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T144000
 DTEND;TZID=America/Chicago:20250909T150500
 DTSTAMP:20250909T144000Z
-UID:14-40-t0-hidden-dangers-of-ai-in-developer-workflows-navigating-security-risks-with-human-insight@https://2025.djangocon.us
+UID:hidden-dangers-of-ai-in-developer-workflows-navigating-security-risks-with-human-insight@https://2025.djangocon.us
 SUMMARY:Hidden Dangers Of AI In Developer Workflows: Navigating Security Risks with Human Insight
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Dwayne McDaniel\n\nAI tools like ChatGPT and Copilot have become indispensable in developers' daily workflows. Whether it is for code samples and scaffolding, prototyping, or documentation, AI can help eliminate a lot of toil from the developer's day-to-day.
@@ -470,29 +489,10 @@ URL:https://2025.djangocon.us/talks/hidden-dangers-of-ai-in-developer-workflows-
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20250909T144000
-DTEND;TZID=America/Chicago:20250909T150500
-DTSTAMP:20250909T144000Z
-UID:14-40-t1-beyond-filters-modern-search-and-more-with-vectors-in-django@https://2025.djangocon.us
-SUMMARY:Beyond Filters: Modern Search (and more) with Vectors in Django
-LOCATION:Wolf Point Ballroom
-DESCRIPTION:Presenter: Kumar Shivendu\n\nTraditional search in Django apps, typically powered by queryset filters or keyword search, often fails to capture user intent. It matches exact words but misses meaning. Vector search solves this by representing the &quot;meaning&quot; of data (text, images, audio, video, etc) as high-dimensional vectors generated with ML models, enabling more relevant, personalized, and faster results.
- In this talk, you'll learn:
- 
- When traditional search with Postgres or Elasticsearch falls short
- What vectors are, how vector search works, and when vector databases help
- How to integrate vector databases into your Django models using django-semantic-search
- A demo of &quot;More products like this&quot; feature with vectors in a Django e-commerce app
- Brief understanding of use cases beyond text search: multi-modal search, recommendations, content discovery, clustering, anomaly detection, and retrieval-augmented generation (RAG)
- The trade-offs and limitations of vector search — when it helps an...
-URL:https://2025.djangocon.us/talks/beyond-filters-modern-search-and-more-with-vectors-in-django/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T154000
 DTEND;TZID=America/Chicago:20250909T162500
 DTSTAMP:20250909T154000Z
-UID:15-40-t0-beyond-the-orm-from-postgres-to-opensearch@https://2025.djangocon.us
+UID:beyond-the-orm-from-postgres-to-opensearch@https://2025.djangocon.us
 SUMMARY:Beyond the ORM: from Postgres to OpenSearch
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Andrew Mshar\n\nOur team at Energy Solutions spent a year building a robust data ingestion and query pipeline using OpenSearch to provide centralized data to a distributed suite of applications. Along the way, we learned to question and rethink a lot of our relational database assumptions and take fuzzy search customization and accuracy to the next level. Meanwhile, we implemented Pydantic wrappers around JSON responses so we could continue to handle responses like native Python objects (along with other benefits we’ll discuss). We addressed long-standing challenges, such as:
@@ -510,7 +510,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T154000
 DTEND;TZID=America/Chicago:20250909T162500
 DTSTAMP:20250909T154000Z
-UID:15-40-t1-cutting-latency-in-half-what-actually-worked-and-what-didnt@https://2025.djangocon.us
+UID:cutting-latency-in-half-what-actually-worked-and-what-didnt@https://2025.djangocon.us
 SUMMARY:Cutting latency in half: What actually worked—and what didn’t
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Timothy Mccurrach\n\nJoin me as we dig into real-world Django performance challenges - from quick wins to stubborn bottlenecks that took multiple strategies to fix. Along the way, we’ll explore how we identified what really needed improving - and what was a red herring. We’ll walk through the code that caused the slowdowns, and examine the performance data to learn what actually made a difference.
@@ -523,7 +523,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T163000
 DTEND;TZID=America/Chicago:20250909T165500
 DTSTAMP:20250909T163000Z
-UID:16-30-t0-the-source-of-change-bettering-online-open-source-communities-can-begin-with-you@https://2025.djangocon.us
+UID:the-source-of-change-bettering-online-open-source-communities-can-begin-with-you@https://2025.djangocon.us
 SUMMARY:The Source of Change: Bettering Online Open Source Communities Can Begin with video_url: FYxbVioCX1Q You
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Kattni\n\nParticipating in online open source communities can be a positive experience, but it isn't necessarily so for everyone. Stories abound of mistreatment of project maintainers and community contributors, including bullying, doxing, even acts of outright violence. But those negative experiences don't have to happen! Creating a safe and welcoming environment for open source development begins with you. Discover how you can affect positive change in your own project space and the spaces of others within the open source community through practical and achievable actions. You will gain a better understanding of the problem, and the changes necessary to begin addressing it. Unfortunately, there may always be those who are not interested in being a part of this solution. You will learn ways to ensure you are able to take care of yourself within this reality, while breaking the pattern of negativity within the spaces willing to accept a positive change. You play a critical role in building an...
@@ -534,7 +534,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T163000
 DTEND;TZID=America/Chicago:20250909T165500
 DTSTAMP:20250909T163000Z
-UID:16-30-t1-what-would-the-django-of-data-pipelines-look-like@https://2025.djangocon.us
+UID:what-would-the-django-of-data-pipelines-look-like@https://2025.djangocon.us
 SUMMARY:What would the django of data pipelines look like?
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Lisa Dusseault\n\nThis talk will introduce the phaser open source library, but also teach principles that can help organizing data transformations and data pipelines.  It's hard to carve out time to build your own utilities for a data pipeline and it's hard to even know what are effective patterns for modularizing once code gets complicated.  Let's talk about why this investment is important and how the investment could be less costly.
@@ -553,7 +553,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T170000
 DTEND;TZID=America/Chicago:20250909T172500
 DTSTAMP:20250909T170000Z
-UID:17-00-t0-django-as-a-database-documentation-tool-the-hidden-power-of-model-comments@https://2025.djangocon.us
+UID:django-as-a-database-documentation-tool-the-hidden-power-of-model-comments@https://2025.djangocon.us
 SUMMARY:Django as a Database Documentation Tool: The Hidden Power of Model Comments
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Ryan Cheley\n\nDocumentation is often the neglected aspect of database design, leading to confusion, mistakes, and lost institutional knowledge. With Django 4.2's comment features, your models can now serve as both code and documentation, synchronizing automatically with your database.
@@ -575,7 +575,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250909T170000
 DTEND;TZID=America/Chicago:20250909T172500
 DTSTAMP:20250909T170000Z
-UID:17-00-t1-python-for-planet-earth-climate-modeling-and-sustainability-in-action@https://2025.djangocon.us
+UID:python-for-planet-earth-climate-modeling-and-sustainability-in-action@https://2025.djangocon.us
 SUMMARY:Python for Planet Earth: Climate Modeling and Sustainability in Action
 LOCATION:Wolf Point Ballroom
 DESCRIPTION:Presenter: Drishti Jain\n\nIn this talk, I'll delve into how Python is revolutionizing climate modeling and sustainability efforts. As the planet faces unprecedented environmental challenges, the need for precise data analysis and actionable insights has never been greater. Python, with its powerful libraries and tools, is at the forefront of this scientific revolution.
@@ -589,7 +589,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T090000
 DTEND;TZID=America/Chicago:20250910T091500
 DTSTAMP:20250910T090000Z
-UID:09-00-t0-opening-remarks-wednesday@https://2025.djangocon.us
+UID:opening-remarks-wednesday@https://2025.djangocon.us
 SUMMARY:Opening Remarks (Wednesday)
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Abigail Afi Gbadago\n\n
@@ -600,7 +600,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T091500
 DTEND;TZID=America/Chicago:20250910T100000
 DTSTAMP:20250910T091500Z
-UID:09-15-t0-keynote-to-be-announced-wednesday@https://2025.djangocon.us
+UID:keynote-to-be-announced-wednesday@https://2025.djangocon.us
 SUMMARY:Keynote: Django Reimagined For The Age of AI
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Marlene Mhangami\n\n22 years ago Django, was created in a newsroom by two programmers, Simon Willison and Adrian Holovaty. Since then, it's been downloaded millions of times and has one of the most active open source communities in Python. At the same time, the software industry has changed a lot because of AI, leaving many of us feeling unsure about the future of web development. In this talk we'll look at some of the key ideas that made Django successful in its early days, and how we can apply them today to reimagine how we create web applications with AI.
@@ -613,7 +613,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T100000
 DTEND;TZID=America/Chicago:20250910T101500
 DTSTAMP:20250910T100000Z
-UID:10-00-t0-community-update-django-software-foundation@https://2025.djangocon.us
+UID:community-update-django-software-foundation@https://2025.djangocon.us
 SUMMARY:Community Update: Django Software Foundation
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Thibaud Colas\n\nDSF President Thibaud Colas will give an update on the DSF's activities in the Django community, how you can help, what other conferences you should have on your radar, the upcoming board elections, and what the foundation is looking forward to in 2026.
@@ -625,7 +625,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T105000
 DTEND;TZID=America/Chicago:20250910T113500
 DTSTAMP:20250910T105000Z
-UID:10-50-t0-high-performance-django-at-ten-old-tricks-new-picks@https://2025.djangocon.us
+UID:high-performance-django-at-ten-old-tricks-new-picks@https://2025.djangocon.us
 SUMMARY:High Performance Django at Ten: Old Tricks & New Picks
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Peter Baumgartner\n\nIt’s been over a decade since I co-authored High Performance Django. The book helped thousands of developers understand how to build faster, more scalable Django applications.
@@ -648,7 +648,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T114000
 DTEND;TZID=America/Chicago:20250910T120500
 DTSTAMP:20250910T114000Z
-UID:11-40-t0-a-i-modest-proposal@https://2025.djangocon.us
+UID:a-i-modest-proposal@https://2025.djangocon.us
 SUMMARY:A(i) Modest Proposal
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Mario Munoz\n\nIn 1729, Jonathan Swift presented an elegant and well thought-out solution to the problem of homelessness and poverty plaguing Ireland. He argued that his solution would result in a much more productive and fulfilling society. While not many could digest the meat of his proposal, it was still effective in exposing a widening gap of social inequality and abuse.
@@ -662,7 +662,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T121000
 DTEND;TZID=America/Chicago:20250910T130000
 DTSTAMP:20250910T121000Z
-UID:12-10-t0-lightning-talks-wednesday@https://2025.djangocon.us
+UID:lightning-talks-wednesday@https://2025.djangocon.us
 SUMMARY:Lightning Talks (Wednesday)
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Andrew Mshar\n\nThe sign-up form to give a  Lightning Talk is here:
@@ -675,7 +675,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T135500
 DTEND;TZID=America/Chicago:20250910T145000
 DTSTAMP:20250910T135500Z
-UID:13-55-t0-panel-discussion-details@https://2025.djangocon.us
+UID:panel-discussion-details@https://2025.djangocon.us
 SUMMARY:Panel Discussion: Two Decades of Django: The Past, Present and Future
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Velda Kiara\n\nThis special anniversary panel will reflect on Django's evolution, from its early days to its global adoption and look into what's needed to sustain and grow the Django ecosystem into the future.
@@ -702,7 +702,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T145500
 DTEND;TZID=America/Chicago:20250910T154000
 DTSTAMP:20250910T145500Z
-UID:14-55-t0-free-threaded-django@https://2025.djangocon.us
+UID:free-threaded-django@https://2025.djangocon.us
 SUMMARY:Free Threaded Django
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Micah Lyle\n\nThis talk will likely have three or four major sections. Some of this is subject to change when we get out to ~1 to ~2 months from the conference given changes/breakthroughs in the Python free threading world, and any additional changes that are projected to happen in Python 3.14. That being said, here is the current outline:
@@ -716,7 +716,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T162000
 DTEND;TZID=America/Chicago:20250910T164500
 DTSTAMP:20250910T162000Z
-UID:16-20-t0-automating-initial-deployments-with-django-simple-deploy@https://2025.djangocon.us
+UID:automating-initial-deployments-with-django-simple-deploy@https://2025.djangocon.us
 SUMMARY:Automating initial deployments with django-simple-deploy
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Eric Matthes\n\nDeployment has been a sticking point for many Django developers as long as the framework has existed. With the 1.0 release of django-simple-deploy, that should no longer be the case. This release signifies a stable API, and most importantly a stable platform for building plugins.
@@ -735,7 +735,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T165000
 DTEND;TZID=America/Chicago:20250910T173500
 DTSTAMP:20250910T165000Z
-UID:17-00-t0-what-a-decade@https://2025.djangocon.us
+UID:what-a-decade@https://2025.djangocon.us
 SUMMARY:What a Decade!
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Timothy Allen\n\nContent Warning: This talk will dive into addiction and loss of friends due to addiction in the third section.
@@ -749,7 +749,7 @@ BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20250910T174000
 DTEND;TZID=America/Chicago:20250910T180000
 DTSTAMP:20250910T174000Z
-UID:17-45-t0-closing-remarks@https://2025.djangocon.us
+UID:closing-remarks@https://2025.djangocon.us
 SUMMARY:Closing Remarks
 LOCATION:Sauganash Ballroom
 DESCRIPTION:Presenter: Keanya Phelps\n\n
