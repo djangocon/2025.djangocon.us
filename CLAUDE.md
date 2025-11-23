@@ -122,7 +122,7 @@ The `{% block nav %}{% endblock %}` in `index.html` prevents duplicate nav displ
 
 **Talks/Tutorials**:
 1. Create markdown in `src/_content/schedule/talks/` or `tutorials/`
-2. Filename format: `YYYY-MM-DD-HH-MM-tX-slug.md` (where `tX` = track)
+2. Filename format: `slug.md` (e.g., `why-governance-in-open-source-is-important.md`)
 3. Required frontmatter: `title`, `start_datetime`, `end_datetime`, `room`, `track`, `presenter_slugs`, `category`, `difficulty`
 4. Set `hidden: true` to exclude from public display
 
