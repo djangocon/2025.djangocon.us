@@ -45,7 +45,6 @@
 </head>
 
 <body class="view-post">
-  <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-light-blue">Skip to main content</a>
   
     
 
@@ -53,25 +52,20 @@
 
 
 
-<header id="SiteHeader" class="lg:top-0 site-header is-closed lg:is-open">
+<header id="SiteHeader" class="absolute top-0 z-40 w-full py-4 lg:py-6">
   <div class="wrapper">
     <nav class="flex flex-wrap" role="navigation">
       <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
-        <a href="/" aria-label="Go to homepage">
+        <a href="/" aria-label="Go to homepage" class="fill-white">
           <img
-            src="/assets/img/theme/logo.svg"
+            src="/assets/img/theme/logo-recap.svg"
             alt="DjangoCon US"
             class="h-16 h-11 xl:h-24">
         </a>
-        <button id="NavToggler" class="site-nav-toggler is-closed">
-          <span aria-hidden="true" class="hidden xs:block">Menu</span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 icon-menu" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
+        <button id="NavToggler" class="p-2 bg-white lg:hidden">
           
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 icon-close" aria-hidden="true">
-            <path d="M6 6L17.6673 17.6673" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M6 18L17.6673 6.33274" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
           
           <span class="sr-only">Toggle navigation</span>

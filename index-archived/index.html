@@ -43,7 +43,6 @@
 </head>
 
 <body>
-  <a href="#SiteMain" class="absolute w-full rounded-none -top-96 -left-96 focus:top-0 focus:left-0 -z-10 focus:z-50 button bg-light-blue">Skip to main content</a>
   
     
 
@@ -51,25 +50,20 @@
 
 
 
-<header id="SiteHeader" class="lg:top-0 site-header is-closed lg:is-open">
+<header id="SiteHeader" class="absolute top-0 z-40 w-full py-4 lg:py-6">
   <div class="wrapper">
     <nav class="flex flex-wrap" role="navigation">
       <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
-        <a href="/" aria-label="Go to homepage">
+        <a href="/" aria-label="Go to homepage" class="fill-white">
           <img
-            src="/assets/img/theme/logo.svg"
+            src="/assets/img/theme/logo-recap.svg"
             alt="DjangoCon US"
             class="h-16 h-11 xl:h-24">
         </a>
-        <button id="NavToggler" class="site-nav-toggler is-closed">
-          <span aria-hidden="true" class="hidden xs:block">Menu</span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 icon-menu" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
+        <button id="NavToggler" class="p-2 bg-white lg:hidden">
           
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 icon-close" aria-hidden="true">
-            <path d="M6 6L17.6673 17.6673" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M6 18L17.6673 6.33274" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
           
           <span class="sr-only">Toggle navigation</span>
@@ -137,151 +131,4431 @@
 
   
 
-  <div class="pt-0 lg:pt-8 block-container">
-  <div class="wrapper">
-    <div class="grid-cols-2 gap-8 text-center lg:grid lg:text-left align-center">
-      <section class="my-6">
-        <h2 class="mb-4 text-3xl font-bold text-center lg:text-left lg:leading-relaxed font-heading lg:text-4xl">For Djangonauts of all levels</h2>
-        <p class="mb-6 text-xl lg:text-2xl">
-          DjangoCon US has something for everyone, from the person who develops Django applications for a living to the person who just tinkers in their spare time.
-        </p>
-        <a class="w-full text-xl button sm:w-auto" href="/about">About DjangoCon US</a>
-      </section>
+  <img
+  src="/assets/img/2025/bg-2025-recap-tall.jpg"
+  alt="A collage of Chicago centric stickers and photos."
+  class="w-full md:-mt-[20%]"
+/>
 
-      <ul class="items-center self-end gap-6 py-4 text-left lg:gap-0 md:flex lg:flex-col lg:items-start">
-        <li>
-          <div class="flex flex-wrap items-center gap-4 py-4">
-  <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-lg uppercase font-bold text-center text-white bg-pink rounded-t-md">Sep</span>
-    <span class="px-3 py-2 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">8-10</span>
-  </time>
-  <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Talks: Dozens of talks chosen by the community</h3>
-</div>
+<div class="pt-8 pb-0">
+  <div class="flex flex-col items-center gap-8 pt-4">
+    <section class="self-center text-center">
+      <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+        2025 DjangoCon US Recap
+      </h1>
 
-        </li>
-        <li>
-          <div class="flex flex-wrap items-center gap-4 py-4">
-  <time class="flex flex-col min-w-28">
-    <span class="px-3 py-1 text-lg uppercase font-bold text-center text-white bg-pink rounded-t-md">Sep</span>
-    <span class="px-3 py-2 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">11-12</span>
-  </time>
-  <h3 class="flex-1 text-xl font-semibold lg:text-2xl">Sprints: Team up to work on Django!</h3>
-</div>
+      <p class="text-2xl lg:text-3xl">
+        <strong>September 8-12, 2025</strong>
+      </p>
+    </section>
 
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="bg-white block-container wrapper">
-  <div class="space-y-8">
-    <h3 class="mb-4 text-xl font-bold tracking-wide text-center uppercase md:text-2xl font-heading">Learn more about Our Values</h3>
-
-    <div class="grid gap-8 lg:grid-cols-2">
-      <section class="value-card">
-  <img class="value-card-bg" src="/assets/img/2025/54088239977_6e8fb060a5_c.jpg" role="presentation" />
-
-  
-    <h3>Code of Conduct</h3>
-  
-  
-  
-    <p>Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <a href='/conduct/'>Code of Conduct</a>.</p>
-  
-</section>
-      <section class="value-card">
-  <img class="value-card-bg" src="/assets/img/2025/53300199096_3d72d83ebd_c.jpg" role="presentation" />
-
-  
-    <h3>Accessibility</h3>
-  
-  
-  
-    <p>We offer a range of accommodations, including live captioning, thoughtful lunch options, and a dedicated accessibility team to ensure everyone can fully participate.</p>
-  
-</section>
+    <div class="flex flex-col gap-4 my-2 md:flex-row">
+      <a href="https://www.youtube.com/playlist?list=PL2NFhrDSOxgUSZVGkmbMhUpaaZ1ORfpCl" class="button button-lg bg-yellow">
+        Watch Talks on YouTube
+      </a>
+      <a href="https://www.flickr.com/photos/djangocon/albums/72177720328945576" class="button button-lg bg-yellow">
+        Conference Photos
+      </a>
     </div>
   </div>
 </div>
 
 <div class="block-container">
   <div class="wrapper">
-    <section class="items-center justify-between grid-cols-4 gap-8 py-4 sm:grid">
-      <img src="/assets/img/theme/blog.svg" alt="An official document with words written on it." class="hidden w-full sm:block"/>
+    <div class="max-w-3xl gap-4 mx-auto :grid-cols-1">
+      <h2 class="mb-8 subheading">
+        DjangoCon US 2025 was hosted in Chicago and
+        brought together over 300 attendees from all over the world!
+      </h2>
 
-      <div class="col-span-3">
-        <h2 class="mb-4 text-3xl font-bold text-center md:text-left font-heading lg:text-4xl">Featured News</h2>
+      <section class="prose prose-lg">
+        Wow, what a ride! With three full days of Django talks,
+        and two days of sprints, over 400 of us came together both online and
+        in-person to learn, share and grow. DjangoCon US continues to be a
+        hallmark event for the Django community, and strives to bring together
+        the people behind the projects we all know and love. We had a great time
+        learning from each other, sharing our experiences, and making new
+        friends. We thank our fantastic sponsors, speakers, volunteers, and
+        attendees for making this event possible.
+      </section>
+    </div>
+  </div>
+</div>
 
-        <ol class="flex flex-col items-center col-span-2 md:items-start" reversed>
-              <li>
-                <article class="gap-8 py-4">
-                  <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="Sun Nov 23 2025 18:18:15 GMT+0000 (Coordinated Universal Time)">
-                    September 4, 2025
-                  </time>
-                  <h3 class="text-xl font-semibold font-heading">
-                    <a href="/news/travel-to-chicago/" class="">Sign up for Travel Safety Checks &amp; The Latest on Chicago</a>
-                  </h3>
-                </article>
-              </li>
-              <li>
-                <article class="gap-8 py-4">
-                  <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="Sun Nov 23 2025 18:18:15 GMT+0000 (Coordinated Universal Time)">
-                    July 8, 2025
-                  </time>
-                  <h3 class="text-xl font-semibold font-heading">
-                    <a href="/news/djus-hackathon-essentials/" class="">Attention All Hackers! - 5 DjangoCon US Hackathon Essentials</a>
-                  </h3>
-                </article>
-              </li>
-              <li>
-                <article class="gap-8 py-4">
-                  <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="Sun Nov 23 2025 18:18:15 GMT+0000 (Coordinated Universal Time)">
-                    June 29, 2025
-                  </time>
-                  <h3 class="text-xl font-semibold font-heading">
-                    <a href="/news/guide-to-america/" class="">A First-Timer&#39;s Guide to Navigating America</a>
-                  </h3>
-                </article>
-              </li>
-              <li>
-                <article class="gap-8 py-4">
-                  <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="Sun Nov 23 2025 18:18:15 GMT+0000 (Coordinated Universal Time)">
-                    June 27, 2025
-                  </time>
-                  <h3 class="text-xl font-semibold font-heading">
-                    <a href="/news/first-time-things-to-bring/" class="">It’s my first DjangoCon US. What should I bring?</a>
-                  </h3>
-                </article>
-              </li>
-              <li>
-                <article class="gap-8 py-4">
-                  <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="Sun Nov 23 2025 18:18:15 GMT+0000 (Coordinated Universal Time)">
-                    June 19, 2025
-                  </time>
-                  <h3 class="text-xl font-semibold font-heading">
-                    <a href="/news/international-travel/" class="">International Travel to DjangoCon US 2025</a>
-                  </h3>
-                </article>
-              </li>
-              <li>
-                <article class="gap-8 py-4">
-                  <time class="mb-2 tracking-wide text-gray-600 uppercase" datetime="Sun Nov 23 2025 18:18:15 GMT+0000 (Coordinated Universal Time)">
-                    April 30, 2025
-                  </time>
-                  <h3 class="text-xl font-semibold font-heading">
-                    <a href="/news/proposal-selection/" class="">How DjangoCon US Selects Talk Proposals</a>
-                  </h3>
-                </article>
-              </li></ol>
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <section class="mb-8 text-center">
+      <h2 class="mb-4 text-2xl font-bold font-heading lg:text-5xl">
+        Awesome Talks and Tutorials
+      </h2>
+      <p class="mb-6 text-lg lg:text-xl">
+        Speakers shared over 50 talks & tutorials this year. Here are some crowd
+        favorites!
+      </p>
+    </section>
+
+    <ul class="grid gap-8 lg:grid-cols-3 auto-rows-fr"><li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-4 border-t-green">
+    <header class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        
+
+        
       </div>
+
+      <h4 class="order-2 font-semibold leading-tight lg:text-lg">
+        
+          
+        
+      </h4>
+    </header>
+
+    
+  </section>
+</li>
+<li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-4 border-t-light-blue">
+    <header class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        
+
+        
+      </div>
+
+      <h4 class="order-2 font-semibold leading-tight lg:text-lg">
+        
+          
+        
+      </h4>
+    </header>
+
+    
+  </section>
+</li>
+<li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-4 border-t-purple">
+    <header class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        
+
+        
+      </div>
+
+      <h4 class="order-2 font-semibold leading-tight lg:text-lg">
+        
+          
+        
+      </h4>
+    </header>
+
+    
+  </section>
+</li>
+<li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-4 border-t-orange">
+    <header class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        
+
+        
+      </div>
+
+      <h4 class="order-2 font-semibold leading-tight lg:text-lg">
+        
+          
+        
+      </h4>
+    </header>
+
+    
+  </section>
+</li>
+<li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-4 border-t-blue">
+    <header class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        
+
+        
+      </div>
+
+      <h4 class="order-2 font-semibold leading-tight lg:text-lg">
+        
+          
+        
+      </h4>
+    </header>
+
+    
+  </section>
+</li>
+<li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-4 border-t-yellow">
+    <header class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        
+
+        
+      </div>
+
+      <h4 class="order-2 font-semibold leading-tight lg:text-lg">
+        
+          
+        
+      </h4>
+    </header>
+
+    
+  </section>
+</li>
+
+    </ul>
+
+    <section class="my-8 text-center">
+      <a href="https://www.youtube.com/playlist?list=PL2NFhrDSOxgUSZVGkmbMhUpaaZ1ORfpCl" class="button bg-yellow">Watch Talks on YouTube</a>
+      <a href="/schedule" class="button bg-yellow">See list of all talks</a>
     </section>
   </div>
 </div>
 
+<!-- Presenters -->
 <div class="block-container">
-  <div class="text-center wrapper">
-    <h2 class="mb-10 text-3xl font-bold font-heading lg:text-4xl">Our Sponsors</h2>
+  <div class="wrapper">
+    <h2 class="mb-8 text-3xl font-bold font-heading lg:text-5xl">
+      Our Presenters are Amazing
+    </h2>
+    <ul class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 lg:gap-16"><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Aayush Gauba" loading="lazy" decoding="async" src="/presenters/aayush-gauba-180.webp" width="600" height="600" srcset="/presenters/aayush-gauba-180.webp 180w, /presenters/aayush-gauba-300.webp 300w, /presenters/aayush-gauba-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Aayush Gauba</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/aayushgauba"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://gauba.org/aayush/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Abigail Afi Gbadago" loading="lazy" decoding="async" src="/presenters/abigail-afi-gbadago-180.webp" width="600" height="800" srcset="/presenters/abigail-afi-gbadago-180.webp 180w, /presenters/abigail-afi-gbadago-300.webp 300w, /presenters/abigail-afi-gbadago-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Abigail Afi Gbadago</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/AfiMaameDufie"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/afi_maame"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Alex Henman" loading="lazy" decoding="async" src="/presenters/alex-henman-180.webp" width="483" height="520" srcset="/presenters/alex-henman-180.webp 180w, /presenters/alex-henman-300.webp 300w, /presenters/alex-henman-483.webp 483w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Alex Henman</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Andrew Mshar" loading="lazy" decoding="async" src="/presenters/andrew-mshar-180.webp" width="600" height="599" srcset="/presenters/andrew-mshar-180.webp 180w, /presenters/andrew-mshar-300.webp 300w, /presenters/andrew-mshar-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Andrew Mshar</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/programmylife"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@programmylife"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/programmylife"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://programmingmylife.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Calvin Hendryx-Parker" loading="lazy" decoding="async" src="/presenters/calvin-hendryx-parker-180.webp" width="512" height="512" srcset="/presenters/calvin-hendryx-parker-180.webp 180w, /presenters/calvin-hendryx-parker-300.webp 300w, /presenters/calvin-hendryx-parker-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Calvin Hendryx-Parker</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+    <li>
+      <a
+        href="https://bsky.app/profile/calvinhp.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-bluesky"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>Bluesky</title>
+          <use xlink:href="#bluesky-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@calvinhp"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/calvinhp"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://sixfeetup.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Carson Gross" loading="lazy" decoding="async" src="/presenters/carson-gross-180.webp" width="500" height="625" srcset="/presenters/carson-gross-180.webp 180w, /presenters/carson-gross-300.webp 300w, /presenters/carson-gross-500.webp 500w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Carson Gross</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/htmx_org"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://bigsky.software/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Chris Muthig" loading="lazy" decoding="async" src="/presenters/chris-muthig-180.webp" width="600" height="600" srcset="/presenters/chris-muthig-180.webp 180w, /presenters/chris-muthig-300.webp 300w, /presenters/chris-muthig-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Chris Muthig</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/camuthig"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Colleen Dunlap" loading="lazy" decoding="async" src="/presenters/colleen-dunlap-180.webp" width="273" height="273" srcset="/presenters/colleen-dunlap-180.webp 180w, /presenters/colleen-dunlap-273.webp 273w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Colleen Dunlap</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://medium.com/@colleen85052"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Dawn Wages" loading="lazy" decoding="async" src="/presenters/dawn-wages-180.webp" width="600" height="600" srcset="/presenters/dawn-wages-180.webp 180w, /presenters/dawn-wages-300.webp 300w, /presenters/dawn-wages-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Dawn Wages</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.online/@bajoranengineer"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Drishti Jain" loading="lazy" decoding="async" src="/presenters/drishti-jain-180.webp" width="600" height="603" srcset="/presenters/drishti-jain-180.webp 180w, /presenters/drishti-jain-300.webp 300w, /presenters/drishti-jain-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Drishti Jain</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+    <li>
+      <a
+        href="https://bsky.app/profile/drishtijjain.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-bluesky"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>Bluesky</title>
+          <use xlink:href="#bluesky-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://instagram.com/geekyearthian"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-instagram"
+        aria-label="Instagram">
+        <svg class="icon">
+          <title>Instagram</title>
+          <use xlink:href="#instagram-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@drishtijjain"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/drishtijjain"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Dwayne McDaniel" loading="lazy" decoding="async" src="/presenters/dwayne-mcdaniel-180.webp" width="600" height="600" srcset="/presenters/dwayne-mcdaniel-180.webp 180w, /presenters/dwayne-mcdaniel-300.webp 300w, /presenters/dwayne-mcdaniel-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Dwayne McDaniel</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+    <li>
+      <a
+        href="https://bsky.app/profile/mdwayne-real.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-bluesky"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>Bluesky</title>
+          <use xlink:href="#bluesky-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@mcdwayne@mastodon.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://blog.gitguardian.com/author/dwayne/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Efe Öge" loading="lazy" decoding="async" src="/presenters/efe-oge-180.webp" width="300" height="300" srcset="/presenters/efe-oge-180.webp 180w, /presenters/efe-oge-300.webp 300w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Efe Öge</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Elizabeth Garrett Christensen" loading="lazy" decoding="async" src="/presenters/elizabeth-garrett-christensen-180.webp" width="500" height="515" srcset="/presenters/elizabeth-garrett-christensen-180.webp 180w, /presenters/elizabeth-garrett-christensen-300.webp 300w, /presenters/elizabeth-garrett-christensen-500.webp 500w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Elizabeth Garrett Christensen</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Eric Matthes" loading="lazy" decoding="async" src="/presenters/eric-matthes-180.webp" width="512" height="512" srcset="/presenters/eric-matthes-180.webp 180w, /presenters/eric-matthes-300.webp 300w, /presenters/eric-matthes-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Eric Matthes</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@ehmatthes"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://www.mostlypython.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Henrietta Dombrovskaya" loading="lazy" decoding="async" src="/presenters/henrietta-dombrovskaya-180.webp" width="512" height="534" srcset="/presenters/henrietta-dombrovskaya-180.webp 180w, /presenters/henrietta-dombrovskaya-300.webp 300w, /presenters/henrietta-dombrovskaya-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Henrietta Dombrovskaya</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+    <li>
+      <a
+        href="https://bsky.app/profile/hettied.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-bluesky"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>Bluesky</title>
+          <use xlink:href="#bluesky-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://github.com/hettie-d"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://instagram.com/hettie-rogers_park"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-instagram"
+        aria-label="Instagram">
+        <svg class="icon">
+          <title>Instagram</title>
+          <use xlink:href="#instagram-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/HettieDombr"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://hdombrovskaya.wordpress.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Jack Linke" loading="lazy" decoding="async" src="/presenters/jack-linke-180.webp" width="400" height="400" srcset="/presenters/jack-linke-180.webp 180w, /presenters/jack-linke-300.webp 300w, /presenters/jack-linke-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Jack Linke</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://social.jacklinke.com/@jack"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://jacklinke.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        <img
+          src="/assets/img/theme/empty-avatar.svg"
+          alt="An outline of a person"
+          width="400"
+          height="400"
+          class="avatar media"
+          aria-hidden="true">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Jeffrey A. Clark</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Karen Tracey" loading="lazy" decoding="async" src="/presenters/karen-tracey-180.webp" width="512" height="512" srcset="/presenters/karen-tracey-180.webp 180w, /presenters/karen-tracey-300.webp 300w, /presenters/karen-tracey-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Karen Tracey</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@kmtracey"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Kattni" loading="lazy" decoding="async" src="/presenters/kattni-180.webp" width="600" height="600" srcset="/presenters/kattni-180.webp 180w, /presenters/kattni-300.webp 300w, /presenters/kattni-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Kattni</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://social.afront.org/@kattni"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://kattni.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Keanya Phelps" loading="lazy" decoding="async" src="/presenters/keanya-phelps-180.webp" width="600" height="600" srcset="/presenters/keanya-phelps-180.webp 180w, /presenters/keanya-phelps-300.webp 300w, /presenters/keanya-phelps-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Keanya Phelps</h2>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Kojo Idrissa" loading="lazy" decoding="async" src="/presenters/kojo-idrissa-180.webp" width="400" height="400" srcset="/presenters/kojo-idrissa-180.webp 180w, /presenters/kojo-idrissa-300.webp 300w, /presenters/kojo-idrissa-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Kojo Idrissa</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/kojoidrissa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@kojoidrissa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/KojoIdrissa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://kojoidrissa.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Kudzayi Bamhare" loading="lazy" decoding="async" src="/presenters/kudzayi-bamhare-180.webp" width="600" height="797" srcset="/presenters/kudzayi-bamhare-180.webp 180w, /presenters/kudzayi-bamhare-300.webp 300w, /presenters/kudzayi-bamhare-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Kudzayi Bamhare</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://www.kudzayibamhare.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Kumar Shivendu" loading="lazy" decoding="async" src="/presenters/kumar-shivendu-180.webp" width="400" height="400" srcset="/presenters/kumar-shivendu-180.webp 180w, /presenters/kumar-shivendu-300.webp 300w, /presenters/kumar-shivendu-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Kumar Shivendu</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://kshivendu.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        <img
+          src="/assets/img/theme/empty-avatar.svg"
+          alt="An outline of a person"
+          width="400"
+          height="400"
+          class="avatar media"
+          aria-hidden="true">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Lilian</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Lisa Dusseault" loading="lazy" decoding="async" src="/presenters/lisa-dusseault-180.webp" width="600" height="600" srcset="/presenters/lisa-dusseault-180.webp 180w, /presenters/lisa-dusseault-300.webp 300w, /presenters/lisa-dusseault-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Lisa Dusseault</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.geekery.org/@lisarue"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Manish Tekam" loading="lazy" decoding="async" src="/presenters/manish-tekam-180.webp" width="600" height="750" srcset="/presenters/manish-tekam-180.webp 180w, /presenters/manish-tekam-300.webp 300w, /presenters/manish-tekam-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Manish Tekam</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Mariatta" loading="lazy" decoding="async" src="/presenters/mariatta-180.webp" width="512" height="512" srcset="/presenters/mariatta-180.webp 180w, /presenters/mariatta-300.webp 300w, /presenters/mariatta-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Mariatta</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@mariatta"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mariatta.ca"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Mario Munoz" loading="lazy" decoding="async" src="/presenters/mario-munoz-180.webp" width="400" height="400" srcset="/presenters/mario-munoz-180.webp 180w, /presenters/mario-munoz-300.webp 300w, /presenters/mario-munoz-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Mario Munoz</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@pythonbynight"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://pythonbynight.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Mark Dawson" loading="lazy" decoding="async" src="/presenters/mark-dawson-180.webp" width="600" height="600" srcset="/presenters/mark-dawson-180.webp 180w, /presenters/mark-dawson-300.webp 300w, /presenters/mark-dawson-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Mark Dawson</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://hyrex.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Marlene Mhangami" loading="lazy" decoding="async" src="/presenters/marlene-180.webp" width="600" height="557" srcset="/presenters/marlene-180.webp 180w, /presenters/marlene-300.webp 300w, /presenters/marlene-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Marlene Mhangami</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/marlene_zw"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Micah Lyle" loading="lazy" decoding="async" src="/presenters/micah-lyle-180.webp" width="400" height="400" srcset="/presenters/micah-lyle-180.webp 180w, /presenters/micah-lyle-300.webp 300w, /presenters/micah-lyle-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Micah Lyle</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://www.elyon.tech"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Michael Riley" loading="lazy" decoding="async" src="/presenters/michael-riley-180.webp" width="180" height="239">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Michael Riley</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://michaelriley.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Michael Trythall" loading="lazy" decoding="async" src="/presenters/michael-trythall-180.webp" width="600" height="600" srcset="/presenters/michael-trythall-180.webp 180w, /presenters/michael-trythall-300.webp 300w, /presenters/michael-trythall-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Michael Trythall</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://lincolnloop.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Mike Hoolehan" loading="lazy" decoding="async" src="/presenters/mike-hoolehan-180.webp" width="600" height="600" srcset="/presenters/mike-hoolehan-180.webp 180w, /presenters/mike-hoolehan-300.webp 300w, /presenters/mike-hoolehan-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Mike Hoolehan</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Ngazetungue Muheue" loading="lazy" decoding="async" src="/presenters/ngazetungue-muheue-180.webp" width="400" height="400" srcset="/presenters/ngazetungue-muheue-180.webp 180w, /presenters/ngazetungue-muheue-300.webp 300w, /presenters/ngazetungue-muheue-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Ngazetungue Muheue</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://hachyderm.io/@muheuenga"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Paolo Melchiorre" loading="lazy" decoding="async" src="/presenters/paolo-melchiorre-180.webp" width="600" height="600" srcset="/presenters/paolo-melchiorre-180.webp 180w, /presenters/paolo-melchiorre-300.webp 300w, /presenters/paolo-melchiorre-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Paolo Melchiorre</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+    <li>
+      <a
+        href="https://bsky.app/profile/paulox.net"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-bluesky"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>Bluesky</title>
+          <use xlink:href="#bluesky-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://github.com/pauloxnet"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://instagram.com/paulox_net"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-instagram"
+        aria-label="Instagram">
+        <svg class="icon">
+          <title>Instagram</title>
+          <use xlink:href="#instagram-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@paulox"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/pauloxnet"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://www.paulox.net"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Peter Baumgartner" loading="lazy" decoding="async" src="/presenters/peter-baumgartner-180.webp" width="512" height="512" srcset="/presenters/peter-baumgartner-180.webp 180w, /presenters/peter-baumgartner-300.webp 300w, /presenters/peter-baumgartner-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Peter Baumgartner</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://lincolnloop.com/about/peter-baumgartner/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Peter Grandstaff" loading="lazy" decoding="async" src="/presenters/peter-grandstaff-180.webp" width="400" height="400" srcset="/presenters/peter-grandstaff-180.webp 180w, /presenters/peter-grandstaff-300.webp 300w, /presenters/peter-grandstaff-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Peter Grandstaff</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/petergrand"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/pgrandstaff"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://tworock.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Rachell Calhoun" loading="lazy" decoding="async" src="/presenters/rachell-calhoun-180.webp" width="600" height="450" srcset="/presenters/rachell-calhoun-180.webp 180w, /presenters/rachell-calhoun-300.webp 300w, /presenters/rachell-calhoun-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Rachell Calhoun</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@Rachell"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://www.rachellcalhoun.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Ryan Cheley" loading="lazy" decoding="async" src="/presenters/ryan-cheley-180.webp" width="600" height="600" srcset="/presenters/ryan-cheley-180.webp 180w, /presenters/ryan-cheley-300.webp 300w, /presenters/ryan-cheley-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Ryan Cheley</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodogn.social/@ryancheley"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://ryancheley.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Thibaud Colas" loading="lazy" decoding="async" src="/presenters/thibaud-colas-180.webp" width="512" height="512" srcset="/presenters/thibaud-colas-180.webp 180w, /presenters/thibaud-colas-300.webp 300w, /presenters/thibaud-colas-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Thibaud Colas</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+    <li>
+      <a
+        href="https://bsky.app/profile/thibaudcolas.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-bluesky"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>Bluesky</title>
+          <use xlink:href="#bluesky-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://github.com/thibaudcolas"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://instagram.com/thibaudcolas"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-instagram"
+        aria-label="Instagram">
+        <svg class="icon">
+          <title>Instagram</title>
+          <use xlink:href="#instagram-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@thibaudcolas"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/thibaud_colas"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://thib.me/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Tim Schilling" loading="lazy" decoding="async" src="/presenters/tim-schilling-180.webp" width="600" height="600" srcset="/presenters/tim-schilling-180.webp 180w, /presenters/tim-schilling-300.webp 300w, /presenters/tim-schilling-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Tim Schilling</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@CodenameTim"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://www.better-simple.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Timothy Allen" loading="lazy" decoding="async" src="/presenters/timothy-allen-180.webp" width="600" height="600" srcset="/presenters/timothy-allen-180.webp 180w, /presenters/timothy-allen-300.webp 300w, /presenters/timothy-allen-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Timothy Allen</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@FlipperPA"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://PyPhilly.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Timothy Mccurrach" loading="lazy" decoding="async" src="/presenters/timothy-mccurrach-180.webp" width="600" height="600" srcset="/presenters/timothy-mccurrach-180.webp 180w, /presenters/timothy-mccurrach-300.webp 300w, /presenters/timothy-mccurrach-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Timothy Mccurrach</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Velda Kiara" loading="lazy" decoding="async" src="/presenters/velda-kiara-180.webp" width="600" height="438" srcset="/presenters/velda-kiara-180.webp 180w, /presenters/velda-kiara-300.webp 300w, /presenters/velda-kiara-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Velda Kiara</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/VeldaKiara"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@veldakiara"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/VeldaKiara"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://veldakiara.notion.site/veldakiara/Velda-Kiara-46aec24028fd4e8dbdba003097c18b5b"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Will Vincent" loading="lazy" decoding="async" src="/presenters/will-vincent-180.webp" width="600" height="600" srcset="/presenters/will-vincent-180.webp 180w, /presenters/will-vincent-300.webp 300w, /presenters/will-vincent-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Will Vincent</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@wsvincent"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://learndjango.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Zags (Benjamin Zagorsky)" loading="lazy" decoding="async" src="/presenters/zags-180.webp" width="300" height="321" srcset="/presenters/zags-180.webp 180w, /presenters/zags-300.webp 300w" sizes="(max-width: 1024px) 180px, 180px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Zags (Benjamin Zagorsky)</h2>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://zagaran.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li></ul>
+
+  </div>
+</div>
+
+<!-- Photos -->
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid lg:grid-cols-3 auto-rows-fr">
+      <section class="flex flex-col justify-center pr-8">
+        <h2 class="mb-4 font-bold md:text-2xl font-heading lg:text-3xl">
+          Picture Perfect
+        </h2>
+        <p class="mb-0 md:text-lg xl:text-xl">
+          We captured so many Kodak moments over the week! Thanks to
+          <a
+            href="http://bartpawlik.com/"
+            rel="noreferrer noopener"
+            target="_blank"
+            class="link"
+          >
+            Bartek Pawlik<span class="sr-only"> (opens in new tab)</span>
+          </a>
+          for being our official conference photographer and saving these
+          memories for us.
+        </p>
+      </section>
+    </div>
+
+    <div class="mt-8 text-center">
+      <a href="https://www.flickr.com/photos/djangocon/albums/72177720328945576" target="_blank" class="button button-lg">View Flickr album</a>
+    </div>
+  </div>
+</div>
+
+<!-- Organizers -->
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">
+      DjangoCon US 2025 was possible through lots of <span aria-hidden="true">❤️</span
+      ><span class="sr-only">love</span>
+    </h2>
+    <p class="mb-6 text-xl lg:text-2xl">
+      Our organizers put hundreds of hours of heart and soul into this
+      conference. We couldn't do it without each and every one of you!
+    </p>
+    <ul class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 lg:gap-16"><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Abigail Afi Gbadago" loading="lazy" decoding="async" src="/organizers/abigail-afi-gbadago-180.webp" width="600" height="800" srcset="/organizers/abigail-afi-gbadago-180.webp 180w, /organizers/abigail-afi-gbadago-300.webp 300w, /organizers/abigail-afi-gbadago-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Abigail Afi Gbadago</h2>
+        <p class="mb-4 text-sm text-gray-600">Program Committee, Website Committee</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/AfiMaameDufie"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/afi_maame"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Adam Fast" loading="lazy" decoding="async" src="/organizers/adam-fast-180.webp" width="400" height="400" srcset="/organizers/adam-fast-180.webp 180w, /organizers/adam-fast-300.webp 300w, /organizers/adam-fast-400.webp 400w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Adam Fast</h2>
+        <p class="mb-4 text-sm text-gray-600">A/V Chair, Code of Conduct team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/adamfast"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/adamcanfly"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="http://www.adamfast.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Andrew Mshar" loading="lazy" decoding="async" src="/organizers/andrew-mshar-180.webp" width="600" height="599" srcset="/organizers/andrew-mshar-180.webp 180w, /organizers/andrew-mshar-300.webp 300w, /organizers/andrew-mshar-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Andrew Mshar</h2>
+        <p class="mb-4 text-sm text-gray-600">Lightning Talks Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/programmylife"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@programmylife"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/programmylife"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://programmingmylife.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Ariane Djeupang" loading="lazy" decoding="async" src="/organizers/ariane-djeupang-180.webp" width="600" height="403" srcset="/organizers/ariane-djeupang-180.webp 180w, /organizers/ariane-djeupang-300.webp 300w, /organizers/ariane-djeupang-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Ariane Djeupang</h2>
+        <p class="mb-4 text-sm text-gray-600">Programme, Communications, Social events,  Opportunity Grants</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/Arya-AD"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://indieweb.social/@arianedjeupang"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/ArianeDjeupang"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Benedict Kofi Amofah" loading="lazy" decoding="async" src="/organizers/Benedict-Kofi-Amofah-180.webp" width="600" height="600" srcset="/organizers/Benedict-Kofi-Amofah-180.webp 180w, /organizers/Benedict-Kofi-Amofah-300.webp 300w, /organizers/Benedict-Kofi-Amofah-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Benedict Kofi Amofah</h2>
+        <p class="mb-4 text-sm text-gray-600">Online Conference Chair, Communications Team, Opportunity Grants Team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/iamDREAMO"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@ben_dreamo"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/ben_dreamo"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Carol Ganz" loading="lazy" decoding="async" src="/organizers/carol-ganz-180.webp" width="600" height="600" srcset="/organizers/carol-ganz-180.webp 180w, /organizers/carol-ganz-300.webp 300w, /organizers/carol-ganz-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Carol Ganz</h2>
+        <p class="mb-4 text-sm text-gray-600">DEFNA Director, Opportunity Grants Chair, Code of Conduct team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/crlganz"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://www.sixfeetup.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Catherine Holmes" loading="lazy" decoding="async" src="/organizers/catherine-holmes-180.webp" width="400" height="400" srcset="/organizers/catherine-holmes-180.webp 180w, /organizers/catherine-holmes-300.webp 300w, /organizers/catherine-holmes-400.webp 400w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Catherine Holmes</h2>
+        <p class="mb-4 text-sm text-gray-600">Sponsors & Tickets Chair, Code of Conduct team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Doreen Peace Nangira Wanyama" loading="lazy" decoding="async" src="/organizers/Doreen-180.webp" width="600" height="800" srcset="/organizers/Doreen-180.webp 180w, /organizers/Doreen-300.webp 300w, /organizers/Doreen-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Doreen Peace Nangira Wanyama</h2>
+        <p class="mb-4 text-sm text-gray-600">Hackathon lead, Django Girls Organizer, Sprints, Code of Conduct</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/Doreen970"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/DoreenNangira"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Drew Winstel" loading="lazy" decoding="async" src="/organizers/drew-winstel-180.webp" width="600" height="600" srcset="/organizers/drew-winstel-180.webp 180w, /organizers/drew-winstel-300.webp 300w, /organizers/drew-winstel-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Drew Winstel</h2>
+        <p class="mb-4 text-sm text-gray-600">DEFNA Board, Program Committee, Opportunity Grants, Code of Conduct Team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+    <li>
+      <a
+        href="https://bsky.app/profile/hopsandsmoke.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-bluesky"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>Bluesky</title>
+          <use xlink:href="#bluesky-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://github.com/drewbrew"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.cloud/@drewbrew"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://winstel.dev/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Emmanuel Asuah Danful" loading="lazy" decoding="async" src="/organizers/emmanuel-asuah-danful-180.webp" width="600" height="800" srcset="/organizers/emmanuel-asuah-danful-180.webp 180w, /organizers/emmanuel-asuah-danful-300.webp 300w, /organizers/emmanuel-asuah-danful-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Emmanuel Asuah Danful</h2>
+        <p class="mb-4 text-sm text-gray-600">Planning, Hackathon</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/Ti88m"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.cloud/@asuah"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/asuahdanful"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href=""
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Emmanuel Owusu" loading="lazy" decoding="async" src="/organizers/emmanuel-owusu-180.webp" width="600" height="859" srcset="/organizers/emmanuel-owusu-180.webp 180w, /organizers/emmanuel-owusu-300.webp 300w, /organizers/emmanuel-owusu-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Emmanuel Owusu</h2>
+        <p class="mb-4 text-sm text-gray-600">Community Team, Opportunity Grants Team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/eowusu14"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href=""
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/owusu_e1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Erin Mullaney" loading="lazy" decoding="async" src="/organizers/erin-mullaney-180.webp" width="400" height="400" srcset="/organizers/erin-mullaney-180.webp 180w, /organizers/erin-mullaney-300.webp 300w, /organizers/erin-mullaney-400.webp 400w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Erin Mullaney</h2>
+        <p class="mb-4 text-sm text-gray-600">Program Co-Chair, Public Health Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/emullaney"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@erinrachel"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/_erin_rachel"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Hope Adoli" loading="lazy" decoding="async" src="/organizers/hope-adoli-180.webp" width="600" height="623" srcset="/organizers/hope-adoli-180.webp 180w, /organizers/hope-adoli-300.webp 300w, /organizers/hope-adoli-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Hope Adoli</h2>
+        <p class="mb-4 text-sm text-gray-600">Website, Social media/communications, Swags</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/hopeadoli"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/uxkafui"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://www.uxkafui.co/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Jason Judkins" loading="lazy" decoding="async" src="/organizers/jason-judkins-180.webp" width="600" height="765" srcset="/organizers/jason-judkins-180.webp 180w, /organizers/jason-judkins-300.webp 300w, /organizers/jason-judkins-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Jason Judkins</h2>
+        <p class="mb-4 text-sm text-gray-600">Marketing Chair, Community Chair, Social Events co-chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/jcjudkins"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@jjudkins"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/jjudkins77"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Jeff Triplett" loading="lazy" decoding="async" src="/organizers/jeff-triplett-180.webp" width="400" height="400" srcset="/organizers/jeff-triplett-180.webp 180w, /organizers/jeff-triplett-300.webp 300w, /organizers/jeff-triplett-400.webp 400w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Jeff Triplett</h2>
+        <p class="mb-4 text-sm text-gray-600">DEFNA Cofounder, Code of Conduct team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/jefftriplett"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@webology"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/webology"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://jefftriplett.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Julius Boakye" loading="lazy" decoding="async" src="/organizers/julius-boakye-180.webp" width="600" height="600" srcset="/organizers/julius-boakye-180.webp 180w, /organizers/julius-boakye-300.webp 300w, /organizers/julius-boakye-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Julius Boakye</h2>
+        <p class="mb-4 text-sm text-gray-600">Opportunity Grants co-chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/Darkbeast-glitch"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/deck/@JuliTech"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/KayTechie"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://boakye.pythonanywhere.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Katherine &quot;Kati&quot; Michel" loading="lazy" decoding="async" src="/organizers/kati-michel-180.webp" width="400" height="400" srcset="/organizers/kati-michel-180.webp 180w, /organizers/kati-michel-300.webp 300w, /organizers/kati-michel-400.webp 400w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Katherine "Kati" Michel</h2>
+        <p class="mb-4 text-sm text-gray-600">DEFNA Director</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/KatherineMichel"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@kati"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/KatiMichel"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="http://katherinemichel.github.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Keanya Phelps" loading="lazy" decoding="async" src="/organizers/keanya-phelps-180.webp" width="600" height="600" srcset="/organizers/keanya-phelps-180.webp 180w, /organizers/keanya-phelps-300.webp 300w, /organizers/keanya-phelps-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Keanya Phelps</h2>
+        <p class="mb-4 text-sm text-gray-600">Conference Chair</p>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Kojo Idrissa" loading="lazy" decoding="async" src="/organizers/kojo-idrissa-180.webp" width="400" height="400" srcset="/organizers/kojo-idrissa-180.webp 180w, /organizers/kojo-idrissa-300.webp 300w, /organizers/kojo-idrissa-400.webp 400w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Kojo Idrissa</h2>
+        <p class="mb-4 text-sm text-gray-600">Orientation Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/kojoidrissa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@kojoidrissa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/KojoIdrissa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://kojoidrissa.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Kudzayi Bamhare" loading="lazy" decoding="async" src="/organizers/Kudzayi-180.webp" width="600" height="601" srcset="/organizers/Kudzayi-180.webp 180w, /organizers/Kudzayi-300.webp 300w, /organizers/Kudzayi-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Kudzayi Bamhare</h2>
+        <p class="mb-4 text-sm text-gray-600">Program Committee, Sprints Committee</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/kudzmat"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/BamBamm_Boogie"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://medium.com/@kudzayibamhare"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Lidya K Tilahun" loading="lazy" decoding="async" src="/organizers/lidya-180.webp" width="600" height="352" srcset="/organizers/lidya-180.webp 180w, /organizers/lidya-300.webp 300w, /organizers/lidya-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Lidya K Tilahun</h2>
+        <p class="mb-4 text-sm text-gray-600">Program, Communications and Opportunity Grants committee</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/LideviK"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@HotMitmita"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/lidyaKef"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Monica Oyugi" loading="lazy" decoding="async" src="/organizers/monica-oyugi-180.webp" width="600" height="600" srcset="/organizers/monica-oyugi-180.webp 180w, /organizers/monica-oyugi-300.webp 300w, /organizers/monica-oyugi-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Monica Oyugi</h2>
+        <p class="mb-4 text-sm text-gray-600">Volunteer Co-Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/monicaoyugi"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/Monicoyugi"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Nathan Zeager" loading="lazy" decoding="async" src="/organizers/nathan-zeager-180.webp" width="600" height="600" srcset="/organizers/nathan-zeager-180.webp 180w, /organizers/nathan-zeager-300.webp 300w, /organizers/nathan-zeager-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Nathan Zeager</h2>
+        <p class="mb-4 text-sm text-gray-600">Community Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/nzeager"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Nicole Dominguez" loading="lazy" decoding="async" src="/organizers/nicole-180.webp" width="180" height="180">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Nicole Dominguez</h2>
+        <p class="mb-4 text-sm text-gray-600">Swag Chair, Sponsorship</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/sodevious"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Noah Alorwu" loading="lazy" decoding="async" src="/organizers/noah-alorwu-180.webp" width="600" height="562" srcset="/organizers/noah-alorwu-180.webp 180w, /organizers/noah-alorwu-300.webp 300w, /organizers/noah-alorwu-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Noah Alorwu</h2>
+        <p class="mb-4 text-sm text-gray-600">Onsite Coordinator, Visa Support</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/noahalorwu"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/plasmadray"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Peter Grandstaff" loading="lazy" decoding="async" src="/organizers/peter-grandstaff-180.webp" width="400" height="400" srcset="/organizers/peter-grandstaff-180.webp 180w, /organizers/peter-grandstaff-300.webp 300w, /organizers/peter-grandstaff-400.webp 400w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Peter Grandstaff</h2>
+        <p class="mb-4 text-sm text-gray-600">DEFNA President, Conference Chair, Venue Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/petergrand"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/pgrandstaff"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://tworock.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Rachell Calhoun" loading="lazy" decoding="async" src="/organizers/rachell-calhoun-180.webp" width="600" height="450" srcset="/organizers/rachell-calhoun-180.webp 180w, /organizers/rachell-calhoun-300.webp 300w, /organizers/rachell-calhoun-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Rachell Calhoun</h2>
+        <p class="mb-4 text-sm text-gray-600">Volunteer Chair, Sprints Co-chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/RachellCalhoun"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@Rachell"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/Rachell_Calhoun"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Richel Agyemang" loading="lazy" decoding="async" src="/organizers/Richel-Agyemang-180.webp" width="600" height="600" srcset="/organizers/Richel-Agyemang-180.webp 180w, /organizers/Richel-Agyemang-300.webp 300w, /organizers/Richel-Agyemang-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Richel Agyemang</h2>
+        <p class="mb-4 text-sm text-gray-600">Communications Team, Opportunity Grants Team, Website Team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/R1CH3LA"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/RichelAgyemang"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://linkedin.com/in/richel-agyemang-468379211"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Salim A Nuru" loading="lazy" decoding="async" src="/organizers/sal-180.webp" width="600" height="600" srcset="/organizers/sal-180.webp 180w, /organizers/sal-300.webp 300w, /organizers/sal-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Salim A Nuru</h2>
+        <p class="mb-4 text-sm text-gray-600">Website, Hackathon Organizer, Automation</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/theShinigami"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/iamsalimabdella"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://hackmd.io/@sal"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Sean Helvey" loading="lazy" decoding="async" src="/organizers/sean-helvey-180.webp" width="600" height="900" srcset="/organizers/sean-helvey-180.webp 180w, /organizers/sean-helvey-300.webp 300w, /organizers/sean-helvey-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Sean Helvey</h2>
+        <p class="mb-4 text-sm text-gray-600">Sprints Co-Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/seanhelvey"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/seanhelvey"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://seanhelvey.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Tim Allen" loading="lazy" decoding="async" src="/organizers/tim-allen-180.webp" width="600" height="600" srcset="/organizers/tim-allen-180.webp 180w, /organizers/tim-allen-300.webp 300w, /organizers/tim-allen-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Tim Allen</h2>
+        <p class="mb-4 text-sm text-gray-600">Social Chair</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/FlipperPA"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://fosstodon.org/@FlipperPA"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/FlipperPA"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://PyPhilly.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Velda Kiara" loading="lazy" decoding="async" src="/organizers/velda-kiara-180.webp" width="600" height="438" srcset="/organizers/velda-kiara-180.webp 180w, /organizers/velda-kiara-300.webp 300w, /organizers/velda-kiara-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Velda Kiara</h2>
+        <p class="mb-4 text-sm text-gray-600">Website and Programs</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/VeldaKiara"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+    <li>
+      <a
+        href="https://mastodon.social/@veldakiara"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-mastodon"
+        aria-label="Mastodon">
+        <svg class="icon">
+          <title>Mastodon</title>
+          <use xlink:href="#mastodon-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/VeldaKiara"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://veldakiara.notion.site/veldakiara/Velda-Kiara-46aec24028fd4e8dbdba003097c18b5b"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li><li class="flex flex-col">
+      
+        
+        <img class="avatar media" alt="Victor Ogunjobi" loading="lazy" decoding="async" src="/organizers/victor-ogunjobi-180.webp" width="600" height="600" srcset="/organizers/victor-ogunjobi-180.webp 180w, /organizers/victor-ogunjobi-300.webp 300w, /organizers/victor-ogunjobi-600.webp 600w" sizes="(min-width: 1024px) 300px, 600px">
+      
+
+      <div class="flex flex-col flex-1 px-2 mt-3">
+        <h2 class="mb-2 text-lg font-heading lg:text-xl">Victor Ogunjobi</h2>
+        <p class="mb-4 text-sm text-gray-600">Program Team, Communications Team</p>
+
+        
+          <ul class="flex flex-wrap gap-4 mt-auto">
+  
+  
+    <li>
+      <a
+        href="https://github.com/chemicoPy"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-github"
+        aria-label="GitHub">
+        <svg class="icon">
+          <title>GitHub</title>
+          <use xlink:href="#github-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+  
+  
+    <li>
+      <a
+        href="https://twitter.com/chemicopy_"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-social-twitter"
+        aria-label="X.com">
+        <svg class="icon">
+          <title>X (Formerly Twitter)</title>
+          <use xlink:href="#twitter-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+  
+    <li>
+      <a
+        href="https://linkedin.com/in/victor-ogunjobi-a761561a5"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-green"
+        aria-label="Website">
+        <svg class="icon">
+          <use xlink:href="#web-icon"></use>
+        </svg>
+      </a>
+    </li>
+  
+</ul>
+
+        
+      </div>
+    </li></ul>
+
+  </div>
+</div>
+
+<!-- Sponsors -->
+<div class="block-container">
+  <div class="wrapper">
+    <h2 class="mb-10 text-2xl font-bold text-center font-heading lg:text-5xl">
+      Our Sponsors
+    </h2>
 
     <div class="flex flex-col gap-24">
   
@@ -706,8 +4980,6 @@
   
 </div>
 
-
-    <a href="/sponsors/" class="mt-20 text-xl button">Become a Sponsor</a>
   </div>
 </div>
 
