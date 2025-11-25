@@ -54,13 +54,11 @@
       {{- content -}}
     {%- endblock -%}
   </main>
-
-  {% if current_phase != "landing" %}
-    <img src="/assets/img/theme/city.svg" alt="The city skyline of Chicago" aria-hidden="true" class="mt-16 -mb-[4vw]"/>
-  {% endif %}
-  <footer id="SiteFooter" class="py-20 bg-white border-t-4 border-black">
-    <div class="container mx-auto ">
-      <div class="grid gap-8 px-4 place-items-center">
+  
+  <img src="/assets/img/2025/footer.png" loading="lazy" class="w-full h-auto pointer-events-none" role="presentation" />
+  <footer id="SiteFooter" class="py-4 border-b-[3rem] bg-cream border-pink relative">
+    <div class="container mx-auto">
+      <div class="relative grid gap-8 px-4 py-10 md:py-0 place-items-center md:-top-12">
         {% include "conf-social-share.html" %}
 
         <p class="text-center lg:text-xl">
@@ -79,6 +77,8 @@
         </small>
       </div>
     </div>
+
+    <img src="/assets/img/2025/train.svg" loading="lazy" class="relative md:w-1/2 ml-auto pointer-events-none -bottom-4 md:-bottom-12 -right-[20%]" role="presentation" />
   </footer>
 
   {%- comment -%}
