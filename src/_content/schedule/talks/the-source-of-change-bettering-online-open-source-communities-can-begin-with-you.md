@@ -10,9 +10,8 @@ tags:
 - open-source
 - Inclusion
 - Community
-title: 'The Source of Change: Bettering Online Open Source Communities Can Begin with
+title: 'The Source of Change: Bettering Online Open Source Communities Can Begin with You'
 video_url: FYxbVioCX1Q
-  You'
 track: t0
 ---
 
