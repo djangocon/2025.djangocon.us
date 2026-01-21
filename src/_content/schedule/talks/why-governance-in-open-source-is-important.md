@@ -7,6 +7,7 @@ presenter_slugs:
 - rachell-calhoun
 - tim-schilling
 room: Sauganash Ballroom
+slides_url: https://github.com/tim-schilling/talk-dcus-2025/blob/main/django_governance_slides.pdf
 tags:
 - Community
 title: "Django Governance: 🌱Growing Sustainable Open-Source Communities Together🤝"
