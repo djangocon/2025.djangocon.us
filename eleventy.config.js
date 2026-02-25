@@ -32,6 +32,7 @@ module.exports = (config) => {
   });
   config.addPassthroughCopy("CNAME");
   config.addPassthroughCopy("ROBOTS.txt");
+  config.addPassthroughCopy(".nojekyll");
 
 
   /*
